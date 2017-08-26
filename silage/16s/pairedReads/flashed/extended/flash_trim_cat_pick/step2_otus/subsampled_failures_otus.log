@@ -7,7 +7,7 @@ max_accepts:1
 max_rejects:8
 new_cluster_identifier:New.ReferenceOTU
 optimal:False
-output_dir:/home/mark/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -15,5 +15,5 @@ stable_sort:True
 stepwords:8
 suppress_sort:True
 word_length:8
-Num OTUs:97
-Result path: /home/mark/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus//subsampled_failures_otus.txt
+Num OTUs:84
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus//subsampled_failures_otus.txt
