@@ -1,0 +1,6 @@
+# Errors and warnings are written as a tab separated columns, with the first column showing the error or warning, and the second column contains the location of the error or warning, written as row,column, where 0,0 is the top left header item (SampleID).  Problems not specific to a particular data cell will be listed as having 'no location'.
+Errors -----------------------------
+Duplicate barcode AGCTGACTAGTC found.	1,1
+Duplicate barcode AGCTGACTAGTC found.	6,1
+Warnings ---------------------------
+Found invalid character in DaysSinceExperimentStart! header field.	0,9

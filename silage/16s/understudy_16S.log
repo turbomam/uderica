@@ -1,0 +1,1274 @@
+configuration from 16s/understudy_16s_envvars.sh
+export PROJ_GENE_TITLE="understudy_16S"
+export PROJ_GENE_HOME="/home/mark/silage/16s"
+
+export PAIR_PREFIX="5101-"
+export PAIR_SUFFIX="-MS515F-926R"
+export R1="_R1"
+export R2="_R2"
+export FILE_EXT=".fastq"
+
+export LOG_FILE="${PROJ_GENE_HOME}/${PROJ_GENE_TITLE}.log"
+
+export REF_SEQ_FILE="/home/mark/silage/gg_13_8_otus/rep_set/97_otus.fasta"
+export OTU_PICK_PARAM_FILE="${PROJ_GENE_HOME}/otu_pick_para.txt"
+
+export FASTQC_PATH="/home/mark/silage/FastQC/fastqc"
+export MULTIQC_PATH="multiqc"
+
+export FLASH_PATH="/home/mark/silage/FLASH-1.2.11/flash"
+export FLASH_OVERLAP=100
+
+# work on this some more... how to pick best depth?
+export CORE_DIV_MIN_DEPTH=10000
+export THREAD_CT=7
+
+export DATA_DIR="pairedReads"
+export FLASHED_DIR="${PROJ_GENE_HOME}/${DATA_DIR}/flashed"
+export EXTENDED_DIR="${FLASHED_DIR}/extended"
+export PICKED_DIR="${EXTENDED_DIR}/flash_trim_cat_pick"
+
+# look here for sample ID, barcodes, primers, optionally experimental factors
+export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map16S_MAM_some_factors.txt"
+
+# look here for sample infomration, except mapping info (esp. barcode and primers)
+# will be looping though some column looking for IDs,
+# which should then appear in files with names:
+# ${PROJ_GENE_HOME}/${DATA_DIR}/${PAIR_PREFIX}<ID>${PAIR_SUFFIX}{${R1}|${R2}}${FILE_EXT}
+export SAMPLE_METADATA_FILE="${PROJ_GENE_HOME}/LalStressMicrobiomeInfo.txt"
+
+# could probably just loop though mapping file instead
+# add capability to look for ID:filename relationships in some lookup table
+
+# not doing any error/dependency checking yet
+# not doing and cleanup from previous run yet
+# FALSE
+export FRESH_LOG="TRUE"
+export INITIAL_FASTQC="TRUE"
+export INITIAL_MULTIQC="TRUE"
+export DO_FLASH="TRUE"
+export POST_FLASH_BOTHQC="TRUE"
+# export POST_FLASH_FASTQC="TRUE"
+# export POST_FLASH_MULTIQC="TRUE"
+export DO_QIIME_SPLIT="TRUE"
+export DO_QIIME_PICK="TRUE"
+
+
+
+
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-146-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-147-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-148-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-150-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-151-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-152-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-153-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-155-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-156-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-157-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-158-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-160-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-161-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-162-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-163-MS515F-926R
+Tue Aug 15 20:18:14 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-165-MS515F-926R
+Tue Aug 15 20:18:15 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-166-MS515F-926R
+Tue Aug 15 20:18:15 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-167-MS515F-926R
+Tue Aug 15 20:18:15 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-168-MS515F-926R
+Tue Aug 15 20:18:15 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-170-MS515F-926R
+Tue Aug 15 20:18:15 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-171-MS515F-926R
+Tue Aug 15 20:18:15 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-172-MS515F-926R
+Tue Aug 15 20:18:16 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-173-MS515F-926R
+Tue Aug 15 20:18:16 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-175-MS515F-926R
+Tue Aug 15 20:18:16 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-176-MS515F-926R
+Tue Aug 15 20:18:17 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-177-MS515F-926R
+Tue Aug 15 20:18:17 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/5101-178-MS515F-926R
+Tue Aug 15 20:19:18 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-146-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-146-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-146-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_146.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_146.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_146.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_146.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_146.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 33880 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      33880
+[FLASH]     Combined pairs:   33266
+[FLASH]     Uncombined pairs: 614
+[FLASH]     Percent combined: 98.19%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.130 seconds elapsed
+Tue Aug 15 20:19:18 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-147-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-147-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-147-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_147.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_147.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_147.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_147.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_147.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 38934 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      38934
+[FLASH]     Combined pairs:   38123
+[FLASH]     Uncombined pairs: 811
+[FLASH]     Percent combined: 97.92%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.150 seconds elapsed
+Tue Aug 15 20:19:18 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-148-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-148-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-148-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_148.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_148.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_148.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_148.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_148.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 37851 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      37851
+[FLASH]     Combined pairs:   37033
+[FLASH]     Uncombined pairs: 818
+[FLASH]     Percent combined: 97.84%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.146 seconds elapsed
+Tue Aug 15 20:19:18 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-150-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-150-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-150-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_150.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_150.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_150.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_150.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_150.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 47978 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      47978
+[FLASH]     Combined pairs:   47489
+[FLASH]     Uncombined pairs: 489
+[FLASH]     Percent combined: 98.98%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.179 seconds elapsed
+Tue Aug 15 20:19:18 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-151-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-151-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-151-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_151.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_151.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_151.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_151.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_151.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 37806 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      37806
+[FLASH]     Combined pairs:   37421
+[FLASH]     Uncombined pairs: 385
+[FLASH]     Percent combined: 98.98%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.148 seconds elapsed
+Tue Aug 15 20:19:18 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-152-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-152-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-152-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_152.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_152.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_152.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_152.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_152.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 43581 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      43581
+[FLASH]     Combined pairs:   43185
+[FLASH]     Uncombined pairs: 396
+[FLASH]     Percent combined: 99.09%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.158 seconds elapsed
+Tue Aug 15 20:19:19 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-153-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-153-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-153-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_153.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_153.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_153.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_153.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_153.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 39656 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      39656
+[FLASH]     Combined pairs:   39272
+[FLASH]     Uncombined pairs: 384
+[FLASH]     Percent combined: 99.03%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.145 seconds elapsed
+Tue Aug 15 20:19:19 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-155-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-155-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-155-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_155.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_155.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_155.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_155.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_155.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 47274 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      47274
+[FLASH]     Combined pairs:   46773
+[FLASH]     Uncombined pairs: 501
+[FLASH]     Percent combined: 98.94%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.165 seconds elapsed
+Tue Aug 15 20:19:19 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-156-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-156-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-156-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_156.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_156.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_156.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_156.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_156.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 41502 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      41502
+[FLASH]     Combined pairs:   40855
+[FLASH]     Uncombined pairs: 647
+[FLASH]     Percent combined: 98.44%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.150 seconds elapsed
+Tue Aug 15 20:19:19 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-157-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-157-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-157-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_157.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_157.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_157.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_157.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_157.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 42983 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      42983
+[FLASH]     Combined pairs:   42482
+[FLASH]     Uncombined pairs: 501
+[FLASH]     Percent combined: 98.83%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.155 seconds elapsed
+Tue Aug 15 20:19:19 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-158-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-158-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-158-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_158.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_158.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_158.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_158.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_158.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 33858 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      33858
+[FLASH]     Combined pairs:   33381
+[FLASH]     Uncombined pairs: 477
+[FLASH]     Percent combined: 98.59%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.143 seconds elapsed
+Tue Aug 15 20:19:19 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-160-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-160-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-160-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_160.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_160.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_160.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_160.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_160.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 16712 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      16712
+[FLASH]     Combined pairs:   16489
+[FLASH]     Uncombined pairs: 223
+[FLASH]     Percent combined: 98.67%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.109 seconds elapsed
+Tue Aug 15 20:19:20 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-161-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-161-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-161-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_161.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_161.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_161.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_161.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_161.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 48273 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      48273
+[FLASH]     Combined pairs:   47750
+[FLASH]     Uncombined pairs: 523
+[FLASH]     Percent combined: 98.92%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.166 seconds elapsed
+Tue Aug 15 20:19:20 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-162-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-162-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-162-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_162.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_162.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_162.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_162.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_162.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 41927 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      41927
+[FLASH]     Combined pairs:   41475
+[FLASH]     Uncombined pairs: 452
+[FLASH]     Percent combined: 98.92%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.160 seconds elapsed
+Tue Aug 15 20:19:20 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-163-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-163-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-163-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_163.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_163.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_163.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_163.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_163.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 45556 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      45556
+[FLASH]     Combined pairs:   45054
+[FLASH]     Uncombined pairs: 502
+[FLASH]     Percent combined: 98.90%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.169 seconds elapsed
+Tue Aug 15 20:19:20 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-165-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-165-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-165-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_165.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_165.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_165.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_165.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_165.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 53230 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      53230
+[FLASH]     Combined pairs:   52545
+[FLASH]     Uncombined pairs: 685
+[FLASH]     Percent combined: 98.71%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.186 seconds elapsed
+Tue Aug 15 20:19:20 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-166-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-166-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-166-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_166.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_166.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_166.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_166.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_166.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 57544 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      57544
+[FLASH]     Combined pairs:   56752
+[FLASH]     Uncombined pairs: 792
+[FLASH]     Percent combined: 98.62%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.213 seconds elapsed
+Tue Aug 15 20:19:20 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-167-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-167-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-167-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_167.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_167.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_167.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_167.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_167.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 55017 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      55017
+[FLASH]     Combined pairs:   54247
+[FLASH]     Uncombined pairs: 770
+[FLASH]     Percent combined: 98.60%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.196 seconds elapsed
+Tue Aug 15 20:19:21 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-168-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-168-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-168-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_168.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_168.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_168.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_168.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_168.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 63557 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      63557
+[FLASH]     Combined pairs:   62650
+[FLASH]     Uncombined pairs: 907
+[FLASH]     Percent combined: 98.57%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.212 seconds elapsed
+Tue Aug 15 20:19:21 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-170-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-170-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-170-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_170.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_170.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_170.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_170.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_170.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 59964 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      59964
+[FLASH]     Combined pairs:   59057
+[FLASH]     Uncombined pairs: 907
+[FLASH]     Percent combined: 98.49%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.208 seconds elapsed
+Tue Aug 15 20:19:21 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-171-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-171-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-171-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_171.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_171.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_171.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_171.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_171.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 55070 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      55070
+[FLASH]     Combined pairs:   54244
+[FLASH]     Uncombined pairs: 826
+[FLASH]     Percent combined: 98.50%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.204 seconds elapsed
+Tue Aug 15 20:19:21 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-172-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-172-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-172-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_172.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_172.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_172.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_172.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_172.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 48995 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      48995
+[FLASH]     Combined pairs:   48400
+[FLASH]     Uncombined pairs: 595
+[FLASH]     Percent combined: 98.79%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.196 seconds elapsed
+Tue Aug 15 20:19:22 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-173-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-173-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-173-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_173.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_173.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_173.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_173.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_173.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 48886 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      48886
+[FLASH]     Combined pairs:   48194
+[FLASH]     Uncombined pairs: 692
+[FLASH]     Percent combined: 98.58%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.192 seconds elapsed
+Tue Aug 15 20:19:22 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-175-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-175-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-175-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_175.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_175.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_175.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_175.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_175.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 55285 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      55285
+[FLASH]     Combined pairs:   54504
+[FLASH]     Uncombined pairs: 781
+[FLASH]     Percent combined: 98.59%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.181 seconds elapsed
+Tue Aug 15 20:19:22 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-176-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-176-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-176-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_176.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_176.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_176.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_176.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_176.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 56298 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      56298
+[FLASH]     Combined pairs:   55550
+[FLASH]     Uncombined pairs: 748
+[FLASH]     Percent combined: 98.67%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.196 seconds elapsed
+Tue Aug 15 20:19:22 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-177-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-177-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-177-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_177.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_177.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_177.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_177.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_177.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 53548 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      53548
+[FLASH]     Combined pairs:   52863
+[FLASH]     Uncombined pairs: 685
+[FLASH]     Percent combined: 98.72%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.182 seconds elapsed
+Tue Aug 15 20:19:22 EDT 2017 flashing /home/mark/silage/16s/pairedReads/5101-178-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-178-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/5101-178-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_178.extendedFrags.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_178.notCombined_1.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_178.notCombined_2.fastq
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_178.hist
+[FLASH]     /home/mark/silage/16s/pairedReads/flashed/sample_178.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 62241 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      62241
+[FLASH]     Combined pairs:   61340
+[FLASH]     Uncombined pairs: 901
+[FLASH]     Percent combined: 98.55%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.218 seconds elapsed
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_146.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_147.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_148.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_150.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_151.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_152.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_153.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_155.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_156.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_157.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_158.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_160.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_161.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_162.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_163.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_165.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_166.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_167.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_168.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_170.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_171.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_172.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_173.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_175.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_176.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_177.extendedFrags.fastq
+Tue Aug 15 20:19:23 EDT 2017 fastqc'ing /home/mark/silage/16s/pairedReads/flashed/extended/sample_178.extendedFrags.fastq
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 146
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 147
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 148
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 150
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 151
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 152
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 153
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 155
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 156
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 157
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 158
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 160
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 161
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 162
+Tue Aug 15 20:19:57 EDT 2017 'splitting' 163
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 165
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 166
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 167
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 168
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 170
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 171
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 172
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 173
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 175
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 176
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 177
+Tue Aug 15 20:19:58 EDT 2017 'splitting' 178
+Tue Aug 15 20:20:24 EDT 2017 start OTU picking
+Tue Aug 15 20:35:39 EDT 2017 OTU picking complete
+Num samples: 27
+Num observations: 6239
+Total count: 1208565
+Table density (fraction of non-zero values): 0.108
+
+Counts/sample summary:
+ Min: 16078.0
+ Max: 60627.0
+ Median: 46612.000
+ Mean: 44761.667
+ Std. dev.: 9967.847
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+160: 16078.0
+146: 30199.0
+158: 32179.0
+148: 33667.0
+147: 35164.0
+151: 36664.0
+153: 38462.0
+156: 38602.0
+162: 40643.0
+157: 41296.0
+152: 42508.0
+163: 44096.0
+155: 45598.0
+150: 46612.0
+161: 46631.0
+173: 46778.0
+172: 46964.0
+165: 50875.0
+177: 51122.0
+167: 52602.0
+171: 52665.0
+175: 52974.0
+176: 54015.0
+166: 54771.0
+170: 57365.0
+178: 59408.0
+168: 60627.0
+Tue Aug 15 20:35:41 EDT 2017 start core diversity
+Tue Aug 15 20:45:58 EDT 2017 core diversity complete

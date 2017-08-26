@@ -1,0 +1,3015 @@
+#SampleID	days_since_epoch	Subject_SampleType
+14173.F4.feces	14173	F4_feces
+14174.F4.feces	14174	F4_feces
+14175.F4.feces	14175	F4_feces
+14176.F4.feces	14176	F4_feces
+14177.F4.feces	14177	F4_feces
+14178.F4.feces	14178	F4_feces
+14179.F4.feces	14179	F4_feces
+14180.F4.feces	14180	F4_feces
+14181.F4.feces	14181	F4_feces
+14182.F4.feces	14182	F4_feces
+14183.F4.feces	14183	F4_feces
+14184.F4.feces	14184	F4_feces
+14185.F4.feces	14185	F4_feces
+14186.F4.feces	14186	F4_feces
+14187.F4.feces	14187	F4_feces
+14188.F4.feces	14188	F4_feces
+14189.F4.feces	14189	F4_feces
+14190.F4.feces	14190	F4_feces
+14191.F4.feces	14191	F4_feces
+14192.F4.feces	14192	F4_feces
+14193.F4.feces	14193	F4_feces
+14194.F4.feces	14194	F4_feces
+14195.F4.feces	14195	F4_feces
+14196.F4.feces	14196	F4_feces
+14197.F4.feces	14197	F4_feces
+14198.F4.feces	14198	F4_feces
+14199.F4.feces	14199	F4_feces
+14200.F4.feces	14200	F4_feces
+14201.F4.feces	14201	F4_feces
+14202.F4.feces	14202	F4_feces
+14203.F4.feces	14203	F4_feces
+14204.F4.feces	14204	F4_feces
+14215.F4.feces	14215	F4_feces
+14216.F4.feces	14216	F4_feces
+14217.F4.feces	14217	F4_feces
+14218.F4.feces	14218	F4_feces
+14219.F4.feces	14219	F4_feces
+14221.F4.feces	14221	F4_feces
+14222.F4.feces	14222	F4_feces
+14223.F4.feces	14223	F4_feces
+14224.F4.feces	14224	F4_feces
+14226.F4.feces	14226	F4_feces
+14227.F4.feces	14227	F4_feces
+14229.F4.feces	14229	F4_feces
+14230.F4.feces	14230	F4_feces
+14231.F4.feces	14231	F4_feces
+14234.F4.feces	14234	F4_feces
+14235.F4.feces	14235	F4_feces
+14244.F4.feces	14244	F4_feces
+14245.F4.feces	14245	F4_feces
+14254.F4.feces	14254	F4_feces
+14255.F4.feces	14255	F4_feces
+14256.F4.feces	14256	F4_feces
+14257.F4.feces	14257	F4_feces
+14258.F4.feces	14258	F4_feces
+14263.F4.feces	14263	F4_feces
+14264.F4.feces	14264	F4_feces
+14265.F4.feces	14265	F4_feces
+14266.F4.feces	14266	F4_feces
+14268.F4.feces	14268	F4_feces
+14269.F4.feces	14269	F4_feces
+14270.F4.feces	14270	F4_feces
+14272.F4.feces	14272	F4_feces
+14273.F4.feces	14273	F4_feces
+14274.F4.feces	14274	F4_feces
+14275.F4.feces	14275	F4_feces
+14276.F4.feces	14276	F4_feces
+14277.F4.feces	14277	F4_feces
+14285.F4.feces	14285	F4_feces
+14286.F4.feces	14286	F4_feces
+14287.F4.feces	14287	F4_feces
+14288.F4.feces	14288	F4_feces
+14289.F4.feces	14289	F4_feces
+14290.F4.feces	14290	F4_feces
+14291.F4.feces	14291	F4_feces
+14292.F4.feces	14292	F4_feces
+14293.F4.feces	14293	F4_feces
+14294.F4.feces	14294	F4_feces
+14295.F4.feces	14295	F4_feces
+14296.F4.feces	14296	F4_feces
+14297.F4.feces	14297	F4_feces
+14298.F4.feces	14298	F4_feces
+14299.F4.feces	14299	F4_feces
+14300.F4.feces	14300	F4_feces
+14301.F4.feces	14301	F4_feces
+14302.F4.feces	14302	F4_feces
+14303.F4.feces	14303	F4_feces
+14304.F4.feces	14304	F4_feces
+14305.F4.feces	14305	F4_feces
+14306.F4.feces	14306	F4_feces
+14307.F4.feces	14307	F4_feces
+14308.F4.feces	14308	F4_feces
+14309.F4.feces	14309	F4_feces
+14310.F4.feces	14310	F4_feces
+14311.F4.feces	14311	F4_feces
+14312.F4.feces	14312	F4_feces
+14313.F4.feces	14313	F4_feces
+14314.F4.feces	14314	F4_feces
+14315.F4.feces	14315	F4_feces
+14316.F4.feces	14316	F4_feces
+14317.F4.feces	14317	F4_feces
+14318.F4.feces	14318	F4_feces
+14319.F4.feces	14319	F4_feces
+14320.F4.feces	14320	F4_feces
+14321.F4.feces	14321	F4_feces
+14322.F4.feces	14322	F4_feces
+14323.F4.feces	14323	F4_feces
+14324.F4.feces	14324	F4_feces
+14325.F4.feces	14325	F4_feces
+14326.F4.feces	14326	F4_feces
+14328.F4.feces	14328	F4_feces
+14329.F4.feces	14329	F4_feces
+14330.F4.feces	14330	F4_feces
+14331.F4.feces	14331	F4_feces
+14332.F4.feces	14332	F4_feces
+14334.F4.feces	14334	F4_feces
+14339.F4.feces	14339	F4_feces
+14340.F4.feces	14340	F4_feces
+14344.F4.feces	14344	F4_feces
+14345.F4.feces	14345	F4_feces
+14346.F4.feces	14346	F4_feces
+14347.F4.feces	14347	F4_feces
+14350.F4.feces	14350	F4_feces
+14351.F4.feces	14351	F4_feces
+14352.F4.feces	14352	F4_feces
+14353.F4.feces	14353	F4_feces
+14354.F4.feces	14354	F4_feces
+14355.F4.feces	14355	F4_feces
+14356.F4.feces	14356	F4_feces
+14357.F4.feces	14357	F4_feces
+14358.F4.feces	14358	F4_feces
+14173.M3.feces	14173	M3_feces
+14174.M3.feces	14174	M3_feces
+14175.M3.feces	14175	M3_feces
+14176.M3.feces	14176	M3_feces
+14177.M3.feces	14177	M3_feces
+14178.M3.feces	14178	M3_feces
+14179.M3.feces	14179	M3_feces
+14180.M3.feces	14180	M3_feces
+14181.M3.feces	14181	M3_feces
+14182.M3.feces	14182	M3_feces
+14183.M3.feces	14183	M3_feces
+14184.M3.feces	14184	M3_feces
+14185.M3.feces	14185	M3_feces
+14186.M3.feces	14186	M3_feces
+14187.M3.feces	14187	M3_feces
+14188.M3.feces	14188	M3_feces
+14189.M3.feces	14189	M3_feces
+14190.M3.feces	14190	M3_feces
+14191.M3.feces	14191	M3_feces
+14192.M3.feces	14192	M3_feces
+14193.M3.feces	14193	M3_feces
+14194.M3.feces	14194	M3_feces
+14195.M3.feces	14195	M3_feces
+14196.M3.feces	14196	M3_feces
+14197.M3.feces	14197	M3_feces
+14198.M3.feces	14198	M3_feces
+14199.M3.feces	14199	M3_feces
+14200.M3.feces	14200	M3_feces
+14201.M3.feces	14201	M3_feces
+14202.M3.feces	14202	M3_feces
+14203.M3.feces	14203	M3_feces
+14204.M3.feces	14204	M3_feces
+14205.M3.feces	14205	M3_feces
+14214.M3.feces	14214	M3_feces
+14215.M3.feces	14215	M3_feces
+14216.M3.feces	14216	M3_feces
+14217.M3.feces	14217	M3_feces
+14218.M3.feces	14218	M3_feces
+14219.M3.feces	14219	M3_feces
+14220.M3.feces	14220	M3_feces
+14221.M3.feces	14221	M3_feces
+14222.M3.feces	14222	M3_feces
+14223.M3.feces	14223	M3_feces
+14224.M3.feces	14224	M3_feces
+14225.M3.feces	14225	M3_feces
+14226.M3.feces	14226	M3_feces
+14229.M3.feces	14229	M3_feces
+14230.M3.feces	14230	M3_feces
+14231.M3.feces	14231	M3_feces
+14232.M3.feces	14232	M3_feces
+14233.M3.feces	14233	M3_feces
+14234.M3.feces	14234	M3_feces
+14235.M3.feces	14235	M3_feces
+14237.M3.feces	14237	M3_feces
+14238.M3.feces	14238	M3_feces
+14239.M3.feces	14239	M3_feces
+14240.M3.feces	14240	M3_feces
+14241.M3.feces	14241	M3_feces
+14242.M3.feces	14242	M3_feces
+14243.M3.feces	14243	M3_feces
+14244.M3.feces	14244	M3_feces
+14245.M3.feces	14245	M3_feces
+14246.M3.feces	14246	M3_feces
+14252.M3.feces	14252	M3_feces
+14253.M3.feces	14253	M3_feces
+14254.M3.feces	14254	M3_feces
+14255.M3.feces	14255	M3_feces
+14256.M3.feces	14256	M3_feces
+14257.M3.feces	14257	M3_feces
+14259.M3.feces	14259	M3_feces
+14260.M3.feces	14260	M3_feces
+14261.M3.feces	14261	M3_feces
+14262.M3.feces	14262	M3_feces
+14263.M3.feces	14263	M3_feces
+14264.M3.feces	14264	M3_feces
+14265.M3.feces	14265	M3_feces
+14266.M3.feces	14266	M3_feces
+14268.M3.feces	14268	M3_feces
+14269.M3.feces	14269	M3_feces
+14270.M3.feces	14270	M3_feces
+14271.M3.feces	14271	M3_feces
+14272.M3.feces	14272	M3_feces
+14273.M3.feces	14273	M3_feces
+14274.M3.feces	14274	M3_feces
+14275.M3.feces	14275	M3_feces
+14276.M3.feces	14276	M3_feces
+14277.M3.feces	14277	M3_feces
+14278.M3.feces	14278	M3_feces
+14285.M3.feces	14285	M3_feces
+14286.M3.feces	14286	M3_feces
+14287.M3.feces	14287	M3_feces
+14288.M3.feces	14288	M3_feces
+14290.M3.feces	14290	M3_feces
+14291.M3.feces	14291	M3_feces
+14293.M3.feces	14293	M3_feces
+14294.M3.feces	14294	M3_feces
+14295.M3.feces	14295	M3_feces
+14296.M3.feces	14296	M3_feces
+14297.M3.feces	14297	M3_feces
+14298.M3.feces	14298	M3_feces
+14299.M3.feces	14299	M3_feces
+14300.M3.feces	14300	M3_feces
+14301.M3.feces	14301	M3_feces
+14302.M3.feces	14302	M3_feces
+14303.M3.feces	14303	M3_feces
+14304.M3.feces	14304	M3_feces
+14305.M3.feces	14305	M3_feces
+14306.M3.feces	14306	M3_feces
+14307.M3.feces	14307	M3_feces
+14308.M3.feces	14308	M3_feces
+14310.M3.feces	14310	M3_feces
+14311.M3.feces	14311	M3_feces
+14312.M3.feces	14312	M3_feces
+14313.M3.feces	14313	M3_feces
+14314.M3.feces	14314	M3_feces
+14315.M3.feces	14315	M3_feces
+14316.M3.feces	14316	M3_feces
+14317.M3.feces	14317	M3_feces
+14318.M3.feces	14318	M3_feces
+14319.M3.feces	14319	M3_feces
+14320.M3.feces	14320	M3_feces
+14321.M3.feces	14321	M3_feces
+14322.M3.feces	14322	M3_feces
+14323.M3.feces	14323	M3_feces
+14324.M3.feces	14324	M3_feces
+14325.M3.feces	14325	M3_feces
+14326.M3.feces	14326	M3_feces
+14327.M3.feces	14327	M3_feces
+14330.M3.feces	14330	M3_feces
+14331.M3.feces	14331	M3_feces
+14332.M3.feces	14332	M3_feces
+14333.M3.feces	14333	M3_feces
+14334.M3.feces	14334	M3_feces
+14337.M3.feces	14337	M3_feces
+14339.M3.feces	14339	M3_feces
+14340.M3.feces	14340	M3_feces
+14341.M3.feces	14341	M3_feces
+14342.M3.feces	14342	M3_feces
+14343.M3.feces	14343	M3_feces
+14344.M3.feces	14344	M3_feces
+14345.M3.feces	14345	M3_feces
+14346.M3.feces	14346	M3_feces
+14347.M3.feces	14347	M3_feces
+14348.M3.feces	14348	M3_feces
+14349.M3.feces	14349	M3_feces
+14350.M3.feces	14350	M3_feces
+14352.M3.feces	14352	M3_feces
+14353.M3.feces	14353	M3_feces
+14354.M3.feces	14354	M3_feces
+14355.M3.feces	14355	M3_feces
+14356.M3.feces	14356	M3_feces
+14358.M3.feces	14358	M3_feces
+14359.M3.feces	14359	M3_feces
+14360.M3.feces	14360	M3_feces
+14362.M3.feces	14362	M3_feces
+14364.M3.feces	14364	M3_feces
+14365.M3.feces	14365	M3_feces
+14366.M3.feces	14366	M3_feces
+14367.M3.feces	14367	M3_feces
+14368.M3.feces	14368	M3_feces
+14369.M3.feces	14369	M3_feces
+14370.M3.feces	14370	M3_feces
+14371.M3.feces	14371	M3_feces
+14372.M3.feces	14372	M3_feces
+14373.M3.feces	14373	M3_feces
+14374.M3.feces	14374	M3_feces
+14375.M3.feces	14375	M3_feces
+14376.M3.feces	14376	M3_feces
+14377.M3.feces	14377	M3_feces
+14378.M3.feces	14378	M3_feces
+14379.M3.feces	14379	M3_feces
+14381.M3.feces	14381	M3_feces
+14382.M3.feces	14382	M3_feces
+14383.M3.feces	14383	M3_feces
+14384.M3.feces	14384	M3_feces
+14385.M3.feces	14385	M3_feces
+14386.M3.feces	14386	M3_feces
+14387.M3.feces	14387	M3_feces
+14388.M3.feces	14388	M3_feces
+14389.M3.feces	14389	M3_feces
+14390.M3.feces	14390	M3_feces
+14391.M3.feces	14391	M3_feces
+14392.M3.feces	14392	M3_feces
+14394.M3.feces	14394	M3_feces
+14395.M3.feces	14395	M3_feces
+14396.M3.feces	14396	M3_feces
+14397.M3.feces	14397	M3_feces
+14398.M3.feces	14398	M3_feces
+14399.M3.feces	14399	M3_feces
+14400.M3.feces	14400	M3_feces
+14401.M3.feces	14401	M3_feces
+14402.M3.feces	14402	M3_feces
+14404.M3.feces	14404	M3_feces
+14405.M3.feces	14405	M3_feces
+14406.M3.feces	14406	M3_feces
+14407.M3.feces	14407	M3_feces
+14408.M3.feces	14408	M3_feces
+14409.M3.feces	14409	M3_feces
+14410.M3.feces	14410	M3_feces
+14411.M3.feces	14411	M3_feces
+14412.M3.feces	14412	M3_feces
+14413.M3.feces	14413	M3_feces
+14414.M3.feces	14414	M3_feces
+14416.M3.feces	14416	M3_feces
+14417.M3.feces	14417	M3_feces
+14418.M3.feces	14418	M3_feces
+14419.M3.feces	14419	M3_feces
+14420.M3.feces	14420	M3_feces
+14421.M3.feces	14421	M3_feces
+14422.M3.feces	14422	M3_feces
+14423.M3.feces	14423	M3_feces
+14424.M3.feces	14424	M3_feces
+14425.M3.feces	14425	M3_feces
+14426.M3.feces	14426	M3_feces
+14428.M3.feces	14428	M3_feces
+14429.M3.feces	14429	M3_feces
+14430.M3.feces	14430	M3_feces
+14431.M3.feces	14431	M3_feces
+14432.M3.feces	14432	M3_feces
+14433.M3.feces	14433	M3_feces
+14435.M3.feces	14435	M3_feces
+14436.M3.feces	14436	M3_feces
+14437.M3.feces	14437	M3_feces
+14439.M3.feces	14439	M3_feces
+14441.M3.feces	14441	M3_feces
+14442.M3.feces	14442	M3_feces
+14444.M3.feces	14444	M3_feces
+14445.M3.feces	14445	M3_feces
+14446.M3.feces	14446	M3_feces
+14448.M3.feces	14448	M3_feces
+14449.M3.feces	14449	M3_feces
+14452.M3.feces	14452	M3_feces
+14454.M3.feces	14454	M3_feces
+14455.M3.feces	14455	M3_feces
+14458.M3.feces	14458	M3_feces
+14459.M3.feces	14459	M3_feces
+14460.M3.feces	14460	M3_feces
+14463.M3.feces	14463	M3_feces
+14465.M3.feces	14465	M3_feces
+14467.M3.feces	14467	M3_feces
+14468.M3.feces	14468	M3_feces
+14469.M3.feces	14469	M3_feces
+14470.M3.feces	14470	M3_feces
+14472.M3.feces	14472	M3_feces
+14473.M3.feces	14473	M3_feces
+14474.M3.feces	14474	M3_feces
+14475.M3.feces	14475	M3_feces
+14476.M3.feces	14476	M3_feces
+14479.M3.feces	14479	M3_feces
+14480.M3.feces	14480	M3_feces
+14481.M3.feces	14481	M3_feces
+14482.M3.feces	14482	M3_feces
+14484.M3.feces	14484	M3_feces
+14486.M3.feces	14486	M3_feces
+14487.M3.feces	14487	M3_feces
+14488.M3.feces	14488	M3_feces
+14489.M3.feces	14489	M3_feces
+14490.M3.feces	14490	M3_feces
+14491.M3.feces	14491	M3_feces
+14492.M3.feces	14492	M3_feces
+14493.M3.feces	14493	M3_feces
+14494.M3.feces	14494	M3_feces
+14495.M3.feces	14495	M3_feces
+14496.M3.feces	14496	M3_feces
+14497.M3.feces	14497	M3_feces
+14498.M3.feces	14498	M3_feces
+14499.M3.feces	14499	M3_feces
+14500.M3.feces	14500	M3_feces
+14501.M3.feces	14501	M3_feces
+14503.M3.feces	14503	M3_feces
+14504.M3.feces	14504	M3_feces
+14505.M3.feces	14505	M3_feces
+14506.M3.feces	14506	M3_feces
+14507.M3.feces	14507	M3_feces
+14508.M3.feces	14508	M3_feces
+14509.M3.feces	14509	M3_feces
+14510.M3.feces	14510	M3_feces
+14511.M3.feces	14511	M3_feces
+14513.M3.feces	14513	M3_feces
+14514.M3.feces	14514	M3_feces
+14516.M3.feces	14516	M3_feces
+14517.M3.feces	14517	M3_feces
+14518.M3.feces	14518	M3_feces
+14521.M3.feces	14521	M3_feces
+14522.M3.feces	14522	M3_feces
+14524.M3.feces	14524	M3_feces
+14525.M3.feces	14525	M3_feces
+14526.M3.feces	14526	M3_feces
+14528.M3.feces	14528	M3_feces
+14529.M3.feces	14529	M3_feces
+14531.M3.feces	14531	M3_feces
+14533.M3.feces	14533	M3_feces
+14534.M3.feces	14534	M3_feces
+14535.M3.feces	14535	M3_feces
+14536.M3.feces	14536	M3_feces
+14537.M3.feces	14537	M3_feces
+14539.M3.feces	14539	M3_feces
+14540.M3.feces	14540	M3_feces
+14541.M3.feces	14541	M3_feces
+14542.M3.feces	14542	M3_feces
+14543.M3.feces	14543	M3_feces
+14544.M3.feces	14544	M3_feces
+14545.M3.feces	14545	M3_feces
+14546.M3.feces	14546	M3_feces
+14547.M3.feces	14547	M3_feces
+14548.M3.feces	14548	M3_feces
+14549.M3.feces	14549	M3_feces
+14550.M3.feces	14550	M3_feces
+14551.M3.feces	14551	M3_feces
+14552.M3.feces	14552	M3_feces
+14554.M3.feces	14554	M3_feces
+14555.M3.feces	14555	M3_feces
+14557.M3.feces	14557	M3_feces
+14558.M3.feces	14558	M3_feces
+14559.M3.feces	14559	M3_feces
+14561.M3.feces	14561	M3_feces
+14562.M3.feces	14562	M3_feces
+14563.M3.feces	14563	M3_feces
+14564.M3.feces	14564	M3_feces
+14569.M3.feces	14569	M3_feces
+14571.M3.feces	14571	M3_feces
+14573.M3.feces	14573	M3_feces
+14574.M3.feces	14574	M3_feces
+14579.M3.feces	14579	M3_feces
+14583.M3.feces	14583	M3_feces
+14585.M3.feces	14585	M3_feces
+14586.M3.feces	14586	M3_feces
+14587.M3.feces	14587	M3_feces
+14588.M3.feces	14588	M3_feces
+14589.M3.feces	14589	M3_feces
+14590.M3.feces	14590	M3_feces
+14591.M3.feces	14591	M3_feces
+14594.M3.feces	14594	M3_feces
+14173.F4.L.palm	14173	F4_L_palm
+14174.F4.L.palm	14174	F4_L_palm
+14175.F4.L.palm	14175	F4_L_palm
+14176.F4.L.palm	14176	F4_L_palm
+14177.F4.L.palm	14177	F4_L_palm
+14178.F4.L.palm	14178	F4_L_palm
+14179.F4.L.palm	14179	F4_L_palm
+14180.F4.L.palm	14180	F4_L_palm
+14181.F4.L.palm	14181	F4_L_palm
+14182.F4.L.palm	14182	F4_L_palm
+14183.F4.L.palm	14183	F4_L_palm
+14184.F4.L.palm	14184	F4_L_palm
+14185.F4.L.palm	14185	F4_L_palm
+14186.F4.L.palm	14186	F4_L_palm
+14187.F4.L.palm	14187	F4_L_palm
+14188.F4.L.palm	14188	F4_L_palm
+14189.F4.L.palm	14189	F4_L_palm
+14190.F4.L.palm	14190	F4_L_palm
+14191.F4.L.palm	14191	F4_L_palm
+14192.F4.L.palm	14192	F4_L_palm
+14193.F4.L.palm	14193	F4_L_palm
+14194.F4.L.palm	14194	F4_L_palm
+14195.F4.L.palm	14195	F4_L_palm
+14196.F4.L.palm	14196	F4_L_palm
+14197.F4.L.palm	14197	F4_L_palm
+14198.F4.L.palm	14198	F4_L_palm
+14199.F4.L.palm	14199	F4_L_palm
+14200.F4.L.palm	14200	F4_L_palm
+14201.F4.L.palm	14201	F4_L_palm
+14202.F4.L.palm	14202	F4_L_palm
+14203.F4.L.palm	14203	F4_L_palm
+14204.F4.L.palm	14204	F4_L_palm
+14215.F4.L.palm	14215	F4_L_palm
+14216.F4.L.palm	14216	F4_L_palm
+14217.F4.L.palm	14217	F4_L_palm
+14218.F4.L.palm	14218	F4_L_palm
+14219.F4.L.palm	14219	F4_L_palm
+14220.F4.L.palm	14220	F4_L_palm
+14221.F4.L.palm	14221	F4_L_palm
+14222.F4.L.palm	14222	F4_L_palm
+14223.F4.L.palm	14223	F4_L_palm
+14224.F4.L.palm	14224	F4_L_palm
+14226.F4.L.palm	14226	F4_L_palm
+14227.F4.L.palm	14227	F4_L_palm
+14228.F4.L.palm	14228	F4_L_palm
+14229.F4.L.palm	14229	F4_L_palm
+14230.F4.L.palm	14230	F4_L_palm
+14231.F4.L.palm	14231	F4_L_palm
+14232.F4.L.palm	14232	F4_L_palm
+14233.F4.L.palm	14233	F4_L_palm
+14234.F4.L.palm	14234	F4_L_palm
+14235.F4.L.palm	14235	F4_L_palm
+14244.F4.L.palm	14244	F4_L_palm
+14245.F4.L.palm	14245	F4_L_palm
+14254.F4.L.palm	14254	F4_L_palm
+14255.F4.L.palm	14255	F4_L_palm
+14256.F4.L.palm	14256	F4_L_palm
+14257.F4.L.palm	14257	F4_L_palm
+14264.F4.L.palm	14264	F4_L_palm
+14265.F4.L.palm	14265	F4_L_palm
+14266.F4.L.palm	14266	F4_L_palm
+14268.F4.L.palm	14268	F4_L_palm
+14269.F4.L.palm	14269	F4_L_palm
+14270.F4.L.palm	14270	F4_L_palm
+14271.F4.L.palm	14271	F4_L_palm
+14272.F4.L.palm	14272	F4_L_palm
+14273.F4.L.palm	14273	F4_L_palm
+14274.F4.L.palm	14274	F4_L_palm
+14275.F4.L.palm	14275	F4_L_palm
+14276.F4.L.palm	14276	F4_L_palm
+14277.F4.L.palm	14277	F4_L_palm
+14285.F4.L.palm	14285	F4_L_palm
+14286.F4.L.palm	14286	F4_L_palm
+14287.F4.L.palm	14287	F4_L_palm
+14288.F4.L.palm	14288	F4_L_palm
+14289.F4.L.palm	14289	F4_L_palm
+14290.F4.L.palm	14290	F4_L_palm
+14291.F4.L.palm	14291	F4_L_palm
+14292.F4.L.palm	14292	F4_L_palm
+14293.F4.L.palm	14293	F4_L_palm
+14295.F4.L.palm	14295	F4_L_palm
+14296.F4.L.palm	14296	F4_L_palm
+14297.F4.L.palm	14297	F4_L_palm
+14298.F4.L.palm	14298	F4_L_palm
+14299.F4.L.palm	14299	F4_L_palm
+14300.F4.L.palm	14300	F4_L_palm
+14301.F4.L.palm	14301	F4_L_palm
+14302.F4.L.palm	14302	F4_L_palm
+14303.F4.L.palm	14303	F4_L_palm
+14304.F4.L.palm	14304	F4_L_palm
+14305.F4.L.palm	14305	F4_L_palm
+14306.F4.L.palm	14306	F4_L_palm
+14307.F4.L.palm	14307	F4_L_palm
+14308.F4.L.palm	14308	F4_L_palm
+14309.F4.L.palm	14309	F4_L_palm
+14310.F4.L.palm	14310	F4_L_palm
+14311.F4.L.palm	14311	F4_L_palm
+14312.F4.L.palm	14312	F4_L_palm
+14313.F4.L.palm	14313	F4_L_palm
+14314.F4.L.palm	14314	F4_L_palm
+14315.F4.L.palm	14315	F4_L_palm
+14316.F4.L.palm	14316	F4_L_palm
+14317.F4.L.palm	14317	F4_L_palm
+14318.F4.L.palm	14318	F4_L_palm
+14319.F4.L.palm	14319	F4_L_palm
+14320.F4.L.palm	14320	F4_L_palm
+14321.F4.L.palm	14321	F4_L_palm
+14322.F4.L.palm	14322	F4_L_palm
+14324.F4.L.palm	14324	F4_L_palm
+14325.F4.L.palm	14325	F4_L_palm
+14326.F4.L.palm	14326	F4_L_palm
+14328.F4.L.palm	14328	F4_L_palm
+14330.F4.L.palm	14330	F4_L_palm
+14331.F4.L.palm	14331	F4_L_palm
+14332.F4.L.palm	14332	F4_L_palm
+14333.F4.L.palm	14333	F4_L_palm
+14334.F4.L.palm	14334	F4_L_palm
+14339.F4.L.palm	14339	F4_L_palm
+14343.F4.L.palm	14343	F4_L_palm
+14344.F4.L.palm	14344	F4_L_palm
+14345.F4.L.palm	14345	F4_L_palm
+14346.F4.L.palm	14346	F4_L_palm
+14347.F4.L.palm	14347	F4_L_palm
+14348.F4.L.palm	14348	F4_L_palm
+14349.F4.L.palm	14349	F4_L_palm
+14350.F4.L.palm	14350	F4_L_palm
+14351.F4.L.palm	14351	F4_L_palm
+14352.F4.L.palm	14352	F4_L_palm
+14353.F4.L.palm	14353	F4_L_palm
+14354.F4.L.palm	14354	F4_L_palm
+14355.F4.L.palm	14355	F4_L_palm
+14356.F4.L.palm	14356	F4_L_palm
+14357.F4.L.palm	14357	F4_L_palm
+14358.F4.L.palm	14358	F4_L_palm
+14173.M3.L.palm	14173	M3_L_palm
+14174.M3.L.palm	14174	M3_L_palm
+14175.M3.L.palm	14175	M3_L_palm
+14176.M3.L.palm	14176	M3_L_palm
+14177.M3.L.palm	14177	M3_L_palm
+14178.M3.L.palm	14178	M3_L_palm
+14179.M3.L.palm	14179	M3_L_palm
+14180.M3.L.palm	14180	M3_L_palm
+14181.M3.L.palm	14181	M3_L_palm
+14182.M3.L.palm	14182	M3_L_palm
+14183.M3.L.palm	14183	M3_L_palm
+14184.M3.L.palm	14184	M3_L_palm
+14185.M3.L.palm	14185	M3_L_palm
+14186.M3.L.palm	14186	M3_L_palm
+14187.M3.L.palm	14187	M3_L_palm
+14188.M3.L.palm	14188	M3_L_palm
+14189.M3.L.palm	14189	M3_L_palm
+14190.M3.L.palm	14190	M3_L_palm
+14191.M3.L.palm	14191	M3_L_palm
+14192.M3.L.palm	14192	M3_L_palm
+14193.M3.L.palm	14193	M3_L_palm
+14194.M3.L.palm	14194	M3_L_palm
+14195.M3.L.palm	14195	M3_L_palm
+14196.M3.L.palm	14196	M3_L_palm
+14197.M3.L.palm	14197	M3_L_palm
+14198.M3.L.palm	14198	M3_L_palm
+14199.M3.L.palm	14199	M3_L_palm
+14200.M3.L.palm	14200	M3_L_palm
+14201.M3.L.palm	14201	M3_L_palm
+14202.M3.L.palm	14202	M3_L_palm
+14203.M3.L.palm	14203	M3_L_palm
+14204.M3.L.palm	14204	M3_L_palm
+14205.M3.L.palm	14205	M3_L_palm
+14215.M3.L.palm	14215	M3_L_palm
+14216.M3.L.palm	14216	M3_L_palm
+14217.M3.L.palm	14217	M3_L_palm
+14218.M3.L.palm	14218	M3_L_palm
+14219.M3.L.palm	14219	M3_L_palm
+14220.M3.L.palm	14220	M3_L_palm
+14221.M3.L.palm	14221	M3_L_palm
+14222.M3.L.palm	14222	M3_L_palm
+14223.M3.L.palm	14223	M3_L_palm
+14224.M3.L.palm	14224	M3_L_palm
+14225.M3.L.palm	14225	M3_L_palm
+14226.M3.L.palm	14226	M3_L_palm
+14227.M3.L.palm	14227	M3_L_palm
+14229.M3.L.palm	14229	M3_L_palm
+14230.M3.L.palm	14230	M3_L_palm
+14231.M3.L.palm	14231	M3_L_palm
+14232.M3.L.palm	14232	M3_L_palm
+14233.M3.L.palm	14233	M3_L_palm
+14234.M3.L.palm	14234	M3_L_palm
+14235.M3.L.palm	14235	M3_L_palm
+14237.M3.L.palm	14237	M3_L_palm
+14238.M3.L.palm	14238	M3_L_palm
+14239.M3.L.palm	14239	M3_L_palm
+14240.M3.L.palm	14240	M3_L_palm
+14241.M3.L.palm	14241	M3_L_palm
+14242.M3.L.palm	14242	M3_L_palm
+14243.M3.L.palm	14243	M3_L_palm
+14244.M3.L.palm	14244	M3_L_palm
+14245.M3.L.palm	14245	M3_L_palm
+14246.M3.L.palm	14246	M3_L_palm
+14252.M3.L.palm	14252	M3_L_palm
+14253.M3.L.palm	14253	M3_L_palm
+14254.M3.L.palm	14254	M3_L_palm
+14255.M3.L.palm	14255	M3_L_palm
+14256.M3.L.palm	14256	M3_L_palm
+14257.M3.L.palm	14257	M3_L_palm
+14259.M3.L.palm	14259	M3_L_palm
+14260.M3.L.palm	14260	M3_L_palm
+14261.M3.L.palm	14261	M3_L_palm
+14262.M3.L.palm	14262	M3_L_palm
+14263.M3.L.palm	14263	M3_L_palm
+14264.M3.L.palm	14264	M3_L_palm
+14265.M3.L.palm	14265	M3_L_palm
+14266.M3.L.palm	14266	M3_L_palm
+14267.M3.L.palm	14267	M3_L_palm
+14268.M3.L.palm	14268	M3_L_palm
+14269.M3.L.palm	14269	M3_L_palm
+14270.M3.L.palm	14270	M3_L_palm
+14271.M3.L.palm	14271	M3_L_palm
+14272.M3.L.palm	14272	M3_L_palm
+14273.M3.L.palm	14273	M3_L_palm
+14274.M3.L.palm	14274	M3_L_palm
+14275.M3.L.palm	14275	M3_L_palm
+14276.M3.L.palm	14276	M3_L_palm
+14277.M3.L.palm	14277	M3_L_palm
+14278.M3.L.palm	14278	M3_L_palm
+14285.M3.L.palm	14285	M3_L_palm
+14286.M3.L.palm	14286	M3_L_palm
+14287.M3.L.palm	14287	M3_L_palm
+14288.M3.L.palm	14288	M3_L_palm
+14289.M3.L.palm	14289	M3_L_palm
+14290.M3.L.palm	14290	M3_L_palm
+14291.M3.L.palm	14291	M3_L_palm
+14293.M3.L.palm	14293	M3_L_palm
+14294.M3.L.palm	14294	M3_L_palm
+14295.M3.L.palm	14295	M3_L_palm
+14296.M3.L.palm	14296	M3_L_palm
+14297.M3.L.palm	14297	M3_L_palm
+14298.M3.L.palm	14298	M3_L_palm
+14299.M3.L.palm	14299	M3_L_palm
+14300.M3.L.palm	14300	M3_L_palm
+14301.M3.L.palm	14301	M3_L_palm
+14302.M3.L.palm	14302	M3_L_palm
+14303.M3.L.palm	14303	M3_L_palm
+14304.M3.L.palm	14304	M3_L_palm
+14305.M3.L.palm	14305	M3_L_palm
+14306.M3.L.palm	14306	M3_L_palm
+14307.M3.L.palm	14307	M3_L_palm
+14308.M3.L.palm	14308	M3_L_palm
+14310.M3.L.palm	14310	M3_L_palm
+14311.M3.L.palm	14311	M3_L_palm
+14312.M3.L.palm	14312	M3_L_palm
+14313.M3.L.palm	14313	M3_L_palm
+14314.M3.L.palm	14314	M3_L_palm
+14315.M3.L.palm	14315	M3_L_palm
+14316.M3.L.palm	14316	M3_L_palm
+14317.M3.L.palm	14317	M3_L_palm
+14318.M3.L.palm	14318	M3_L_palm
+14319.M3.L.palm	14319	M3_L_palm
+14320.M3.L.palm	14320	M3_L_palm
+14321.M3.L.palm	14321	M3_L_palm
+14322.M3.L.palm	14322	M3_L_palm
+14323.M3.L.palm	14323	M3_L_palm
+14324.M3.L.palm	14324	M3_L_palm
+14325.M3.L.palm	14325	M3_L_palm
+14326.M3.L.palm	14326	M3_L_palm
+14327.M3.L.palm	14327	M3_L_palm
+14328.M3.L.palm	14328	M3_L_palm
+14330.M3.L.palm	14330	M3_L_palm
+14331.M3.L.palm	14331	M3_L_palm
+14332.M3.L.palm	14332	M3_L_palm
+14333.M3.L.palm	14333	M3_L_palm
+14334.M3.L.palm	14334	M3_L_palm
+14335.M3.L.palm	14335	M3_L_palm
+14336.M3.L.palm	14336	M3_L_palm
+14337.M3.L.palm	14337	M3_L_palm
+14339.M3.L.palm	14339	M3_L_palm
+14341.M3.L.palm	14341	M3_L_palm
+14342.M3.L.palm	14342	M3_L_palm
+14343.M3.L.palm	14343	M3_L_palm
+14345.M3.L.palm	14345	M3_L_palm
+14346.M3.L.palm	14346	M3_L_palm
+14347.M3.L.palm	14347	M3_L_palm
+14348.M3.L.palm	14348	M3_L_palm
+14349.M3.L.palm	14349	M3_L_palm
+14350.M3.L.palm	14350	M3_L_palm
+14351.M3.L.palm	14351	M3_L_palm
+14352.M3.L.palm	14352	M3_L_palm
+14353.M3.L.palm	14353	M3_L_palm
+14354.M3.L.palm	14354	M3_L_palm
+14355.M3.L.palm	14355	M3_L_palm
+14356.M3.L.palm	14356	M3_L_palm
+14357.M3.L.palm	14357	M3_L_palm
+14358.M3.L.palm	14358	M3_L_palm
+14359.M3.L.palm	14359	M3_L_palm
+14360.M3.L.palm	14360	M3_L_palm
+14361.M3.L.palm	14361	M3_L_palm
+14362.M3.L.palm	14362	M3_L_palm
+14363.M3.L.palm	14363	M3_L_palm
+14364.M3.L.palm	14364	M3_L_palm
+14365.M3.L.palm	14365	M3_L_palm
+14366.M3.L.palm	14366	M3_L_palm
+14367.M3.L.palm	14367	M3_L_palm
+14368.M3.L.palm	14368	M3_L_palm
+14369.M3.L.palm	14369	M3_L_palm
+14370.M3.L.palm	14370	M3_L_palm
+14371.M3.L.palm	14371	M3_L_palm
+14372.M3.L.palm	14372	M3_L_palm
+14373.M3.L.palm	14373	M3_L_palm
+14374.M3.L.palm	14374	M3_L_palm
+14375.M3.L.palm	14375	M3_L_palm
+14376.M3.L.palm	14376	M3_L_palm
+14377.M3.L.palm	14377	M3_L_palm
+14378.M3.L.palm	14378	M3_L_palm
+14379.M3.L.palm	14379	M3_L_palm
+14381.M3.L.palm	14381	M3_L_palm
+14382.M3.L.palm	14382	M3_L_palm
+14383.M3.L.palm	14383	M3_L_palm
+14384.M3.L.palm	14384	M3_L_palm
+14386.M3.L.palm	14386	M3_L_palm
+14387.M3.L.palm	14387	M3_L_palm
+14388.M3.L.palm	14388	M3_L_palm
+14389.M3.L.palm	14389	M3_L_palm
+14390.M3.L.palm	14390	M3_L_palm
+14391.M3.L.palm	14391	M3_L_palm
+14392.M3.L.palm	14392	M3_L_palm
+14393.M3.L.palm	14393	M3_L_palm
+14394.M3.L.palm	14394	M3_L_palm
+14395.M3.L.palm	14395	M3_L_palm
+14396.M3.L.palm	14396	M3_L_palm
+14398.M3.L.palm	14398	M3_L_palm
+14399.M3.L.palm	14399	M3_L_palm
+14400.M3.L.palm	14400	M3_L_palm
+14401.M3.L.palm	14401	M3_L_palm
+14402.M3.L.palm	14402	M3_L_palm
+14403.M3.L.palm	14403	M3_L_palm
+14404.M3.L.palm	14404	M3_L_palm
+14407.M3.L.palm	14407	M3_L_palm
+14409.M3.L.palm	14409	M3_L_palm
+14410.M3.L.palm	14410	M3_L_palm
+14411.M3.L.palm	14411	M3_L_palm
+14412.M3.L.palm	14412	M3_L_palm
+14413.M3.L.palm	14413	M3_L_palm
+14414.M3.L.palm	14414	M3_L_palm
+14416.M3.L.palm	14416	M3_L_palm
+14417.M3.L.palm	14417	M3_L_palm
+14418.M3.L.palm	14418	M3_L_palm
+14419.M3.L.palm	14419	M3_L_palm
+14420.M3.L.palm	14420	M3_L_palm
+14421.M3.L.palm	14421	M3_L_palm
+14422.M3.L.palm	14422	M3_L_palm
+14423.M3.L.palm	14423	M3_L_palm
+14424.M3.L.palm	14424	M3_L_palm
+14425.M3.L.palm	14425	M3_L_palm
+14426.M3.L.palm	14426	M3_L_palm
+14427.M3.L.palm	14427	M3_L_palm
+14428.M3.L.palm	14428	M3_L_palm
+14429.M3.L.palm	14429	M3_L_palm
+14430.M3.L.palm	14430	M3_L_palm
+14431.M3.L.palm	14431	M3_L_palm
+14432.M3.L.palm	14432	M3_L_palm
+14433.M3.L.palm	14433	M3_L_palm
+14434.M3.L.palm	14434	M3_L_palm
+14435.M3.L.palm	14435	M3_L_palm
+14436.M3.L.palm	14436	M3_L_palm
+14437.M3.L.palm	14437	M3_L_palm
+14438.M3.L.palm	14438	M3_L_palm
+14439.M3.L.palm	14439	M3_L_palm
+14440.M3.L.palm	14440	M3_L_palm
+14441.M3.L.palm	14441	M3_L_palm
+14442.M3.L.palm	14442	M3_L_palm
+14443.M3.L.palm	14443	M3_L_palm
+14444.M3.L.palm	14444	M3_L_palm
+14445.M3.L.palm	14445	M3_L_palm
+14446.M3.L.palm	14446	M3_L_palm
+14447.M3.L.palm	14447	M3_L_palm
+14448.M3.L.palm	14448	M3_L_palm
+14449.M3.L.palm	14449	M3_L_palm
+14451.M3.L.palm	14451	M3_L_palm
+14452.M3.L.palm	14452	M3_L_palm
+14453.M3.L.palm	14453	M3_L_palm
+14454.M3.L.palm	14454	M3_L_palm
+14455.M3.L.palm	14455	M3_L_palm
+14456.M3.L.palm	14456	M3_L_palm
+14457.M3.L.palm	14457	M3_L_palm
+14458.M3.L.palm	14458	M3_L_palm
+14459.M3.L.palm	14459	M3_L_palm
+14460.M3.L.palm	14460	M3_L_palm
+14461.M3.L.palm	14461	M3_L_palm
+14462.M3.L.palm	14462	M3_L_palm
+14463.M3.L.palm	14463	M3_L_palm
+14465.M3.L.palm	14465	M3_L_palm
+14466.M3.L.palm	14466	M3_L_palm
+14467.M3.L.palm	14467	M3_L_palm
+14468.M3.L.palm	14468	M3_L_palm
+14469.M3.L.palm	14469	M3_L_palm
+14470.M3.L.palm	14470	M3_L_palm
+14471.M3.L.palm	14471	M3_L_palm
+14472.M3.L.palm	14472	M3_L_palm
+14473.M3.L.palm	14473	M3_L_palm
+14474.M3.L.palm	14474	M3_L_palm
+14475.M3.L.palm	14475	M3_L_palm
+14476.M3.L.palm	14476	M3_L_palm
+14477.M3.L.palm	14477	M3_L_palm
+14478.M3.L.palm	14478	M3_L_palm
+14479.M3.L.palm	14479	M3_L_palm
+14480.M3.L.palm	14480	M3_L_palm
+14481.M3.L.palm	14481	M3_L_palm
+14482.M3.L.palm	14482	M3_L_palm
+14484.M3.L.palm	14484	M3_L_palm
+14485.M3.L.palm	14485	M3_L_palm
+14487.M3.L.palm	14487	M3_L_palm
+14488.M3.L.palm	14488	M3_L_palm
+14489.M3.L.palm	14489	M3_L_palm
+14490.M3.L.palm	14490	M3_L_palm
+14491.M3.L.palm	14491	M3_L_palm
+14492.M3.L.palm	14492	M3_L_palm
+14493.M3.L.palm	14493	M3_L_palm
+14494.M3.L.palm	14494	M3_L_palm
+14495.M3.L.palm	14495	M3_L_palm
+14496.M3.L.palm	14496	M3_L_palm
+14497.M3.L.palm	14497	M3_L_palm
+14498.M3.L.palm	14498	M3_L_palm
+14500.M3.L.palm	14500	M3_L_palm
+14501.M3.L.palm	14501	M3_L_palm
+14503.M3.L.palm	14503	M3_L_palm
+14504.M3.L.palm	14504	M3_L_palm
+14505.M3.L.palm	14505	M3_L_palm
+14506.M3.L.palm	14506	M3_L_palm
+14507.M3.L.palm	14507	M3_L_palm
+14509.M3.L.palm	14509	M3_L_palm
+14511.M3.L.palm	14511	M3_L_palm
+14512.M3.L.palm	14512	M3_L_palm
+14513.M3.L.palm	14513	M3_L_palm
+14517.M3.L.palm	14517	M3_L_palm
+14518.M3.L.palm	14518	M3_L_palm
+14520.M3.L.palm	14520	M3_L_palm
+14521.M3.L.palm	14521	M3_L_palm
+14522.M3.L.palm	14522	M3_L_palm
+14523.M3.L.palm	14523	M3_L_palm
+14524.M3.L.palm	14524	M3_L_palm
+14525.M3.L.palm	14525	M3_L_palm
+14526.M3.L.palm	14526	M3_L_palm
+14529.M3.L.palm	14529	M3_L_palm
+14530.M3.L.palm	14530	M3_L_palm
+14531.M3.L.palm	14531	M3_L_palm
+14532.M3.L.palm	14532	M3_L_palm
+14533.M3.L.palm	14533	M3_L_palm
+14534.M3.L.palm	14534	M3_L_palm
+14535.M3.L.palm	14535	M3_L_palm
+14536.M3.L.palm	14536	M3_L_palm
+14538.M3.L.palm	14538	M3_L_palm
+14539.M3.L.palm	14539	M3_L_palm
+14543.M3.L.palm	14543	M3_L_palm
+14544.M3.L.palm	14544	M3_L_palm
+14545.M3.L.palm	14545	M3_L_palm
+14546.M3.L.palm	14546	M3_L_palm
+14547.M3.L.palm	14547	M3_L_palm
+14548.M3.L.palm	14548	M3_L_palm
+14550.M3.L.palm	14550	M3_L_palm
+14551.M3.L.palm	14551	M3_L_palm
+14552.M3.L.palm	14552	M3_L_palm
+14553.M3.L.palm	14553	M3_L_palm
+14554.M3.L.palm	14554	M3_L_palm
+14555.M3.L.palm	14555	M3_L_palm
+14556.M3.L.palm	14556	M3_L_palm
+14557.M3.L.palm	14557	M3_L_palm
+14558.M3.L.palm	14558	M3_L_palm
+14559.M3.L.palm	14559	M3_L_palm
+14560.M3.L.palm	14560	M3_L_palm
+14562.M3.L.palm	14562	M3_L_palm
+14563.M3.L.palm	14563	M3_L_palm
+14564.M3.L.palm	14564	M3_L_palm
+14565.M3.L.palm	14565	M3_L_palm
+14566.M3.L.palm	14566	M3_L_palm
+14567.M3.L.palm	14567	M3_L_palm
+14568.M3.L.palm	14568	M3_L_palm
+14569.M3.L.palm	14569	M3_L_palm
+14570.M3.L.palm	14570	M3_L_palm
+14571.M3.L.palm	14571	M3_L_palm
+14572.M3.L.palm	14572	M3_L_palm
+14573.M3.L.palm	14573	M3_L_palm
+14574.M3.L.palm	14574	M3_L_palm
+14575.M3.L.palm	14575	M3_L_palm
+14576.M3.L.palm	14576	M3_L_palm
+14578.M3.L.palm	14578	M3_L_palm
+14579.M3.L.palm	14579	M3_L_palm
+14583.M3.L.palm	14583	M3_L_palm
+14584.M3.L.palm	14584	M3_L_palm
+14585.M3.L.palm	14585	M3_L_palm
+14586.M3.L.palm	14586	M3_L_palm
+14588.M3.L.palm	14588	M3_L_palm
+14589.M3.L.palm	14589	M3_L_palm
+14590.M3.L.palm	14590	M3_L_palm
+14591.M3.L.palm	14591	M3_L_palm
+14593.M3.L.palm	14593	M3_L_palm
+14611.M3.L.palm	14611	M3_L_palm
+14612.M3.L.palm	14612	M3_L_palm
+14613.M3.L.palm	14613	M3_L_palm
+14614.M3.L.palm	14614	M3_L_palm
+14615.M3.L.palm	14615	M3_L_palm
+14616.M3.L.palm	14616	M3_L_palm
+14617.M3.L.palm	14617	M3_L_palm
+14173.F4.R.palm	14173	F4_R_palm
+14174.F4.R.palm	14174	F4_R_palm
+14175.F4.R.palm	14175	F4_R_palm
+14176.F4.R.palm	14176	F4_R_palm
+14177.F4.R.palm	14177	F4_R_palm
+14178.F4.R.palm	14178	F4_R_palm
+14179.F4.R.palm	14179	F4_R_palm
+14180.F4.R.palm	14180	F4_R_palm
+14181.F4.R.palm	14181	F4_R_palm
+14182.F4.R.palm	14182	F4_R_palm
+14183.F4.R.palm	14183	F4_R_palm
+14184.F4.R.palm	14184	F4_R_palm
+14185.F4.R.palm	14185	F4_R_palm
+14186.F4.R.palm	14186	F4_R_palm
+14187.F4.R.palm	14187	F4_R_palm
+14188.F4.R.palm	14188	F4_R_palm
+14189.F4.R.palm	14189	F4_R_palm
+14190.F4.R.palm	14190	F4_R_palm
+14191.F4.R.palm	14191	F4_R_palm
+14192.F4.R.palm	14192	F4_R_palm
+14193.F4.R.palm	14193	F4_R_palm
+14194.F4.R.palm	14194	F4_R_palm
+14195.F4.R.palm	14195	F4_R_palm
+14196.F4.R.palm	14196	F4_R_palm
+14197.F4.R.palm	14197	F4_R_palm
+14198.F4.R.palm	14198	F4_R_palm
+14199.F4.R.palm	14199	F4_R_palm
+14200.F4.R.palm	14200	F4_R_palm
+14201.F4.R.palm	14201	F4_R_palm
+14202.F4.R.palm	14202	F4_R_palm
+14203.F4.R.palm	14203	F4_R_palm
+14204.F4.R.palm	14204	F4_R_palm
+14215.F4.R.palm	14215	F4_R_palm
+14216.F4.R.palm	14216	F4_R_palm
+14217.F4.R.palm	14217	F4_R_palm
+14218.F4.R.palm	14218	F4_R_palm
+14219.F4.R.palm	14219	F4_R_palm
+14220.F4.R.palm	14220	F4_R_palm
+14222.F4.R.palm	14222	F4_R_palm
+14223.F4.R.palm	14223	F4_R_palm
+14224.F4.R.palm	14224	F4_R_palm
+14226.F4.R.palm	14226	F4_R_palm
+14227.F4.R.palm	14227	F4_R_palm
+14228.F4.R.palm	14228	F4_R_palm
+14229.F4.R.palm	14229	F4_R_palm
+14230.F4.R.palm	14230	F4_R_palm
+14231.F4.R.palm	14231	F4_R_palm
+14232.F4.R.palm	14232	F4_R_palm
+14233.F4.R.palm	14233	F4_R_palm
+14234.F4.R.palm	14234	F4_R_palm
+14235.F4.R.palm	14235	F4_R_palm
+14244.F4.R.palm	14244	F4_R_palm
+14245.F4.R.palm	14245	F4_R_palm
+14254.F4.R.palm	14254	F4_R_palm
+14255.F4.R.palm	14255	F4_R_palm
+14256.F4.R.palm	14256	F4_R_palm
+14257.F4.R.palm	14257	F4_R_palm
+14264.F4.R.palm	14264	F4_R_palm
+14265.F4.R.palm	14265	F4_R_palm
+14266.F4.R.palm	14266	F4_R_palm
+14268.F4.R.palm	14268	F4_R_palm
+14269.F4.R.palm	14269	F4_R_palm
+14271.F4.R.palm	14271	F4_R_palm
+14272.F4.R.palm	14272	F4_R_palm
+14273.F4.R.palm	14273	F4_R_palm
+14274.F4.R.palm	14274	F4_R_palm
+14275.F4.R.palm	14275	F4_R_palm
+14276.F4.R.palm	14276	F4_R_palm
+14277.F4.R.palm	14277	F4_R_palm
+14285.F4.R.palm	14285	F4_R_palm
+14286.F4.R.palm	14286	F4_R_palm
+14287.F4.R.palm	14287	F4_R_palm
+14288.F4.R.palm	14288	F4_R_palm
+14289.F4.R.palm	14289	F4_R_palm
+14290.F4.R.palm	14290	F4_R_palm
+14291.F4.R.palm	14291	F4_R_palm
+14292.F4.R.palm	14292	F4_R_palm
+14293.F4.R.palm	14293	F4_R_palm
+14294.F4.R.palm	14294	F4_R_palm
+14295.F4.R.palm	14295	F4_R_palm
+14296.F4.R.palm	14296	F4_R_palm
+14297.F4.R.palm	14297	F4_R_palm
+14298.F4.R.palm	14298	F4_R_palm
+14299.F4.R.palm	14299	F4_R_palm
+14300.F4.R.palm	14300	F4_R_palm
+14301.F4.R.palm	14301	F4_R_palm
+14302.F4.R.palm	14302	F4_R_palm
+14303.F4.R.palm	14303	F4_R_palm
+14304.F4.R.palm	14304	F4_R_palm
+14305.F4.R.palm	14305	F4_R_palm
+14306.F4.R.palm	14306	F4_R_palm
+14307.F4.R.palm	14307	F4_R_palm
+14308.F4.R.palm	14308	F4_R_palm
+14309.F4.R.palm	14309	F4_R_palm
+14310.F4.R.palm	14310	F4_R_palm
+14311.F4.R.palm	14311	F4_R_palm
+14312.F4.R.palm	14312	F4_R_palm
+14313.F4.R.palm	14313	F4_R_palm
+14314.F4.R.palm	14314	F4_R_palm
+14315.F4.R.palm	14315	F4_R_palm
+14316.F4.R.palm	14316	F4_R_palm
+14317.F4.R.palm	14317	F4_R_palm
+14318.F4.R.palm	14318	F4_R_palm
+14319.F4.R.palm	14319	F4_R_palm
+14320.F4.R.palm	14320	F4_R_palm
+14321.F4.R.palm	14321	F4_R_palm
+14322.F4.R.palm	14322	F4_R_palm
+14323.F4.R.palm	14323	F4_R_palm
+14324.F4.R.palm	14324	F4_R_palm
+14325.F4.R.palm	14325	F4_R_palm
+14326.F4.R.palm	14326	F4_R_palm
+14328.F4.R.palm	14328	F4_R_palm
+14330.F4.R.palm	14330	F4_R_palm
+14331.F4.R.palm	14331	F4_R_palm
+14332.F4.R.palm	14332	F4_R_palm
+14333.F4.R.palm	14333	F4_R_palm
+14334.F4.R.palm	14334	F4_R_palm
+14339.F4.R.palm	14339	F4_R_palm
+14343.F4.R.palm	14343	F4_R_palm
+14344.F4.R.palm	14344	F4_R_palm
+14345.F4.R.palm	14345	F4_R_palm
+14346.F4.R.palm	14346	F4_R_palm
+14347.F4.R.palm	14347	F4_R_palm
+14348.F4.R.palm	14348	F4_R_palm
+14349.F4.R.palm	14349	F4_R_palm
+14350.F4.R.palm	14350	F4_R_palm
+14351.F4.R.palm	14351	F4_R_palm
+14352.F4.R.palm	14352	F4_R_palm
+14353.F4.R.palm	14353	F4_R_palm
+14354.F4.R.palm	14354	F4_R_palm
+14355.F4.R.palm	14355	F4_R_palm
+14356.F4.R.palm	14356	F4_R_palm
+14357.F4.R.palm	14357	F4_R_palm
+14358.F4.R.palm	14358	F4_R_palm
+14173.M3.R.palm	14173	M3_R_palm
+14174.M3.R.palm	14174	M3_R_palm
+14175.M3.R.palm	14175	M3_R_palm
+14176.M3.R.palm	14176	M3_R_palm
+14177.M3.R.palm	14177	M3_R_palm
+14178.M3.R.palm	14178	M3_R_palm
+14179.M3.R.palm	14179	M3_R_palm
+14180.M3.R.palm	14180	M3_R_palm
+14181.M3.R.palm	14181	M3_R_palm
+14182.M3.R.palm	14182	M3_R_palm
+14183.M3.R.palm	14183	M3_R_palm
+14184.M3.R.palm	14184	M3_R_palm
+14186.M3.R.palm	14186	M3_R_palm
+14187.M3.R.palm	14187	M3_R_palm
+14188.M3.R.palm	14188	M3_R_palm
+14189.M3.R.palm	14189	M3_R_palm
+14190.M3.R.palm	14190	M3_R_palm
+14191.M3.R.palm	14191	M3_R_palm
+14192.M3.R.palm	14192	M3_R_palm
+14193.M3.R.palm	14193	M3_R_palm
+14194.M3.R.palm	14194	M3_R_palm
+14195.M3.R.palm	14195	M3_R_palm
+14196.M3.R.palm	14196	M3_R_palm
+14197.M3.R.palm	14197	M3_R_palm
+14198.M3.R.palm	14198	M3_R_palm
+14199.M3.R.palm	14199	M3_R_palm
+14200.M3.R.palm	14200	M3_R_palm
+14201.M3.R.palm	14201	M3_R_palm
+14202.M3.R.palm	14202	M3_R_palm
+14203.M3.R.palm	14203	M3_R_palm
+14204.M3.R.palm	14204	M3_R_palm
+14205.M3.R.palm	14205	M3_R_palm
+14214.M3.R.palm	14214	M3_R_palm
+14215.M3.R.palm	14215	M3_R_palm
+14216.M3.R.palm	14216	M3_R_palm
+14217.M3.R.palm	14217	M3_R_palm
+14218.M3.R.palm	14218	M3_R_palm
+14219.M3.R.palm	14219	M3_R_palm
+14220.M3.R.palm	14220	M3_R_palm
+14221.M3.R.palm	14221	M3_R_palm
+14222.M3.R.palm	14222	M3_R_palm
+14223.M3.R.palm	14223	M3_R_palm
+14224.M3.R.palm	14224	M3_R_palm
+14225.M3.R.palm	14225	M3_R_palm
+14226.M3.R.palm	14226	M3_R_palm
+14227.M3.R.palm	14227	M3_R_palm
+14229.M3.R.palm	14229	M3_R_palm
+14230.M3.R.palm	14230	M3_R_palm
+14231.M3.R.palm	14231	M3_R_palm
+14232.M3.R.palm	14232	M3_R_palm
+14233.M3.R.palm	14233	M3_R_palm
+14234.M3.R.palm	14234	M3_R_palm
+14235.M3.R.palm	14235	M3_R_palm
+14237.M3.R.palm	14237	M3_R_palm
+14238.M3.R.palm	14238	M3_R_palm
+14239.M3.R.palm	14239	M3_R_palm
+14240.M3.R.palm	14240	M3_R_palm
+14241.M3.R.palm	14241	M3_R_palm
+14242.M3.R.palm	14242	M3_R_palm
+14243.M3.R.palm	14243	M3_R_palm
+14244.M3.R.palm	14244	M3_R_palm
+14245.M3.R.palm	14245	M3_R_palm
+14246.M3.R.palm	14246	M3_R_palm
+14252.M3.R.palm	14252	M3_R_palm
+14253.M3.R.palm	14253	M3_R_palm
+14254.M3.R.palm	14254	M3_R_palm
+14255.M3.R.palm	14255	M3_R_palm
+14256.M3.R.palm	14256	M3_R_palm
+14257.M3.R.palm	14257	M3_R_palm
+14259.M3.R.palm	14259	M3_R_palm
+14260.M3.R.palm	14260	M3_R_palm
+14261.M3.R.palm	14261	M3_R_palm
+14262.M3.R.palm	14262	M3_R_palm
+14263.M3.R.palm	14263	M3_R_palm
+14264.M3.R.palm	14264	M3_R_palm
+14265.M3.R.palm	14265	M3_R_palm
+14266.M3.R.palm	14266	M3_R_palm
+14267.M3.R.palm	14267	M3_R_palm
+14268.M3.R.palm	14268	M3_R_palm
+14269.M3.R.palm	14269	M3_R_palm
+14270.M3.R.palm	14270	M3_R_palm
+14271.M3.R.palm	14271	M3_R_palm
+14272.M3.R.palm	14272	M3_R_palm
+14273.M3.R.palm	14273	M3_R_palm
+14274.M3.R.palm	14274	M3_R_palm
+14275.M3.R.palm	14275	M3_R_palm
+14276.M3.R.palm	14276	M3_R_palm
+14277.M3.R.palm	14277	M3_R_palm
+14278.M3.R.palm	14278	M3_R_palm
+14285.M3.R.palm	14285	M3_R_palm
+14286.M3.R.palm	14286	M3_R_palm
+14287.M3.R.palm	14287	M3_R_palm
+14288.M3.R.palm	14288	M3_R_palm
+14289.M3.R.palm	14289	M3_R_palm
+14290.M3.R.palm	14290	M3_R_palm
+14291.M3.R.palm	14291	M3_R_palm
+14293.M3.R.palm	14293	M3_R_palm
+14294.M3.R.palm	14294	M3_R_palm
+14295.M3.R.palm	14295	M3_R_palm
+14296.M3.R.palm	14296	M3_R_palm
+14297.M3.R.palm	14297	M3_R_palm
+14298.M3.R.palm	14298	M3_R_palm
+14299.M3.R.palm	14299	M3_R_palm
+14300.M3.R.palm	14300	M3_R_palm
+14301.M3.R.palm	14301	M3_R_palm
+14302.M3.R.palm	14302	M3_R_palm
+14303.M3.R.palm	14303	M3_R_palm
+14304.M3.R.palm	14304	M3_R_palm
+14305.M3.R.palm	14305	M3_R_palm
+14307.M3.R.palm	14307	M3_R_palm
+14308.M3.R.palm	14308	M3_R_palm
+14310.M3.R.palm	14310	M3_R_palm
+14311.M3.R.palm	14311	M3_R_palm
+14312.M3.R.palm	14312	M3_R_palm
+14313.M3.R.palm	14313	M3_R_palm
+14314.M3.R.palm	14314	M3_R_palm
+14315.M3.R.palm	14315	M3_R_palm
+14316.M3.R.palm	14316	M3_R_palm
+14317.M3.R.palm	14317	M3_R_palm
+14318.M3.R.palm	14318	M3_R_palm
+14319.M3.R.palm	14319	M3_R_palm
+14320.M3.R.palm	14320	M3_R_palm
+14321.M3.R.palm	14321	M3_R_palm
+14322.M3.R.palm	14322	M3_R_palm
+14323.M3.R.palm	14323	M3_R_palm
+14324.M3.R.palm	14324	M3_R_palm
+14325.M3.R.palm	14325	M3_R_palm
+14326.M3.R.palm	14326	M3_R_palm
+14327.M3.R.palm	14327	M3_R_palm
+14328.M3.R.palm	14328	M3_R_palm
+14330.M3.R.palm	14330	M3_R_palm
+14331.M3.R.palm	14331	M3_R_palm
+14332.M3.R.palm	14332	M3_R_palm
+14333.M3.R.palm	14333	M3_R_palm
+14334.M3.R.palm	14334	M3_R_palm
+14335.M3.R.palm	14335	M3_R_palm
+14336.M3.R.palm	14336	M3_R_palm
+14337.M3.R.palm	14337	M3_R_palm
+14339.M3.R.palm	14339	M3_R_palm
+14340.M3.R.palm	14340	M3_R_palm
+14341.M3.R.palm	14341	M3_R_palm
+14342.M3.R.palm	14342	M3_R_palm
+14343.M3.R.palm	14343	M3_R_palm
+14345.M3.R.palm	14345	M3_R_palm
+14346.M3.R.palm	14346	M3_R_palm
+14347.M3.R.palm	14347	M3_R_palm
+14348.M3.R.palm	14348	M3_R_palm
+14349.M3.R.palm	14349	M3_R_palm
+14350.M3.R.palm	14350	M3_R_palm
+14351.M3.R.palm	14351	M3_R_palm
+14352.M3.R.palm	14352	M3_R_palm
+14353.M3.R.palm	14353	M3_R_palm
+14354.M3.R.palm	14354	M3_R_palm
+14355.M3.R.palm	14355	M3_R_palm
+14356.M3.R.palm	14356	M3_R_palm
+14357.M3.R.palm	14357	M3_R_palm
+14358.M3.R.palm	14358	M3_R_palm
+14359.M3.R.palm	14359	M3_R_palm
+14360.M3.R.palm	14360	M3_R_palm
+14361.M3.R.palm	14361	M3_R_palm
+14362.M3.R.palm	14362	M3_R_palm
+14363.M3.R.palm	14363	M3_R_palm
+14364.M3.R.palm	14364	M3_R_palm
+14365.M3.R.palm	14365	M3_R_palm
+14366.M3.R.palm	14366	M3_R_palm
+14367.M3.R.palm	14367	M3_R_palm
+14368.M3.R.palm	14368	M3_R_palm
+14369.M3.R.palm	14369	M3_R_palm
+14370.M3.R.palm	14370	M3_R_palm
+14371.M3.R.palm	14371	M3_R_palm
+14372.M3.R.palm	14372	M3_R_palm
+14373.M3.R.palm	14373	M3_R_palm
+14374.M3.R.palm	14374	M3_R_palm
+14375.M3.R.palm	14375	M3_R_palm
+14376.M3.R.palm	14376	M3_R_palm
+14377.M3.R.palm	14377	M3_R_palm
+14378.M3.R.palm	14378	M3_R_palm
+14379.M3.R.palm	14379	M3_R_palm
+14381.M3.R.palm	14381	M3_R_palm
+14382.M3.R.palm	14382	M3_R_palm
+14383.M3.R.palm	14383	M3_R_palm
+14384.M3.R.palm	14384	M3_R_palm
+14386.M3.R.palm	14386	M3_R_palm
+14387.M3.R.palm	14387	M3_R_palm
+14388.M3.R.palm	14388	M3_R_palm
+14389.M3.R.palm	14389	M3_R_palm
+14390.M3.R.palm	14390	M3_R_palm
+14391.M3.R.palm	14391	M3_R_palm
+14392.M3.R.palm	14392	M3_R_palm
+14393.M3.R.palm	14393	M3_R_palm
+14394.M3.R.palm	14394	M3_R_palm
+14395.M3.R.palm	14395	M3_R_palm
+14396.M3.R.palm	14396	M3_R_palm
+14398.M3.R.palm	14398	M3_R_palm
+14399.M3.R.palm	14399	M3_R_palm
+14400.M3.R.palm	14400	M3_R_palm
+14401.M3.R.palm	14401	M3_R_palm
+14402.M3.R.palm	14402	M3_R_palm
+14403.M3.R.palm	14403	M3_R_palm
+14404.M3.R.palm	14404	M3_R_palm
+14407.M3.R.palm	14407	M3_R_palm
+14408.M3.R.palm	14408	M3_R_palm
+14409.M3.R.palm	14409	M3_R_palm
+14410.M3.R.palm	14410	M3_R_palm
+14411.M3.R.palm	14411	M3_R_palm
+14413.M3.R.palm	14413	M3_R_palm
+14414.M3.R.palm	14414	M3_R_palm
+14416.M3.R.palm	14416	M3_R_palm
+14417.M3.R.palm	14417	M3_R_palm
+14418.M3.R.palm	14418	M3_R_palm
+14419.M3.R.palm	14419	M3_R_palm
+14420.M3.R.palm	14420	M3_R_palm
+14422.M3.R.palm	14422	M3_R_palm
+14423.M3.R.palm	14423	M3_R_palm
+14424.M3.R.palm	14424	M3_R_palm
+14425.M3.R.palm	14425	M3_R_palm
+14426.M3.R.palm	14426	M3_R_palm
+14427.M3.R.palm	14427	M3_R_palm
+14428.M3.R.palm	14428	M3_R_palm
+14430.M3.R.palm	14430	M3_R_palm
+14431.M3.R.palm	14431	M3_R_palm
+14432.M3.R.palm	14432	M3_R_palm
+14433.M3.R.palm	14433	M3_R_palm
+14434.M3.R.palm	14434	M3_R_palm
+14435.M3.R.palm	14435	M3_R_palm
+14436.M3.R.palm	14436	M3_R_palm
+14437.M3.R.palm	14437	M3_R_palm
+14439.M3.R.palm	14439	M3_R_palm
+14440.M3.R.palm	14440	M3_R_palm
+14441.M3.R.palm	14441	M3_R_palm
+14442.M3.R.palm	14442	M3_R_palm
+14443.M3.R.palm	14443	M3_R_palm
+14444.M3.R.palm	14444	M3_R_palm
+14445.M3.R.palm	14445	M3_R_palm
+14446.M3.R.palm	14446	M3_R_palm
+14447.M3.R.palm	14447	M3_R_palm
+14448.M3.R.palm	14448	M3_R_palm
+14451.M3.R.palm	14451	M3_R_palm
+14452.M3.R.palm	14452	M3_R_palm
+14453.M3.R.palm	14453	M3_R_palm
+14454.M3.R.palm	14454	M3_R_palm
+14456.M3.R.palm	14456	M3_R_palm
+14457.M3.R.palm	14457	M3_R_palm
+14458.M3.R.palm	14458	M3_R_palm
+14459.M3.R.palm	14459	M3_R_palm
+14460.M3.R.palm	14460	M3_R_palm
+14461.M3.R.palm	14461	M3_R_palm
+14462.M3.R.palm	14462	M3_R_palm
+14463.M3.R.palm	14463	M3_R_palm
+14465.M3.R.palm	14465	M3_R_palm
+14466.M3.R.palm	14466	M3_R_palm
+14467.M3.R.palm	14467	M3_R_palm
+14468.M3.R.palm	14468	M3_R_palm
+14469.M3.R.palm	14469	M3_R_palm
+14470.M3.R.palm	14470	M3_R_palm
+14471.M3.R.palm	14471	M3_R_palm
+14472.M3.R.palm	14472	M3_R_palm
+14473.M3.R.palm	14473	M3_R_palm
+14474.M3.R.palm	14474	M3_R_palm
+14475.M3.R.palm	14475	M3_R_palm
+14476.M3.R.palm	14476	M3_R_palm
+14477.M3.R.palm	14477	M3_R_palm
+14478.M3.R.palm	14478	M3_R_palm
+14479.M3.R.palm	14479	M3_R_palm
+14480.M3.R.palm	14480	M3_R_palm
+14481.M3.R.palm	14481	M3_R_palm
+14482.M3.R.palm	14482	M3_R_palm
+14485.M3.R.palm	14485	M3_R_palm
+14487.M3.R.palm	14487	M3_R_palm
+14490.M3.R.palm	14490	M3_R_palm
+14491.M3.R.palm	14491	M3_R_palm
+14492.M3.R.palm	14492	M3_R_palm
+14494.M3.R.palm	14494	M3_R_palm
+14495.M3.R.palm	14495	M3_R_palm
+14496.M3.R.palm	14496	M3_R_palm
+14499.M3.R.palm	14499	M3_R_palm
+14500.M3.R.palm	14500	M3_R_palm
+14503.M3.R.palm	14503	M3_R_palm
+14504.M3.R.palm	14504	M3_R_palm
+14505.M3.R.palm	14505	M3_R_palm
+14506.M3.R.palm	14506	M3_R_palm
+14507.M3.R.palm	14507	M3_R_palm
+14508.M3.R.palm	14508	M3_R_palm
+14509.M3.R.palm	14509	M3_R_palm
+14510.M3.R.palm	14510	M3_R_palm
+14511.M3.R.palm	14511	M3_R_palm
+14512.M3.R.palm	14512	M3_R_palm
+14513.M3.R.palm	14513	M3_R_palm
+14514.M3.R.palm	14514	M3_R_palm
+14516.M3.R.palm	14516	M3_R_palm
+14517.M3.R.palm	14517	M3_R_palm
+14518.M3.R.palm	14518	M3_R_palm
+14519.M3.R.palm	14519	M3_R_palm
+14521.M3.R.palm	14521	M3_R_palm
+14522.M3.R.palm	14522	M3_R_palm
+14523.M3.R.palm	14523	M3_R_palm
+14524.M3.R.palm	14524	M3_R_palm
+14525.M3.R.palm	14525	M3_R_palm
+14526.M3.R.palm	14526	M3_R_palm
+14527.M3.R.palm	14527	M3_R_palm
+14528.M3.R.palm	14528	M3_R_palm
+14529.M3.R.palm	14529	M3_R_palm
+14530.M3.R.palm	14530	M3_R_palm
+14531.M3.R.palm	14531	M3_R_palm
+14532.M3.R.palm	14532	M3_R_palm
+14533.M3.R.palm	14533	M3_R_palm
+14534.M3.R.palm	14534	M3_R_palm
+14535.M3.R.palm	14535	M3_R_palm
+14536.M3.R.palm	14536	M3_R_palm
+14538.M3.R.palm	14538	M3_R_palm
+14539.M3.R.palm	14539	M3_R_palm
+14541.M3.R.palm	14541	M3_R_palm
+14542.M3.R.palm	14542	M3_R_palm
+14544.M3.R.palm	14544	M3_R_palm
+14545.M3.R.palm	14545	M3_R_palm
+14546.M3.R.palm	14546	M3_R_palm
+14547.M3.R.palm	14547	M3_R_palm
+14548.M3.R.palm	14548	M3_R_palm
+14549.M3.R.palm	14549	M3_R_palm
+14550.M3.R.palm	14550	M3_R_palm
+14551.M3.R.palm	14551	M3_R_palm
+14552.M3.R.palm	14552	M3_R_palm
+14553.M3.R.palm	14553	M3_R_palm
+14554.M3.R.palm	14554	M3_R_palm
+14555.M3.R.palm	14555	M3_R_palm
+14556.M3.R.palm	14556	M3_R_palm
+14557.M3.R.palm	14557	M3_R_palm
+14558.M3.R.palm	14558	M3_R_palm
+14559.M3.R.palm	14559	M3_R_palm
+14560.M3.R.palm	14560	M3_R_palm
+14562.M3.R.palm	14562	M3_R_palm
+14563.M3.R.palm	14563	M3_R_palm
+14564.M3.R.palm	14564	M3_R_palm
+14565.M3.R.palm	14565	M3_R_palm
+14566.M3.R.palm	14566	M3_R_palm
+14567.M3.R.palm	14567	M3_R_palm
+14568.M3.R.palm	14568	M3_R_palm
+14569.M3.R.palm	14569	M3_R_palm
+14570.M3.R.palm	14570	M3_R_palm
+14571.M3.R.palm	14571	M3_R_palm
+14572.M3.R.palm	14572	M3_R_palm
+14573.M3.R.palm	14573	M3_R_palm
+14574.M3.R.palm	14574	M3_R_palm
+14575.M3.R.palm	14575	M3_R_palm
+14576.M3.R.palm	14576	M3_R_palm
+14578.M3.R.palm	14578	M3_R_palm
+14579.M3.R.palm	14579	M3_R_palm
+14583.M3.R.palm	14583	M3_R_palm
+14584.M3.R.palm	14584	M3_R_palm
+14585.M3.R.palm	14585	M3_R_palm
+14586.M3.R.palm	14586	M3_R_palm
+14588.M3.R.palm	14588	M3_R_palm
+14589.M3.R.palm	14589	M3_R_palm
+14590.M3.R.palm	14590	M3_R_palm
+14591.M3.R.palm	14591	M3_R_palm
+14593.M3.R.palm	14593	M3_R_palm
+14611.M3.R.palm	14611	M3_R_palm
+14612.M3.R.palm	14612	M3_R_palm
+14613.M3.R.palm	14613	M3_R_palm
+14173.F4.Tongue	14173	F4_Tongue
+14174.F4.Tongue	14174	F4_Tongue
+14175.F4.Tongue	14175	F4_Tongue
+14176.F4.Tongue	14176	F4_Tongue
+14177.F4.Tongue	14177	F4_Tongue
+14178.F4.Tongue	14178	F4_Tongue
+14179.F4.Tongue	14179	F4_Tongue
+14180.F4.Tongue	14180	F4_Tongue
+14181.F4.Tongue	14181	F4_Tongue
+14182.F4.Tongue	14182	F4_Tongue
+14183.F4.Tongue	14183	F4_Tongue
+14184.F4.Tongue	14184	F4_Tongue
+14185.F4.Tongue	14185	F4_Tongue
+14186.F4.Tongue	14186	F4_Tongue
+14187.F4.Tongue	14187	F4_Tongue
+14188.F4.Tongue	14188	F4_Tongue
+14189.F4.Tongue	14189	F4_Tongue
+14190.F4.Tongue	14190	F4_Tongue
+14191.F4.Tongue	14191	F4_Tongue
+14192.F4.Tongue	14192	F4_Tongue
+14193.F4.Tongue	14193	F4_Tongue
+14194.F4.Tongue	14194	F4_Tongue
+14195.F4.Tongue	14195	F4_Tongue
+14196.F4.Tongue	14196	F4_Tongue
+14197.F4.Tongue	14197	F4_Tongue
+14198.F4.Tongue	14198	F4_Tongue
+14199.F4.Tongue	14199	F4_Tongue
+14200.F4.Tongue	14200	F4_Tongue
+14201.F4.Tongue	14201	F4_Tongue
+14202.F4.Tongue	14202	F4_Tongue
+14203.F4.Tongue	14203	F4_Tongue
+14204.F4.Tongue	14204	F4_Tongue
+14215.F4.Tongue	14215	F4_Tongue
+14216.F4.Tongue	14216	F4_Tongue
+14217.F4.Tongue	14217	F4_Tongue
+14218.F4.Tongue	14218	F4_Tongue
+14219.F4.Tongue	14219	F4_Tongue
+14220.F4.Tongue	14220	F4_Tongue
+14221.F4.Tongue	14221	F4_Tongue
+14222.F4.Tongue	14222	F4_Tongue
+14223.F4.Tongue	14223	F4_Tongue
+14224.F4.Tongue	14224	F4_Tongue
+14226.F4.Tongue	14226	F4_Tongue
+14227.F4.Tongue	14227	F4_Tongue
+14228.F4.Tongue	14228	F4_Tongue
+14229.F4.Tongue	14229	F4_Tongue
+14230.F4.Tongue	14230	F4_Tongue
+14231.F4.Tongue	14231	F4_Tongue
+14232.F4.Tongue	14232	F4_Tongue
+14233.F4.Tongue	14233	F4_Tongue
+14234.F4.Tongue	14234	F4_Tongue
+14235.F4.Tongue	14235	F4_Tongue
+14244.F4.Tongue	14244	F4_Tongue
+14245.F4.Tongue	14245	F4_Tongue
+14254.F4.Tongue	14254	F4_Tongue
+14255.F4.Tongue	14255	F4_Tongue
+14256.F4.Tongue	14256	F4_Tongue
+14257.F4.Tongue	14257	F4_Tongue
+14264.F4.Tongue	14264	F4_Tongue
+14265.F4.Tongue	14265	F4_Tongue
+14266.F4.Tongue	14266	F4_Tongue
+14268.F4.Tongue	14268	F4_Tongue
+14269.F4.Tongue	14269	F4_Tongue
+14271.F4.Tongue	14271	F4_Tongue
+14272.F4.Tongue	14272	F4_Tongue
+14273.F4.Tongue	14273	F4_Tongue
+14274.F4.Tongue	14274	F4_Tongue
+14275.F4.Tongue	14275	F4_Tongue
+14276.F4.Tongue	14276	F4_Tongue
+14277.F4.Tongue	14277	F4_Tongue
+14285.F4.Tongue	14285	F4_Tongue
+14286.F4.Tongue	14286	F4_Tongue
+14287.F4.Tongue	14287	F4_Tongue
+14288.F4.Tongue	14288	F4_Tongue
+14289.F4.Tongue	14289	F4_Tongue
+14290.F4.Tongue	14290	F4_Tongue
+14291.F4.Tongue	14291	F4_Tongue
+14292.F4.Tongue	14292	F4_Tongue
+14293.F4.Tongue	14293	F4_Tongue
+14294.F4.Tongue	14294	F4_Tongue
+14295.F4.Tongue	14295	F4_Tongue
+14296.F4.Tongue	14296	F4_Tongue
+14297.F4.Tongue	14297	F4_Tongue
+14298.F4.Tongue	14298	F4_Tongue
+14299.F4.Tongue	14299	F4_Tongue
+14300.F4.Tongue	14300	F4_Tongue
+14301.F4.Tongue	14301	F4_Tongue
+14302.F4.Tongue	14302	F4_Tongue
+14303.F4.Tongue	14303	F4_Tongue
+14304.F4.Tongue	14304	F4_Tongue
+14305.F4.Tongue	14305	F4_Tongue
+14306.F4.Tongue	14306	F4_Tongue
+14307.F4.Tongue	14307	F4_Tongue
+14308.F4.Tongue	14308	F4_Tongue
+14309.F4.Tongue	14309	F4_Tongue
+14310.F4.Tongue	14310	F4_Tongue
+14311.F4.Tongue	14311	F4_Tongue
+14312.F4.Tongue	14312	F4_Tongue
+14313.F4.Tongue	14313	F4_Tongue
+14314.F4.Tongue	14314	F4_Tongue
+14315.F4.Tongue	14315	F4_Tongue
+14316.F4.Tongue	14316	F4_Tongue
+14317.F4.Tongue	14317	F4_Tongue
+14318.F4.Tongue	14318	F4_Tongue
+14319.F4.Tongue	14319	F4_Tongue
+14320.F4.Tongue	14320	F4_Tongue
+14321.F4.Tongue	14321	F4_Tongue
+14322.F4.Tongue	14322	F4_Tongue
+14323.F4.Tongue	14323	F4_Tongue
+14324.F4.Tongue	14324	F4_Tongue
+14325.F4.Tongue	14325	F4_Tongue
+14326.F4.Tongue	14326	F4_Tongue
+14328.F4.Tongue	14328	F4_Tongue
+14330.F4.Tongue	14330	F4_Tongue
+14331.F4.Tongue	14331	F4_Tongue
+14332.F4.Tongue	14332	F4_Tongue
+14333.F4.Tongue	14333	F4_Tongue
+14334.F4.Tongue	14334	F4_Tongue
+14339.F4.Tongue	14339	F4_Tongue
+14343.F4.Tongue	14343	F4_Tongue
+14344.F4.Tongue	14344	F4_Tongue
+14345.F4.Tongue	14345	F4_Tongue
+14346.F4.Tongue	14346	F4_Tongue
+14347.F4.Tongue	14347	F4_Tongue
+14348.F4.Tongue	14348	F4_Tongue
+14349.F4.Tongue	14349	F4_Tongue
+14350.F4.Tongue	14350	F4_Tongue
+14351.F4.Tongue	14351	F4_Tongue
+14352.F4.Tongue	14352	F4_Tongue
+14353.F4.Tongue	14353	F4_Tongue
+14354.F4.Tongue	14354	F4_Tongue
+14355.F4.Tongue	14355	F4_Tongue
+14356.F4.Tongue	14356	F4_Tongue
+14357.F4.Tongue	14357	F4_Tongue
+14358.F4.Tongue	14358	F4_Tongue
+14173.M3.Tongue	14173	M3_Tongue
+14174.M3.Tongue	14174	M3_Tongue
+14175.M3.Tongue	14175	M3_Tongue
+14176.M3.Tongue	14176	M3_Tongue
+14177.M3.Tongue	14177	M3_Tongue
+14178.M3.Tongue	14178	M3_Tongue
+14179.M3.Tongue	14179	M3_Tongue
+14180.M3.Tongue	14180	M3_Tongue
+14181.M3.Tongue	14181	M3_Tongue
+14182.M3.Tongue	14182	M3_Tongue
+14183.M3.Tongue	14183	M3_Tongue
+14184.M3.Tongue	14184	M3_Tongue
+14185.M3.Tongue	14185	M3_Tongue
+14186.M3.Tongue	14186	M3_Tongue
+14187.M3.Tongue	14187	M3_Tongue
+14188.M3.Tongue	14188	M3_Tongue
+14189.M3.Tongue	14189	M3_Tongue
+14190.M3.Tongue	14190	M3_Tongue
+14191.M3.Tongue	14191	M3_Tongue
+14192.M3.Tongue	14192	M3_Tongue
+14193.M3.Tongue	14193	M3_Tongue
+14194.M3.Tongue	14194	M3_Tongue
+14195.M3.Tongue	14195	M3_Tongue
+14196.M3.Tongue	14196	M3_Tongue
+14197.M3.Tongue	14197	M3_Tongue
+14198.M3.Tongue	14198	M3_Tongue
+14199.M3.Tongue	14199	M3_Tongue
+14200.M3.Tongue	14200	M3_Tongue
+14201.M3.Tongue	14201	M3_Tongue
+14202.M3.Tongue	14202	M3_Tongue
+14203.M3.Tongue	14203	M3_Tongue
+14204.M3.Tongue	14204	M3_Tongue
+14205.M3.Tongue	14205	M3_Tongue
+14214.M3.Tongue	14214	M3_Tongue
+14215.M3.Tongue	14215	M3_Tongue
+14216.M3.Tongue	14216	M3_Tongue
+14217.M3.Tongue	14217	M3_Tongue
+14218.M3.Tongue	14218	M3_Tongue
+14219.M3.Tongue	14219	M3_Tongue
+14220.M3.Tongue	14220	M3_Tongue
+14221.M3.Tongue	14221	M3_Tongue
+14222.M3.Tongue	14222	M3_Tongue
+14223.M3.Tongue	14223	M3_Tongue
+14224.M3.Tongue	14224	M3_Tongue
+14225.M3.Tongue	14225	M3_Tongue
+14226.M3.Tongue	14226	M3_Tongue
+14229.M3.Tongue	14229	M3_Tongue
+14230.M3.Tongue	14230	M3_Tongue
+14231.M3.Tongue	14231	M3_Tongue
+14232.M3.Tongue	14232	M3_Tongue
+14233.M3.Tongue	14233	M3_Tongue
+14234.M3.Tongue	14234	M3_Tongue
+14235.M3.Tongue	14235	M3_Tongue
+14237.M3.Tongue	14237	M3_Tongue
+14239.M3.Tongue	14239	M3_Tongue
+14240.M3.Tongue	14240	M3_Tongue
+14241.M3.Tongue	14241	M3_Tongue
+14242.M3.Tongue	14242	M3_Tongue
+14243.M3.Tongue	14243	M3_Tongue
+14244.M3.Tongue	14244	M3_Tongue
+14245.M3.Tongue	14245	M3_Tongue
+14246.M3.Tongue	14246	M3_Tongue
+14252.M3.Tongue	14252	M3_Tongue
+14253.M3.Tongue	14253	M3_Tongue
+14254.M3.Tongue	14254	M3_Tongue
+14256.M3.Tongue	14256	M3_Tongue
+14257.M3.Tongue	14257	M3_Tongue
+14259.M3.Tongue	14259	M3_Tongue
+14260.M3.Tongue	14260	M3_Tongue
+14261.M3.Tongue	14261	M3_Tongue
+14262.M3.Tongue	14262	M3_Tongue
+14263.M3.Tongue	14263	M3_Tongue
+14264.M3.Tongue	14264	M3_Tongue
+14265.M3.Tongue	14265	M3_Tongue
+14266.M3.Tongue	14266	M3_Tongue
+14267.M3.Tongue	14267	M3_Tongue
+14268.M3.Tongue	14268	M3_Tongue
+14269.M3.Tongue	14269	M3_Tongue
+14270.M3.Tongue	14270	M3_Tongue
+14271.M3.Tongue	14271	M3_Tongue
+14272.M3.Tongue	14272	M3_Tongue
+14273.M3.Tongue	14273	M3_Tongue
+14274.M3.Tongue	14274	M3_Tongue
+14275.M3.Tongue	14275	M3_Tongue
+14276.M3.Tongue	14276	M3_Tongue
+14277.M3.Tongue	14277	M3_Tongue
+14278.M3.Tongue	14278	M3_Tongue
+14285.M3.Tongue	14285	M3_Tongue
+14286.M3.Tongue	14286	M3_Tongue
+14287.M3.Tongue	14287	M3_Tongue
+14288.M3.Tongue	14288	M3_Tongue
+14289.M3.Tongue	14289	M3_Tongue
+14290.M3.Tongue	14290	M3_Tongue
+14291.M3.Tongue	14291	M3_Tongue
+14293.M3.Tongue	14293	M3_Tongue
+14294.M3.Tongue	14294	M3_Tongue
+14295.M3.Tongue	14295	M3_Tongue
+14296.M3.Tongue	14296	M3_Tongue
+14297.M3.Tongue	14297	M3_Tongue
+14298.M3.Tongue	14298	M3_Tongue
+14299.M3.Tongue	14299	M3_Tongue
+14300.M3.Tongue	14300	M3_Tongue
+14301.M3.Tongue	14301	M3_Tongue
+14302.M3.Tongue	14302	M3_Tongue
+14303.M3.Tongue	14303	M3_Tongue
+14304.M3.Tongue	14304	M3_Tongue
+14305.M3.Tongue	14305	M3_Tongue
+14306.M3.Tongue	14306	M3_Tongue
+14307.M3.Tongue	14307	M3_Tongue
+14308.M3.Tongue	14308	M3_Tongue
+14310.M3.Tongue	14310	M3_Tongue
+14311.M3.Tongue	14311	M3_Tongue
+14312.M3.Tongue	14312	M3_Tongue
+14313.M3.Tongue	14313	M3_Tongue
+14314.M3.Tongue	14314	M3_Tongue
+14315.M3.Tongue	14315	M3_Tongue
+14316.M3.Tongue	14316	M3_Tongue
+14317.M3.Tongue	14317	M3_Tongue
+14318.M3.Tongue	14318	M3_Tongue
+14319.M3.Tongue	14319	M3_Tongue
+14320.M3.Tongue	14320	M3_Tongue
+14321.M3.Tongue	14321	M3_Tongue
+14322.M3.Tongue	14322	M3_Tongue
+14323.M3.Tongue	14323	M3_Tongue
+14324.M3.Tongue	14324	M3_Tongue
+14325.M3.Tongue	14325	M3_Tongue
+14326.M3.Tongue	14326	M3_Tongue
+14327.M3.Tongue	14327	M3_Tongue
+14328.M3.Tongue	14328	M3_Tongue
+14330.M3.Tongue	14330	M3_Tongue
+14331.M3.Tongue	14331	M3_Tongue
+14332.M3.Tongue	14332	M3_Tongue
+14333.M3.Tongue	14333	M3_Tongue
+14334.M3.Tongue	14334	M3_Tongue
+14335.M3.Tongue	14335	M3_Tongue
+14336.M3.Tongue	14336	M3_Tongue
+14337.M3.Tongue	14337	M3_Tongue
+14339.M3.Tongue	14339	M3_Tongue
+14340.M3.Tongue	14340	M3_Tongue
+14341.M3.Tongue	14341	M3_Tongue
+14342.M3.Tongue	14342	M3_Tongue
+14343.M3.Tongue	14343	M3_Tongue
+14345.M3.Tongue	14345	M3_Tongue
+14346.M3.Tongue	14346	M3_Tongue
+14347.M3.Tongue	14347	M3_Tongue
+14348.M3.Tongue	14348	M3_Tongue
+14349.M3.Tongue	14349	M3_Tongue
+14350.M3.Tongue	14350	M3_Tongue
+14352.M3.Tongue	14352	M3_Tongue
+14353.M3.Tongue	14353	M3_Tongue
+14354.M3.Tongue	14354	M3_Tongue
+14355.M3.Tongue	14355	M3_Tongue
+14356.M3.Tongue	14356	M3_Tongue
+14357.M3.Tongue	14357	M3_Tongue
+14358.M3.Tongue	14358	M3_Tongue
+14359.M3.Tongue	14359	M3_Tongue
+14360.M3.Tongue	14360	M3_Tongue
+14361.M3.Tongue	14361	M3_Tongue
+14362.M3.Tongue	14362	M3_Tongue
+14364.M3.Tongue	14364	M3_Tongue
+14365.M3.Tongue	14365	M3_Tongue
+14366.M3.Tongue	14366	M3_Tongue
+14367.M3.Tongue	14367	M3_Tongue
+14368.M3.Tongue	14368	M3_Tongue
+14369.M3.Tongue	14369	M3_Tongue
+14370.M3.Tongue	14370	M3_Tongue
+14371.M3.Tongue	14371	M3_Tongue
+14372.M3.Tongue	14372	M3_Tongue
+14373.M3.Tongue	14373	M3_Tongue
+14374.M3.Tongue	14374	M3_Tongue
+14375.M3.Tongue	14375	M3_Tongue
+14376.M3.Tongue	14376	M3_Tongue
+14377.M3.Tongue	14377	M3_Tongue
+14378.M3.Tongue	14378	M3_Tongue
+14379.M3.Tongue	14379	M3_Tongue
+14381.M3.Tongue	14381	M3_Tongue
+14382.M3.Tongue	14382	M3_Tongue
+14383.M3.Tongue	14383	M3_Tongue
+14384.M3.Tongue	14384	M3_Tongue
+14386.M3.Tongue	14386	M3_Tongue
+14387.M3.Tongue	14387	M3_Tongue
+14388.M3.Tongue	14388	M3_Tongue
+14389.M3.Tongue	14389	M3_Tongue
+14390.M3.Tongue	14390	M3_Tongue
+14391.M3.Tongue	14391	M3_Tongue
+14392.M3.Tongue	14392	M3_Tongue
+14393.M3.Tongue	14393	M3_Tongue
+14394.M3.Tongue	14394	M3_Tongue
+14395.M3.Tongue	14395	M3_Tongue
+14396.M3.Tongue	14396	M3_Tongue
+14398.M3.Tongue	14398	M3_Tongue
+14399.M3.Tongue	14399	M3_Tongue
+14400.M3.Tongue	14400	M3_Tongue
+14401.M3.Tongue	14401	M3_Tongue
+14402.M3.Tongue	14402	M3_Tongue
+14403.M3.Tongue	14403	M3_Tongue
+14404.M3.Tongue	14404	M3_Tongue
+14407.M3.Tongue	14407	M3_Tongue
+14408.M3.Tongue	14408	M3_Tongue
+14409.M3.Tongue	14409	M3_Tongue
+14410.M3.Tongue	14410	M3_Tongue
+14411.M3.Tongue	14411	M3_Tongue
+14412.M3.Tongue	14412	M3_Tongue
+14413.M3.Tongue	14413	M3_Tongue
+14414.M3.Tongue	14414	M3_Tongue
+14416.M3.Tongue	14416	M3_Tongue
+14417.M3.Tongue	14417	M3_Tongue
+14418.M3.Tongue	14418	M3_Tongue
+14419.M3.Tongue	14419	M3_Tongue
+14420.M3.Tongue	14420	M3_Tongue
+14421.M3.Tongue	14421	M3_Tongue
+14422.M3.Tongue	14422	M3_Tongue
+14423.M3.Tongue	14423	M3_Tongue
+14424.M3.Tongue	14424	M3_Tongue
+14425.M3.Tongue	14425	M3_Tongue
+14426.M3.Tongue	14426	M3_Tongue
+14427.M3.Tongue	14427	M3_Tongue
+14428.M3.Tongue	14428	M3_Tongue
+14429.M3.Tongue	14429	M3_Tongue
+14430.M3.Tongue	14430	M3_Tongue
+14431.M3.Tongue	14431	M3_Tongue
+14432.M3.Tongue	14432	M3_Tongue
+14433.M3.Tongue	14433	M3_Tongue
+14434.M3.Tongue	14434	M3_Tongue
+14435.M3.Tongue	14435	M3_Tongue
+14436.M3.Tongue	14436	M3_Tongue
+14437.M3.Tongue	14437	M3_Tongue
+14438.M3.Tongue	14438	M3_Tongue
+14439.M3.Tongue	14439	M3_Tongue
+14440.M3.Tongue	14440	M3_Tongue
+14441.M3.Tongue	14441	M3_Tongue
+14442.M3.Tongue	14442	M3_Tongue
+14443.M3.Tongue	14443	M3_Tongue
+14444.M3.Tongue	14444	M3_Tongue
+14445.M3.Tongue	14445	M3_Tongue
+14446.M3.Tongue	14446	M3_Tongue
+14447.M3.Tongue	14447	M3_Tongue
+14448.M3.Tongue	14448	M3_Tongue
+14449.M3.Tongue	14449	M3_Tongue
+14451.M3.Tongue	14451	M3_Tongue
+14452.M3.Tongue	14452	M3_Tongue
+14453.M3.Tongue	14453	M3_Tongue
+14454.M3.Tongue	14454	M3_Tongue
+14455.M3.Tongue	14455	M3_Tongue
+14456.M3.Tongue	14456	M3_Tongue
+14457.M3.Tongue	14457	M3_Tongue
+14458.M3.Tongue	14458	M3_Tongue
+14459.M3.Tongue	14459	M3_Tongue
+14460.M3.Tongue	14460	M3_Tongue
+14461.M3.Tongue	14461	M3_Tongue
+14462.M3.Tongue	14462	M3_Tongue
+14463.M3.Tongue	14463	M3_Tongue
+14465.M3.Tongue	14465	M3_Tongue
+14466.M3.Tongue	14466	M3_Tongue
+14467.M3.Tongue	14467	M3_Tongue
+14468.M3.Tongue	14468	M3_Tongue
+14469.M3.Tongue	14469	M3_Tongue
+14470.M3.Tongue	14470	M3_Tongue
+14471.M3.Tongue	14471	M3_Tongue
+14472.M3.Tongue	14472	M3_Tongue
+14473.M3.Tongue	14473	M3_Tongue
+14474.M3.Tongue	14474	M3_Tongue
+14475.M3.Tongue	14475	M3_Tongue
+14476.M3.Tongue	14476	M3_Tongue
+14477.M3.Tongue	14477	M3_Tongue
+14478.M3.Tongue	14478	M3_Tongue
+14479.M3.Tongue	14479	M3_Tongue
+14480.M3.Tongue	14480	M3_Tongue
+14481.M3.Tongue	14481	M3_Tongue
+14482.M3.Tongue	14482	M3_Tongue
+14484.M3.Tongue	14484	M3_Tongue
+14485.M3.Tongue	14485	M3_Tongue
+14487.M3.Tongue	14487	M3_Tongue
+14488.M3.Tongue	14488	M3_Tongue
+14489.M3.Tongue	14489	M3_Tongue
+14490.M3.Tongue	14490	M3_Tongue
+14491.M3.Tongue	14491	M3_Tongue
+14492.M3.Tongue	14492	M3_Tongue
+14493.M3.Tongue	14493	M3_Tongue
+14494.M3.Tongue	14494	M3_Tongue
+14495.M3.Tongue	14495	M3_Tongue
+14496.M3.Tongue	14496	M3_Tongue
+14497.M3.Tongue	14497	M3_Tongue
+14498.M3.Tongue	14498	M3_Tongue
+14499.M3.Tongue	14499	M3_Tongue
+14500.M3.Tongue	14500	M3_Tongue
+14501.M3.Tongue	14501	M3_Tongue
+14503.M3.Tongue	14503	M3_Tongue
+14504.M3.Tongue	14504	M3_Tongue
+14505.M3.Tongue	14505	M3_Tongue
+14506.M3.Tongue	14506	M3_Tongue
+14507.M3.Tongue	14507	M3_Tongue
+14508.M3.Tongue	14508	M3_Tongue
+14509.M3.Tongue	14509	M3_Tongue
+14510.M3.Tongue	14510	M3_Tongue
+14511.M3.Tongue	14511	M3_Tongue
+14512.M3.Tongue	14512	M3_Tongue
+14513.M3.Tongue	14513	M3_Tongue
+14514.M3.Tongue	14514	M3_Tongue
+14516.M3.Tongue	14516	M3_Tongue
+14517.M3.Tongue	14517	M3_Tongue
+14518.M3.Tongue	14518	M3_Tongue
+14519.M3.Tongue	14519	M3_Tongue
+14520.M3.Tongue	14520	M3_Tongue
+14521.M3.Tongue	14521	M3_Tongue
+14522.M3.Tongue	14522	M3_Tongue
+14523.M3.Tongue	14523	M3_Tongue
+14524.M3.Tongue	14524	M3_Tongue
+14525.M3.Tongue	14525	M3_Tongue
+14526.M3.Tongue	14526	M3_Tongue
+14527.M3.Tongue	14527	M3_Tongue
+14528.M3.Tongue	14528	M3_Tongue
+14529.M3.Tongue	14529	M3_Tongue
+14530.M3.Tongue	14530	M3_Tongue
+14531.M3.Tongue	14531	M3_Tongue
+14532.M3.Tongue	14532	M3_Tongue
+14533.M3.Tongue	14533	M3_Tongue
+14534.M3.Tongue	14534	M3_Tongue
+14535.M3.Tongue	14535	M3_Tongue
+14536.M3.Tongue	14536	M3_Tongue
+14538.M3.Tongue	14538	M3_Tongue
+14539.M3.Tongue	14539	M3_Tongue
+14540.M3.Tongue	14540	M3_Tongue
+14541.M3.Tongue	14541	M3_Tongue
+14542.M3.Tongue	14542	M3_Tongue
+14543.M3.Tongue	14543	M3_Tongue
+14544.M3.Tongue	14544	M3_Tongue
+14545.M3.Tongue	14545	M3_Tongue
+14546.M3.Tongue	14546	M3_Tongue
+14547.M3.Tongue	14547	M3_Tongue
+14548.M3.Tongue	14548	M3_Tongue
+14549.M3.Tongue	14549	M3_Tongue
+14550.M3.Tongue	14550	M3_Tongue
+14551.M3.Tongue	14551	M3_Tongue
+14552.M3.Tongue	14552	M3_Tongue
+14553.M3.Tongue	14553	M3_Tongue
+14554.M3.Tongue	14554	M3_Tongue
+14555.M3.Tongue	14555	M3_Tongue
+14556.M3.Tongue	14556	M3_Tongue
+14557.M3.Tongue	14557	M3_Tongue
+14558.M3.Tongue	14558	M3_Tongue
+14559.M3.Tongue	14559	M3_Tongue
+14562.M3.Tongue	14562	M3_Tongue
+14563.M3.Tongue	14563	M3_Tongue
+14564.M3.Tongue	14564	M3_Tongue
+14565.M3.Tongue	14565	M3_Tongue
+14566.M3.Tongue	14566	M3_Tongue
+14567.M3.Tongue	14567	M3_Tongue
+14568.M3.Tongue	14568	M3_Tongue
+14569.M3.Tongue	14569	M3_Tongue
+14570.M3.Tongue	14570	M3_Tongue
+14571.M3.Tongue	14571	M3_Tongue
+14572.M3.Tongue	14572	M3_Tongue
+14573.M3.Tongue	14573	M3_Tongue
+14574.M3.Tongue	14574	M3_Tongue
+14575.M3.Tongue	14575	M3_Tongue
+14576.M3.Tongue	14576	M3_Tongue
+14578.M3.Tongue	14578	M3_Tongue
+14579.M3.Tongue	14579	M3_Tongue
+14583.M3.Tongue	14583	M3_Tongue
+14584.M3.Tongue	14584	M3_Tongue
+14585.M3.Tongue	14585	M3_Tongue
+14586.M3.Tongue	14586	M3_Tongue
+14588.M3.Tongue	14588	M3_Tongue
+14589.M3.Tongue	14589	M3_Tongue
+14590.M3.Tongue	14590	M3_Tongue
+14591.M3.Tongue	14591	M3_Tongue
+14593.M3.Tongue	14593	M3_Tongue
+14611.M3.Tongue	14611	M3_Tongue
+14612.M3.Tongue	14612	M3_Tongue
+14613.M3.Tongue	14613	M3_Tongue
+14614.M3.Tongue	14614	M3_Tongue
+14615.M3.Tongue	14615	M3_Tongue
+14616.M3.Tongue	14616	M3_Tongue
+14611.M3.feces	14611	M3_feces
+14612.M3.feces	14612	M3_feces
+14615.M3.feces	14615	M3_feces
+14047.F1.right outer ear	14047	F1_right outer ear
+14139.F1.outer ear canal/earwax	14139	F1_outer ear canal/earwax
+14139.F1.feces	14139	F1_feces
+14139.F1.left sole of foot	14139	F1_left sole of foot
+14139.F1.right sole of foot	14139	F1_right sole of foot
+14139.F1.forehead	14139	F1_forehead
+14139.F1.back of knees	14139	F1_back of knees
+14139.F1.nostrils	14139	F1_nostrils
+14139.F1.L.palm	14139	F1_L_palm
+14139.F1.R.palm	14139	F1_R_palm
+14139.F1.Tongue	14139	F1_Tongue
+14140.F1.outer ear canal/earwax	14140	F1_outer ear canal/earwax
+14140.F1.feces	14140	F1_feces
+14140.F1.left sole of foot	14140	F1_left sole of foot
+14140.F1.right sole of foot	14140	F1_right sole of foot
+14140.F1.forehead	14140	F1_forehead
+14140.F1.back of knees	14140	F1_back of knees
+14140.F1.nostrils	14140	F1_nostrils
+14140.F1.L.palm	14140	F1_L_palm
+14140.F1.R.palm	14140	F1_R_palm
+14140.F1.Tongue	14140	F1_Tongue
+14047.F2.right nostril	14047	F2_right nostril
+14139.F2.outer ear canal/earwax	14139	F2_outer ear canal/earwax
+14139.F2.feces	14139	F2_feces
+14139.F2.left sole of foot	14139	F2_left sole of foot
+14139.F2.right sole of foot	14139	F2_right sole of foot
+14139.F2.forehead	14139	F2_forehead
+14139.F2.back of knees	14139	F2_back of knees
+14139.F2.nostrils	14139	F2_nostrils
+14139.F2.L.palm	14139	F2_L_palm
+14139.F2.R.palm	14139	F2_R_palm
+14139.F2.Tongue	14139	F2_Tongue
+14140.F2.outer ear canal/earwax	14140	F2_outer ear canal/earwax
+14140.F2.feces	14140	F2_feces
+14140.F2.left sole of foot	14140	F2_left sole of foot
+14140.F2.right sole of foot	14140	F2_right sole of foot
+14140.F2.forehead	14140	F2_forehead
+14140.F2.back of knees	14140	F2_back of knees
+14140.F2.nostrils	14140	F2_nostrils
+14140.F2.L.palm	14140	F2_L_palm
+14140.F2.R.palm	14140	F2_R_palm
+14140.F2.Tongue	14140	F2_Tongue
+14139.F3.outer ear canal/earwax	14139	F3_outer ear canal/earwax
+14139.F3.feces	14139	F3_feces
+14139.F3.left sole of foot	14139	F3_left sole of foot
+14139.F3.right sole of foot	14139	F3_right sole of foot
+14139.F3.forehead	14139	F3_forehead
+14139.F3.back of knees	14139	F3_back of knees
+14139.F3.nostrils	14139	F3_nostrils
+14139.F3.L.palm	14139	F3_L_palm
+14139.F3.R.palm	14139	F3_R_palm
+14139.F3.Tongue	14139	F3_Tongue
+14140.F3.outer ear canal/earwax	14140	F3_outer ear canal/earwax
+14140.F3.feces	14140	F3_feces
+14140.F3.left sole of foot	14140	F3_left sole of foot
+14140.F3.right sole of foot	14140	F3_right sole of foot
+14140.F3.forehead	14140	F3_forehead
+14140.F3.back of knees	14140	F3_back of knees
+14140.F3.nostrils	14140	F3_nostrils
+14140.F3.L.palm	14140	F3_L_palm
+14140.F3.R.palm	14140	F3_R_palm
+14140.F3.Tongue	14140	F3_Tongue
+14139.M1.outer ear canal/earwax	14139	M1_outer ear canal/earwax
+14139.M1.feces	14139	M1_feces
+14139.M1.left sole of foot	14139	M1_left sole of foot
+14139.M1.right sole of foot	14139	M1_right sole of foot
+14139.M1.forehead	14139	M1_forehead
+14139.M1.back of knees	14139	M1_back of knees
+14139.M1.nostrils	14139	M1_nostrils
+14139.M1.L.palm	14139	M1_L_palm
+14139.M1.R.palm	14139	M1_R_palm
+14139.M1.Tongue	14139	M1_Tongue
+14140.M1.outer ear canal/earwax	14140	M1_outer ear canal/earwax
+14140.M1.feces	14140	M1_feces
+14140.M1.left sole of foot	14140	M1_left sole of foot
+14140.M1.right sole of foot	14140	M1_right sole of foot
+14140.M1.forehead	14140	M1_forehead
+14140.M1.back of knees	14140	M1_back of knees
+14140.M1.nostrils	14140	M1_nostrils
+14140.M1.L.palm	14140	M1_L_palm
+14140.M1.R.palm	14140	M1_R_palm
+14140.M1.Tongue	14140	M1_Tongue
+14139.M2.outer ear canal/earwax	14139	M2_outer ear canal/earwax
+14139.M2.feces	14139	M2_feces
+14139.M2.left sole of foot	14139	M2_left sole of foot
+14139.M2.right sole of foot	14139	M2_right sole of foot
+14139.M2.forehead	14139	M2_forehead
+14139.M2.back of knees	14139	M2_back of knees
+14139.M2.nostrils	14139	M2_nostrils
+14139.M2.L.palm	14139	M2_L_palm
+14139.M2.R.palm	14139	M2_R_palm
+14139.M2.Tongue	14139	M2_Tongue
+14140.M2.outer ear canal/earwax	14140	M2_outer ear canal/earwax
+14140.M2.feces	14140	M2_feces
+14140.M2.left sole of foot	14140	M2_left sole of foot
+14140.M2.right sole of foot	14140	M2_right sole of foot
+14140.M2.forehead	14140	M2_forehead
+14140.M2.back of knees	14140	M2_back of knees
+14140.M2.nostrils	14140	M2_nostrils
+14140.M2.L.palm	14140	M2_L_palm
+14140.M2.R.palm	14140	M2_R_palm
+14140.M2.Tongue	14140	M2_Tongue
+14139.M3.outer ear canal/earwax	14139	M3_outer ear canal/earwax
+14139.M3.feces	14139	M3_feces
+14139.M3.left sole of foot	14139	M3_left sole of foot
+14139.M3.right sole of foot	14139	M3_right sole of foot
+14139.M3.forehead	14139	M3_forehead
+14139.M3.back of knees	14139	M3_back of knees
+14139.M3.nostrils	14139	M3_nostrils
+14139.M3.L.palm	14139	M3_L_palm
+14139.M3.R.palm	14139	M3_R_palm
+14139.M3.Tongue	14139	M3_Tongue
+14140.M3.outer ear canal/earwax	14140	M3_outer ear canal/earwax
+14140.M3.left sole of foot	14140	M3_left sole of foot
+14140.M3.right sole of foot	14140	M3_right sole of foot
+14140.M3.forehead	14140	M3_forehead
+14140.M3.back of knees	14140	M3_back of knees
+14140.M3.nostrils	14140	M3_nostrils
+14140.M3.L.palm	14140	M3_L_palm
+14140.M3.R.palm	14140	M3_R_palm
+14140.M3.Tongue	14140	M3_Tongue
+14139.M4.outer ear canal/earwax	14139	M4_outer ear canal/earwax
+14139.M4.feces	14139	M4_feces
+14139.M4.left sole of foot	14139	M4_left sole of foot
+14139.M4.right sole of foot	14139	M4_right sole of foot
+14139.M4.forehead	14139	M4_forehead
+14139.M4.back of knees	14139	M4_back of knees
+14139.M4.nostrils	14139	M4_nostrils
+14139.M4.L.palm	14139	M4_L_palm
+14139.M4.R.palm	14139	M4_R_palm
+14139.M4.Tongue	14139	M4_Tongue
+14140.M4.outer ear canal/earwax	14140	M4_outer ear canal/earwax
+14140.M4.feces	14140	M4_feces
+14140.M4.left sole of foot	14140	M4_left sole of foot
+14140.M4.right sole of foot	14140	M4_right sole of foot
+14140.M4.forehead	14140	M4_forehead
+14140.M4.back of knees	14140	M4_back of knees
+14140.M4.nostrils	14140	M4_nostrils
+14140.M4.L.palm	14140	M4_L_palm
+14140.M4.R.palm	14140	M4_R_palm
+14140.M4.Tongue	14140	M4_Tongue
+14139.M5.outer ear canal/earwax	14139	M5_outer ear canal/earwax
+14139.M5.feces	14139	M5_feces
+14139.M5.left sole of foot	14139	M5_left sole of foot
+14139.M5.right sole of foot	14139	M5_right sole of foot
+14139.M5.forehead	14139	M5_forehead
+14139.M5.back of knees	14139	M5_back of knees
+14139.M5.nostrils	14139	M5_nostrils
+14139.M5.L.palm	14139	M5_L_palm
+14139.M5.R.palm	14139	M5_R_palm
+14139.M5.Tongue	14139	M5_Tongue
+14140.M5.outer ear canal/earwax	14140	M5_outer ear canal/earwax
+14140.M5.feces	14140	M5_feces
+14140.M5.left sole of foot	14140	M5_left sole of foot
+14140.M5.right sole of foot	14140	M5_right sole of foot
+14140.M5.forehead	14140	M5_forehead
+14140.M5.back of knees	14140	M5_back of knees
+14140.M5.nostrils	14140	M5_nostrils
+14140.M5.L.palm	14140	M5_L_palm
+14140.M5.R.palm	14140	M5_R_palm
+14140.M5.Tongue	14140	M5_Tongue
+14139.M6.outer ear canal/earwax	14139	M6_outer ear canal/earwax
+14139.M6.feces	14139	M6_feces
+14139.M6.left sole of foot	14139	M6_left sole of foot
+14139.M6.right sole of foot	14139	M6_right sole of foot
+14139.M6.forehead	14139	M6_forehead
+14139.M6.back of knees	14139	M6_back of knees
+14139.M6.nostrils	14139	M6_nostrils
+14139.M6.L.palm	14139	M6_L_palm
+14139.M6.R.palm	14139	M6_R_palm
+14139.M6.Tongue	14139	M6_Tongue
+14140.M6.outer ear canal/earwax	14140	M6_outer ear canal/earwax
+14140.M6.feces	14140	M6_feces
+14140.M6.left sole of foot	14140	M6_left sole of foot
+14140.M6.right sole of foot	14140	M6_right sole of foot
+14140.M6.forehead	14140	M6_forehead
+14140.M6.back of knees	14140	M6_back of knees
+14140.M6.nostrils	14140	M6_nostrils
+14140.M6.L.palm	14140	M6_L_palm
+14140.M6.R.palm	14140	M6_R_palm
+14140.M6.Tongue	14140	M6_Tongue
+14047.F1.left armpit	14047	F1_left armpit
+14047.F1.right armpit	14047	F1_right armpit
+14047.F1.left outer ear canal/earwax	14047	F1_left outer ear canal/earwax
+14047.F1.right outer ear canal/earwax	14047	F1_right outer ear canal/earwax
+14047.F1.feces	14047	F1_feces
+14047.F1.feces	14047	F1_feces
+14047.F1.left forearm	14047	F1_left forearm
+14047.F1.right forearm	14047	F1_right forearm
+14047.F1.left sole of foot	14047	F1_left sole of foot
+14047.F1.right sole of foot	14047	F1_right sole of foot
+14047.F1.forehead	14047	F1_forehead
+14047.F1.hair on head	14047	F1_hair on head
+14047.F1.left index finger	14047	F1_left index finger
+14047.F1.right index finger	14047	F1_right index finger
+14047.F1.left back of knees	14047	F1_left back of knees
+14047.F1.right back of knees	14047	F1_right back of knees
+14047.F1.labia minora	14047	F1_labia minora
+14047.F1.mouth	14047	F1_mouth
+14047.F1.navel	14047	F1_navel
+14047.F1.external nose	14047	F1_external nose
+14047.F1.left nostril	14047	F1_left nostril
+14047.F1.right nostril	14047	F1_right nostril
+14047.F1.left outer ear	14047	F1_left outer ear
+14047.F1.L.palm	14047	F1_L_palm
+14047.F1.R.palm	14047	F1_R_palm
+14047.F1.Tongue	14047	F1_Tongue
+14048.F1.left armpit	14048	F1_left armpit
+14048.F1.right armpit	14048	F1_right armpit
+14048.F1.left outer ear canal/earwax	14048	F1_left outer ear canal/earwax
+14048.F1.right outer ear canal/earwax	14048	F1_right outer ear canal/earwax
+14048.F1.feces	14048	F1_feces
+14048.F1.feces	14048	F1_feces
+14048.F1.left forearm	14048	F1_left forearm
+14048.F1.right forearm	14048	F1_right forearm
+14048.F1.left sole of foot	14048	F1_left sole of foot
+14048.F1.right sole of foot	14048	F1_right sole of foot
+14048.F1.forehead	14048	F1_forehead
+14048.F1.hair on head	14048	F1_hair on head
+14048.F1.left index finger	14048	F1_left index finger
+14048.F1.right index finger	14048	F1_right index finger
+14048.F1.left back of knees	14048	F1_left back of knees
+14048.F1.right back of knees	14048	F1_right back of knees
+14048.F1.labia minora	14048	F1_labia minora
+14048.F1.mouth	14048	F1_mouth
+14048.F1.navel	14048	F1_navel
+14048.F1.external nose	14048	F1_external nose
+14048.F1.left nostril	14048	F1_left nostril
+14048.F1.right nostril	14048	F1_right nostril
+14048.F1.left outer ear	14048	F1_left outer ear
+14048.F1.right outer ear	14048	F1_right outer ear
+14048.F1.L.palm	14048	F1_L_palm
+14048.F1.R.palm	14048	F1_R_palm
+14048.F1.Tongue	14048	F1_Tongue
+14047.F2.left armpit	14047	F2_left armpit
+14047.F2.right armpit	14047	F2_right armpit
+14047.F2.left outer ear canal/earwax	14047	F2_left outer ear canal/earwax
+14047.F2.right outer ear canal/earwax	14047	F2_right outer ear canal/earwax
+14047.F2.feces	14047	F2_feces
+14047.F2.feces	14047	F2_feces
+14047.F2.left forearm	14047	F2_left forearm
+14047.F2.right forearm	14047	F2_right forearm
+14047.F2.left sole of foot	14047	F2_left sole of foot
+14047.F2.right sole of foot	14047	F2_right sole of foot
+14047.F2.forehead	14047	F2_forehead
+14047.F2.hair on head	14047	F2_hair on head
+14047.F2.left index finger	14047	F2_left index finger
+14047.F2.right index finger	14047	F2_right index finger
+14047.F2.left back of knees	14047	F2_left back of knees
+14047.F2.right back of knees	14047	F2_right back of knees
+14047.F2.labia minora	14047	F2_labia minora
+14047.F2.mouth	14047	F2_mouth
+14047.F2.navel	14047	F2_navel
+14047.F2.external nose	14047	F2_external nose
+14047.F2.left nostril	14047	F2_left nostril
+14047.F2.right outer ear	14047	F2_right outer ear
+14047.F2.L.palm	14047	F2_L_palm
+14047.F2.R.palm	14047	F2_R_palm
+14047.F2.Tongue	14047	F2_Tongue
+14048.F2.left armpit	14048	F2_left armpit
+14048.F2.right armpit	14048	F2_right armpit
+14048.F2.left outer ear canal/earwax	14048	F2_left outer ear canal/earwax
+14048.F2.right outer ear canal/earwax	14048	F2_right outer ear canal/earwax
+14048.F2.feces	14048	F2_feces
+14048.F2.feces	14048	F2_feces
+14048.F2.left forearm	14048	F2_left forearm
+14048.F2.right forearm	14048	F2_right forearm
+14048.F2.left sole of foot	14048	F2_left sole of foot
+14048.F2.right sole of foot	14048	F2_right sole of foot
+14048.F2.forehead	14048	F2_forehead
+14048.F2.hair on head	14048	F2_hair on head
+14048.F2.left index finger	14048	F2_left index finger
+14048.F2.right index finger	14048	F2_right index finger
+14048.F2.left back of knees	14048	F2_left back of knees
+14048.F2.right back of knees	14048	F2_right back of knees
+14048.F2.labia minora	14048	F2_labia minora
+14048.F2.mouth	14048	F2_mouth
+14048.F2.navel	14048	F2_navel
+14048.F2.external nose	14048	F2_external nose
+14048.F2.left nostril	14048	F2_left nostril
+14048.F2.right nostril	14048	F2_right nostril
+14048.F2.left outer ear	14048	F2_left outer ear
+14048.F2.right outer ear	14048	F2_right outer ear
+14048.F2.L.palm	14048	F2_L_palm
+14048.F2.R.palm	14048	F2_R_palm
+14048.F2.Tongue	14048	F2_Tongue
+14047.M1.left armpit	14047	M1_left armpit
+14047.M1.right armpit	14047	M1_right armpit
+14047.M1.left outer ear canal/earwax	14047	M1_left outer ear canal/earwax
+14047.M1.feces	14047	M1_feces
+14047.M1.feces	14047	M1_feces
+14047.M1.left forearm	14047	M1_left forearm
+14047.M1.right forearm	14047	M1_right forearm
+14047.M1.left sole of foot	14047	M1_left sole of foot
+14047.M1.right sole of foot	14047	M1_right sole of foot
+14047.M1.forehead	14047	M1_forehead
+14047.M1.glans penis	14047	M1_glans penis
+14047.M1.hair on head	14047	M1_hair on head
+14047.M1.left index finger	14047	M1_left index finger
+14047.M1.right index finger	14047	M1_right index finger
+14047.M1.left back of knees	14047	M1_left back of knees
+14047.M1.right back of knees	14047	M1_right back of knees
+14047.M1.mouth	14047	M1_mouth
+14047.M1.navel	14047	M1_navel
+14047.M1.external nose	14047	M1_external nose
+14047.M1.left nostril	14047	M1_left nostril
+14047.M1.right nostril	14047	M1_right nostril
+14047.M1.left outer ear	14047	M1_left outer ear
+14047.M1.right outer ear	14047	M1_right outer ear
+14047.M1.L.palm	14047	M1_L_palm
+14047.M1.R.palm	14047	M1_R_palm
+14047.M1.Tongue	14047	M1_Tongue
+14048.M1.left armpit	14048	M1_left armpit
+14048.M1.right armpit	14048	M1_right armpit
+14048.M1.left outer ear canal/earwax	14048	M1_left outer ear canal/earwax
+14048.M1.right outer ear canal/earwax	14048	M1_right outer ear canal/earwax
+14048.M1.feces	14048	M1_feces
+14048.M1.feces	14048	M1_feces
+14048.M1.left forearm	14048	M1_left forearm
+14048.M1.right forearm	14048	M1_right forearm
+14048.M1.left sole of foot	14048	M1_left sole of foot
+14048.M1.right sole of foot	14048	M1_right sole of foot
+14048.M1.forehead	14048	M1_forehead
+14048.M1.glans penis	14048	M1_glans penis
+14048.M1.hair on head	14048	M1_hair on head
+14048.M1.left index finger	14048	M1_left index finger
+14048.M1.right index finger	14048	M1_right index finger
+14048.M1.left back of knees	14048	M1_left back of knees
+14048.M1.right back of knees	14048	M1_right back of knees
+14048.M1.mouth	14048	M1_mouth
+14048.M1.navel	14048	M1_navel
+14048.M1.external nose	14048	M1_external nose
+14048.M1.left nostril	14048	M1_left nostril
+14048.M1.right nostril	14048	M1_right nostril
+14048.M1.left outer ear	14048	M1_left outer ear
+14048.M1.right outer ear	14048	M1_right outer ear
+14048.M1.L.palm	14048	M1_L_palm
+14048.M1.R.palm	14048	M1_R_palm
+14048.M1.Tongue	14048	M1_Tongue
+14047.M3.left armpit	14047	M3_left armpit
+14047.M3.right armpit	14047	M3_right armpit
+14047.M3.left outer ear canal/earwax	14047	M3_left outer ear canal/earwax
+14047.M3.right outer ear canal/earwax	14047	M3_right outer ear canal/earwax
+14047.M3.feces	14047	M3_feces
+14047.M3.feces	14047	M3_feces
+14047.M3.left forearm	14047	M3_left forearm
+14047.M3.right forearm	14047	M3_right forearm
+14047.M3.left sole of foot	14047	M3_left sole of foot
+14047.M3.right sole of foot	14047	M3_right sole of foot
+14047.M3.forehead	14047	M3_forehead
+14047.M3.glans penis	14047	M3_glans penis
+14047.M3.hair on head	14047	M3_hair on head
+14047.M3.left index finger	14047	M3_left index finger
+14047.M3.right index finger	14047	M3_right index finger
+14047.M3.left back of knees	14047	M3_left back of knees
+14047.M3.right back of knees	14047	M3_right back of knees
+14047.M3.mouth	14047	M3_mouth
+14047.M3.navel	14047	M3_navel
+14047.M3.external nose	14047	M3_external nose
+14047.M3.left nostril	14047	M3_left nostril
+14047.M3.right nostril	14047	M3_right nostril
+14047.M3.left outer ear	14047	M3_left outer ear
+14047.M3.right outer ear	14047	M3_right outer ear
+14047.M3.L.palm	14047	M3_L_palm
+14047.M3.R.palm	14047	M3_R_palm
+14047.M3.Tongue	14047	M3_Tongue
+14048.M3.left armpit	14048	M3_left armpit
+14048.M3.right armpit	14048	M3_right armpit
+14048.M3.left outer ear canal/earwax	14048	M3_left outer ear canal/earwax
+14048.M3.right outer ear canal/earwax	14048	M3_right outer ear canal/earwax
+14048.M3.feces	14048	M3_feces
+14048.M3.feces	14048	M3_feces
+14048.M3.left forearm	14048	M3_left forearm
+14048.M3.right forearm	14048	M3_right forearm
+14048.M3.left sole of foot	14048	M3_left sole of foot
+14048.M3.right sole of foot	14048	M3_right sole of foot
+14048.M3.forehead	14048	M3_forehead
+14048.M3.glans penis	14048	M3_glans penis
+14048.M3.hair on head	14048	M3_hair on head
+14048.M3.left index finger	14048	M3_left index finger
+14048.M3.right index finger	14048	M3_right index finger
+14048.M3.left back of knees	14048	M3_left back of knees
+14048.M3.right back of knees	14048	M3_right back of knees
+14048.M3.mouth	14048	M3_mouth
+14048.M3.external nose	14048	M3_external nose
+14048.M3.left nostril	14048	M3_left nostril
+14048.M3.right nostril	14048	M3_right nostril
+14048.M3.left outer ear	14048	M3_left outer ear
+14048.M3.right outer ear	14048	M3_right outer ear
+14048.M3.L.palm	14048	M3_L_palm
+14048.M3.R.palm	14048	M3_R_palm
+14048.M3.Tongue	14048	M3_Tongue
+14047.F3.left armpit	14047	F3_left armpit
+14047.F3.right armpit	14047	F3_right armpit
+14047.F3.right outer ear canal/earwax	14047	F3_right outer ear canal/earwax
+14047.F3.feces	14047	F3_feces
+14047.F3.feces	14047	F3_feces
+14047.F3.left forearm	14047	F3_left forearm
+14047.F3.right forearm	14047	F3_right forearm
+14047.F3.left sole of foot	14047	F3_left sole of foot
+14047.F3.right sole of foot	14047	F3_right sole of foot
+14047.F3.forehead	14047	F3_forehead
+14047.F3.hair on head	14047	F3_hair on head
+14047.F3.left index finger	14047	F3_left index finger
+14047.F3.right index finger	14047	F3_right index finger
+14047.F3.left back of knees	14047	F3_left back of knees
+14047.F3.right back of knees	14047	F3_right back of knees
+14047.F3.labia minora	14047	F3_labia minora
+14047.F3.mouth	14047	F3_mouth
+14047.F3.external nose	14047	F3_external nose
+14047.F3.left nostril	14047	F3_left nostril
+14047.F3.right nostril	14047	F3_right nostril
+14047.F3.left outer ear	14047	F3_left outer ear
+14047.F3.right outer ear	14047	F3_right outer ear
+14047.F3.L.palm	14047	F3_L_palm
+14047.F3.R.palm	14047	F3_R_palm
+14047.F3.Tongue	14047	F3_Tongue
+14048.F3.left armpit	14048	F3_left armpit
+14048.F3.right armpit	14048	F3_right armpit
+14048.F3.left outer ear canal/earwax	14048	F3_left outer ear canal/earwax
+14048.F3.right outer ear canal/earwax	14048	F3_right outer ear canal/earwax
+14048.F3.feces	14048	F3_feces
+14048.F3.feces	14048	F3_feces
+14048.F3.left forearm	14048	F3_left forearm
+14048.F3.right forearm	14048	F3_right forearm
+14048.F3.left sole of foot	14048	F3_left sole of foot
+14048.F3.right sole of foot	14048	F3_right sole of foot
+14048.F3.forehead	14048	F3_forehead
+14048.F3.hair on head	14048	F3_hair on head
+14048.F3.left index finger	14048	F3_left index finger
+14048.F3.right index finger	14048	F3_right index finger
+14048.F3.left back of knees	14048	F3_left back of knees
+14048.F3.right back of knees	14048	F3_right back of knees
+14048.F3.labia minora	14048	F3_labia minora
+14048.F3.mouth	14048	F3_mouth
+14048.F3.navel	14048	F3_navel
+14048.F3.external nose	14048	F3_external nose
+14048.F3.left nostril	14048	F3_left nostril
+14048.F3.right nostril	14048	F3_right nostril
+14048.F3.left outer ear	14048	F3_left outer ear
+14048.F3.right outer ear	14048	F3_right outer ear
+14048.F3.L.palm	14048	F3_L_palm
+14048.F3.R.palm	14048	F3_R_palm
+14048.F3.Tongue	14048	F3_Tongue
+14047.M2.left armpit	14047	M2_left armpit
+14047.M2.right armpit	14047	M2_right armpit
+14047.M2.left outer ear canal/earwax	14047	M2_left outer ear canal/earwax
+14047.M2.right outer ear canal/earwax	14047	M2_right outer ear canal/earwax
+14047.M2.feces	14047	M2_feces
+14047.M2.feces	14047	M2_feces
+14047.M2.left forearm	14047	M2_left forearm
+14047.M2.right forearm	14047	M2_right forearm
+14047.M2.left sole of foot	14047	M2_left sole of foot
+14047.M2.right sole of foot	14047	M2_right sole of foot
+14047.M2.forehead	14047	M2_forehead
+14047.M2.glans penis	14047	M2_glans penis
+14047.M2.hair on head	14047	M2_hair on head
+14047.M2.left index finger	14047	M2_left index finger
+14047.M2.right index finger	14047	M2_right index finger
+14047.M2.left back of knees	14047	M2_left back of knees
+14047.M2.right back of knees	14047	M2_right back of knees
+14047.M2.mouth	14047	M2_mouth
+14047.M2.navel	14047	M2_navel
+14047.M2.external nose	14047	M2_external nose
+14047.M2.left nostril	14047	M2_left nostril
+14047.M2.right nostril	14047	M2_right nostril
+14047.M2.left outer ear	14047	M2_left outer ear
+14047.M2.right outer ear	14047	M2_right outer ear
+14047.M2.L.palm	14047	M2_L_palm
+14047.M2.R.palm	14047	M2_R_palm
+14047.M2.Tongue	14047	M2_Tongue
+14048.M2.left armpit	14048	M2_left armpit
+14048.M2.right armpit	14048	M2_right armpit
+14048.M2.left outer ear canal/earwax	14048	M2_left outer ear canal/earwax
+14048.M2.right outer ear canal/earwax	14048	M2_right outer ear canal/earwax
+14048.M2.feces	14048	M2_feces
+14048.M2.feces	14048	M2_feces
+14048.M2.left forearm	14048	M2_left forearm
+14048.M2.right forearm	14048	M2_right forearm
+14048.M2.left sole of foot	14048	M2_left sole of foot
+14048.M2.right sole of foot	14048	M2_right sole of foot
+14048.M2.forehead	14048	M2_forehead
+14048.M2.glans penis	14048	M2_glans penis
+14048.M2.hair on head	14048	M2_hair on head
+14048.M2.left index finger	14048	M2_left index finger
+14048.M2.right index finger	14048	M2_right index finger
+14048.M2.left back of knees	14048	M2_left back of knees
+14048.M2.right back of knees	14048	M2_right back of knees
+14048.M2.mouth	14048	M2_mouth
+14048.M2.navel	14048	M2_navel
+14048.M2.external nose	14048	M2_external nose
+14048.M2.left nostril	14048	M2_left nostril
+14048.M2.right nostril	14048	M2_right nostril
+14048.M2.left outer ear	14048	M2_left outer ear
+14048.M2.right outer ear	14048	M2_right outer ear
+14048.M2.L.palm	14048	M2_L_palm
+14048.M2.R.palm	14048	M2_R_palm
+14048.M2.Tongue	14048	M2_Tongue
+14047.M4.left armpit	14047	M4_left armpit
+14047.M4.right armpit	14047	M4_right armpit
+14047.M4.left outer ear canal/earwax	14047	M4_left outer ear canal/earwax
+14047.M4.right outer ear canal/earwax	14047	M4_right outer ear canal/earwax
+14047.M4.feces	14047	M4_feces
+14047.M4.feces	14047	M4_feces
+14047.M4.left forearm	14047	M4_left forearm
+14047.M4.right forearm	14047	M4_right forearm
+14047.M4.left sole of foot	14047	M4_left sole of foot
+14047.M4.right sole of foot	14047	M4_right sole of foot
+14047.M4.forehead	14047	M4_forehead
+14047.M4.glans penis	14047	M4_glans penis
+14047.M4.hair on head	14047	M4_hair on head
+14047.M4.left index finger	14047	M4_left index finger
+14047.M4.right index finger	14047	M4_right index finger
+14047.M4.left back of knees	14047	M4_left back of knees
+14047.M4.right back of knees	14047	M4_right back of knees
+14047.M4.mouth	14047	M4_mouth
+14047.M4.navel	14047	M4_navel
+14047.M4.external nose	14047	M4_external nose
+14047.M4.left nostril	14047	M4_left nostril
+14047.M4.right nostril	14047	M4_right nostril
+14047.M4.left outer ear	14047	M4_left outer ear
+14047.M4.right outer ear	14047	M4_right outer ear
+14047.M4.L.palm	14047	M4_L_palm
+14047.M4.R.palm	14047	M4_R_palm
+14047.M4.Tongue	14047	M4_Tongue
+14048.M4.left armpit	14048	M4_left armpit
+14048.M4.right armpit	14048	M4_right armpit
+14048.M4.left outer ear canal/earwax	14048	M4_left outer ear canal/earwax
+14048.M4.right outer ear canal/earwax	14048	M4_right outer ear canal/earwax
+14048.M4.feces	14048	M4_feces
+14048.M4.feces	14048	M4_feces
+14048.M4.left forearm	14048	M4_left forearm
+14048.M4.right forearm	14048	M4_right forearm
+14048.M4.left sole of foot	14048	M4_left sole of foot
+14048.M4.right sole of foot	14048	M4_right sole of foot
+14048.M4.forehead	14048	M4_forehead
+14048.M4.glans penis	14048	M4_glans penis
+14048.M4.hair on head	14048	M4_hair on head
+14048.M4.left index finger	14048	M4_left index finger
+14048.M4.right index finger	14048	M4_right index finger
+14048.M4.left back of knees	14048	M4_left back of knees
+14048.M4.right back of knees	14048	M4_right back of knees
+14048.M4.mouth	14048	M4_mouth
+14048.M4.navel	14048	M4_navel
+14048.M4.external nose	14048	M4_external nose
+14048.M4.left nostril	14048	M4_left nostril
+14048.M4.right nostril	14048	M4_right nostril
+14048.M4.left outer ear	14048	M4_left outer ear
+14048.M4.right outer ear	14048	M4_right outer ear
+14048.M4.L.palm	14048	M4_L_palm
+14048.M4.R.palm	14048	M4_R_palm
+14048.M4.Tongue	14048	M4_Tongue
+14578.M1.right forearm 1	14578	M1_right forearm 1
+14578.M1.right forearm 2	14578	M1_right forearm 2
+14578.M1.right forearm 3	14578	M1_right forearm 3
+14578.M1.right forearm 4	14578	M1_right forearm 4
+14578.M1.right forearm 5	14578	M1_right forearm 5
+14578.M1.right forearm 6	14578	M1_right forearm 6
+14578.M1.right forearm 7	14578	M1_right forearm 7
+14578.M1.right forearm 8	14578	M1_right forearm 8
+14578.M1.right forearm 9	14578	M1_right forearm 9
+14578.M1.right forearm 10	14578	M1_right forearm 10
+14578.M1.right forearm 11	14578	M1_right forearm 11
+14578.M1.right forearm 12	14578	M1_right forearm 12
+14578.M1.right forearm 13	14578	M1_right forearm 13
+14578.M1.right forearm 14	14578	M1_right forearm 14
+14578.M1.right forearm 15	14578	M1_right forearm 15
+14578.M1.right forearm 16	14578	M1_right forearm 16
+14578.M1.right forearm 17	14578	M1_right forearm 17
+14578.M1.right forearm 18	14578	M1_right forearm 18
+14578.M1.right forearm 19	14578	M1_right forearm 19
+14578.M1.right forearm 20	14578	M1_right forearm 20
+14578.M1.right forearm 21	14578	M1_right forearm 21
+14578.M1.right forearm 22	14578	M1_right forearm 22
+14578.M1.forehead.1	14578	M1_forehead_1
+14578.M1.left eyebrown	14578	M1_left eyebrown
+14578.M1.outer.eye.2	14578	M1_outer_eye_2
+14578.M1.outer.eye.3	14578	M1_outer_eye_3
+14578.M1.outer.eye.4	14578	M1_outer_eye_4
+14578.M1.outer.eye.5	14578	M1_outer_eye_5
+14578.M1.outer.eye.6	14578	M1_outer_eye_6
+14578.M1.external nose 1	14578	M1_external nose 1
+14578.M1.external nose 2	14578	M1_external nose 2
+14578.M1.external nose 3	14578	M1_external nose 3
+14578.M1.external nose 4	14578	M1_external nose 4
+14578.M1.forehead.2	14578	M1_forehead_2
+14578.M1.face.1	14578	M1_face_1
+14578.M1.face.2	14578	M1_face_2
+14578.M1.face.3	14578	M1_face_3
+14578.M1.face.4	14578	M1_face_4
+14578.M1.face.5	14578	M1_face_5
+14578.M1.face.6	14578	M1_face_6
+14578.M1.face.7	14578	M1_face_7
+14578.M1.face.8	14578	M1_face_8
+14578.M1.face.9	14578	M1_face_9
+14578.M1.face.10	14578	M1_face_10
+14578.M1.forehead.3	14578	M1_forehead_3
+14578.M1.face.11	14578	M1_face_11
+14578.M1.face.12	14578	M1_face_12
+14578.M1.face.13	14578	M1_face_13
+14578.M1.face.14	14578	M1_face_14
+14578.M1.face.15	14578	M1_face_15
+14578.M1.face.16	14578	M1_face_16
+14578.M1.upper lip	14578	M1_upper lip
+14578.M1.lower lip	14578	M1_lower lip
+14578.M1.face.17	14578	M1_face_17
+14578.M1.face.18	14578	M1_face_18
+14578.M1.forehead.4	14578	M1_forehead_4
+14578.M1.neck.1	14578	M1_neck_1
+14578.M1.neck.2	14578	M1_neck_2
+14578.M1.neck.3	14578	M1_neck_3
+14578.M1.left outer ear canal/earwax	14578	M1_left outer ear canal/earwax
+14578.M1.left outer ear	14578	M1_left outer ear
+14578.M1.right outer ear canal/earwax	14578	M1_right outer ear canal/earwax
+14578.M1.right outer ear	14578	M1_right outer ear
+14578.M1.neck.4	14578	M1_neck_4
+14578.M1.neck.5	14578	M1_neck_5
+14578.M1.neck.6	14578	M1_neck_6
+14578.M1.forehead.5	14578	M1_forehead_5
+14578.M1.neck.7	14578	M1_neck_7
+14578.M1.forehead.2	14578	M1_forehead_2
+14578.M1.forehead.2	14578	M1_forehead_2
+14578.M1.forehead.9	14578	M1_forehead_9
+14578.M1.right eyebrown	14578	M1_right eyebrown
+14578.M1.right dorsal hand 1	14578	M1_right dorsal hand 1
+14578.M1.right dorsal hand 2	14578	M1_right dorsal hand 2
+14578.M1.right dorsal hand 3	14578	M1_right dorsal hand 3
+14578.M1.right dorsal hand 4	14578	M1_right dorsal hand 4
+14578.M1.right dorsal hand 5	14578	M1_right dorsal hand 5
+14578.M1.right dorsal hand 6	14578	M1_right dorsal hand 6
+14578.M1.right dorsal hand 7	14578	M1_right dorsal hand 7
+14578.M1.right dorsal hand 8	14578	M1_right dorsal hand 8
+14578.M1.right hand nail 1	14578	M1_right hand nail 1
+14578.M1.right hand nail 2	14578	M1_right hand nail 2
+14578.M1.right hand nail 3	14578	M1_right hand nail 3
+14578.M1.right hand nail 4	14578	M1_right hand nail 4
+14578.M1.right hand nail 5	14578	M1_right hand nail 5
+14578.M1.R.palm.1	14578	M1_R_palm_1
+14578.M1.R.palm.2	14578	M1_R_palm_2
+14578.M1.R.palm.3	14578	M1_R_palm_3
+14578.M1.R.palm.4	14578	M1_R_palm_4
+14578.M1.R.palm.5	14578	M1_R_palm_5
+14578.M1.R.palm.6	14578	M1_R_palm_6
+14578.M1.R.palm.7	14578	M1_R_palm_7
+14578.M1.R.palm.8	14578	M1_R_palm_8
+14578.M1.R.palm.9	14578	M1_R_palm_9
+14578.M1.R.palm.10	14578	M1_R_palm_10
+14578.M1.R.palm.11	14578	M1_R_palm_11
+14578.M1.right thumb finger 1	14578	M1_right thumb finger 1
+14578.M1.right thumb finger 2	14578	M1_right thumb finger 2
+14578.M1.right thumb finger 3	14578	M1_right thumb finger 3
+14578.M1.right thumb finger 4	14578	M1_right thumb finger 4
+14578.M1.right thumb finger 5	14578	M1_right thumb finger 5
+14578.M1.right thumb finger 6	14578	M1_right thumb finger 6
+14578.M1.right thumb finger 7	14578	M1_right thumb finger 7
+14578.M1.right thumb finger 8	14578	M1_right thumb finger 8
+14578.M1.right little finger 1	14578	M1_right little finger 1
+14578.M1.right little finger 2	14578	M1_right little finger 2
+14578.M1.right little finger 3	14578	M1_right little finger 3
+14578.M1.right little finger 4	14578	M1_right little finger 4
+14578.M1.right little finger 5	14578	M1_right little finger 5
+14578.M1.right little finger 6	14578	M1_right little finger 6
+14578.M1.right little finger 7	14578	M1_right little finger 7
+14578.M1.right little finger 8	14578	M1_right little finger 8
+14578.M1.right little finger 9	14578	M1_right little finger 9
+14578.M1.right little finger 10	14578	M1_right little finger 10
+14578.M1.right little finger 11	14578	M1_right little finger 11
+14578.M1.right little finger 12	14578	M1_right little finger 12
+14578.M1.right ring finger 1	14578	M1_right ring finger 1
+14578.M1.right ring finger 2	14578	M1_right ring finger 2
+14578.M1.right ring finger 3	14578	M1_right ring finger 3
+14578.M1.right ring finger 4	14578	M1_right ring finger 4
+14578.M1.right ring finger 5	14578	M1_right ring finger 5
+14578.M1.right ring finger 6	14578	M1_right ring finger 6
+14578.M1.right ring finger 7	14578	M1_right ring finger 7
+14578.M1.right ring finger 8	14578	M1_right ring finger 8
+14578.M1.right ring finger 9	14578	M1_right ring finger 9
+14578.M1.right ring finger 10	14578	M1_right ring finger 10
+14578.M1.right ring finger 11	14578	M1_right ring finger 11
+14578.M1.right ring finger 12	14578	M1_right ring finger 12
+14578.M1.right middle finger 1	14578	M1_right middle finger 1
+14578.M1.right middle finger 2	14578	M1_right middle finger 2
+14578.M1.right middle finger 3	14578	M1_right middle finger 3
+14578.M1.right middle finger 4	14578	M1_right middle finger 4
+14578.M1.right middle finger 5	14578	M1_right middle finger 5
+14578.M1.right middle finger 6	14578	M1_right middle finger 6
+14578.M1.right middle finger 7	14578	M1_right middle finger 7
+14578.M1.right middle finger 8	14578	M1_right middle finger 8
+14578.M1.right middle finger 9	14578	M1_right middle finger 9
+14578.M1.right middle finger 10	14578	M1_right middle finger 10
+14578.M1.right middle finger 11	14578	M1_right middle finger 11
+14578.M1.right middle finger 12	14578	M1_right middle finger 12
+14578.M1.right index finger 1	14578	M1_right index finger 1
+14578.M1.right index finger 2	14578	M1_right index finger 2
+14578.M1.right index finger 3	14578	M1_right index finger 3
+14578.M1.right index finger 4	14578	M1_right index finger 4
+14578.M1.right index finger 5	14578	M1_right index finger 5
+14578.M1.right index finger 6	14578	M1_right index finger 6
+14578.M1.right index finger 7	14578	M1_right index finger 7
+14578.M1.right index finger 8	14578	M1_right index finger 8
+14578.M1.right index finger 9	14578	M1_right index finger 9
+14578.M1.right index finger 10	14578	M1_right index finger 10
+14578.M1.right index finger 11	14578	M1_right index finger 11
+14578.M1.right index finger 12	14578	M1_right index finger 12
+14578.M1.right little finger 1	14578	M1_right little finger 1
+14578.M1.right ring finger 1	14578	M1_right ring finger 1
+14578.M1.right middle finger 1	14578	M1_right middle finger 1
+14578.M1.right index finger 13	14578	M1_right index finger 13
+14578.M1.right thumb finger 9	14578	M1_right thumb finger 9
+14578.M1.right nail 1	14578	M1_right nail 1
+14578.M1.right nail 2	14578	M1_right nail 2
+14578.M1.right nail 3	14578	M1_right nail 3
+14578.M1.right nail 4	14578	M1_right nail 4
+14578.M1.right nail 5	14578	M1_right nail 5
+14173.F4.feces	14173	F4_feces
+14173.F4.L.palm	14173	F4_L_palm
+14173.F4.R.palm	14173	F4_R_palm
+14173.F4.Tongue	14173	F4_Tongue
+14173.M3.feces	14173	M3_feces
+14173.M3.L.palm	14173	M3_L_palm
+14173.M3.R.palm	14173	M3_R_palm
+14173.M3.Tongue	14173	M3_Tongue
+14174.F4.feces	14174	F4_feces
+14174.F4.L.palm	14174	F4_L_palm
+14174.F4.R.palm	14174	F4_R_palm
+14174.F4.Tongue	14174	F4_Tongue
+14174.M3.feces	14174	M3_feces
+14174.M3.L.palm	14174	M3_L_palm
+14174.M3.R.palm	14174	M3_R_palm
+14174.M3.Tongue	14174	M3_Tongue
+14175.F4.feces	14175	F4_feces
+14175.F4.L.palm	14175	F4_L_palm
+14175.F4.R.palm	14175	F4_R_palm
+14175.F4.Tongue	14175	F4_Tongue
+14175.M3.feces	14175	M3_feces
+14175.M3.L.palm	14175	M3_L_palm
+14175.M3.R.palm	14175	M3_R_palm
+14175.M3.Tongue	14175	M3_Tongue
+14176.F4.feces	14176	F4_feces
+14176.F4.L.palm	14176	F4_L_palm
+14176.F4.R.palm	14176	F4_R_palm
+14176.F4.Tongue	14176	F4_Tongue
+14176.M3.feces	14176	M3_feces
+14176.M3.L.palm	14176	M3_L_palm
+14176.M3.R.palm	14176	M3_R_palm
+14176.M3.Tongue	14176	M3_Tongue
+14177.F4.feces	14177	F4_feces
+14177.F4.L.palm	14177	F4_L_palm
+14177.F4.R.palm	14177	F4_R_palm
+14177.F4.Tongue	14177	F4_Tongue
+14177.M3.feces	14177	M3_feces
+14177.M3.L.palm	14177	M3_L_palm
+14177.M3.R.palm	14177	M3_R_palm
+14177.M3.Tongue	14177	M3_Tongue
+14178.F4.feces	14178	F4_feces
+14178.F4.L.palm	14178	F4_L_palm
+14178.F4.R.palm	14178	F4_R_palm
+14178.F4.Tongue	14178	F4_Tongue
+14178.M3.feces	14178	M3_feces
+14178.M3.L.palm	14178	M3_L_palm
+14178.M3.R.palm	14178	M3_R_palm
+14178.M3.Tongue	14178	M3_Tongue
+14179.F4.feces	14179	F4_feces
+14179.F4.L.palm	14179	F4_L_palm
+14179.F4.R.palm	14179	F4_R_palm
+14179.F4.Tongue	14179	F4_Tongue
+14179.M3.feces	14179	M3_feces
+14179.M3.L.palm	14179	M3_L_palm
+14179.M3.R.palm	14179	M3_R_palm
+14179.M3.Tongue	14179	M3_Tongue
+14180.F4.feces	14180	F4_feces
+14180.F4.L.palm	14180	F4_L_palm
+14180.F4.R.palm	14180	F4_R_palm
+14180.F4.Tongue	14180	F4_Tongue
+14180.M3.feces	14180	M3_feces
+14180.M3.L.palm	14180	M3_L_palm
+14180.M3.R.palm	14180	M3_R_palm
+14180.M3.Tongue	14180	M3_Tongue
+14181.F4.feces	14181	F4_feces
+14181.F4.L.palm	14181	F4_L_palm
+14181.F4.R.palm	14181	F4_R_palm
+14181.F4.Tongue	14181	F4_Tongue
+14181.M3.feces	14181	M3_feces
+14181.M3.L.palm	14181	M3_L_palm
+14181.M3.R.palm	14181	M3_R_palm
+14181.M3.Tongue	14181	M3_Tongue
+14182.F4.feces	14182	F4_feces
+14182.F4.L.palm	14182	F4_L_palm
+14182.F4.R.palm	14182	F4_R_palm
+14182.F4.Tongue	14182	F4_Tongue
+14182.M3.feces	14182	M3_feces
+14182.M3.L.palm	14182	M3_L_palm
+14182.M3.R.palm	14182	M3_R_palm
+14182.M3.Tongue	14182	M3_Tongue
+14183.F4.feces	14183	F4_feces
+14183.F4.L.palm	14183	F4_L_palm
+14183.F4.R.palm	14183	F4_R_palm
+14183.F4.Tongue	14183	F4_Tongue
+14183.M3.feces	14183	M3_feces
+14183.M3.L.palm	14183	M3_L_palm
+14183.M3.R.palm	14183	M3_R_palm
+14183.M3.Tongue	14183	M3_Tongue
+14184.F4.feces	14184	F4_feces
+14184.F4.L.palm	14184	F4_L_palm
+14184.F4.R.palm	14184	F4_R_palm
+14184.F4.Tongue	14184	F4_Tongue
+14184.M3.feces	14184	M3_feces
+14184.M3.L.palm	14184	M3_L_palm
+14184.M3.R.palm	14184	M3_R_palm
+14184.M3.Tongue	14184	M3_Tongue
+14185.F4.feces	14185	F4_feces
+14185.F4.L.palm	14185	F4_L_palm
+14185.F4.R.palm	14185	F4_R_palm
+14185.F4.Tongue	14185	F4_Tongue
+14185.M3.feces	14185	M3_feces
+14185.M3.L.palm	14185	M3_L_palm
+14185.M3.R.palm	14185	M3_R_palm
+14185.M3.Tongue	14185	M3_Tongue
+14186.F4.feces	14186	F4_feces
+14186.F4.L.palm	14186	F4_L_palm
+14186.F4.R.palm	14186	F4_R_palm
+14186.F4.Tongue	14186	F4_Tongue
+14186.M3.feces	14186	M3_feces
+14186.M3.L.palm	14186	M3_L_palm
+14186.M3.R.palm	14186	M3_R_palm
+14186.M3.Tongue	14186	M3_Tongue
+14189.F4.feces	14189	F4_feces
+14189.F4.L.palm	14189	F4_L_palm
+14189.F4.R.palm	14189	F4_R_palm
+14189.F4.Tongue	14189	F4_Tongue
+14189.M3.feces	14189	M3_feces
+14189.M3.L.palm	14189	M3_L_palm
+14189.M3.R.palm	14189	M3_R_palm
+14189.M3.Tongue	14189	M3_Tongue
+14193.F4.feces	14193	F4_feces
+14193.F4.L.palm	14193	F4_L_palm
+14193.F4.R.palm	14193	F4_R_palm
+14193.F4.Tongue	14193	F4_Tongue
+14193.M3.feces	14193	M3_feces
+14193.M3.L.palm	14193	M3_L_palm
+14193.M3.R.palm	14193	M3_R_palm
+14193.M3.Tongue	14193	M3_Tongue
+14198.F4.feces	14198	F4_feces
+14198.F4.L.palm	14198	F4_L_palm
+14198.F4.R.palm	14198	F4_R_palm
+14198.F4.Tongue	14198	F4_Tongue
+14198.M3.feces	14198	M3_feces
+14198.M3.L.palm	14198	M3_L_palm
+14198.M3.R.palm	14198	M3_R_palm
+14198.M3.Tongue	14198	M3_Tongue
+14204.F4.feces	14204	F4_feces
+14204.F4.L.palm	14204	F4_L_palm
+14204.F4.R.palm	14204	F4_R_palm
+14204.F4.Tongue	14204	F4_Tongue
+14204.M3.feces	14204	M3_feces
+14204.M3.L.palm	14204	M3_L_palm
+14204.M3.R.palm	14204	M3_R_palm
+14204.M3.Tongue	14204	M3_Tongue
+14219.F4.feces	14219	F4_feces
+14219.F4.L.palm	14219	F4_L_palm
+14219.F4.R.palm	14219	F4_R_palm
+14219.F4.Tongue	14219	F4_Tongue
+14219.M3.feces	14219	M3_feces
+14219.M3.L.palm	14219	M3_L_palm
+14219.M3.R.palm	14219	M3_R_palm
+14219.M3.Tongue	14219	M3_Tongue
+14330.M3.L.palm	14330	M3_L_palm
+14330.M3.R.palm	14330	M3_R_palm
+14330.M3.Tongue	14330	M3_Tongue
+14330.M3.feces	14330	M3_feces
+14330.F4.L.palm	14330	F4_L_palm
+14330.F4.R.palm	14330	F4_R_palm
+14330.F4.Tongue	14330	F4_Tongue
+14330.F4.feces	14330	F4_feces
+14331.M3.L.palm	14331	M3_L_palm
+14331.M3.R.palm	14331	M3_R_palm
+14331.M3.Tongue	14331	M3_Tongue
+14331.F4.L.palm	14331	F4_L_palm
+14331.F4.R.palm	14331	F4_R_palm
+14331.F4.Tongue	14331	F4_Tongue
+14331.F4.feces	14331	F4_feces
+14332.M3.L.palm	14332	M3_L_palm
+14332.M3.R.palm	14332	M3_R_palm
+14332.M3.Tongue	14332	M3_Tongue
+14332.M3.feces	14332	M3_feces
+14332.F4.L.palm	14332	F4_L_palm
+14332.F4.R.palm	14332	F4_R_palm
+14332.F4.Tongue	14332	F4_Tongue
+14333.M3.L.palm	14333	M3_L_palm
+14333.M3.R.palm	14333	M3_R_palm
+14333.M3.Tongue	14333	M3_Tongue
+14333.M3.feces	14333	M3_feces
+14333.F4.L.palm	14333	F4_L_palm
+14333.F4.R.palm	14333	F4_R_palm
+14333.F4.Tongue	14333	F4_Tongue
+14334.M3.L.palm	14334	M3_L_palm
+14334.M3.R.palm	14334	M3_R_palm
+14334.M3.Tongue	14334	M3_Tongue
+14334.M3.feces	14334	M3_feces
+14334.F4.L.palm	14334	F4_L_palm
+14334.F4.R.palm	14334	F4_R_palm
+14334.F4.Tongue	14334	F4_Tongue
+14334.F4.feces	14334	F4_feces
+14335.M3.L.palm	14335	M3_L_palm
+14335.M3.R.palm	14335	M3_R_palm
+14335.M3.Tongue	14335	M3_Tongue
+14336.M3.L.palm	14336	M3_L_palm
+14336.M3.R.palm	14336	M3_R_palm
+14336.M3.Tongue	14336	M3_Tongue
+14337.M3.L.palm	14337	M3_L_palm
+14337.M3.R.palm	14337	M3_R_palm
+14337.M3.Tongue	14337	M3_Tongue
+14337.M3.feces	14337	M3_feces
+14339.M3.R.palm	14339	M3_R_palm
+14339.M3.Tongue	14339	M3_Tongue
+14339.M3.feces	14339	M3_feces
+14339.F4.L.palm	14339	F4_L_palm
+14339.F4.R.palm	14339	F4_R_palm
+14339.F4.Tongue	14339	F4_Tongue
+14339.F4.feces	14339	F4_feces
+14340.M3.L.palm	14340	M3_L_palm
+14340.M3.R.palm	14340	M3_R_palm
+14340.M3.Tongue	14340	M3_Tongue
+14340.M3.feces	14340	M3_feces
+14340.F4.feces	14340	F4_feces
+14343.M3.L.palm	14343	M3_L_palm
+14343.M3.R.palm	14343	M3_R_palm
+14343.M3.Tongue	14343	M3_Tongue
+14343.M3.feces	14343	M3_feces
+14343.F4.L.palm	14343	F4_L_palm
+14343.F4.R.palm	14343	F4_R_palm
+14343.F4.Tongue	14343	F4_Tongue
+14344.M3.feces	14344	M3_feces
+14344.F4.L.palm	14344	F4_L_palm
+14344.F4.R.palm	14344	F4_R_palm
+14344.F4.Tongue	14344	F4_Tongue
+14344.F4.feces	14344	F4_feces
+14345.M3.L.palm	14345	M3_L_palm
+14345.M3.R.palm	14345	M3_R_palm
+14345.M3.Tongue	14345	M3_Tongue
+14345.M3.feces	14345	M3_feces
+14345.F4.L.palm	14345	F4_L_palm
+14345.F4.R.palm	14345	F4_R_palm
+14345.F4.Tongue	14345	F4_Tongue
+14345.F4.feces	14345	F4_feces
+14346.M3.L.palm	14346	M3_L_palm
+14346.M3.R.palm	14346	M3_R_palm
+14346.M3.Tongue	14346	M3_Tongue
+14346.M3.feces	14346	M3_feces
+14346.F4.L.palm	14346	F4_L_palm
+14346.F4.R.palm	14346	F4_R_palm
+14346.F4.Tongue	14346	F4_Tongue
+14346.F4.feces	14346	F4_feces
+14347.M3.L.palm	14347	M3_L_palm
+14347.M3.R.palm	14347	M3_R_palm
+14347.M3.Tongue	14347	M3_Tongue
+14347.M3.feces	14347	M3_feces
+14347.F4.L.palm	14347	F4_L_palm
+14347.F4.R.palm	14347	F4_R_palm
+14347.F4.Tongue	14347	F4_Tongue
+14347.F4.feces	14347	F4_feces
+14348.M3.L.palm	14348	M3_L_palm
+14348.M3.R.palm	14348	M3_R_palm
+14348.M3.Tongue	14348	M3_Tongue
+14348.M3.feces	14348	M3_feces
+14348.F4.L.palm	14348	F4_L_palm
+14348.F4.R.palm	14348	F4_R_palm
+14348.F4.Tongue	14348	F4_Tongue
+14349.M3.L.palm	14349	M3_L_palm
+14349.M3.R.palm	14349	M3_R_palm
+14349.M3.Tongue	14349	M3_Tongue
+14349.M3.feces	14349	M3_feces
+14349.F4.L.palm	14349	F4_L_palm
+14349.F4.R.palm	14349	F4_R_palm
+14349.F4.Tongue	14349	F4_Tongue
+14350.M3.L.palm	14350	M3_L_palm
+14350.M3.R.palm	14350	M3_R_palm
+14350.M3.Tongue	14350	M3_Tongue
+14350.M3.feces	14350	M3_feces
+14350.F4.L.palm	14350	F4_L_palm
+14350.F4.R.palm	14350	F4_R_palm
+14350.F4.Tongue	14350	F4_Tongue
+14350.F4.feces	14350	F4_feces
+14351.M3.L.palm	14351	M3_L_palm
+14351.M3.R.palm	14351	M3_R_palm
+14351.F4.L.palm	14351	F4_L_palm
+14351.F4.R.palm	14351	F4_R_palm
+14351.F4.Tongue	14351	F4_Tongue
+14351.F4.feces	14351	F4_feces
+14352.M3.L.palm	14352	M3_L_palm
+14352.M3.R.palm	14352	M3_R_palm
+14352.M3.Tongue	14352	M3_Tongue
+14352.M3.feces	14352	M3_feces
+14352.F4.L.palm	14352	F4_L_palm
+14352.F4.R.palm	14352	F4_R_palm
+14352.F4.Tongue	14352	F4_Tongue
+14352.F4.feces	14352	F4_feces
+14353.M3.L.palm	14353	M3_L_palm
+14353.M3.R.palm	14353	M3_R_palm
+14353.M3.Tongue	14353	M3_Tongue
+14353.M3.feces	14353	M3_feces
+14353.F4.L.palm	14353	F4_L_palm
+14353.F4.R.palm	14353	F4_R_palm
+14353.F4.Tongue	14353	F4_Tongue
+14353.F4.feces	14353	F4_feces
+14354.M3.L.palm	14354	M3_L_palm
+14354.M3.R.palm	14354	M3_R_palm
+14354.M3.Tongue	14354	M3_Tongue
+14354.M3.feces	14354	M3_feces
+14354.F4.L.palm	14354	F4_L_palm
+14354.F4.R.palm	14354	F4_R_palm
+14354.F4.Tongue	14354	F4_Tongue
+14354.F4.feces	14354	F4_feces
+14355.M3.L.palm	14355	M3_L_palm
+14355.M3.R.palm	14355	M3_R_palm
+14355.M3.Tongue	14355	M3_Tongue
+14355.M3.feces	14355	M3_feces
+14355.F4.L.palm	14355	F4_L_palm
+14355.F4.R.palm	14355	F4_R_palm
+14355.F4.Tongue	14355	F4_Tongue
+14355.F4.feces	14355	F4_feces
+14356.M3.L.palm	14356	M3_L_palm
+14356.M3.R.palm	14356	M3_R_palm
+14356.M3.Tongue	14356	M3_Tongue
+14356.M3.feces	14356	M3_feces
+14356.F4.L.palm	14356	F4_L_palm
+14356.F4.R.palm	14356	F4_R_palm
+14356.F4.Tongue	14356	F4_Tongue
+14356.F4.feces	14356	F4_feces
+14357.M3.L.palm	14357	M3_L_palm
+14357.M3.R.palm	14357	M3_R_palm
+14357.M3.Tongue	14357	M3_Tongue
+14357.F4.L.palm	14357	F4_L_palm
+14357.F4.R.palm	14357	F4_R_palm
+14357.F4.Tongue	14357	F4_Tongue
+14357.F4.feces	14357	F4_feces
+14358.M3.L.palm	14358	M3_L_palm
+14358.M3.R.palm	14358	M3_R_palm
+14358.M3.Tongue	14358	M3_Tongue
+14358.M3.feces	14358	M3_feces
+14358.F4.L.palm	14358	F4_L_palm
+14358.F4.R.palm	14358	F4_R_palm
+14358.F4.Tongue	14358	F4_Tongue
+14358.F4.feces	14358	F4_feces
+14185.M3.R.palm	14185	M3_R_palm

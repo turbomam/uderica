@@ -1,0 +1,74 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleType	All between SampleType	-12.1460411154	2.72591624775e-30	1.79910472352e-28	0.001	0.066
+All within SampleType	left palm vs. left palm	-0.810150859144	0.419103595411	1	0.429	1.000
+All within SampleType	right palm vs. right palm	-4.07552931816	7.17488259924e-05	0.0047354225155	0.001	0.066
+All within SampleType	tongue vs. tongue	0.824079578253	0.411105964655	1	0.409	1.000
+All within SampleType	gut vs. gut	5.29189109368	4.09811578894e-07	2.7047564207e-05	0.001	0.066
+All within SampleType	left palm vs. right palm	-2.83817938889	0.00500987309821	0.330651624482	0.006	0.396
+All within SampleType	left palm vs. tongue	-4.25258657777	3.25572475748e-05	0.00214877833994	0.001	0.066
+All within SampleType	left palm vs. gut	-17.0508874752	3.71936841398e-40	2.45478315323e-38	0.001	0.066
+All within SampleType	right palm vs. tongue	-8.52009438679	3.29707958253e-15	2.17607252447e-13	0.001	0.066
+All within SampleType	right palm vs. gut	-8.84440192604	5.09034484177e-16	3.35962759557e-14	0.001	0.066
+All within SampleType	tongue vs. gut	-20.413244375	1.34465422953e-50	8.87471791491e-49	0.001	0.066
+All between SampleType	left palm vs. left palm	5.52627567954	5.49259087101e-08	3.62510997487e-06	0.001	0.066
+All between SampleType	right palm vs. right palm	2.78229252057	0.00561624083039	0.370671894806	0.009	0.594
+All between SampleType	tongue vs. tongue	7.78237187304	4.61852778244e-14	3.04822833641e-12	0.001	0.066
+All between SampleType	gut vs. gut	10.9090615387	0.0	0.0	0.001	0.066
+All between SampleType	left palm vs. right palm	6.40520733488	3.45233841514e-10	2.278543354e-08	0.001	0.066
+All between SampleType	left palm vs. tongue	5.80217987491	1.15904210674e-08	7.64967790445e-07	0.001	0.066
+All between SampleType	left palm vs. gut	-5.5173545661	5.55662355692e-08	3.66737154756e-06	0.001	0.066
+All between SampleType	right palm vs. tongue	1.50370071903	0.133275003943	1	0.146	1.000
+All between SampleType	right palm vs. gut	-0.778221120038	0.436804575878	1	0.407	1.000
+All between SampleType	tongue vs. gut	-8.35265683109	6.53158133673e-16	4.31084368224e-14	0.001	0.066
+left palm vs. left palm	right palm vs. right palm	-2.67149666594	0.00963375104251	0.635827568805	0.008	0.528
+left palm vs. left palm	tongue vs. tongue	2.09325975363	0.0404235225806	1	0.032	1.000
+left palm vs. left palm	gut vs. gut	11.5192957319	4.4408920985e-16	2.93098878501e-14	0.001	0.066
+left palm vs. left palm	left palm vs. right palm	-1.28015194477	0.203513626573	1	0.172	1.000
+left palm vs. left palm	left palm vs. tongue	-2.96040669679	0.00385343496343	0.254326707586	0.002	0.132
+left palm vs. left palm	left palm vs. gut	-27.7513535728	6.79857160342e-46	4.48705725826e-44	0.001	0.066
+left palm vs. left palm	right palm vs. tongue	-5.6621953324	1.26784157196e-07	8.36775437492e-06	0.001	0.066
+left palm vs. left palm	right palm vs. gut	-5.06460849547	1.92319011811e-06	0.000126930547795	0.001	0.066
+left palm vs. left palm	tongue vs. gut	-25.5846689055	3.58093639522e-45	2.36341802085e-43	0.001	0.066
+right palm vs. right palm	tongue vs. tongue	4.16703185656	8.68532499316e-05	0.00573231449549	0.001	0.066
+right palm vs. right palm	gut vs. gut	7.77957189786	9.54942791509e-11	6.30262242396e-09	0.001	0.066
+right palm vs. right palm	left palm vs. right palm	1.60826297889	0.110752136882	1	0.109	1.000
+right palm vs. right palm	left palm vs. tongue	1.39312777245	0.166495840503	1	0.165	1.000
+right palm vs. right palm	left palm vs. gut	-8.68963240743	8.38733100619e-14	5.53563846408e-12	0.001	0.066
+right palm vs. right palm	right palm vs. tongue	-1.76389954544	0.0804044261643	1	0.079	1.000
+right palm vs. right palm	right palm vs. gut	-2.52838966638	0.0129324126195	0.85353923289	0.012	0.792
+right palm vs. right palm	tongue vs. gut	-10.8670058613	6.20097694021e-19	4.09264478054e-17	0.001	0.066
+tongue vs. tongue	gut vs. gut	6.8032227198	4.70499084138e-09	3.10529395531e-07	0.001	0.066
+tongue vs. tongue	left palm vs. right palm	-2.91796177896	0.0043025085293	0.283965562934	0.004	0.264
+tongue vs. tongue	left palm vs. tongue	-5.33455227674	5.46746674318e-07	3.6085280505e-05	0.001	0.066
+tongue vs. tongue	left palm vs. gut	-26.4659060773	1.96400806609e-46	1.29624532362e-44	0.001	0.066
+tongue vs. tongue	right palm vs. tongue	-7.91876146515	1.66887426151e-12	1.1014570126e-10	0.001	0.066
+tongue vs. tongue	right palm vs. gut	-6.85959518724	4.78834634519e-10	3.16030858782e-08	0.001	0.066
+tongue vs. tongue	tongue vs. gut	-26.936255619	3.19217183605e-49	2.10683341179e-47	0.001	0.066
+gut vs. gut	left palm vs. right palm	-6.85640722958	6.34921934762e-10	4.19048476943e-08	0.001	0.066
+gut vs. gut	left palm vs. tongue	-12.3960633789	8.70155855439e-22	5.7430286459e-20	0.001	0.066
+gut vs. gut	left palm vs. gut	-62.6218346719	5.25492988515e-76	3.4682537242e-74	0.001	0.066
+gut vs. gut	right palm vs. tongue	-12.6608503438	5.27817816252e-23	3.48359758726e-21	0.001	0.066
+gut vs. gut	right palm vs. gut	-9.69390116992	5.58949072307e-16	3.68906387723e-14	0.001	0.066
+gut vs. gut	tongue vs. gut	-45.0704994515	2.51891766918e-67	1.66248566166e-65	0.001	0.066
+left palm vs. right palm	left palm vs. tongue	-0.82586674055	0.410265083083	1	0.417	1.000
+left palm vs. right palm	left palm vs. gut	-12.3360166485	7.82375385702e-24	5.16367754563e-22	0.001	0.066
+left palm vs. right palm	right palm vs. tongue	-4.51411583106	1.27192813106e-05	0.000839472566498	0.001	0.066
+left palm vs. right palm	right palm vs. gut	-5.11117691664	1.01618272609e-06	6.70680599222e-05	0.001	0.066
+left palm vs. right palm	tongue vs. gut	-15.0953194878	2.56714027402e-31	1.69431258085e-29	0.001	0.066
+left palm vs. tongue	left palm vs. gut	-18.7973601166	2.17481835749e-39	1.43538011594e-37	0.001	0.066
+left palm vs. tongue	right palm vs. tongue	-4.72770505383	5.16289176518e-06	0.000340750856502	0.001	0.066
+left palm vs. tongue	right palm vs. gut	-5.23731560855	5.75767955192e-07	3.80006850427e-05	0.001	0.066
+left palm vs. tongue	tongue vs. gut	-21.8947591468	2.31506683684e-47	1.52794411232e-45	0.001	0.066
+left palm vs. gut	right palm vs. tongue	8.72299956789	6.43929354283e-15	4.24993373827e-13	0.001	0.066
+left palm vs. gut	right palm vs. gut	3.98065130037	0.000112088876166	0.00739786582696	0.001	0.066
+left palm vs. gut	tongue vs. gut	-6.3894634181	2.54119118867e-09	1.67718618452e-07	0.001	0.066
+right palm vs. tongue	right palm vs. gut	-1.74474883025	0.0830631471086	1	0.088	1.000
+right palm vs. tongue	tongue vs. gut	-11.8273799558	2.94629942727e-23	1.944557622e-21	0.001	0.066
+right palm vs. gut	tongue vs. gut	-6.21050075598	5.49958299021e-09	3.62972477354e-07	0.001	0.066

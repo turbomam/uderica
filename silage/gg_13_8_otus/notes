@@ -1,0 +1,14 @@
+8.15.13
+--
+
+Greengenes minor release to address missing genus and species names. These
+corrections were sourced by the OTU clusters for the 99% OTUs. Specifically,
+For each OTU, if it lacked a genus or a species name, the NCBI taxonomy of
+the cluster members were examined and the most supported name(s) were chosen
+to update the taxonomy of the representative sequence. Taxonomy information
+was then propagated to all the lower similarity representative sequences.
+
+A few key notes:
+- The annotated trees do not reflect these taxonomy updates
+- The tree topology was not updated
+- Only the taxonomy/ files have been modified from the GG 13_5 release

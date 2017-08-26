@@ -1,0 +1,16 @@
+# Constructed from biom file
+#OTU ID	0	126
+Unassigned;Other	0.00723237109545	0.000903198097239
+k__Bacteria;p__Acidobacteria	0.000457218862356	9.02295801437e-06
+k__Bacteria;p__Actinobacteria	0.021478895193	0.00159525897694
+k__Bacteria;p__Armatimonadetes	3.11740133425e-05	0.0
+k__Bacteria;p__Bacteroidetes	0.0747033273064	0.00952643907157
+k__Bacteria;p__Chloroflexi	7.27393644658e-05	0.0
+k__Bacteria;p__Cyanobacteria	0.344192281314	0.000517917790025
+k__Bacteria;p__Firmicutes	0.00496705945923	0.943807724374
+k__Bacteria;p__Fusobacteria	0.0	7.2183664115e-06
+k__Bacteria;p__Gemmatimonadetes	7.27393644658e-05	0.0
+k__Bacteria;p__Planctomycetes	0.000280566120082	1.08275496172e-05
+k__Bacteria;p__Proteobacteria	0.545805016938	0.0436124675625
+k__Bacteria;p__Tenericutes	0.0	7.2183664115e-06
+k__Bacteria;p__Verrucomicrobia	0.000706610969096	2.70688740431e-06

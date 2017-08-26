@@ -1,0 +1,121 @@
+[2017-08-15 20:19:07,695] multiqc                                            [DEBUG  ]  No MultiQC config found: /usr/local/lib/python2.7/dist-packages/multiqc_config.yaml
+[2017-08-15 20:19:07,695] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/mark/.multiqc_config.yaml
+[2017-08-15 20:19:07,695] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2017-08-15 20:19:07,695] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc /home/mark/silage/16s/pairedReads/fastqc -o /home/mark/silage/16s/pairedReads/multiqc
+[2017-08-15 20:19:08,577] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.1
+[2017-08-15 20:19:08,578] multiqc                                            [INFO   ]  This is MultiQC v1.1
+[2017-08-15 20:19:08,578] multiqc                                            [DEBUG  ]  Command     : /usr/local/bin/multiqc /home/mark/silage/16s/pairedReads/fastqc -o /home/mark/silage/16s/pairedReads/multiqc
+[2017-08-15 20:19:08,578] multiqc                                            [DEBUG  ]  Working dir : /home/mark/silage
+[2017-08-15 20:19:08,578] multiqc                                            [INFO   ]  Template    : default
+[2017-08-15 20:19:08,578] multiqc                                            [INFO   ]  Searching '/home/mark/silage/16s/pairedReads/fastqc'
+[2017-08-15 20:19:08,579] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, qualimap, preseq, quast, qorts, rna_seqc, rseqc, busco, goleft_indexcov, disambiguate, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, jellyfish, bismark, hicup, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, adapterRemoval, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, fastqc, clusterflow
+[2017-08-15 20:19:08,579] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpQSDtEb
+[2017-08-15 20:19:08,620] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-146-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,621] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-175-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,621] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-166-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,621] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-155-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,622] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-177-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,622] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-173-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,622] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-158-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,622] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-153-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,622] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-173-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,623] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-162-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,623] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-171-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,623] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-148-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,624] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-156-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,624] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-155-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,624] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-153-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,624] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-167-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,625] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-161-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,625] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-157-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,626] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-175-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,627] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-163-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,630] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-167-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,630] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-157-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,631] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-150-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,631] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-178-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,632] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-176-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,632] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-147-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,633] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-151-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,633] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-161-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,633] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-147-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,634] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-171-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,635] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-151-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,635] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-160-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,636] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-168-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,637] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-172-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,640] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-162-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,640] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-176-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,640] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-160-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,641] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-168-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,641] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-150-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,641] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-170-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,642] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-152-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,642] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-165-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,642] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-146-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,644] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-172-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,645] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-158-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,645] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-152-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,645] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-178-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,645] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-148-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,646] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-166-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,646] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-163-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,646] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-170-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,647] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-165-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,647] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-156-MS515F-926R_R1_fastqc.html
+[2017-08-15 20:19:08,648] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-177-MS515F-926R_R2_fastqc.html
+[2017-08-15 20:19:08,864] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2017-08-15 20:19:08,866] multiqc.modules.conpair.conpair                    [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,869] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,871] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,873] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2017-08-15 20:19:08,873] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,876] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,878] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,880] multiqc.modules.qorts.qorts                        [DEBUG  ]  Could not find any QoRTs data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,882] multiqc.modules.rna_seqc.rna_seqc                  [DEBUG  ]  Could not find any RNA-SeQC data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,886] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,888] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,890] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,892] multiqc.modules.disambiguate.disambiguate          [DEBUG  ]  Could not find any data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,895] multiqc.modules.homer.homer                        [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,898] multiqc.modules.macs2.macs2                        [DEBUG  ]  Could not find any MACS2 data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,900] multiqc.modules.theta2.theta2                      [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,902] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,904] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,906] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,908] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,910] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,914] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,916] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,918] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,921] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,923] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,925] multiqc.modules.jellyfish.jellyfish                [DEBUG  ]  Could not find any data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,927] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,929] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,931] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,933] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,935] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2017-08-15 20:19:08,937] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,939] multiqc.modules.hisat2.hisat2                      [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,941] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,943] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,945] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,947] multiqc.modules.adapterRemoval.adapterRemoval      [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,949] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,951] multiqc.modules.flexbar.flexbar                    [DEBUG  ]  Could not find any Flexbar data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,953] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,955] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,957] multiqc.modules.sortmerna.sortmerna                [DEBUG  ]  Could not find any SortMeRNA data in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,959] multiqc.modules.biobloomtools.biobloomtools        [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:08,961] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:11,665] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 54 reports
+[2017-08-15 20:19:15,568] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('/home/mark/silage/16s/pairedReads/fastqc',)
+[2017-08-15 20:19:15,634] multiqc                                            [INFO   ]  Compressing plot data
+[2017-08-15 20:19:17,961] multiqc                                            [INFO   ]  Report      : 16s/pairedReads/multiqc/multiqc_report.html
+[2017-08-15 20:19:17,961] multiqc                                            [INFO   ]  Data        : 16s/pairedReads/multiqc/multiqc_data
+[2017-08-15 20:19:17,961] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpQSDtEb/multiqc_data/multiqc_general_stats.txt' to '/home/mark/silage/16s/pairedReads/multiqc/multiqc_data'
+[2017-08-15 20:19:17,962] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpQSDtEb/multiqc_data/multiqc_sources.txt' to '/home/mark/silage/16s/pairedReads/multiqc/multiqc_data'
+[2017-08-15 20:19:17,962] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpQSDtEb/multiqc_data/multiqc_fastqc.txt' to '/home/mark/silage/16s/pairedReads/multiqc/multiqc_data'
+[2017-08-15 20:19:18,077] multiqc                                            [INFO   ]  MultiQC complete

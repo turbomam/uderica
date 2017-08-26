@@ -1,0 +1,216 @@
+﻿Workflow:  Miseq Data analysis:  
+The Example is a comparison of samples 14, 14M, and 14Q
+
+The QIIME scripts are described on the QIIME website:  qiime.org/scripts
+
+
+
+First, get data.  I have uploaded some data files onto dropbox.  Let me know if you did not get the link.
+I have chosen 3 sets of data files that are comparable, 14, 14M, and 14Q:  
+
+16S_v3_5_14_TCATCATGCG_R1.fastq
+16S_v3_5_14_TCATCATGCG_R2.fastq
+
+16S_v3_5_14M_GGTGTCTTGT_R1.fastq
+16S_v3_5_14M_GGTGTCTTGT_R2.fastq
+
+16S_v3_5_14Q_GGAAGTAAGG_R1.fastq 
+16S_v3_5_14Q_GGAAGTAAGG_R2.fastq
+
+
+####1.  Use FLASh to mate pairs:
+
+Get software here:  
+https://ccb.jhu.edu/software/FLASH/
+
+cd into FLASH in your downloads folder
+type make
+move the flash executable into the folder where your reads are located. 
+sample command for two sets of reads
+
+flash 4924-712-MS515F-926R_R1.fastq 4924-712-MS515F-926R_R2.fastq -o 712
+
+
+Flash makes 5 files for each pair of reads
+/home/asbiddle/14.extendedFrags.fastq **** this is the file you will use for fastqc (next) and splitseqs (after that)
+/home/asbiddle/14.hist
+/home/asbiddle/14.histogram **** opens in Word. Will show a distribution of your read lengths, but not as useful as the next step
+/home/asbiddle/14.notCombined_1.fastq
+/home/asbiddle/14.notCombined_2.fastq
+
+
+Default Parameters:
+[FLASH]     Min overlap:          10
+[FLASH]     Max overlap:          65
+[FLASH]     Phred offset:         33
+[FLASH]     Combiner threads:     4
+[FLASH]     Max mismatch density: 0.250000
+[FLASH]     Output format:        text
+[FLASH]     Interleaved input:    false
+[FLASH]     Interleaved output:   false
+
+There are lots of options for changing default behavior:  https://wiki.gacrc.uga.edu/wiki/FLASH
+
+
+
+####2.  Use fastqc to look at the quality profile for your reads
+http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+
+Sample command
+fastqc 14.extendedFrags.fastq
+
+Fastqc makes 2 files
+/home/asbiddle/14.extendedFrags_fastqc.html **** look at this file to see what your profile of reads is
+/home/asbiddle/14.extendedFrags_fastqc.zip
+
+Since there tends to be consistency in sequencing (unless you notice that one of your samples seems very different than the others), you do not need to run fastqc on every file at this step
+
+
+
+####3. Make your mapping file for qiime  
+See this link for more information about qiime file formats:  http://qiime.org/documentation/index.html
+
+In a text editor (like Textwrangler) or excel, make a tab delim txt file: example
+Required headings 
+#SampleID	BarcodeSequence	LinkerPrimerSequence	ReversePrimer	Description
+14	TCATCATGCG	CCTACGGGAGGCAGCAG	CCGTCAATTCMTTTRAGT	14
+14M	GGTGTCTTGT	CCTACGGGAGGCAGCAG	CCGTCAATTCMTTTRAGT	14M
+14Q	GGAAGTAAGG	CCTACGGGAGGCAGCAG	CCGTCAATTCMTTTRAGT	14Q
+
+
+Save as map3.txt
+
+Use qiime to validate mapping file format.  It will always find problems, and will reformat.  Use the reformatted file.
+
+$validate_mapping_file.py -m map3.txt -o map_out
+
+Look at the reformatted mapping file to be sure that nothing is wonky.  Move it into the current directory and rename it so this is the one you are using
+
+
+
+####4.  Use qiime to filter/ trim reads for quality and trim primers
+http://qiime.org/scripts/split_libraries.html
+
+
+MacQIIME Amys-MacBook-Pro:qiime_pra2 $ split_libraries_fastq.py -o ./14Msplit2/ -i ./14M.extendedFrags.fastq --barcode_type 'not-barcoded' --sample_id 14M -m map3.txt 
+MacQIIME Amys-MacBook-Pro:qiime_pra2 $ split_libraries_fastq.py -o ./14Qsplit/ -i ./14Q.extendedFrags.fastq --barcode_type 'not-barcoded' --sample_id 14Q -m map3.txt 
+MacQIIME Amys-MacBook-Pro:qiime_pra2 $ split_libraries_fastq.py -o ./14split/ -i ./14.extendedFrags.fastq --barcode_type 'not-barcoded' --sample_id 14 -m map3.txt
+
+output for each: 
+histograms.txt
+seqs.fna ##### this is the file that you need for the next step, rename it:  14seqs.fna
+split_library_log.txt
+
+
+
+####5: Since we are comparing more than one sequence file,
+Concatenate seq files => 1 file
+In terminal cd to folder where your seq.fna files are located
+
+Amys-MacBook-Pro:qiime_pra2 amybiddle$ cat /Users/amybiddle/Desktop/qiime_pra2/14split/14seqs.fna /Users/amybiddle/Desktop/qiime_pra2/14Qsplit/14Qseqs.fna /Users/amybiddle/Desktop/qiime_pra2/14Msplit/14Mseqs.fna > ./14All.fna
+
+
+####6: otu picking
+This step takes a LONG time, and requires a lot of your computer’s attention.  You may want to close unneeded programs to give your computer a break.
+
+You will need a reference file.  You will find the most recent version (13_8) at this website:  
+http://qiime.org/home_static/dataFiles.html
+
+It will download a large file called gg_13_8_otus.tar.gz
+Unzip.  The file you want is ./rep_set/97_otus.fasta
+You can either put the file in the directory where you are working or give the whole path if it is in your Downloads folder (as I have done below).
+
+Also, you will need to make a parameter file using textedit or textWrangler.  
+Call it otu_pick_para.txt
+It should have just a single line of text:
+
+pick_otus:enable_rev_strand_match True
+
+
+Now, in QIIME:
+MacQIIME Amys-MacBook-Pro:qiime_pra2 $ pick_open_reference_otus.py -i ./14All.fna -o./14All_otus -r /Users/amybiddle/Downloads/gg_13_8_otus/rep_set/97_otus.fasta -m uclust -p ./otu_pick_para.txt
+
+The output will be a folder called 14All_otus containing a bunch of really useful files and folders
+
+map_reads_to_reference.py -i allfile.fna -o all_otu -r 99_otus.fasta -t 99_otu_taxonomy.txt -m usearch 
+
+#####7:  To see a summary of the otu table that you have made:
+MacQIIME Amys-MacBook-Pro:qiime_pra2 $ biom summarize-table -i 14All_otus/otu_table_mc2_w_tax_no_pynast_failures.biom 
+ 
+output:  
+Num samples: 3
+Num observations: 14339
+Total count: 171949
+Table density (fraction of non-zero values): 0.565
+
+Counts/sample summary:
+ Min: 44025.0
+ Max: 66190.0
+ Median: 61734.000
+ Mean: 57316.333
+ Std. dev.: 9572.831
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+ 14: 44025.0
+ 14Q: 61734.0
+ 14M: 66190.0
+
+
+####9: Filter out singles and doubles
+MacQIIME Amys-MacBook-Pro:qiime_pra2 $ filter_otus_from_otu_table.py -i ./14All_otus/otu_table_mc2_w_tax_no_pynast_failures.biom -o ./14All_otus/otu_table_no_sing_doub -n 3
+
+The summary of this table:
+Num samples: 3
+Num observations: 5978
+Total count: 155227
+Table density (fraction of non-zero values): 0.768
+
+Counts/sample summary:
+ Min: 38716.0
+ Max: 61520.0
+ Median: 54991.000
+ Mean: 51742.333
+ Std. dev.: 9588.917
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+ 14: 38716.0
+ 14Q: 54991.0
+ 14M: 61520.0
+
+
+####8: Core Diversity analysis:  without beta diversity because there are only three samples
+This workflow will take a bit of time, but does not tie up your computer like the OTU picking step.
+It is a nice first pass to have a look at patterns in your data.  Note that with -c you can designate factors in your mapping file to analyze.
+ 
+
+MacQIIME Amys-MacBook-Pro:qiime_pra2 $ core_diversity_analyses.py -i ./14All_otus/otu_table_no_sing_doub -m map3.txt -o 14_Core_diversity_no_beta -e 35000 -t ./14All_otus/rep_set.tre --suppress_beta_diversity
+
+This will make a folder called Core_diversity_no_beta with a bunch of files. 
+Open index.html 
+Here you can look at all of the plots that QIIME has made of the bacteria that are there.
+
+
+QIIME plots are not pretty, so we will make our own in R, but at least you can have a look at the data this way.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

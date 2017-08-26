@@ -1,0 +1,42 @@
+Num samples: 27
+Num observations: 3729
+Total count: 1203545
+Table density (fraction of non-zero values): 0.145
+
+Counts/sample summary:
+ Min: 16043.0
+ Max: 60526.0
+ Median: 46556.000
+ Mean: 44575.741
+ Std. dev.: 10081.523
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+160: 16043.0
+146: 29219.0
+158: 32106.0
+148: 32717.0
+147: 34340.0
+151: 36615.0
+156: 38035.0
+153: 38386.0
+162: 40594.0
+157: 41233.0
+152: 42475.0
+163: 44056.0
+155: 45540.0
+150: 46556.0
+161: 46566.0
+173: 46728.0
+172: 46877.0
+165: 50720.0
+177: 51026.0
+167: 52513.0
+171: 52600.0
+175: 52903.0
+176: 53962.0
+166: 54562.0
+170: 57296.0
+178: 59351.0
+168: 60526.0

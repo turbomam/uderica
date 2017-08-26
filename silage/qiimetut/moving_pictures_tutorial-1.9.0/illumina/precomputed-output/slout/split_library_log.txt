@@ -1,0 +1,53 @@
+Input file paths
+Mapping filepath: map.tsv (md5: f59d06b2c7b7ae60f51b6fa43100ec95)
+Sequence read filepath: forward_reads.fastq.gz (md5: 98583bdb65d548306330ebc62b55f00e)
+Barcode read filepath: barcodes.fastq.gz (md5: 8271be186c35f3cb14a8b5ae760c2f7d)
+
+Quality filter results
+Total number of input sequences: 302581
+Barcode not in mapping file: 37594
+Read too short after quality truncation: 76502
+Count of N characters exceeds limit: 1074
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 1078
+
+Result summary (after quality filtering)
+Median sequence length: 133.00
+L4S137	11642
+L4S63	11506
+L1S208	10148
+L4S112	10012
+L1S57	10001
+L1S105	9232
+L1S76	8984
+L1S140	8584
+L6S93	8580
+L1S8	8434
+L6S20	7930
+L1S281	7764
+L6S68	7310
+L1S257	7302
+L2S240	7110
+L2S175	5575
+L2S382	5126
+L2S155	5066
+L2S222	4459
+L2S204	4349
+L2S357	3100
+L5S222	2791
+L5S104	2520
+L5S203	2363
+L5S174	2195
+L5S240	2139
+L5S155	1995
+L2S309	1905
+L3S378	1588
+L3S294	1523
+L3S360	1342
+L3S313	1340
+L3S341	1293
+L3S242	1125
+
+Total number seqs written	186333
+---
+

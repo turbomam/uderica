@@ -1,0 +1,18 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within day	All between day	-20.1624068139	1.70841014659e-60	1.70841014659e-59	0.001	0.010
+All within day	0 vs. 0	3.45198325324	0.000642422596542	0.00642422596542	0.001	0.010
+All within day	126 vs. 126	-0.257934237984	0.796553619814	1	0.797	1.000
+All within day	0 vs. 126	-20.1624068139	1.70841014659e-60	1.70841014659e-59	0.001	0.010
+All between day	0 vs. 0	11.7300032374	0.0	0.0	0.001	0.010
+All between day	126 vs. 126	20.2899003744	0.0	0.0	0.001	0.010
+All between day	0 vs. 126	0.0	1.0	1	1.000	1.000
+0 vs. 0	126 vs. 126	-3.55032039343	0.000451927171893	0.00451927171893	0.001	0.010
+0 vs. 0	0 vs. 126	-11.7300032374	1.83559415444e-18	1.83559415444e-17	0.001	0.010
+126 vs. 126	0 vs. 126	-20.2899003744	7.45796794284e-61	7.45796794284e-60	0.001	0.010

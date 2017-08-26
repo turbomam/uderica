@@ -1,0 +1,17 @@
+Input file paths
+Sequence read filepath: /home/mark/silage/16s/pairedReads/flashed/extended/sample_161.extendedFrags.fastq (md5: e0078af9a2cf202523906a48d2e18dc0)
+Quality filter results
+Total number of input sequences: 47750
+Barcode not in mapping file: 0
+Read too short after quality truncation: 3
+Count of N characters exceeds limit: 102
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+161	47645
+
+Total number seqs written	47645
+---
+

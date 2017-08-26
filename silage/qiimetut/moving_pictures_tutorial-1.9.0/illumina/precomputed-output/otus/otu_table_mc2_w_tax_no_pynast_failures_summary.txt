@@ -1,0 +1,49 @@
+Num samples: 34
+Num observations: 3426
+Total count: 182141
+Table density (fraction of non-zero values): 0.122
+
+Counts/sample summary:
+ Min: 1114.0
+ Max: 11449.0
+ Median: 4965.000
+ Mean: 5357.088
+ Std. dev.: 3333.937
+ Sample Metadata Categories: 
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+ L3S242: 1114.0
+ L3S341: 1234.0
+ L3S360: 1240.0
+ L3S313: 1304.0
+ L3S294: 1472.0
+ L3S378: 1558.0
+ L2S309: 1842.0
+ L5S155: 1982.0
+ L5S240: 2127.0
+ L5S174: 2176.0
+ L5S203: 2352.0
+ L5S104: 2505.0
+ L5S222: 2771.0
+ L2S357: 3016.0
+ L2S222: 4035.0
+ L2S204: 4131.0
+ L2S155: 4878.0
+ L2S382: 5052.0
+ L2S175: 5437.0
+ L2S240: 7054.0
+ L1S257: 7165.0
+ L6S68: 7281.0
+ L1S281: 7548.0
+ L6S20: 7882.0
+ L1S8: 8320.0
+ L1S140: 8477.0
+ L6S93: 8509.0
+ L1S76: 8837.0
+ L1S105: 9065.0
+ L4S112: 9708.0
+ L1S57: 9793.0
+ L1S208: 9862.0
+ L4S63: 10965.0
+ L4S137: 11449.0
