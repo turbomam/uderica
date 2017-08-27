@@ -1,12 +1,20 @@
 #!/bin/bash
 
-# TODO add usage statement (on -h or if problems with getopts?)
+# not showing steps required to download reference seqe3unce files, etc, provided by Amy via Erica 
 
-# reset this POSIX env var in case getopts has been used previously in the shell
+# top priorities:  
+#    find appropriate flash overlap setting. esp. max, maybe min, too
+#    find appropriate min coverage depth for core diversity (doesn't really impact anything "after"?) 
+#    especially in context of iys:
+#        what to do with unmapped?  
+#        pick_open_reference_otus.py and map_reads_to_reference.py?
+
+# reset this POSIX env var in case getopts has been used previously in this shell
 OPTIND=1
 
 # initialize options-related variables if necessary
 
+# usage statement (on -h or if problems with getopts?)
 function show_usage_help()
 {
     echo "usage: $0 -c <configuration file>"
@@ -62,6 +70,10 @@ cat ${CONFIG_FILE} >> ${LOG_FILE}
 # list2fasta4mafft.py
 #  merge the mapping file with the experimental metadata?  see expectations below
 validate_mapping_file.py -m ${QIIME_MAPPING_FILE} -o ${QIIME_MAPPING_FILE}_mapcheck
+
+###
+### CHANGE THIS TO USE A SINGLE INPUT FILE
+###
 
 
 # initial fastqc
@@ -119,8 +131,8 @@ if [ $DO_FLASH == "TRUE" ]
     FLASH_COMMAND="${FLASH_PATH} ${CURRENT_R1} ${CURRENT_R2} -M ${FLASH_OVERLAP} -d ${FLASHED_DIR} -o sample_${p}"
     echo ${FLASH_COMMAND}
     ${FLASH_COMMAND} | tee -a ${LOG_FILE}
-
-  done < <(awk 'BEGIN {FS="\t"}; NR>2 {print $5}' ${SAMPLE_METADATA_FILE})
+#    done < <(awk 'BEGIN {FS="\t"}; NR>2 {print $5}' ${SAMPLE_METADATA_FILE})
+    done < <(awk 'BEGIN {FS="\t"}; NR>2 {print $1}' ${QIIME_MAPPING_FILE})
 
   mkdir ${EXTENDED_DIR}
 
@@ -187,7 +199,8 @@ split_libraries_fastq.py -m ${QIIME_MAPPING_FILE} -i ${EXTENDED_DIR}/sample_${p}
       # or set number of threads?  by default appears to be single-threaded
       # java heap memory prob irrelevant?
   
-    done < <(awk 'BEGIN {FS="\t"}; NR>2 {print $5}' ${SAMPLE_METADATA_FILE})
+#    done < <(awk 'BEGIN {FS="\t"}; NR>2 {print $5}' ${SAMPLE_METADATA_FILE})
+    done < <(awk 'BEGIN {FS="\t"}; NR>2 {print $1}' ${QIIME_MAPPING_FILE})
   
     wait
 
@@ -200,19 +213,43 @@ if [ $DO_QIIME_PICK == "TRUE" ]
 
     echo `date` "start OTU picking" | tee -a ${LOG_FILE}
 
-    # pick_open_reference_otus.py -i ./14All.fna -o./14All_otus -r /Users/amybiddle/Downloads/gg_13_8_otus/rep_set/97_otus.fasta -m uclust -p ./otu_pick_para.txt
-    pick_open_reference_otus.py -i ${EXTENDED_DIR}/flash_trim_cat.fna -o ${PICKED_DIR} -r ${REF_SEQ_FILE} -m uclust -p ${OTU_PICK_PARAM_FILE} -a -O ${THREAD_CT} -f
+    # 16S
+    # pick_open_reference_otus.py
+    # -i ./14All.fna 
+    # -m uclust 
+    # -o./14All_otus 
+    # -p ./otu_pick_para.txt
+    # -r /Users/amybiddle/Downloads/gg_13_8_otus/rep_set/97_otus.fasta 
+
+    # its... implict -m uclust?
+    # pick_open_reference_otus.py \
+    # -i its-soils-tutorial/seqs.fna \
+    # -o otus/ \
+    # -p its-soils-tutorial/params.txt \
+    # -r its_12_11_otus/rep_set/97_otus.fasta \
+    # --suppress_align_and_tree
+
+    # -a = parllel
+    # -f = force overwrite
+    pick_open_reference_otus.py \
+        -a \
+        -f \
+        -i ${EXTENDED_DIR}/flash_trim_cat.fna \
+        -m uclust \
+        -o ${PICKED_DIR} \
+        -O ${THREAD_CT} \
+        -p ${OTU_PICK_PARAM_FILE} 
+        -r ${REF_SEQ_FILE} | tee -a ${LOG_FILE} 
 
     echo `date` "OTU picking complete" | tee -a ${LOG_FILE}
 
     # using force, make that optional
     # running 6 threads in parallel if possible, make that optyional
     # took ~ 9 minutes for the understudy 16s
+
+    ## skip this?
+    # map_reads_to_reference.py -i allfile.fna -o all_otu -r 99_otus.fasta -t 99_otu_taxonomy.txt -m usearch
 fi
-
-
-## skip this?
-# map_reads_to_reference.py -i allfile.fna -o all_otu -r 99_otus.fasta -t 99_otu_taxonomy.txt -m usearch
 
 
 # fast
@@ -227,20 +264,45 @@ biom convert \
 -i ${MIN_CT_FILTERED_FILE} \
 -o ${PICKED_DIR}/otu_table_json.biom \
 --to-json \
---table-type="OTU table"
+--table-type="OTU table" | tee -a ${LOG_FILE} 
 
 echo `date` "start core diversity" | tee -a ${LOG_FILE}
 # watch out for large negative eigenvalues
-core_diversity_analyses.py -i ${MIN_CT_FILTERED_FILE} -m ${QIIME_MAPPING_FILE} -o ${PICKED_DIR}/corediv -e ${CORE_DIV_MIN_DEPTH} -t ${PICKED_DIR}/rep_set.tre  -c treatment -a -O ${THREAD_CT}  | tee -a ${LOG_FILE}
+
+# 16S (Amy didn't muilti-thread, compare by treatment
+#    DID surpress beta diversity analysis because she used a small input set
+core_diversity_analyses.py \
+    -a \
+    -c treatment \
+    -e ${CORE_DIV_MIN_DEPTH} \
+    -i ${MIN_CT_FILTERED_FILE} \
+    -m ${QIIME_MAPPING_FILE} \
+    -o ${PICKED_DIR}/corediv \
+    -O ${THREAD_CT} \
+    -t ${PICKED_DIR}/rep_set.tre | tee -a ${LOG_FILE} 
+
+# its
+# core_diversity_analyses.py \
+# -e 353 \
+# -i otus/otu_table_no_sing_doub.biom \
+# -m its-soils-tutorial/map.txt \
+# -o cdout/ \
+# --nonphylogenetic_diversity
+
 echo `date` "core diversity complete" | tee -a ${LOG_FILE}
 
 # now start phyloseq analysis in R
 # just run as a background sript and write to PDF device,
-# or kint into a notebook document (Word, HTML or PDF)
+# or kint into a notebook document (Word, HTML or PDF, slides, more!)
 
+# could even puth the bash portions into the markdown... harder to control threading/forking?
 
-
-
-
+echo `date` "start phyloseq analysis and plotting in R" | tee -a ${LOG_FILE}
+Rscript handsoff_plots.R \
+    --otufile=${PICKED_DIR}/otu_table_json.biom \
+    --trefile=${PICKED_DIR}/rep_set.tre \
+    --mapfile=${QIIME_MAPPING_FILE} \
+    --prefix=understudy_16S | tee -a ${LOG_FILE}
+echo `date` "phyloseq complete" | tee -a ${LOG_FILE}
 
 

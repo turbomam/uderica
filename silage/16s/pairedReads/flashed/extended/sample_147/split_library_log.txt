@@ -1,5 +1,5 @@
 Input file paths
-Sequence read filepath: /home/mark/silage/16s/pairedReads/flashed/extended/sample_147.extendedFrags.fastq (md5: c65fdd359144c7a4e04e409e217a0260)
+Sequence read filepath: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/sample_147.extendedFrags.fastq (md5: 6d1739d712d0ae8af373c4eb58ec39c3)
 Quality filter results
 Total number of input sequences: 38123
 Barcode not in mapping file: 0

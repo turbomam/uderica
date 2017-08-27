@@ -9,7 +9,132 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/step2_rep_set.fna
+Num OTUs:60
+Num new OTUs:0
+Num failures:14773
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_/POTU_cYA4_.0_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/step2_rep_set.fna
+Num OTUs:64
+Num new OTUs:0
+Num failures:15213
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_/POTU_cYA4_.1_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/step2_rep_set.fna
+Num OTUs:62
+Num new OTUs:0
+Num failures:12955
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_/POTU_cYA4_.2_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/step2_rep_set.fna
+Num OTUs:66
+Num new OTUs:0
+Num failures:13911
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_/POTU_cYA4_.3_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/step2_rep_set.fna
+Num OTUs:56
+Num new OTUs:0
+Num failures:12957
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_/POTU_cYA4_.4_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -21,130 +146,5 @@ word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/step2_rep_set.fna
 Num OTUs:49
 Num new OTUs:0
-Num failures:14264
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_/POTU_PSTW_.0_otus.txt
-OtuPicker parameters:
-Application:uclust
-Similarity:0.97
-chimeras_retention:union
-enable_rev_strand_matching:True
-exact:False
-max_accepts:1
-max_rejects:8
-new_cluster_identifier:denovo
-next_new_cluster_number:1
-optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_
-prefilter_identical_sequences:True
-presort_by_abundance:True
-save_uc_files:True
-stable_sort:True
-stepwords:8
-suppress_new_clusters:True
-suppress_sort:True
-word_length:8
-Reference seqs:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/step2_rep_set.fna
-Num OTUs:43
-Num new OTUs:0
-Num failures:14395
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_/POTU_PSTW_.1_otus.txt
-OtuPicker parameters:
-Application:uclust
-Similarity:0.97
-chimeras_retention:union
-enable_rev_strand_matching:True
-exact:False
-max_accepts:1
-max_rejects:8
-new_cluster_identifier:denovo
-next_new_cluster_number:1
-optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_
-prefilter_identical_sequences:True
-presort_by_abundance:True
-save_uc_files:True
-stable_sort:True
-stepwords:8
-suppress_new_clusters:True
-suppress_sort:True
-word_length:8
-Reference seqs:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/step2_rep_set.fna
-Num OTUs:43
-Num new OTUs:0
-Num failures:12185
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_/POTU_PSTW_.2_otus.txt
-OtuPicker parameters:
-Application:uclust
-Similarity:0.97
-chimeras_retention:union
-enable_rev_strand_matching:True
-exact:False
-max_accepts:1
-max_rejects:8
-new_cluster_identifier:denovo
-next_new_cluster_number:1
-optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_
-prefilter_identical_sequences:True
-presort_by_abundance:True
-save_uc_files:True
-stable_sort:True
-stepwords:8
-suppress_new_clusters:True
-suppress_sort:True
-word_length:8
-Reference seqs:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/step2_rep_set.fna
-Num OTUs:44
-Num new OTUs:0
-Num failures:13529
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_/POTU_PSTW_.3_otus.txt
-OtuPicker parameters:
-Application:uclust
-Similarity:0.97
-chimeras_retention:union
-enable_rev_strand_matching:True
-exact:False
-max_accepts:1
-max_rejects:8
-new_cluster_identifier:denovo
-next_new_cluster_number:1
-optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_
-prefilter_identical_sequences:True
-presort_by_abundance:True
-save_uc_files:True
-stable_sort:True
-stepwords:8
-suppress_new_clusters:True
-suppress_sort:True
-word_length:8
-Reference seqs:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/step2_rep_set.fna
-Num OTUs:44
-Num new OTUs:0
-Num failures:12322
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_/POTU_PSTW_.4_otus.txt
-OtuPicker parameters:
-Application:uclust
-Similarity:0.97
-chimeras_retention:union
-enable_rev_strand_matching:True
-exact:False
-max_accepts:1
-max_rejects:8
-new_cluster_identifier:denovo
-next_new_cluster_number:1
-optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_
-prefilter_identical_sequences:True
-presort_by_abundance:True
-save_uc_files:True
-stable_sort:True
-stepwords:8
-suppress_new_clusters:True
-suppress_sort:True
-word_length:8
-Reference seqs:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus/step2_rep_set.fna
-Num OTUs:39
-Num new OTUs:0
-Num failures:10815
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_PSTW_/POTU_PSTW_.5_otus.txt
+Num failures:11300
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step3_otus/POTU_cYA4_/POTU_cYA4_.5_otus.txt

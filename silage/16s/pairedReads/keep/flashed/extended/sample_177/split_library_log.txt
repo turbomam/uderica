@@ -1,0 +1,17 @@
+Input file paths
+Sequence read filepath: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/sample_177.extendedFrags.fastq (md5: 39911790071bd2ac83e2eebd09dad801)
+Quality filter results
+Total number of input sequences: 52863
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2
+Count of N characters exceeds limit: 113
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+177	52748
+
+Total number seqs written	52748
+---
+

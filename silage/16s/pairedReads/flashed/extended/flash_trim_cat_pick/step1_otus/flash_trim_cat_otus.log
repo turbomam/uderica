@@ -9,7 +9,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -18,11 +18,11 @@ stepwords:8
 suppress_new_clusters:True
 suppress_sort:True
 word_length:8
-Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
+Reference seqs:/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
 Num OTUs:1191
 Num new OTUs:0
-Num failures:31109
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_/POTU_cCID_.0_otus.txt
+Num failures:31104
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_/POTU_MFhu_.0_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -34,7 +34,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -43,11 +43,11 @@ stepwords:8
 suppress_new_clusters:True
 suppress_sort:True
 word_length:8
-Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
+Reference seqs:/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
 Num OTUs:309
 Num new OTUs:0
-Num failures:12812
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_/POTU_cCID_.1_otus.txt
+Num failures:12821
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_/POTU_MFhu_.1_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -59,7 +59,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -68,11 +68,11 @@ stepwords:8
 suppress_new_clusters:True
 suppress_sort:True
 word_length:8
-Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
+Reference seqs:/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
 Num OTUs:765
 Num new OTUs:0
-Num failures:19477
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_/POTU_cCID_.2_otus.txt
+Num failures:19472
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_/POTU_MFhu_.2_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -84,7 +84,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -93,11 +93,11 @@ stepwords:8
 suppress_new_clusters:True
 suppress_sort:True
 word_length:8
-Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
+Reference seqs:/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
 Num OTUs:318
 Num new OTUs:0
-Num failures:10854
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_/POTU_cCID_.3_otus.txt
+Num failures:10853
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_/POTU_MFhu_.3_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -109,7 +109,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -118,11 +118,11 @@ stepwords:8
 suppress_new_clusters:True
 suppress_sort:True
 word_length:8
-Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
-Num OTUs:389
+Reference seqs:/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:388
 Num new OTUs:0
-Num failures:12272
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_/POTU_cCID_.4_otus.txt
+Num failures:12281
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_/POTU_MFhu_.4_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -134,7 +134,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_
+output_dir:/home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -143,8 +143,8 @@ stepwords:8
 suppress_new_clusters:True
 suppress_sort:True
 word_length:8
-Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
-Num OTUs:474
+Reference seqs:/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:475
 Num new OTUs:0
-Num failures:18083
-Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_cCID_/POTU_cCID_.5_otus.txt
+Num failures:18076
+Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_MFhu_/POTU_MFhu_.5_otus.txt

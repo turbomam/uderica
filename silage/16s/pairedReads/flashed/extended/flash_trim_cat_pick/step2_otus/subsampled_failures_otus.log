@@ -15,5 +15,5 @@ stable_sort:True
 stepwords:8
 suppress_sort:True
 word_length:8
-Num OTUs:84
+Num OTUs:105
 Result path: /home/mark/gitstage/uderica/silage/16s/pairedReads/flashed/extended/flash_trim_cat_pick/step2_otus//subsampled_failures_otus.txt
