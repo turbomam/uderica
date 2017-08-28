@@ -183,12 +183,16 @@ names(temp) <- c('taxon', 'counts')
 
 entN <- prune_taxa(topN, phylo)
 
+message(" \n basic bar plot \n ")
+
 p <- plot_bar(entN, exp.factor, fill = selected.rank)
 print(p)
 
 # don't even need any of the fololowing?
 # p + geom_bar(aes(color = Family, fill = Family), stat = "identity")
 # # removed: position = "stack" (warning) and facet on day (day 0 indistinguishable from tx control)
+
+message(" \n richness plot \n ")
 
 p <-
   plot_richness(phylo,
@@ -208,6 +212,8 @@ p + geom_point(size = 5, alpha = 0.7) + theme(axis.text.x = element_text(
 
 # print(p)
 
+message(" \n create alpha diversity table \n ")
+
 alpha.diversity <-
   estimate_richness(phylo, measures = alpha.div.measures)
 
@@ -218,6 +224,8 @@ write.table(alpha.diversity, paste0(proj.gene.prefix, "_alpha_div_",  time.stamp
 #
 # PUT IN A PRETTY TABLE HEAD WITH SOEMTHING LIKE XTABLES (IF KNITTING)
 #
+
+message(" \n start ordination analysis \n ")
 
 
 re.min.filtered <- genefilter_sample(phylo,
@@ -279,6 +287,8 @@ p
 # ordination refiltered to 3
 # diff abundance back to 2
 #
+
+message(" \n start differential analysis \n ")
 
 
 DESeq2.data <- phylo
