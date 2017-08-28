@@ -131,3 +131,25 @@ core_diversity_analyses.py     -a     -c treatment     -e 10000     -i otu_table
 
 for i in *.hist ; do nawk '{print FILENAME"\t"$0}' $i ; done > all.hist.txt
 actually looks like the missing files have similar counts compared to the others
+
+library(phyloseq)
+
+otutable <-
+  import_biom(
+    "c:\\Users\\Mark Miller\\Desktop\\otu_table_mc2_w_tax_n3_json.biom",
+    parseFunction = parse_taxonomy_greengenes
+  )
+
+mapping <-
+  import_qiime_sample_data(mapfilename = "c:\\Users\\Mark Miller\\Desktop\\map.txt")
+
+phylo <- merge_phyloseq(otutable, mapping)
+
+print(phylo)
+x = otu_table(phylo)
+y = tax_table(phylo)
+z = sample_data(phylo) 
+z = as.data.frame(z)
+
+plot_bar(phylo, x = "treatment", fill = "Phylum")
+
