@@ -1,0 +1,133 @@
+$ ~/gitstage/uderica/temp$ pick_open_reference_otus.py -a -f -i flash_trim_cat.fna -m uclust -o otus -O 6 -p its-soils-tutorial_params.txt -r /home/mark/gitstage/uderica/silage/its_12_11_otus/rep_set/97_otus.fasta --suppress_align_and_tree
+
+(qiime1) mark@office:~/gitstage/uderica/temp$ biom summarize-table -i otus/otu_table_mc2_w_tax.biom
+Num samples: 21
+Num observations: 779
+Total count: 908349
+Table density (fraction of non-zero values): 0.138
+
+Counts/sample summary:
+ Min: 718.0
+ Max: 129793.0
+ Median: 41588.000
+ Mean: 43254.714
+ Std. dev.: 24247.981
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+172: 718.0
+171: 16806.0
+150: 19488.0
+151: 21610.0
+156: 28585.0
+157: 38708.0
+148: 38719.0
+153: 38831.0
+168: 39762.0
+165: 40594.0
+155: 41588.0
+166: 43709.0
+147: 44325.0
+152: 44413.0
+163: 45334.0
+146: 45346.0
+158: 48794.0
+145: 53183.0
+161: 61293.0
+162: 66750.0
+160: 129793.0
+(qiime1) mark@office:~/gitstage/uderica/temp$
+
+ONLY 21 OUT OF 28 SAMPLES?  4 * C, CNO, CEARLY, CLATE, LB500NO, LB500EARLY, LB500LATE
+
+145: 53183.0
+146: 45346.0
+147: 44325.0
+148: 38719.0
+150: 19488.0
+151: 21610.0
+152: 44413.0
+153: 38831.0
+155: 41588.0
+156: 28585.0
+157: 38708.0
+158: 48794.0
+160: 129793.0
+161: 61293.0
+162: 66750.0
+163: 45334.0
+165: 40594.0
+166: 43709.0
+168: 39762.0
+171: 16806.0
+172: 718.0
+
+missing:  167 170 173 175 176 177 178
+too few read, filter too high?
+
+filter_otus_from_otu_table.py -i otus/otu_table_mc2_w_tax.biom -o otu_table_mc2_w_tax_n3.biom -n 3
+
+(qiime1) mark@office:~/gitstage/uderica/temp$ filter_otus_from_otu_table.py -i otus/otu_table_mc2_w_tax.biom -o otu_table_mc2_w_tax_n3.biom -n 3
+(qiime1) mark@office:~/gitstage/uderica/temp$ ls -l
+total 335864
+-rw-rw-r-- 1 mark mark 343677009 Aug 28 09:22 flash_trim_cat.fna
+-rw-r--r-- 1 mark mark       298 Aug 28 09:39 its-soils-tutorial_params.txt
+-rw-rw-r-- 1 mark mark      2045 Aug 28 09:22 map.txt
+drwxrwxr-x 7 mark mark      4096 Aug 28 09:43 otus
+-rw-rw-r-- 1 mark mark    227960 Aug 28 09:55 otu_table_mc2_w_tax_n3.biom
+(qiime1) mark@office:~/gitstage/uderica/temp$ biom summarize-table -i otu
+otus/                        otu_table_mc2_w_tax_n3.biom
+(qiime1) mark@office:~/gitstage/uderica/temp$ biom summarize-table -i otu_table_mc2_w_tax_n3.biom
+Num samples: 21
+Num observations: 590
+Total count: 907971
+Table density (fraction of non-zero values): 0.158
+
+Counts/sample summary:
+ Min: 717.0
+ Max: 129764.0
+ Median: 41584.000
+ Mean: 43236.714
+ Std. dev.: 24242.700
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+172: 717.0
+171: 16794.0
+150: 19482.0
+151: 21600.0
+156: 28576.0
+148: 38680.0
+157: 38698.0
+153: 38825.0
+168: 39752.0
+165: 40584.0
+155: 41584.0
+166: 43699.0
+147: 44275.0
+152: 44385.0
+146: 45303.0
+163: 45327.0
+158: 48776.0
+145: 53136.0
+161: 61276.0
+162: 66738.0
+160: 129764.0
+(qiime1) mark@office:~/gitstage/uderica/temp$
+
+biom convert -i otu_table_mc2_w_tax_n3.biom -o otu_table_mc2_w_tax_n3_json.biom --to-json --table-type="OTU table"
+
+# need to change matplotlib display if running on text only console
+and add the following:
+backend : agg
+to
+~/.config/matplotlib/matplotlibrc
+
+
+# not necessary for downstream phyloseq, but handy for diagnoses
+core_diversity_analyses.py     -a     -c treatment     -e 10000     -i otu_table_mc2_w_tax_n3.biom     -m map.txt     -o corediv     -O 6      --nonphylogenetic_diversity
+
+for i in *.hist ; do nawk '{print FILENAME"\t"$0}' $i ; done > all.hist.txt
+actually looks like the missing files have similar counts compared to the others
