@@ -227,15 +227,11 @@ fi
 if [ $DO_QIIME_SPLIT == "TRUE" ]
   then
     while read p; 
-    # for f in ${EXTENDED_DIR}/*.fastq
       do
-      # NOPERIODS=`basename $f | sed 's/\./_/g'`
-
       # make this a function?
-      # pass output as env vars
+      #   pass output as env vars
 
       # echo $p
-
       # echo ${myArray["$p"]}
 
       associated=`echo ${myArray["$p"]} | sed 's/...$//g'`
