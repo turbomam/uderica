@@ -86,6 +86,7 @@ FastQC	all_sections	5101-1034-MS515F-926R_R2	/home/mark/gitstage/uderica/silage/
 FastQC	all_sections	4924-844-MS515F-926R_R2	/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/fastqc/4924-844-MS515F-926R_R2_fastqc.zip
 FastQC	all_sections	5101-1139-MS515F-926R_R2	/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/fastqc/5101-1139-MS515F-926R_R2_fastqc.zip
 FastQC	all_sections	5101-1162-MS515F-926R_R1	/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/fastqc/5101-1162-MS515F-926R_R1_fastqc.zip
+FastQC	all_sections	5101-1162-MS515F-926R_R2	/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/fastqc/5101-1162-MS515F-926R_R2_fastqc.zip
 FastQC	all_sections	4924-837-MS515F-926R_R2	/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/fastqc/4924-837-MS515F-926R_R2_fastqc.zip
 FastQC	all_sections	4924-837-MS515F-926R_R1	/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/fastqc/4924-837-MS515F-926R_R1_fastqc.zip
 FastQC	all_sections	5101-1142-MS515F-926R_R2	/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/fastqc/5101-1142-MS515F-926R_R2_fastqc.zip

@@ -1,17 +1,17 @@
 Input file paths
-Sequence read filepath: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/5101-763-MS515F-926R.extendedFrags.fastq (md5: b534d9a686d2372072589762aa346024)
+Sequence read filepath: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/5101-763-MS515F-926R.extendedFrags.fastq (md5: ab8f3772e013cd3861b3e699a7d5ee5c)
 Quality filter results
-Total number of input sequences: 64355
+Total number of input sequences: 64333
 Barcode not in mapping file: 0
-Read too short after quality truncation: 3
-Count of N characters exceeds limit: 170
+Read too short after quality truncation: 8293
+Count of N characters exceeds limit: 125
 Illumina quality digit = 0: 0
 Barcode errors exceed max: 0
 
 Result summary (after quality filtering)
 Median sequence length: 413.00
-763	64182
+763	55915
 
-Total number seqs written	64182
+Total number seqs written	55915
 ---
 

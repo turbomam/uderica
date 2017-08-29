@@ -1,0 +1,3050 @@
+configuration from /home/mark/gitstage/uderica/silage/V-HMC/Fungi/V-HMC_Fungi_envvars_new.sh
+export PROJ_GENE_TITLE="V-HMC_Fungi"
+export PROJ_GENE_HOME="/home/mark/gitstage/uderica/silage/V-HMC/Fungi"
+
+export R1="_R1"
+export R2="_R2"
+export FILE_EXT=".fastq"
+
+export LOG_FILE="${PROJ_GENE_HOME}/${PROJ_GENE_TITLE}.log"
+
+export REF_SEQ_FILE="/home/mark/gitstage/uderica/silage/its_12_11_otus/rep_set/97_otus.fasta"
+
+export FASTQC_PATH="/home/mark/gitstage/uderica/silage/FastQC/fastqc"
+export MULTIQC_PATH="multiqc"
+
+export MULTIQC_CONFIG="/home/mark/gitstage/uderica/silage/multiqc_config.yaml"
+
+# also sem (parallel)... avaialble for OSX? and in2csv from csvkit
+
+export FLASH_PATH="/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash"
+export MIN_FLASH_OVERLAP=50
+export MAX_FLASH_OVERLAP=250
+
+# work on this some more... how to pick best depth?
+export CORE_DIV_MIN_DEPTH=10000
+export THREAD_CT=6
+
+export SLEEP_SECS=15
+
+export DATA_DIR="raw_data_fungi"
+
+export FLASHED_DIR="${PROJ_GENE_HOME}/${DATA_DIR}/flashed"
+export EXTENDED_DIR="${FLASHED_DIR}/extended"
+export PICKED_DIR="${EXTENDED_DIR}/flash_trim_cat_pick"
+
+export OTU_PICK_PARAM_FILE="${PROJ_GENE_HOME}/otu_pick_param.txt"
+
+# look here for sample ID, barcodes, primers, optionally experimental factors
+# export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map16S_MAM_some_factors.txt"
+export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map.txt"
+
+# look here for sample infomration, except mapping info (esp. barcode and primers)
+# will be looping though some column looking for IDs,
+# which should then appear in files with names:
+# ${PROJ_GENE_HOME}/${DATA_DIR}/${PAIR_PREFIX}<ID>${PAIR_SUFFIX}{${R1}|${R2}}${FILE_EXT}
+# export SAMPLE_METADATA_FILE="${PROJ_GENE_HOME}/LalStressMicrobiomeInfo.txt"
+
+export FILE_PATH_FILE="${PROJ_GENE_HOME}/file_path.txt"
+
+# could probably just loop though mapping file instead
+# add capability to look for ID:filename relationships in some lookup table
+
+# not doing any error/dependency checking yet
+# not doing and cleanup from previous run yet
+# FALSE
+export FRESH_LOG="TRUE"
+export INITIAL_FASTQC="TRUE"
+export INITIAL_MULTIQC="TRUE"
+export DO_FLASH="TRUE"
+export POST_FLASH_BOTHQC="TRUE"
+# export POST_FLASH_FASTQC="TRUE"
+# export POST_FLASH_MULTIQC="TRUE"
+export DO_QIIME_SPLIT="TRUE"
+export DO_QIIME_PICK="TRUE"
+export DO_PYTHON_OTU_FILTERING="TRUE"
+export DO_BIOM_CONVERSION="TRUE"
+export DO_CORE_DIV="TRUE"
+export DO_PHYLOSEQ="FALSE"
+
+
+
+
+Mon Aug 28 22:40:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-424-MSITS2a
+Mon Aug 28 22:40:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-425-MSITS2a
+Mon Aug 28 22:40:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-426-MSITS2a
+Mon Aug 28 22:40:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-427-MSITS2a
+Mon Aug 28 22:40:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-429-MSITS2a
+Mon Aug 28 22:40:35 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-430-MSITS2a
+Mon Aug 28 22:40:35 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-431-MSITS2a
+Mon Aug 28 22:40:35 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-432-MSITS2a
+Mon Aug 28 22:40:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-434-MSITS2a
+Mon Aug 28 22:40:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-435-MSITS2a
+Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-436-MSITS2a
+Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-437-MSITS2a
+Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-439-MSITS2a
+Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-440-MSITS2a
+Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-441-MSITS2a
+Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-442-MSITS2a
+Mon Aug 28 22:40:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-831-MSITS2a
+Mon Aug 28 22:40:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-832-MSITS2a
+Mon Aug 28 22:40:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-833-MSITS2a
+Mon Aug 28 22:40:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-834-MSITS2a
+Mon Aug 28 22:40:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-836-MSITS2a
+Mon Aug 28 22:40:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-837-MSITS2a
+Mon Aug 28 22:40:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-838-MSITS2a
+Mon Aug 28 22:40:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-839-MSITS2a
+Mon Aug 28 22:40:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-841-MSITS2a
+Mon Aug 28 22:40:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-842-MSITS2a
+Mon Aug 28 22:40:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-843-MSITS2a
+Mon Aug 28 22:40:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-844-MSITS2a
+Mon Aug 28 22:40:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-447-MSITS2a
+Mon Aug 28 22:40:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-448-MSITS2a
+Mon Aug 28 22:40:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-449-MSITS2a
+Mon Aug 28 22:40:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-450-MSITS2a
+Mon Aug 28 22:40:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-451-MSITS2a
+Mon Aug 28 22:40:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-452-MSITS2a
+Mon Aug 28 22:40:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-453-MSITS2a
+Mon Aug 28 22:40:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-454-MSITS2a
+Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-455-MSITS2a
+Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-456-MSITS2a
+Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-457-MSITS2a
+Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-458-MSITS2a
+Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-459-MSITS2a
+Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-460-MSITS2a
+Mon Aug 28 22:41:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-461-MSITS2a
+Mon Aug 28 22:41:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-757-MSITS2a
+Mon Aug 28 22:41:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-758-MSITS2a
+Mon Aug 28 22:41:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-759-MSITS2a
+Mon Aug 28 22:41:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-760-MSITS2a
+Mon Aug 28 22:41:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-761-MSITS2a
+Mon Aug 28 22:41:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-762-MSITS2a
+Mon Aug 28 22:41:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-763-MSITS2a
+Mon Aug 28 22:41:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-764-MSITS2a
+Mon Aug 28 22:41:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-765-MSITS2a
+Mon Aug 28 22:41:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-766-MSITS2a
+Mon Aug 28 22:41:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1016-MSITS2a
+Mon Aug 28 22:41:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1017-MSITS2a
+Mon Aug 28 22:41:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1018-MSITS2a
+Mon Aug 28 22:41:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1019-MSITS2a
+Mon Aug 28 22:41:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1020-MSITS2a
+Mon Aug 28 22:41:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1021-MSITS2a
+Mon Aug 28 22:41:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1022-MSITS2a
+Mon Aug 28 22:41:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1023-MSITS2a
+Mon Aug 28 22:41:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1024-MSITS2a
+Mon Aug 28 22:41:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1025-MSITS2a
+Mon Aug 28 22:41:10 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1026-MSITS2a
+Mon Aug 28 22:41:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1027-MSITS2a
+Mon Aug 28 22:41:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1028-MSITS2a
+Mon Aug 28 22:41:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1029-MSITS2a
+Mon Aug 28 22:41:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1030-MSITS2a
+Mon Aug 28 22:41:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1031-MSITS2a
+Mon Aug 28 22:41:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1032-MSITS2a
+Mon Aug 28 22:41:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1033-MSITS2a
+Mon Aug 28 22:41:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1034-MSITS2a
+Mon Aug 28 22:41:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1035-MSITS2a
+Mon Aug 28 22:41:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1036-MSITS2a
+Mon Aug 28 22:41:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1037-MSITS2a
+Mon Aug 28 22:41:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1038-MSITS2a
+Mon Aug 28 22:41:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1039-MSITS2a
+Mon Aug 28 22:41:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1040-MSITS2a
+Mon Aug 28 22:41:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1138-MSITS2a
+Mon Aug 28 22:41:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1139-MSITS2a
+Mon Aug 28 22:41:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1140-MSITS2a
+Mon Aug 28 22:41:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1141-MSITS2a
+Mon Aug 28 22:41:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1142-MSITS2a
+Mon Aug 28 22:41:21 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1143-MSITS2a
+Mon Aug 28 22:41:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1144-MSITS2a
+Mon Aug 28 22:41:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1145-MSITS2a
+Mon Aug 28 22:41:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1146-MSITS2a
+Mon Aug 28 22:41:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1147-MSITS2a
+Mon Aug 28 22:41:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1148-MSITS2a
+Mon Aug 28 22:41:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1149-MSITS2a
+Mon Aug 28 22:41:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1150-MSITS2a
+Mon Aug 28 22:41:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1151-MSITS2a
+Mon Aug 28 22:41:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1152-MSITS2a
+Mon Aug 28 22:41:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1153-MSITS2a
+Mon Aug 28 22:41:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1154-MSITS2a
+Mon Aug 28 22:41:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1155-MSITS2a
+Mon Aug 28 22:41:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1156-MSITS2a
+Mon Aug 28 22:41:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1157-MSITS2a
+Mon Aug 28 22:41:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1158-MSITS2a
+Mon Aug 28 22:41:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1159-MSITS2a
+Mon Aug 28 22:41:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1160-MSITS2a
+Mon Aug 28 22:41:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1161-MSITS2a
+Mon Aug 28 22:41:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1162-MSITS2a
+Mon Aug 28 22:42:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-424-MSITS2a
+Mon Aug 28 22:42:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-425-MSITS2a
+Mon Aug 28 22:42:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-426-MSITS2a
+Mon Aug 28 22:42:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-427-MSITS2a
+Mon Aug 28 22:42:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-429-MSITS2a
+Mon Aug 28 22:42:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-430-MSITS2a
+Mon Aug 28 22:42:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-431-MSITS2a
+Mon Aug 28 22:42:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-432-MSITS2a
+Mon Aug 28 22:42:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-434-MSITS2a
+Mon Aug 28 22:42:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-435-MSITS2a
+Mon Aug 28 22:42:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-436-MSITS2a
+Mon Aug 28 22:42:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-437-MSITS2a
+Mon Aug 28 22:42:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-439-MSITS2a
+Mon Aug 28 22:42:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-440-MSITS2a
+Mon Aug 28 22:42:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-441-MSITS2a
+Mon Aug 28 22:42:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-442-MSITS2a
+Mon Aug 28 22:42:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-831-MSITS2a
+Mon Aug 28 22:42:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-832-MSITS2a
+Mon Aug 28 22:42:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-833-MSITS2a
+Mon Aug 28 22:42:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-834-MSITS2a
+Mon Aug 28 22:42:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-836-MSITS2a
+Mon Aug 28 22:42:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-837-MSITS2a
+Mon Aug 28 22:42:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-838-MSITS2a
+Mon Aug 28 22:42:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-839-MSITS2a
+Mon Aug 28 22:42:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-841-MSITS2a
+Mon Aug 28 22:42:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-842-MSITS2a
+Mon Aug 28 22:42:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-843-MSITS2a
+Mon Aug 28 22:42:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-844-MSITS2a
+Mon Aug 28 22:42:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-447-MSITS2a
+Mon Aug 28 22:42:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-448-MSITS2a
+Mon Aug 28 22:42:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-449-MSITS2a
+Mon Aug 28 22:42:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-450-MSITS2a
+Mon Aug 28 22:42:40 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-451-MSITS2a
+Mon Aug 28 22:42:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-452-MSITS2a
+Mon Aug 28 22:42:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-453-MSITS2a
+Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-454-MSITS2a
+Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-455-MSITS2a
+Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-456-MSITS2a
+Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-457-MSITS2a
+Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-458-MSITS2a
+Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-459-MSITS2a
+Mon Aug 28 22:42:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-460-MSITS2a
+Mon Aug 28 22:42:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-461-MSITS2a
+Mon Aug 28 22:42:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-757-MSITS2a
+Mon Aug 28 22:42:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-758-MSITS2a
+Mon Aug 28 22:42:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-759-MSITS2a
+Mon Aug 28 22:42:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-760-MSITS2a
+Mon Aug 28 22:42:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-761-MSITS2a
+Mon Aug 28 22:42:50 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-762-MSITS2a
+Mon Aug 28 22:42:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-763-MSITS2a
+Mon Aug 28 22:42:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-764-MSITS2a
+Mon Aug 28 22:42:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-765-MSITS2a
+Mon Aug 28 22:42:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-766-MSITS2a
+Mon Aug 28 22:42:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1016-MSITS2a
+Mon Aug 28 22:42:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1017-MSITS2a
+Mon Aug 28 22:42:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1018-MSITS2a
+Mon Aug 28 22:42:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1019-MSITS2a
+Mon Aug 28 22:42:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1020-MSITS2a
+Mon Aug 28 22:42:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1021-MSITS2a
+Mon Aug 28 22:42:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1022-MSITS2a
+Mon Aug 28 22:42:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1023-MSITS2a
+Mon Aug 28 22:42:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1024-MSITS2a
+Mon Aug 28 22:42:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1025-MSITS2a
+Mon Aug 28 22:42:56 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1026-MSITS2a
+Mon Aug 28 22:42:57 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1027-MSITS2a
+Mon Aug 28 22:42:57 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1028-MSITS2a
+Mon Aug 28 22:42:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1029-MSITS2a
+Mon Aug 28 22:42:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1030-MSITS2a
+Mon Aug 28 22:42:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1031-MSITS2a
+Mon Aug 28 22:42:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1032-MSITS2a
+Mon Aug 28 22:42:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1033-MSITS2a
+Mon Aug 28 22:42:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1034-MSITS2a
+Mon Aug 28 22:43:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1035-MSITS2a
+Mon Aug 28 22:43:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1036-MSITS2a
+Mon Aug 28 22:43:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1037-MSITS2a
+Mon Aug 28 22:43:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1038-MSITS2a
+Mon Aug 28 22:43:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1039-MSITS2a
+Mon Aug 28 22:43:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1040-MSITS2a
+Mon Aug 28 22:43:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1138-MSITS2a
+Mon Aug 28 22:43:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1139-MSITS2a
+Mon Aug 28 22:43:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1140-MSITS2a
+Mon Aug 28 22:43:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1141-MSITS2a
+Mon Aug 28 22:43:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1142-MSITS2a
+Mon Aug 28 22:43:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1143-MSITS2a
+Mon Aug 28 22:43:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1144-MSITS2a
+Mon Aug 28 22:43:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1145-MSITS2a
+Mon Aug 28 22:43:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1146-MSITS2a
+Mon Aug 28 22:43:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1147-MSITS2a
+Mon Aug 28 22:43:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1148-MSITS2a
+Mon Aug 28 22:43:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1149-MSITS2a
+Mon Aug 28 22:43:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1150-MSITS2a
+Mon Aug 28 22:43:10 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1151-MSITS2a
+Mon Aug 28 22:43:10 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1152-MSITS2a
+Mon Aug 28 22:43:10 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1153-MSITS2a
+Mon Aug 28 22:43:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1154-MSITS2a
+Mon Aug 28 22:43:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1155-MSITS2a
+Mon Aug 28 22:43:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1156-MSITS2a
+Mon Aug 28 22:43:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1157-MSITS2a
+Mon Aug 28 22:43:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1158-MSITS2a
+Mon Aug 28 22:43:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1159-MSITS2a
+Mon Aug 28 22:43:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1160-MSITS2a
+Mon Aug 28 22:43:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1161-MSITS2a
+Mon Aug 28 22:43:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1162-MSITS2a
+Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-424-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-424-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-424-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-424-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-424-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-424-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-424-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-424-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 30480 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      30480
+[FLASH]     Combined pairs:   28546
+[FLASH]     Uncombined pairs: 1934
+[FLASH]     Percent combined: 93.65%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.118 seconds elapsed
+Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-425-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-425-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-425-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-425-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-425-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-425-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-425-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-425-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 45631 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      45631
+[FLASH]     Combined pairs:   43226
+[FLASH]     Uncombined pairs: 2405
+[FLASH]     Percent combined: 94.73%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.143 seconds elapsed
+Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-426-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-426-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-426-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-426-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-426-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-426-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-426-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-426-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 48540 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      48540
+[FLASH]     Combined pairs:   46319
+[FLASH]     Uncombined pairs: 2221
+[FLASH]     Percent combined: 95.42%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.154 seconds elapsed
+Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-427-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-427-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-427-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-427-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-427-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-427-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-427-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-427-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 24970 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      24970
+[FLASH]     Combined pairs:   23561
+[FLASH]     Uncombined pairs: 1409
+[FLASH]     Percent combined: 94.36%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.098 seconds elapsed
+Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-429-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-429-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-429-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-429-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-429-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-429-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-429-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-429-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 32218 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      32218
+[FLASH]     Combined pairs:   21448
+[FLASH]     Uncombined pairs: 10770
+[FLASH]     Percent combined: 66.57%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.107 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-430-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-430-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-430-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-430-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-430-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-430-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-430-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-430-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 30532 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      30532
+[FLASH]     Combined pairs:   21461
+[FLASH]     Uncombined pairs: 9071
+[FLASH]     Percent combined: 70.29%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.096 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-431-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-431-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-431-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-431-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-431-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-431-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-431-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-431-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 15353 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      15353
+[FLASH]     Combined pairs:   12127
+[FLASH]     Uncombined pairs: 3226
+[FLASH]     Percent combined: 78.99%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.070 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-432-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-432-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-432-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-432-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-432-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-432-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-432-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-432-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 17564 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      17564
+[FLASH]     Combined pairs:   10162
+[FLASH]     Uncombined pairs: 7402
+[FLASH]     Percent combined: 57.86%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.070 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-434-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-435-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-435-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-435-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-435-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-435-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-435-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-435-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-435-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 12601 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      12601
+[FLASH]     Combined pairs:   11555
+[FLASH]     Uncombined pairs: 1046
+[FLASH]     Percent combined: 91.70%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.051 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-436-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-437-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-437-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-437-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-437-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-437-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-437-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-437-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-437-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 39393 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      39393
+[FLASH]     Combined pairs:   37924
+[FLASH]     Uncombined pairs: 1469
+[FLASH]     Percent combined: 96.27%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.130 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-439-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-439-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-439-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-439-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-439-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-439-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-439-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-439-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 521 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      521
+[FLASH]     Combined pairs:   462
+[FLASH]     Uncombined pairs: 59
+[FLASH]     Percent combined: 88.68%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.006 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-440-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-440-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-440-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-440-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-440-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-440-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-440-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-440-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 13170 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      13170
+[FLASH]     Combined pairs:   12395
+[FLASH]     Uncombined pairs: 775
+[FLASH]     Percent combined: 94.12%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.056 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-441-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-441-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-441-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-441-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-441-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-441-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-441-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-441-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 14304 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      14304
+[FLASH]     Combined pairs:   13523
+[FLASH]     Uncombined pairs: 781
+[FLASH]     Percent combined: 94.54%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.059 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-442-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-831-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-831-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-831-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-831-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-831-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-831-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-831-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-831-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 36250 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      36250
+[FLASH]     Combined pairs:   35102
+[FLASH]     Uncombined pairs: 1148
+[FLASH]     Percent combined: 96.83%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.109 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-832-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-832-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-832-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-832-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-832-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-832-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-832-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-832-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 19965 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      19965
+[FLASH]     Combined pairs:   19266
+[FLASH]     Uncombined pairs: 699
+[FLASH]     Percent combined: 96.50%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.069 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-833-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-833-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-833-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-833-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-833-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-833-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-833-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-833-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 9147 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      9147
+[FLASH]     Combined pairs:   8378
+[FLASH]     Uncombined pairs: 769
+[FLASH]     Percent combined: 91.59%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.044 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-834-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-834-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-834-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-834-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-834-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-834-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-834-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-834-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 21773 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      21773
+[FLASH]     Combined pairs:   21221
+[FLASH]     Uncombined pairs: 552
+[FLASH]     Percent combined: 97.46%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.074 seconds elapsed
+Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-836-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-836-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-836-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-836-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-836-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-836-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-836-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-836-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 34417 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      34417
+[FLASH]     Combined pairs:   33469
+[FLASH]     Uncombined pairs: 948
+[FLASH]     Percent combined: 97.25%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.101 seconds elapsed
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-837-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-837-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-837-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-837-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-837-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-837-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-837-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-837-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 27896 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      27896
+[FLASH]     Combined pairs:   26966
+[FLASH]     Uncombined pairs: 930
+[FLASH]     Percent combined: 96.67%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.087 seconds elapsed
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-838-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-838-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-838-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-838-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-838-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-838-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-838-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-838-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 23006 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      23006
+[FLASH]     Combined pairs:   21882
+[FLASH]     Uncombined pairs: 1124
+[FLASH]     Percent combined: 95.11%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.078 seconds elapsed
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-839-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-839-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-839-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-839-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-839-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-839-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-839-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-839-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 25657 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      25657
+[FLASH]     Combined pairs:   24304
+[FLASH]     Uncombined pairs: 1353
+[FLASH]     Percent combined: 94.73%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.083 seconds elapsed
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-841-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-841-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-841-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-841-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-841-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-841-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-841-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-841-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 18363 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      18363
+[FLASH]     Combined pairs:   17654
+[FLASH]     Uncombined pairs: 709
+[FLASH]     Percent combined: 96.14%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.068 seconds elapsed
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-842-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-842-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-842-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-842-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-842-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-842-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-842-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-842-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 23155 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      23155
+[FLASH]     Combined pairs:   21716
+[FLASH]     Uncombined pairs: 1439
+[FLASH]     Percent combined: 93.79%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.074 seconds elapsed
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-843-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-843-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-843-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-843-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-843-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-843-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-843-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-843-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 17958 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      17958
+[FLASH]     Combined pairs:   16827
+[FLASH]     Uncombined pairs: 1131
+[FLASH]     Percent combined: 93.70%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.063 seconds elapsed
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-844-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-844-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-844-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-844-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-844-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-844-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-844-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/4924-844-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 37679 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      37679
+[FLASH]     Combined pairs:   36736
+[FLASH]     Uncombined pairs: 943
+[FLASH]     Percent combined: 97.50%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.113 seconds elapsed
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-447-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-447-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-447-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-447-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-447-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-447-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-447-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-447-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 42254 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      42254
+[FLASH]     Combined pairs:   35563
+[FLASH]     Uncombined pairs: 6691
+[FLASH]     Percent combined: 84.16%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.121 seconds elapsed
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-448-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-449-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-449-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-449-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-449-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-449-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-449-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-449-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-449-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 18652 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      18652
+[FLASH]     Combined pairs:   13613
+[FLASH]     Uncombined pairs: 5039
+[FLASH]     Percent combined: 72.98%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.068 seconds elapsed
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-450-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-450-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-450-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-450-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-450-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-450-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-450-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-450-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 19007 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      19007
+[FLASH]     Combined pairs:   9571
+[FLASH]     Uncombined pairs: 9436
+[FLASH]     Percent combined: 50.36%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.070 seconds elapsed
+Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-451-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-451-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-451-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-451-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-451-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-451-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-451-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-451-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 55634 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      55634
+[FLASH]     Combined pairs:   41493
+[FLASH]     Uncombined pairs: 14141
+[FLASH]     Percent combined: 74.58%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.186 seconds elapsed
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-452-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-453-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-454-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-455-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-456-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-457-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-457-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-457-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-457-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-457-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-457-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-457-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-457-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 26753 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      26753
+[FLASH]     Combined pairs:   26166
+[FLASH]     Uncombined pairs: 587
+[FLASH]     Percent combined: 97.81%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.096 seconds elapsed
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-458-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-458-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-458-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-458-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-458-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-458-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-458-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-458-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 9841 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      9841
+[FLASH]     Combined pairs:   9430
+[FLASH]     Uncombined pairs: 411
+[FLASH]     Percent combined: 95.82%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.046 seconds elapsed
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-459-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-460-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-461-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-757-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-757-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-757-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-757-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-757-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-757-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-757-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-757-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 47820 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      47820
+[FLASH]     Combined pairs:   44294
+[FLASH]     Uncombined pairs: 3526
+[FLASH]     Percent combined: 92.63%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.130 seconds elapsed
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-758-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-758-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-758-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-758-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-758-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-758-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-758-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-758-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 61631 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      61631
+[FLASH]     Combined pairs:   55091
+[FLASH]     Uncombined pairs: 6540
+[FLASH]     Percent combined: 89.39%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.161 seconds elapsed
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-759-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-759-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-759-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-759-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-759-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-759-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-759-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-759-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 47043 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      47043
+[FLASH]     Combined pairs:   43964
+[FLASH]     Uncombined pairs: 3079
+[FLASH]     Percent combined: 93.45%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.139 seconds elapsed
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-760-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-760-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-760-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-760-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-760-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-760-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-760-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-760-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 36293 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      36293
+[FLASH]     Combined pairs:   32829
+[FLASH]     Uncombined pairs: 3464
+[FLASH]     Percent combined: 90.46%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.101 seconds elapsed
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-761-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-761-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-761-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-761-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-761-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-761-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-761-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-761-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 68519 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      68519
+[FLASH]     Combined pairs:   64646
+[FLASH]     Uncombined pairs: 3873
+[FLASH]     Percent combined: 94.35%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.184 seconds elapsed
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-762-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-763-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-764-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-765-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-766-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1016-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1016-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1016-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1016-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1016-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1016-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1016-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1016-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 64418 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      64418
+[FLASH]     Combined pairs:   57273
+[FLASH]     Uncombined pairs: 7145
+[FLASH]     Percent combined: 88.91%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.161 seconds elapsed
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1017-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1017-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1017-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1017-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1017-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1017-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1017-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1017-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 68401 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      68401
+[FLASH]     Combined pairs:   60564
+[FLASH]     Uncombined pairs: 7837
+[FLASH]     Percent combined: 88.54%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.170 seconds elapsed
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1018-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1018-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1018-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1018-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1018-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1018-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1018-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1018-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 70031 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      70031
+[FLASH]     Combined pairs:   61306
+[FLASH]     Uncombined pairs: 8725
+[FLASH]     Percent combined: 87.54%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.175 seconds elapsed
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1019-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1019-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1019-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1019-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1019-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1019-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1019-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1019-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 67598 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      67598
+[FLASH]     Combined pairs:   57948
+[FLASH]     Uncombined pairs: 9650
+[FLASH]     Percent combined: 85.72%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.169 seconds elapsed
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1020-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1020-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1020-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1020-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1020-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1020-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1020-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1020-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 56199 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      56199
+[FLASH]     Combined pairs:   48929
+[FLASH]     Uncombined pairs: 7270
+[FLASH]     Percent combined: 87.06%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.147 seconds elapsed
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1021-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1022-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1023-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1024-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1024-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1024-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1024-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1024-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1024-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1024-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1024-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 21247 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      21247
+[FLASH]     Combined pairs:   20480
+[FLASH]     Uncombined pairs: 767
+[FLASH]     Percent combined: 96.39%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.081 seconds elapsed
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1025-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1026-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1027-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1028-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1029-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1030-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1031-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1031-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1031-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1031-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1031-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1031-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1031-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1031-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 61890 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      61890
+[FLASH]     Combined pairs:   54735
+[FLASH]     Uncombined pairs: 7155
+[FLASH]     Percent combined: 88.44%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.171 seconds elapsed
+Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1032-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1032-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1032-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1032-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1032-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1032-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1032-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1032-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 57708 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      57708
+[FLASH]     Combined pairs:   50129
+[FLASH]     Uncombined pairs: 7579
+[FLASH]     Percent combined: 86.87%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.155 seconds elapsed
+Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1033-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1033-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1033-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1033-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1033-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1033-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1033-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1033-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 71577 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      71577
+[FLASH]     Combined pairs:   63312
+[FLASH]     Uncombined pairs: 8265
+[FLASH]     Percent combined: 88.45%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.188 seconds elapsed
+Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1034-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1034-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1034-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1034-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1034-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1034-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1034-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1034-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 68398 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      68398
+[FLASH]     Combined pairs:   60835
+[FLASH]     Uncombined pairs: 7563
+[FLASH]     Percent combined: 88.94%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.177 seconds elapsed
+Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1035-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1035-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1035-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1035-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1035-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1035-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1035-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1035-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 72738 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      72738
+[FLASH]     Combined pairs:   64162
+[FLASH]     Uncombined pairs: 8576
+[FLASH]     Percent combined: 88.21%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.206 seconds elapsed
+Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1036-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1037-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1038-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1039-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1040-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1040-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1040-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1040-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1040-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1040-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1040-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1040-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 71814 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      71814
+[FLASH]     Combined pairs:   66893
+[FLASH]     Uncombined pairs: 4921
+[FLASH]     Percent combined: 93.15%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.211 seconds elapsed
+Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1138-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1138-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1138-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1138-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1138-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1138-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1138-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1138-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 90082 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      90082
+[FLASH]     Combined pairs:   82335
+[FLASH]     Uncombined pairs: 7747
+[FLASH]     Percent combined: 91.40%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.236 seconds elapsed
+Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1139-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1139-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1139-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1139-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1139-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1139-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1139-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1139-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 76224 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      76224
+[FLASH]     Combined pairs:   66246
+[FLASH]     Uncombined pairs: 9978
+[FLASH]     Percent combined: 86.91%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.193 seconds elapsed
+Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1140-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1140-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1140-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1140-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1140-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1140-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1140-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1140-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 78614 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      78614
+[FLASH]     Combined pairs:   68605
+[FLASH]     Uncombined pairs: 10009
+[FLASH]     Percent combined: 87.27%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.196 seconds elapsed
+Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1141-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1141-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1141-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1141-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1141-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1141-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1141-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1141-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 22006 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      22006
+[FLASH]     Combined pairs:   16671
+[FLASH]     Uncombined pairs: 5335
+[FLASH]     Percent combined: 75.76%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.072 seconds elapsed
+Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1142-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1142-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1142-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1142-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1142-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1142-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1142-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1142-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 75769 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      75769
+[FLASH]     Combined pairs:   67763
+[FLASH]     Uncombined pairs: 8006
+[FLASH]     Percent combined: 89.43%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.218 seconds elapsed
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1143-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1144-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1145-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1145-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1145-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1145-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1145-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1145-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1145-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1145-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 46266 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      46266
+[FLASH]     Combined pairs:   41001
+[FLASH]     Uncombined pairs: 5265
+[FLASH]     Percent combined: 88.62%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.139 seconds elapsed
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1146-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1147-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1148-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1149-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1150-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1151-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1152-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1153-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1153-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1153-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1153-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1153-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1153-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1153-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1153-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 55040 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      55040
+[FLASH]     Combined pairs:   51086
+[FLASH]     Uncombined pairs: 3954
+[FLASH]     Percent combined: 92.82%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.175 seconds elapsed
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1154-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1154-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1154-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1154-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1154-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1154-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1154-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1154-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 45104 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      45104
+[FLASH]     Combined pairs:   43088
+[FLASH]     Uncombined pairs: 2016
+[FLASH]     Percent combined: 95.53%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.131 seconds elapsed
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1155-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1155-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1155-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1155-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1155-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1155-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1155-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1155-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 53421 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      53421
+[FLASH]     Combined pairs:   51171
+[FLASH]     Uncombined pairs: 2250
+[FLASH]     Percent combined: 95.79%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.153 seconds elapsed
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1156-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1156-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1156-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1156-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1156-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1156-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1156-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1156-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 53409 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      53409
+[FLASH]     Combined pairs:   50972
+[FLASH]     Uncombined pairs: 2437
+[FLASH]     Percent combined: 95.44%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.158 seconds elapsed
+Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1157-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1157-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1157-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1157-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1157-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1157-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1157-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1157-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 95019 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      95019
+[FLASH]     Combined pairs:   91395
+[FLASH]     Uncombined pairs: 3624
+[FLASH]     Percent combined: 96.19%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.247 seconds elapsed
+Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1158-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1158-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1158-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1158-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1158-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1158-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1158-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1158-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 27387 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      27387
+[FLASH]     Combined pairs:   26454
+[FLASH]     Uncombined pairs: 933
+[FLASH]     Percent combined: 96.59%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.090 seconds elapsed
+Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1159-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1160-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1161-MSITS2a
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1162-MSITS2a
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1162-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1162-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1162-MSITS2a.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1162-MSITS2a.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1162-MSITS2a.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1162-MSITS2a.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/5101-1162-MSITS2a.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 32766 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      32766
+[FLASH]     Combined pairs:   31801
+[FLASH]     Uncombined pairs: 965
+[FLASH]     Percent combined: 97.05%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.106 seconds elapsed
+Mon Aug 28 22:45:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-424-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-425-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-426-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-427-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-429-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-430-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-431-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-432-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-435-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-437-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-439-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-440-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-441-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-831-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-832-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-833-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-834-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-836-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-837-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-838-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-839-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-841-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-842-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-843-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-844-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1016-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1017-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1018-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1019-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1020-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1024-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1031-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1032-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1033-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1034-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1035-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1040-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1138-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1139-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1140-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1141-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1142-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1145-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:56 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1153-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:56 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1154-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:56 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1155-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:57 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1156-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:57 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1157-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1158-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:45:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1162-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:46:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-447-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:46:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-449-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:46:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-450-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:46:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-451-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:46:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-457-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:46:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-458-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:46:05 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-757-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:46:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-758-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:46:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-759-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:46:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-760-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:46:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-761-MSITS2a.extendedFrags.fastq
+Mon Aug 28 22:47:11 EDT 2017 'splitting' 4924-424-MSITS2a
+Mon Aug 28 22:47:11 EDT 2017 'splitting' 4924-425-MSITS2a
+Mon Aug 28 22:47:11 EDT 2017 'splitting' 4924-426-MSITS2a
+Mon Aug 28 22:47:11 EDT 2017 'splitting' 4924-427-MSITS2a
+Mon Aug 28 22:47:11 EDT 2017 'splitting' 4924-429-MSITS2a
+Mon Aug 28 22:47:12 EDT 2017 'splitting' 4924-430-MSITS2a
+Mon Aug 28 22:47:12 EDT 2017 'splitting' 4924-431-MSITS2a
+Mon Aug 28 22:47:12 EDT 2017 'splitting' 4924-432-MSITS2a
+Mon Aug 28 22:47:15 EDT 2017 'splitting' 4924-434-MSITS2a
+Mon Aug 28 22:47:16 EDT 2017 'splitting' 4924-435-MSITS2a
+Mon Aug 28 22:47:16 EDT 2017 'splitting' 4924-436-MSITS2a
+Mon Aug 28 22:47:16 EDT 2017 'splitting' 4924-437-MSITS2a
+Mon Aug 28 22:47:16 EDT 2017 'splitting' 4924-439-MSITS2a
+Mon Aug 28 22:47:17 EDT 2017 'splitting' 4924-440-MSITS2a
+Mon Aug 28 22:47:18 EDT 2017 'splitting' 4924-441-MSITS2a
+Mon Aug 28 22:47:18 EDT 2017 'splitting' 4924-442-MSITS2a
+Mon Aug 28 22:47:18 EDT 2017 'splitting' 4924-831-MSITS2a
+Mon Aug 28 22:47:19 EDT 2017 'splitting' 4924-832-MSITS2a
+Mon Aug 28 22:47:19 EDT 2017 'splitting' 4924-833-MSITS2a
+Mon Aug 28 22:47:19 EDT 2017 'splitting' 4924-834-MSITS2a
+Mon Aug 28 22:47:20 EDT 2017 'splitting' 4924-836-MSITS2a
+Mon Aug 28 22:47:21 EDT 2017 'splitting' 4924-837-MSITS2a
+Mon Aug 28 22:47:21 EDT 2017 'splitting' 4924-838-MSITS2a
+Mon Aug 28 22:47:22 EDT 2017 'splitting' 4924-839-MSITS2a
+Mon Aug 28 22:47:22 EDT 2017 'splitting' 4924-841-MSITS2a
+Mon Aug 28 22:47:23 EDT 2017 'splitting' 4924-842-MSITS2a
+Mon Aug 28 22:47:24 EDT 2017 'splitting' 4924-843-MSITS2a
+Mon Aug 28 22:47:25 EDT 2017 'splitting' 4924-844-MSITS2a
+Mon Aug 28 22:47:26 EDT 2017 'splitting' 5101-447-MSITS2a
+Mon Aug 28 22:47:26 EDT 2017 'splitting' 5101-448-MSITS2a
+Mon Aug 28 22:47:26 EDT 2017 'splitting' 5101-449-MSITS2a
+Mon Aug 28 22:47:26 EDT 2017 'splitting' 5101-450-MSITS2a
+Mon Aug 28 22:47:27 EDT 2017 'splitting' 5101-451-MSITS2a
+Mon Aug 28 22:47:28 EDT 2017 'splitting' 5101-452-MSITS2a
+Mon Aug 28 22:47:28 EDT 2017 'splitting' 5101-453-MSITS2a
+Mon Aug 28 22:47:28 EDT 2017 'splitting' 5101-454-MSITS2a
+Mon Aug 28 22:47:30 EDT 2017 'splitting' 5101-455-MSITS2a
+Mon Aug 28 22:47:30 EDT 2017 'splitting' 5101-456-MSITS2a
+Mon Aug 28 22:47:30 EDT 2017 'splitting' 5101-457-MSITS2a
+Mon Aug 28 22:47:30 EDT 2017 'splitting' 5101-458-MSITS2a
+Mon Aug 28 22:47:31 EDT 2017 'splitting' 5101-459-MSITS2a
+Mon Aug 28 22:47:31 EDT 2017 'splitting' 5101-460-MSITS2a
+Mon Aug 28 22:47:31 EDT 2017 'splitting' 5101-461-MSITS2a
+Mon Aug 28 22:47:32 EDT 2017 'splitting' 5101-757-MSITS2a
+Mon Aug 28 22:47:32 EDT 2017 'splitting' 5101-758-MSITS2a
+Mon Aug 28 22:47:33 EDT 2017 'splitting' 5101-759-MSITS2a
+Mon Aug 28 22:47:33 EDT 2017 'splitting' 5101-760-MSITS2a
+Mon Aug 28 22:47:33 EDT 2017 'splitting' 5101-761-MSITS2a
+Mon Aug 28 22:47:34 EDT 2017 'splitting' 5101-762-MSITS2a
+Mon Aug 28 22:47:34 EDT 2017 'splitting' 5101-763-MSITS2a
+Mon Aug 28 22:47:35 EDT 2017 'splitting' 5101-764-MSITS2a
+Mon Aug 28 22:47:36 EDT 2017 'splitting' 5101-765-MSITS2a
+Mon Aug 28 22:47:36 EDT 2017 'splitting' 5101-766-MSITS2a
+Mon Aug 28 22:47:37 EDT 2017 'splitting' 5101-1016-MSITS2a
+Mon Aug 28 22:47:38 EDT 2017 'splitting' 5101-1017-MSITS2a
+Mon Aug 28 22:47:38 EDT 2017 'splitting' 5101-1018-MSITS2a
+Mon Aug 28 22:47:38 EDT 2017 'splitting' 5101-1019-MSITS2a
+Mon Aug 28 22:47:39 EDT 2017 'splitting' 5101-1020-MSITS2a
+Mon Aug 28 22:47:40 EDT 2017 'splitting' 5101-1021-MSITS2a
+Mon Aug 28 22:47:40 EDT 2017 'splitting' 5101-1022-MSITS2a
+Mon Aug 28 22:47:42 EDT 2017 'splitting' 5101-1023-MSITS2a
+Mon Aug 28 22:47:43 EDT 2017 'splitting' 5101-1024-MSITS2a
+Mon Aug 28 22:47:43 EDT 2017 'splitting' 5101-1025-MSITS2a
+Mon Aug 28 22:47:44 EDT 2017 'splitting' 5101-1026-MSITS2a
+Mon Aug 28 22:47:46 EDT 2017 'splitting' 5101-1027-MSITS2a
+Mon Aug 28 22:47:46 EDT 2017 'splitting' 5101-1028-MSITS2a
+Mon Aug 28 22:47:46 EDT 2017 'splitting' 5101-1029-MSITS2a
+Mon Aug 28 22:47:47 EDT 2017 'splitting' 5101-1030-MSITS2a
+Mon Aug 28 22:47:47 EDT 2017 'splitting' 5101-1031-MSITS2a
+Mon Aug 28 22:47:47 EDT 2017 'splitting' 5101-1032-MSITS2a
+Mon Aug 28 22:47:47 EDT 2017 'splitting' 5101-1033-MSITS2a
+Mon Aug 28 22:47:47 EDT 2017 'splitting' 5101-1034-MSITS2a
+Mon Aug 28 22:47:48 EDT 2017 'splitting' 5101-1035-MSITS2a
+Mon Aug 28 22:47:48 EDT 2017 'splitting' 5101-1036-MSITS2a
+Mon Aug 28 22:47:48 EDT 2017 'splitting' 5101-1037-MSITS2a
+Mon Aug 28 22:47:49 EDT 2017 'splitting' 5101-1038-MSITS2a
+Mon Aug 28 22:47:50 EDT 2017 'splitting' 5101-1039-MSITS2a
+Mon Aug 28 22:47:50 EDT 2017 'splitting' 5101-1040-MSITS2a
+Mon Aug 28 22:47:52 EDT 2017 'splitting' 5101-1138-MSITS2a
+Mon Aug 28 22:47:52 EDT 2017 'splitting' 5101-1139-MSITS2a
+Mon Aug 28 22:47:54 EDT 2017 'splitting' 5101-1140-MSITS2a
+Mon Aug 28 22:47:54 EDT 2017 'splitting' 5101-1141-MSITS2a
+Mon Aug 28 22:47:55 EDT 2017 'splitting' 5101-1142-MSITS2a
+Mon Aug 28 22:47:56 EDT 2017 'splitting' 5101-1143-MSITS2a
+Mon Aug 28 22:47:57 EDT 2017 'splitting' 5101-1144-MSITS2a
+Mon Aug 28 22:47:58 EDT 2017 'splitting' 5101-1145-MSITS2a
+Mon Aug 28 22:47:59 EDT 2017 'splitting' 5101-1146-MSITS2a
+Mon Aug 28 22:48:00 EDT 2017 'splitting' 5101-1147-MSITS2a
+Mon Aug 28 22:48:00 EDT 2017 'splitting' 5101-1148-MSITS2a
+Mon Aug 28 22:48:02 EDT 2017 'splitting' 5101-1149-MSITS2a
+Mon Aug 28 22:48:02 EDT 2017 'splitting' 5101-1150-MSITS2a
+Mon Aug 28 22:48:03 EDT 2017 'splitting' 5101-1151-MSITS2a
+Mon Aug 28 22:48:03 EDT 2017 'splitting' 5101-1152-MSITS2a
+Mon Aug 28 22:48:04 EDT 2017 'splitting' 5101-1153-MSITS2a
+Mon Aug 28 22:48:04 EDT 2017 'splitting' 5101-1154-MSITS2a
+Mon Aug 28 22:48:04 EDT 2017 'splitting' 5101-1155-MSITS2a
+Mon Aug 28 22:48:05 EDT 2017 'splitting' 5101-1156-MSITS2a
+Mon Aug 28 22:48:05 EDT 2017 'splitting' 5101-1157-MSITS2a
+Mon Aug 28 22:48:05 EDT 2017 'splitting' 5101-1158-MSITS2a
+Mon Aug 28 22:48:05 EDT 2017 'splitting' 5101-1159-MSITS2a
+Mon Aug 28 22:48:06 EDT 2017 'splitting' 5101-1160-MSITS2a
+Mon Aug 28 22:48:07 EDT 2017 'splitting' 5101-1161-MSITS2a
+Mon Aug 28 22:48:09 EDT 2017 'splitting' 5101-1162-MSITS2a
+Mon Aug 28 22:48:12 EDT 2017 start OTU picking
+Mon Aug 28 22:53:05 EDT 2017 OTU picking complete
+Num samples: 57
+Num observations: 801
+Total count: 1787503
+Table density (fraction of non-zero values): 0.071
+
+Counts/sample summary:
+ Min: 349.0
+ Max: 80033.0
+ Median: 26566.000
+ Mean: 31359.702
+ Std. dev.: 19726.138
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+439: 349.0
+451: 1577.0
+760: 5131.0
+833: 7248.0
+458: 8401.0
+432: 9237.0
+450: 9382.0
+435: 9641.0
+440: 10772.0
+449: 10855.0
+431: 10995.0
+441: 11280.0
+843: 14716.0
+429: 14966.0
+841: 15601.0
+1141: 16145.0
+1024: 16724.0
+832: 17155.0
+842: 17187.0
+834: 19187.0
+838: 19426.0
+427: 20371.0
+430: 21012.0
+839: 21418.0
+457: 23961.0
+837: 24226.0
+424: 24527.0
+1158: 25277.0
+1142: 26566.0
+836: 30358.0
+1153: 31151.0
+831: 31698.0
+437: 32567.0
+844: 33250.0
+447: 35196.0
+1040: 35861.0
+425: 38478.0
+761: 39934.0
+426: 40473.0
+1145: 40507.0
+1154: 40998.0
+759: 41337.0
+757: 42945.0
+1020: 48551.0
+1032: 49329.0
+1031: 53263.0
+758: 54405.0
+1016: 56846.0
+1019: 57384.0
+1034: 60048.0
+1017: 60118.0
+1018: 60736.0
+1033: 62087.0
+1035: 63166.0
+1139: 65675.0
+1140: 67776.0
+1138: 80033.0
+Mon Aug 28 22:53:07 EDT 2017 start core diversity
+Mon Aug 28 22:56:49 EDT 2017 core diversity complete

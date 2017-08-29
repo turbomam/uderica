@@ -9,7 +9,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -19,10 +19,10 @@ suppress_new_clusters:True
 suppress_sort:True
 word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
-Num OTUs:401
+Num OTUs:381
 Num new OTUs:0
-Num failures:44222
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_/POTU_Revy_.0_otus.txt
+Num failures:19288
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_/POTU_Y0Eg_.0_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -34,7 +34,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -44,10 +44,10 @@ suppress_new_clusters:True
 suppress_sort:True
 word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
-Num OTUs:487
+Num OTUs:475
 Num new OTUs:0
-Num failures:50034
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_/POTU_Revy_.1_otus.txt
+Num failures:26427
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_/POTU_Y0Eg_.1_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -59,7 +59,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -69,10 +69,10 @@ suppress_new_clusters:True
 suppress_sort:True
 word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
-Num OTUs:534
+Num OTUs:507
 Num new OTUs:0
-Num failures:51356
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_/POTU_Revy_.2_otus.txt
+Num failures:25053
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_/POTU_Y0Eg_.2_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -84,7 +84,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -94,10 +94,10 @@ suppress_new_clusters:True
 suppress_sort:True
 word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
-Num OTUs:476
+Num OTUs:465
 Num new OTUs:0
-Num failures:53968
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_/POTU_Revy_.3_otus.txt
+Num failures:27619
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_/POTU_Y0Eg_.3_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -109,7 +109,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -119,10 +119,10 @@ suppress_new_clusters:True
 suppress_sort:True
 word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
-Num OTUs:505
+Num OTUs:512
 Num new OTUs:0
-Num failures:52220
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_/POTU_Revy_.4_otus.txt
+Num failures:25794
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_/POTU_Y0Eg_.4_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -134,7 +134,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -144,7 +144,7 @@ suppress_new_clusters:True
 suppress_sort:True
 word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
-Num OTUs:563
+Num OTUs:529
 Num new OTUs:0
-Num failures:52283
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Revy_/POTU_Revy_.5_otus.txt
+Num failures:26134
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_Y0Eg_/POTU_Y0Eg_.5_otus.txt

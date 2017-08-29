@@ -1,0 +1,63 @@
+<html>
+<head>
+
+<script type="text/javascript" src="./overlib.js"></script>
+</head>
+<body bgcolor="white"> <h1>No errors or warnings detected.<br></h1><h1>Mapping file error and warning details.</h1>
+Notes for interpreting this report:
+<ul>
+    <li>Errors will be listed in red, warnings in yellow.
+    <li>Mouse over an error or warning in a cell for more details.
+    <li>Errors in the header row may mask other errors, so these should be corrected first.
+    <li>Modifications to your mapping file to fix certain issues may result in different errors. You should run <tt>validate_mapping_file.py</tt> until no errors (nor warnings, ideally) are found.
+</ul>
+<p>
+Some general rules about formatting mapping files (see <a href="http://qiime.org/documentation/file_formats.html#metadata-mapping-files">here</a> for additional details):
+<ul>
+    <li>Header characters should only contain alphanumeric and <tt>_</tt> characters only.
+    <li>Valid characters for SampleID fields are alphanumeric and <tt>.</tt> only.<br>
+    <li>Other fields allow alphanumeric and <tt>+-%./ :,;_</tt> characters.
+</ul>
+General issues with your mapping file (i.e., those that do not pertain to a particular cell) will be listed here, if any:<table border="1" cellspacing="0" cellpadding="7"><tr></tr></table><br>
+<table border="2" cellspacing="0" cellpadding="5">
+
+<tr></tr>
+<tr>
+<th>SampleID</th><th>BarcodeSequence</th><th>LinkerPrimerSequence</th><th>ReverseLinkerPrimerSequence</th><th>day</th><th>treatment</th><th>Treatment</th><th>Description</th>
+</tr>
+
+<tr>
+<tr><th><tt>657</tt></th><th><tt>AAAAAAAA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>0</tt></th><th><tt>C</tt></th><th><tt>C/0</tt></th><th><tt>657
+</tt></th></tr><tr><th><tt>658</tt></th><th><tt>AAAAAAAC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>0</tt></th><th><tt>C</tt></th><th><tt>C/0</tt></th><th><tt>658
+</tt></th></tr><tr><th><tt>659</tt></th><th><tt>AAAAAAAG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>0</tt></th><th><tt>C</tt></th><th><tt>C/0</tt></th><th><tt>659
+</tt></th></tr><tr><th><tt>660</tt></th><th><tt>AAAAAAAT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>0</tt></th><th><tt>C</tt></th><th><tt>C/0</tt></th><th><tt>660
+</tt></th></tr><tr><th><tt>662</tt></th><th><tt>AAAAAACA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-NS</tt></th><th><tt>C-NS/56</tt></th><th><tt>662
+</tt></th></tr><tr><th><tt>663</tt></th><th><tt>AAAAAACC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-NS</tt></th><th><tt>C-NS/56</tt></th><th><tt>663
+</tt></th></tr><tr><th><tt>664</tt></th><th><tt>AAAAAACG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-NS</tt></th><th><tt>C-NS/56</tt></th><th><tt>664
+</tt></th></tr><tr><th><tt>665</tt></th><th><tt>AAAAAACT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-NS</tt></th><th><tt>C-NS/56</tt></th><th><tt>665
+</tt></th></tr><tr><th><tt>667</tt></th><th><tt>AAAAAAGA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-NS</tt></th><th><tt>S2-NS/56</tt></th><th><tt>667
+</tt></th></tr><tr><th><tt>668</tt></th><th><tt>AAAAAAGC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-NS</tt></th><th><tt>S2-NS/56</tt></th><th><tt>668
+</tt></th></tr><tr><th><tt>669</tt></th><th><tt>AAAAAAGG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-NS</tt></th><th><tt>S2-NS/56</tt></th><th><tt>669
+</tt></th></tr><tr><th><tt>670</tt></th><th><tt>AAAAAAGT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-NS</tt></th><th><tt>S2-NS/56</tt></th><th><tt>670
+</tt></th></tr><tr><th><tt>672</tt></th><th><tt>AAAAAATA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-3H</tt></th><th><tt>C-3H/56</tt></th><th><tt>672
+</tt></th></tr><tr><th><tt>673</tt></th><th><tt>AAAAAATC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-3H</tt></th><th><tt>C-3H/56</tt></th><th><tt>673
+</tt></th></tr><tr><th><tt>674</tt></th><th><tt>AAAAAATG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-3H</tt></th><th><tt>C-3H/56</tt></th><th><tt>674
+</tt></th></tr><tr><th><tt>675</tt></th><th><tt>AAAAAATT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-3H</tt></th><th><tt>C-3H/56</tt></th><th><tt>675
+</tt></th></tr><tr><th><tt>677</tt></th><th><tt>AAAAACAA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-3H</tt></th><th><tt>S2-3H/56</tt></th><th><tt>677
+</tt></th></tr><tr><th><tt>678</tt></th><th><tt>AAAAACAC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-3H</tt></th><th><tt>S2-3H/56</tt></th><th><tt>678
+</tt></th></tr><tr><th><tt>679</tt></th><th><tt>AAAAACAG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-3H</tt></th><th><tt>S2-3H/56</tt></th><th><tt>679
+</tt></th></tr><tr><th><tt>680</tt></th><th><tt>AAAAACAT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-3H</tt></th><th><tt>S2-3H/56</tt></th><th><tt>680
+</tt></th></tr><tr><th><tt>692</tt></th><th><tt>AAAAACCA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-3H-LATE</tt></th><th><tt>C-3H-LATE/56</tt></th><th><tt>692
+</tt></th></tr><tr><th><tt>693</tt></th><th><tt>AAAAACCC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-3H-LATE</tt></th><th><tt>C-3H-LATE/56</tt></th><th><tt>693
+</tt></th></tr><tr><th><tt>694</tt></th><th><tt>AAAAACCG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-3H-LATE</tt></th><th><tt>C-3H-LATE/56</tt></th><th><tt>694
+</tt></th></tr><tr><th><tt>695</tt></th><th><tt>AAAAACCT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>C-3H-LATE</tt></th><th><tt>C-3H-LATE/56</tt></th><th><tt>695
+</tt></th></tr><tr><th><tt>697</tt></th><th><tt>AAAAACGA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-3H-LATE</tt></th><th><tt>S2-3H-LATE/56</tt></th><th><tt>697
+</tt></th></tr><tr><th><tt>698</tt></th><th><tt>AAAAACGC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-3H-LATE</tt></th><th><tt>S2-3H-LATE/56</tt></th><th><tt>698
+</tt></th></tr><tr><th><tt>699</tt></th><th><tt>AAAAACGG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-3H-LATE</tt></th><th><tt>S2-3H-LATE/56</tt></th><th><tt>699
+</tt></th></tr><tr><th><tt>700</tt></th><th><tt>AAAAACGT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>56</tt></th><th><tt>S2-3H-LATE</tt></th><th><tt>S2-3H-LATE/56</tt></th><th><tt>700
+</tt></th></tr>
+</tr>
+</table>
+
+</body>
+</html>

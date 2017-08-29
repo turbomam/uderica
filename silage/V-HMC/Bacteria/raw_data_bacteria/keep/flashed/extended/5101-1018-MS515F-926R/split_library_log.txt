@@ -1,5 +1,5 @@
 Input file paths
-Sequence read filepath: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/5101-1018-MS515F-926R.extendedFrags.fastq (md5: 4047a34dd81960478dfba4eda88d12ae)
+Sequence read filepath: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/5101-1018-MS515F-926R.extendedFrags.fastq (md5: 5935f989af931acd7034f8cee3146e0c)
 Quality filter results
 Total number of input sequences: 48404
 Barcode not in mapping file: 0

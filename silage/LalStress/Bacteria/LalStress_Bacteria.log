@@ -1,0 +1,1721 @@
+configuration from /home/mark/gitstage/uderica/silage/LalStress/Bacteria/LalStress_Bacteria_envvars.sh
+export PROJ_GENE_TITLE="LalStress_Bacteria"
+export PROJ_GENE_HOME="/home/mark/gitstage/uderica/silage/LalStress/Bacteria"
+
+export R1="_R1"
+export R2="_R2"
+export FILE_EXT=".fastq"
+
+export LOG_FILE="${PROJ_GENE_HOME}/${PROJ_GENE_TITLE}.log"
+
+export REF_SEQ_FILE="/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta"
+
+export FASTQC_PATH="/home/mark/gitstage/uderica/silage/FastQC/fastqc"
+export MULTIQC_PATH="multiqc"
+
+export MULTIQC_CONFIG="/home/mark/gitstage/uderica/silage/multiqc_config.yaml"
+
+# also sem (parallel)... avaialble for OSX? and in2csv from csvkit
+
+export FLASH_PATH="/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash"
+export MIN_FLASH_OVERLAP=80
+export MAX_FLASH_OVERLAP=100
+
+# work on this some more... how to pick best depth?
+export CORE_DIV_MIN_DEPTH=10000
+export THREAD_CT=6
+
+export SLEEP_SECS=15
+
+export DATA_DIR="raw_data_bacteria"
+export FLASHED_DIR="${PROJ_GENE_HOME}/${DATA_DIR}/flashed"
+export EXTENDED_DIR="${FLASHED_DIR}/extended"
+export PICKED_DIR="${EXTENDED_DIR}/flash_trim_cat_pick"
+
+export OTU_PICK_PARAM_FILE="${PROJ_GENE_HOME}/otu_pick_param.txt"
+
+# look here for sample ID, barcodes, primers, optionally experimental factors
+# export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map16S_MAM_some_factors.txt"
+export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map.txt"
+
+# look here for sample infomration, except mapping info (esp. barcode and primers)
+# will be looping though some column looking for IDs,
+# which should then appear in files with names:
+# ${PROJ_GENE_HOME}/${DATA_DIR}/${PAIR_PREFIX}<ID>${PAIR_SUFFIX}{${R1}|${R2}}${FILE_EXT}
+# export SAMPLE_METADATA_FILE="${PROJ_GENE_HOME}/LalStressMicrobiomeInfo.txt"
+
+export FILE_PATH_FILE="${PROJ_GENE_HOME}/file_path.txt"
+
+# could probably just loop though mapping file instead
+# add capability to look for ID:filename relationships in some lookup table
+
+# not doing any error/dependency checking yet
+# not doing and cleanup from previous run yet
+# FALSE
+export FRESH_LOG="TRUE"
+export INITIAL_FASTQC="TRUE"
+export INITIAL_MULTIQC="TRUE"
+export DO_FLASH="TRUE"
+export POST_FLASH_BOTHQC="TRUE"
+# export POST_FLASH_FASTQC="TRUE"
+# export POST_FLASH_MULTIQC="TRUE"
+export DO_QIIME_SPLIT="TRUE"
+export DO_QIIME_PICK="FALSE"
+export DO_PYTHON_OTU_FILTERING="FALSE"
+export DO_BIOM_CONVERSION="FALSE"
+export DO_CORE_DIV="FALSE"
+export DO_PHYLOSEQ="FALSE"
+
+
+
+
+Mon Aug 28 20:02:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R
+Mon Aug 28 20:02:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R
+Mon Aug 28 20:02:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R
+Mon Aug 28 20:02:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R
+Mon Aug 28 20:02:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R
+Mon Aug 28 20:02:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R
+Mon Aug 28 20:02:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R
+Mon Aug 28 20:02:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R
+Mon Aug 28 20:03:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R
+Mon Aug 28 20:03:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R
+Mon Aug 28 20:03:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R
+Mon Aug 28 20:03:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R
+Mon Aug 28 20:03:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R
+Mon Aug 28 20:03:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R
+Mon Aug 28 20:03:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R
+Mon Aug 28 20:03:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R
+Mon Aug 28 20:03:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R
+Mon Aug 28 20:03:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R
+Mon Aug 28 20:03:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R
+Mon Aug 28 20:03:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R
+Mon Aug 28 20:03:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R
+Mon Aug 28 20:03:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R
+Mon Aug 28 20:03:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R
+Mon Aug 28 20:03:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R
+Mon Aug 28 20:03:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R
+Mon Aug 28 20:03:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R
+Mon Aug 28 20:03:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R
+Mon Aug 28 20:03:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R
+Mon Aug 28 20:03:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R
+Mon Aug 28 20:04:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R
+Mon Aug 28 20:04:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R
+Mon Aug 28 20:04:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R
+Mon Aug 28 20:04:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R
+Mon Aug 28 20:04:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R
+Mon Aug 28 20:04:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R
+Mon Aug 28 20:04:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R
+Mon Aug 28 20:04:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R
+Mon Aug 28 20:04:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R
+Mon Aug 28 20:04:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R
+Mon Aug 28 20:04:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R
+Mon Aug 28 20:04:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R
+Mon Aug 28 20:04:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R
+Mon Aug 28 20:04:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R
+Mon Aug 28 20:04:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R
+Mon Aug 28 20:04:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R
+Mon Aug 28 20:04:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R
+Mon Aug 28 20:04:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R
+Mon Aug 28 20:04:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R
+Mon Aug 28 20:04:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R
+Mon Aug 28 20:04:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R
+Mon Aug 28 20:04:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R
+Mon Aug 28 20:04:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R
+Mon Aug 28 20:04:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R
+Mon Aug 28 20:04:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R
+Mon Aug 28 20:04:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R
+Mon Aug 28 20:04:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R
+Mon Aug 28 20:05:17 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-145-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-145-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-145-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-145-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-145-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 37725 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      37725
+[FLASH]     Combined pairs:   36561
+[FLASH]     Uncombined pairs: 1164
+[FLASH]     Percent combined: 96.91%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.116 seconds elapsed
+Mon Aug 28 20:05:17 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-146-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-146-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-146-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-146-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-146-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 33880 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      33880
+[FLASH]     Combined pairs:   33197
+[FLASH]     Uncombined pairs: 683
+[FLASH]     Percent combined: 97.98%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.101 seconds elapsed
+Mon Aug 28 20:05:17 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-147-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-147-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-147-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-147-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-147-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 38934 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      38934
+[FLASH]     Combined pairs:   37825
+[FLASH]     Uncombined pairs: 1109
+[FLASH]     Percent combined: 97.15%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.114 seconds elapsed
+Mon Aug 28 20:05:17 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-148-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-148-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-148-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-148-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-148-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 37851 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      37851
+[FLASH]     Combined pairs:   36791
+[FLASH]     Uncombined pairs: 1060
+[FLASH]     Percent combined: 97.20%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.107 seconds elapsed
+Mon Aug 28 20:05:17 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-150-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-150-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-150-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-150-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-150-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 47978 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      47978
+[FLASH]     Combined pairs:   47488
+[FLASH]     Uncombined pairs: 490
+[FLASH]     Percent combined: 98.98%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.135 seconds elapsed
+Mon Aug 28 20:05:17 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-151-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-151-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-151-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-151-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-151-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 37806 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      37806
+[FLASH]     Combined pairs:   37420
+[FLASH]     Uncombined pairs: 386
+[FLASH]     Percent combined: 98.98%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.124 seconds elapsed
+Mon Aug 28 20:05:18 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-152-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-152-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-152-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-152-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-152-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 43581 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      43581
+[FLASH]     Combined pairs:   43182
+[FLASH]     Uncombined pairs: 399
+[FLASH]     Percent combined: 99.08%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.149 seconds elapsed
+Mon Aug 28 20:05:18 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-153-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-153-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-153-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-153-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-153-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 39656 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      39656
+[FLASH]     Combined pairs:   39261
+[FLASH]     Uncombined pairs: 395
+[FLASH]     Percent combined: 99.00%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.111 seconds elapsed
+Mon Aug 28 20:05:18 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-155-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-155-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-155-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-155-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-155-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 47274 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      47274
+[FLASH]     Combined pairs:   46770
+[FLASH]     Uncombined pairs: 504
+[FLASH]     Percent combined: 98.93%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.138 seconds elapsed
+Mon Aug 28 20:05:18 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-156-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-156-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-156-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-156-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-156-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 41502 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      41502
+[FLASH]     Combined pairs:   40853
+[FLASH]     Uncombined pairs: 649
+[FLASH]     Percent combined: 98.44%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.121 seconds elapsed
+Mon Aug 28 20:05:18 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-157-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-157-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-157-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-157-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-157-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 42983 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      42983
+[FLASH]     Combined pairs:   42476
+[FLASH]     Uncombined pairs: 507
+[FLASH]     Percent combined: 98.82%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.123 seconds elapsed
+Mon Aug 28 20:05:18 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-158-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-158-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-158-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-158-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-158-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 33858 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      33858
+[FLASH]     Combined pairs:   33381
+[FLASH]     Uncombined pairs: 477
+[FLASH]     Percent combined: 98.59%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.114 seconds elapsed
+Mon Aug 28 20:05:18 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-160-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-160-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-160-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-160-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-160-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 16712 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      16712
+[FLASH]     Combined pairs:   16489
+[FLASH]     Uncombined pairs: 223
+[FLASH]     Percent combined: 98.67%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.059 seconds elapsed
+Mon Aug 28 20:05:18 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-161-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-161-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-161-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-161-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-161-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 48273 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      48273
+[FLASH]     Combined pairs:   47746
+[FLASH]     Uncombined pairs: 527
+[FLASH]     Percent combined: 98.91%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.137 seconds elapsed
+Mon Aug 28 20:05:19 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-162-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-162-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-162-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-162-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-162-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 41927 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      41927
+[FLASH]     Combined pairs:   41473
+[FLASH]     Uncombined pairs: 454
+[FLASH]     Percent combined: 98.92%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.117 seconds elapsed
+Mon Aug 28 20:05:19 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-163-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-163-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-163-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-163-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-163-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 45556 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      45556
+[FLASH]     Combined pairs:   45054
+[FLASH]     Uncombined pairs: 502
+[FLASH]     Percent combined: 98.90%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.118 seconds elapsed
+Mon Aug 28 20:05:19 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-165-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-165-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-165-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-165-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-165-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 53230 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      53230
+[FLASH]     Combined pairs:   52525
+[FLASH]     Uncombined pairs: 705
+[FLASH]     Percent combined: 98.68%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.153 seconds elapsed
+Mon Aug 28 20:05:19 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-166-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-166-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-166-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-166-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-166-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 57544 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      57544
+[FLASH]     Combined pairs:   56746
+[FLASH]     Uncombined pairs: 798
+[FLASH]     Percent combined: 98.61%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.156 seconds elapsed
+Mon Aug 28 20:05:19 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-167-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-167-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-167-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-167-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-167-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 55017 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      55017
+[FLASH]     Combined pairs:   54238
+[FLASH]     Uncombined pairs: 779
+[FLASH]     Percent combined: 98.58%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.156 seconds elapsed
+Mon Aug 28 20:05:19 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-168-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-168-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-168-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-168-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-168-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 63557 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      63557
+[FLASH]     Combined pairs:   62640
+[FLASH]     Uncombined pairs: 917
+[FLASH]     Percent combined: 98.56%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.181 seconds elapsed
+Mon Aug 28 20:05:19 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-170-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-170-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-170-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-170-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-170-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 59964 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      59964
+[FLASH]     Combined pairs:   59053
+[FLASH]     Uncombined pairs: 911
+[FLASH]     Percent combined: 98.48%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.164 seconds elapsed
+Mon Aug 28 20:05:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-171-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-171-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-171-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-171-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-171-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 55070 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      55070
+[FLASH]     Combined pairs:   54237
+[FLASH]     Uncombined pairs: 833
+[FLASH]     Percent combined: 98.49%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.176 seconds elapsed
+Mon Aug 28 20:05:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-172-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-172-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-172-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-172-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-172-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 48995 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      48995
+[FLASH]     Combined pairs:   48390
+[FLASH]     Uncombined pairs: 605
+[FLASH]     Percent combined: 98.77%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.134 seconds elapsed
+Mon Aug 28 20:05:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-173-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-173-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-173-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-173-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-173-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 48886 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      48886
+[FLASH]     Combined pairs:   48192
+[FLASH]     Uncombined pairs: 694
+[FLASH]     Percent combined: 98.58%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.133 seconds elapsed
+Mon Aug 28 20:05:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-175-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-175-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-175-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-175-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-175-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 55285 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      55285
+[FLASH]     Combined pairs:   54501
+[FLASH]     Uncombined pairs: 784
+[FLASH]     Percent combined: 98.58%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.143 seconds elapsed
+Mon Aug 28 20:05:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-176-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-176-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-176-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-176-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-176-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 56298 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      56298
+[FLASH]     Combined pairs:   55548
+[FLASH]     Uncombined pairs: 750
+[FLASH]     Percent combined: 98.67%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.164 seconds elapsed
+Mon Aug 28 20:05:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-177-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-177-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-177-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-177-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-177-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 53548 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      53548
+[FLASH]     Combined pairs:   52859
+[FLASH]     Uncombined pairs: 689
+[FLASH]     Percent combined: 98.71%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.146 seconds elapsed
+Mon Aug 28 20:05:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-178-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-178-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-178-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-178-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-178-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 62241 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      62241
+[FLASH]     Combined pairs:   61331
+[FLASH]     Uncombined pairs: 910
+[FLASH]     Percent combined: 98.54%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.166 seconds elapsed
+Mon Aug 28 20:06:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-145-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-146-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-147-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-148-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-150-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-151-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-152-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-153-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-155-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-156-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-157-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-158-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-160-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-161-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-162-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-163-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-165-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-166-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-167-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-168-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:21 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-170-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:21 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-171-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-172-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-173-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-175-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-176-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:28 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-177-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:06:28 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-178-MS515F-926R.extendedFrags.fastq
+Mon Aug 28 20:07:27 EDT 2017 'splitting' 5101-145-MS515F-926R
+Mon Aug 28 20:07:27 EDT 2017 'splitting' 5101-146-MS515F-926R
+Mon Aug 28 20:07:27 EDT 2017 'splitting' 5101-147-MS515F-926R
+Mon Aug 28 20:07:27 EDT 2017 'splitting' 5101-148-MS515F-926R
+Mon Aug 28 20:07:28 EDT 2017 'splitting' 5101-150-MS515F-926R
+Mon Aug 28 20:07:28 EDT 2017 'splitting' 5101-151-MS515F-926R
+Mon Aug 28 20:07:28 EDT 2017 'splitting' 5101-152-MS515F-926R
+Mon Aug 28 20:07:28 EDT 2017 'splitting' 5101-153-MS515F-926R
+Mon Aug 28 20:07:33 EDT 2017 'splitting' 5101-155-MS515F-926R
+Mon Aug 28 20:07:33 EDT 2017 'splitting' 5101-156-MS515F-926R
+Mon Aug 28 20:07:34 EDT 2017 'splitting' 5101-157-MS515F-926R
+Mon Aug 28 20:07:34 EDT 2017 'splitting' 5101-158-MS515F-926R
+Mon Aug 28 20:07:34 EDT 2017 'splitting' 5101-160-MS515F-926R
+Mon Aug 28 20:07:35 EDT 2017 'splitting' 5101-161-MS515F-926R
+Mon Aug 28 20:07:35 EDT 2017 'splitting' 5101-162-MS515F-926R
+Mon Aug 28 20:07:39 EDT 2017 'splitting' 5101-163-MS515F-926R
+Mon Aug 28 20:07:39 EDT 2017 'splitting' 5101-165-MS515F-926R
+Mon Aug 28 20:07:40 EDT 2017 'splitting' 5101-166-MS515F-926R
+Mon Aug 28 20:07:40 EDT 2017 'splitting' 5101-167-MS515F-926R
+Mon Aug 28 20:07:40 EDT 2017 'splitting' 5101-168-MS515F-926R
+Mon Aug 28 20:07:41 EDT 2017 'splitting' 5101-170-MS515F-926R
+Mon Aug 28 20:07:42 EDT 2017 'splitting' 5101-171-MS515F-926R
+Mon Aug 28 20:07:45 EDT 2017 'splitting' 5101-172-MS515F-926R
+Mon Aug 28 20:07:46 EDT 2017 'splitting' 5101-173-MS515F-926R
+Mon Aug 28 20:07:48 EDT 2017 'splitting' 5101-175-MS515F-926R
+Mon Aug 28 20:07:48 EDT 2017 'splitting' 5101-176-MS515F-926R
+Mon Aug 28 20:07:48 EDT 2017 'splitting' 5101-177-MS515F-926R
+Mon Aug 28 20:07:49 EDT 2017 'splitting' 5101-178-MS515F-926R
+configuration from /home/mark/gitstage/uderica/silage/LalStress/Bacteria/LalStress_Bacteria_envvars.sh
+export PROJ_GENE_TITLE="LalStress_Bacteria"
+export PROJ_GENE_HOME="/home/mark/gitstage/uderica/silage/LalStress/Bacteria"
+
+export R1="_R1"
+export R2="_R2"
+export FILE_EXT=".fastq"
+
+export LOG_FILE="${PROJ_GENE_HOME}/${PROJ_GENE_TITLE}.log"
+
+export REF_SEQ_FILE="/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta"
+
+export FASTQC_PATH="/home/mark/gitstage/uderica/silage/FastQC/fastqc"
+export MULTIQC_PATH="multiqc"
+
+export MULTIQC_CONFIG="/home/mark/gitstage/uderica/silage/multiqc_config.yaml"
+
+# also sem (parallel)... avaialble for OSX? and in2csv from csvkit
+
+export FLASH_PATH="/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash"
+export MIN_FLASH_OVERLAP=80
+export MAX_FLASH_OVERLAP=100
+
+# work on this some more... how to pick best depth?
+export CORE_DIV_MIN_DEPTH=10000
+export THREAD_CT=6
+
+export SLEEP_SECS=15
+
+export DATA_DIR="raw_data_bacteria"
+export FLASHED_DIR="${PROJ_GENE_HOME}/${DATA_DIR}/flashed"
+export EXTENDED_DIR="${FLASHED_DIR}/extended"
+export PICKED_DIR="${EXTENDED_DIR}/flash_trim_cat_pick"
+
+export OTU_PICK_PARAM_FILE="${PROJ_GENE_HOME}/otu_pick_param.txt"
+
+# look here for sample ID, barcodes, primers, optionally experimental factors
+# export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map16S_MAM_some_factors.txt"
+export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map.txt"
+
+# look here for sample infomration, except mapping info (esp. barcode and primers)
+# will be looping though some column looking for IDs,
+# which should then appear in files with names:
+# ${PROJ_GENE_HOME}/${DATA_DIR}/${PAIR_PREFIX}<ID>${PAIR_SUFFIX}{${R1}|${R2}}${FILE_EXT}
+# export SAMPLE_METADATA_FILE="${PROJ_GENE_HOME}/LalStressMicrobiomeInfo.txt"
+
+export FILE_PATH_FILE="${PROJ_GENE_HOME}/file_path.txt"
+
+# could probably just loop though mapping file instead
+# add capability to look for ID:filename relationships in some lookup table
+
+# not doing any error/dependency checking yet
+# not doing and cleanup from previous run yet
+# FALSE
+export FRESH_LOG="FALSE"
+export INITIAL_FASTQC="FALSE"
+export INITIAL_MULTIQC="FALSE"
+export DO_FLASH="FALSE"
+export POST_FLASH_BOTHQC="FALSE"
+# export POST_FLASH_FASTQC="TRUE"
+# export POST_FLASH_MULTIQC="TRUE"
+export DO_QIIME_SPLIT="FALSE"
+export DO_QIIME_PICK="TRUE"
+export DO_PYTHON_OTU_FILTERING="FALSE"
+export DO_BIOM_CONVERSION="FALSE"
+export DO_CORE_DIV="FALSE"
+export DO_PHYLOSEQ="FALSE"
+
+
+
+
+Mon Aug 28 20:11:27 EDT 2017 start OTU picking
+Mon Aug 28 20:11:28 EDT 2017 OTU picking complete
+configuration from /home/mark/gitstage/uderica/silage/LalStress/Bacteria/LalStress_Bacteria_envvars.sh
+export PROJ_GENE_TITLE="LalStress_Bacteria"
+export PROJ_GENE_HOME="/home/mark/gitstage/uderica/silage/LalStress/Bacteria"
+
+export R1="_R1"
+export R2="_R2"
+export FILE_EXT=".fastq"
+
+export LOG_FILE="${PROJ_GENE_HOME}/${PROJ_GENE_TITLE}.log"
+
+export REF_SEQ_FILE="/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta"
+
+export FASTQC_PATH="/home/mark/gitstage/uderica/silage/FastQC/fastqc"
+export MULTIQC_PATH="multiqc"
+
+export MULTIQC_CONFIG="/home/mark/gitstage/uderica/silage/multiqc_config.yaml"
+
+# also sem (parallel)... avaialble for OSX? and in2csv from csvkit
+
+export FLASH_PATH="/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash"
+export MIN_FLASH_OVERLAP=80
+export MAX_FLASH_OVERLAP=100
+
+# work on this some more... how to pick best depth?
+export CORE_DIV_MIN_DEPTH=10000
+export THREAD_CT=6
+
+export SLEEP_SECS=15
+
+export DATA_DIR="raw_data_bacteria"
+export FLASHED_DIR="${PROJ_GENE_HOME}/${DATA_DIR}/flashed"
+export EXTENDED_DIR="${FLASHED_DIR}/extended"
+export PICKED_DIR="${EXTENDED_DIR}/flash_trim_cat_pick"
+
+export OTU_PICK_PARAM_FILE="${PROJ_GENE_HOME}/otu_pick_param.txt"
+
+# look here for sample ID, barcodes, primers, optionally experimental factors
+# export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map16S_MAM_some_factors.txt"
+export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map.txt"
+
+# look here for sample infomration, except mapping info (esp. barcode and primers)
+# will be looping though some column looking for IDs,
+# which should then appear in files with names:
+# ${PROJ_GENE_HOME}/${DATA_DIR}/${PAIR_PREFIX}<ID>${PAIR_SUFFIX}{${R1}|${R2}}${FILE_EXT}
+# export SAMPLE_METADATA_FILE="${PROJ_GENE_HOME}/LalStressMicrobiomeInfo.txt"
+
+export FILE_PATH_FILE="${PROJ_GENE_HOME}/file_path.txt"
+
+# could probably just loop though mapping file instead
+# add capability to look for ID:filename relationships in some lookup table
+
+# not doing any error/dependency checking yet
+# not doing and cleanup from previous run yet
+# FALSE
+export FRESH_LOG="FALSE"
+export INITIAL_FASTQC="FALSE"
+export INITIAL_MULTIQC="FALSE"
+export DO_FLASH="FALSE"
+export POST_FLASH_BOTHQC="FALSE"
+# export POST_FLASH_FASTQC="TRUE"
+# export POST_FLASH_MULTIQC="TRUE"
+export DO_QIIME_SPLIT="FALSE"
+export DO_QIIME_PICK="TRUE"
+export DO_PYTHON_OTU_FILTERING="FALSE"
+export DO_BIOM_CONVERSION="FALSE"
+export DO_CORE_DIV="FALSE"
+export DO_PHYLOSEQ="FALSE"
+
+
+
+
+Mon Aug 28 20:13:57 EDT 2017 start OTU picking
+Mon Aug 28 20:24:49 EDT 2017 OTU picking complete
+Num samples: 28
+Num observations: 5712
+Total count: 1111619
+Table density (fraction of non-zero values): 0.115
+
+Counts/sample summary:
+ Min: 14517.0
+ Max: 54103.0
+ Median: 41549.500
+ Mean: 39700.679
+ Std. dev.: 9127.495
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+160: 14517.0
+146: 26225.0
+158: 28487.0
+145: 28863.0
+148: 29028.0
+147: 30357.0
+151: 33315.0
+156: 34041.0
+153: 34878.0
+162: 36924.0
+157: 37273.0
+152: 38549.0
+163: 39927.0
+155: 41176.0
+173: 41923.0
+161: 42051.0
+172: 42088.0
+150: 42187.0
+165: 45725.0
+177: 46130.0
+171: 47175.0
+167: 47259.0
+175: 47484.0
+176: 48553.0
+166: 48944.0
+170: 51478.0
+178: 52959.0
+168: 54103.0
+configuration from /home/mark/gitstage/uderica/silage/LalStress/Bacteria/LalStress_Bacteria_envvars.sh
+export PROJ_GENE_TITLE="LalStress_Bacteria"
+export PROJ_GENE_HOME="/home/mark/gitstage/uderica/silage/LalStress/Bacteria"
+
+export R1="_R1"
+export R2="_R2"
+export FILE_EXT=".fastq"
+
+export LOG_FILE="${PROJ_GENE_HOME}/${PROJ_GENE_TITLE}.log"
+
+export REF_SEQ_FILE="/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta"
+
+export FASTQC_PATH="/home/mark/gitstage/uderica/silage/FastQC/fastqc"
+export MULTIQC_PATH="multiqc"
+
+export MULTIQC_CONFIG="/home/mark/gitstage/uderica/silage/multiqc_config.yaml"
+
+# also sem (parallel)... avaialble for OSX? and in2csv from csvkit
+
+export FLASH_PATH="/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash"
+export MIN_FLASH_OVERLAP=80
+export MAX_FLASH_OVERLAP=100
+
+# work on this some more... how to pick best depth?
+export CORE_DIV_MIN_DEPTH=10000
+export THREAD_CT=6
+
+export SLEEP_SECS=15
+
+export DATA_DIR="raw_data_bacteria"
+
+export FLASHED_DIR="${PROJ_GENE_HOME}/${DATA_DIR}/flashed"
+export EXTENDED_DIR="${FLASHED_DIR}/extended"
+export PICKED_DIR="${EXTENDED_DIR}/flash_trim_cat_pick"
+
+export OTU_PICK_PARAM_FILE="${PROJ_GENE_HOME}/otu_pick_param.txt"
+
+# look here for sample ID, barcodes, primers, optionally experimental factors
+# export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map16S_MAM_some_factors.txt"
+export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map.txt"
+
+# look here for sample infomration, except mapping info (esp. barcode and primers)
+# will be looping though some column looking for IDs,
+# which should then appear in files with names:
+# ${PROJ_GENE_HOME}/${DATA_DIR}/${PAIR_PREFIX}<ID>${PAIR_SUFFIX}{${R1}|${R2}}${FILE_EXT}
+# export SAMPLE_METADATA_FILE="${PROJ_GENE_HOME}/LalStressMicrobiomeInfo.txt"
+
+export FILE_PATH_FILE="${PROJ_GENE_HOME}/file_path.txt"
+
+# could probably just loop though mapping file instead
+# add capability to look for ID:filename relationships in some lookup table
+
+# not doing any error/dependency checking yet
+# not doing and cleanup from previous run yet
+# FALSE
+export FRESH_LOG="FALSE"
+export INITIAL_FASTQC="FALSE"
+export INITIAL_MULTIQC="FALSE"
+export DO_FLASH="FALSE"
+export POST_FLASH_BOTHQC="FALSE"
+# export POST_FLASH_FASTQC="TRUE"
+# export POST_FLASH_MULTIQC="TRUE"
+export DO_QIIME_SPLIT="FALSE"
+export DO_QIIME_PICK="FALSE"
+export DO_PYTHON_OTU_FILTERING="TRUE"
+export DO_BIOM_CONVERSION="TRUE"
+export DO_CORE_DIV="FALSE"
+export DO_PHYLOSEQ="FALSE"
+
+
+
+
+configuration from /home/mark/gitstage/uderica/silage/LalStress/Bacteria/LalStress_Bacteria_envvars.sh
+export PROJ_GENE_TITLE="LalStress_Bacteria"
+export PROJ_GENE_HOME="/home/mark/gitstage/uderica/silage/LalStress/Bacteria"
+
+export R1="_R1"
+export R2="_R2"
+export FILE_EXT=".fastq"
+
+export LOG_FILE="${PROJ_GENE_HOME}/${PROJ_GENE_TITLE}.log"
+
+export REF_SEQ_FILE="/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta"
+
+export FASTQC_PATH="/home/mark/gitstage/uderica/silage/FastQC/fastqc"
+export MULTIQC_PATH="multiqc"
+
+export MULTIQC_CONFIG="/home/mark/gitstage/uderica/silage/multiqc_config.yaml"
+
+# also sem (parallel)... avaialble for OSX? and in2csv from csvkit
+
+export FLASH_PATH="/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash"
+export MIN_FLASH_OVERLAP=80
+export MAX_FLASH_OVERLAP=100
+
+# work on this some more... how to pick best depth?
+export CORE_DIV_MIN_DEPTH=10000
+export THREAD_CT=6
+
+export SLEEP_SECS=15
+
+export DATA_DIR="raw_data_bacteria"
+
+export FLASHED_DIR="${PROJ_GENE_HOME}/${DATA_DIR}/flashed"
+export EXTENDED_DIR="${FLASHED_DIR}/extended"
+export PICKED_DIR="${EXTENDED_DIR}/flash_trim_cat_pick"
+
+export OTU_PICK_PARAM_FILE="${PROJ_GENE_HOME}/otu_pick_param.txt"
+
+# look here for sample ID, barcodes, primers, optionally experimental factors
+# export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map16S_MAM_some_factors.txt"
+export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map.txt"
+
+# look here for sample infomration, except mapping info (esp. barcode and primers)
+# will be looping though some column looking for IDs,
+# which should then appear in files with names:
+# ${PROJ_GENE_HOME}/${DATA_DIR}/${PAIR_PREFIX}<ID>${PAIR_SUFFIX}{${R1}|${R2}}${FILE_EXT}
+# export SAMPLE_METADATA_FILE="${PROJ_GENE_HOME}/LalStressMicrobiomeInfo.txt"
+
+export FILE_PATH_FILE="${PROJ_GENE_HOME}/file_path.txt"
+
+# could probably just loop though mapping file instead
+# add capability to look for ID:filename relationships in some lookup table
+
+# not doing any error/dependency checking yet
+# not doing and cleanup from previous run yet
+# FALSE
+export FRESH_LOG="FALSE"
+export INITIAL_FASTQC="FALSE"
+export INITIAL_MULTIQC="FALSE"
+export DO_FLASH="FALSE"
+export POST_FLASH_BOTHQC="FALSE"
+# export POST_FLASH_FASTQC="TRUE"
+# export POST_FLASH_MULTIQC="TRUE"
+export DO_QIIME_SPLIT="FALSE"
+export DO_QIIME_PICK="FALSE"
+export DO_PYTHON_OTU_FILTERING="FALSE"
+export DO_BIOM_CONVERSION="FALSE"
+export DO_CORE_DIV="TRUE"
+export DO_PHYLOSEQ="FALSE"
+
+
+
+
+Mon Aug 28 21:07:45 EDT 2017 start core diversity
+Mon Aug 28 21:07:46 EDT 2017 core diversity complete
+configuration from /home/mark/gitstage/uderica/silage/LalStress/Bacteria/LalStress_Bacteria_envvars.sh
+export PROJ_GENE_TITLE="LalStress_Bacteria"
+export PROJ_GENE_HOME="/home/mark/gitstage/uderica/silage/LalStress/Bacteria"
+
+export R1="_R1"
+export R2="_R2"
+export FILE_EXT=".fastq"
+
+export LOG_FILE="${PROJ_GENE_HOME}/${PROJ_GENE_TITLE}.log"
+
+export REF_SEQ_FILE="/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta"
+
+export FASTQC_PATH="/home/mark/gitstage/uderica/silage/FastQC/fastqc"
+export MULTIQC_PATH="multiqc"
+
+export MULTIQC_CONFIG="/home/mark/gitstage/uderica/silage/multiqc_config.yaml"
+
+# also sem (parallel)... avaialble for OSX? and in2csv from csvkit
+
+export FLASH_PATH="/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash"
+export MIN_FLASH_OVERLAP=80
+export MAX_FLASH_OVERLAP=100
+
+# work on this some more... how to pick best depth?
+export CORE_DIV_MIN_DEPTH=10000
+export THREAD_CT=6
+
+export SLEEP_SECS=15
+
+export DATA_DIR="raw_data_bacteria"
+
+export FLASHED_DIR="${PROJ_GENE_HOME}/${DATA_DIR}/flashed"
+export EXTENDED_DIR="${FLASHED_DIR}/extended"
+export PICKED_DIR="${EXTENDED_DIR}/flash_trim_cat_pick"
+
+export OTU_PICK_PARAM_FILE="${PROJ_GENE_HOME}/otu_pick_param.txt"
+
+# look here for sample ID, barcodes, primers, optionally experimental factors
+# export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map16S_MAM_some_factors.txt"
+export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map.txt"
+
+# look here for sample infomration, except mapping info (esp. barcode and primers)
+# will be looping though some column looking for IDs,
+# which should then appear in files with names:
+# ${PROJ_GENE_HOME}/${DATA_DIR}/${PAIR_PREFIX}<ID>${PAIR_SUFFIX}{${R1}|${R2}}${FILE_EXT}
+# export SAMPLE_METADATA_FILE="${PROJ_GENE_HOME}/LalStressMicrobiomeInfo.txt"
+
+export FILE_PATH_FILE="${PROJ_GENE_HOME}/file_path.txt"
+
+# could probably just loop though mapping file instead
+# add capability to look for ID:filename relationships in some lookup table
+
+# not doing any error/dependency checking yet
+# not doing and cleanup from previous run yet
+# FALSE
+export FRESH_LOG="FALSE"
+export INITIAL_FASTQC="FALSE"
+export INITIAL_MULTIQC="FALSE"
+export DO_FLASH="FALSE"
+export POST_FLASH_BOTHQC="FALSE"
+# export POST_FLASH_FASTQC="TRUE"
+# export POST_FLASH_MULTIQC="TRUE"
+export DO_QIIME_SPLIT="FALSE"
+export DO_QIIME_PICK="FALSE"
+export DO_PYTHON_OTU_FILTERING="TRUE"
+export DO_BIOM_CONVERSION="TRUE"
+export DO_CORE_DIV="TRUE"
+export DO_PHYLOSEQ="FALSE"
+
+
+
+
+Mon Aug 28 21:10:10 EDT 2017 start core diversity
+Mon Aug 28 21:19:58 EDT 2017 core diversity complete

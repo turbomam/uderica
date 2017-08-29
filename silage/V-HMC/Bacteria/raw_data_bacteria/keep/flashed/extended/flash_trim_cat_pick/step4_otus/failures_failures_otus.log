@@ -15,5 +15,5 @@ stable_sort:True
 stepwords:8
 suppress_sort:True
 word_length:8
-Num OTUs:126933
+Num OTUs:132830
 Result path: /home/mark/gitstage/uderica/silage/V-HMC/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step4_otus//failures_failures_otus.txt

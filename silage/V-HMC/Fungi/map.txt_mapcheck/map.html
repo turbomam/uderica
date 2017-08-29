@@ -1,0 +1,138 @@
+<html>
+<head>
+
+<script type="text/javascript" src="./overlib.js"></script>
+</head>
+<body bgcolor="white"> <h1>No errors or warnings detected.<br></h1><h1>Mapping file error and warning details.</h1>
+Notes for interpreting this report:
+<ul>
+    <li>Errors will be listed in red, warnings in yellow.
+    <li>Mouse over an error or warning in a cell for more details.
+    <li>Errors in the header row may mask other errors, so these should be corrected first.
+    <li>Modifications to your mapping file to fix certain issues may result in different errors. You should run <tt>validate_mapping_file.py</tt> until no errors (nor warnings, ideally) are found.
+</ul>
+<p>
+Some general rules about formatting mapping files (see <a href="http://qiime.org/documentation/file_formats.html#metadata-mapping-files">here</a> for additional details):
+<ul>
+    <li>Header characters should only contain alphanumeric and <tt>_</tt> characters only.
+    <li>Valid characters for SampleID fields are alphanumeric and <tt>.</tt> only.<br>
+    <li>Other fields allow alphanumeric and <tt>+-%./ :,;_</tt> characters.
+</ul>
+General issues with your mapping file (i.e., those that do not pertain to a particular cell) will be listed here, if any:<table border="1" cellspacing="0" cellpadding="7"><tr></tr></table><br>
+<table border="2" cellspacing="0" cellpadding="5">
+
+<tr></tr>
+<tr>
+<th>SampleID</th><th>BarcodeSequence</th><th>LinkerPrimerSequence</th><th>ReverseLinkerPrimerSequence</th><th>treatment</th><th>day</th><th>Treatment</th><th>Description</th>
+</tr>
+
+<tr>
+<tr><th><tt>424</tt></th><th><tt>AAAAAAAA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>0</tt></th><th><tt>C/0</tt></th><th><tt>424
+</tt></th></tr><tr><th><tt>425</tt></th><th><tt>AAAAAAAC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>0</tt></th><th><tt>C/0</tt></th><th><tt>425
+</tt></th></tr><tr><th><tt>426</tt></th><th><tt>AAAAAAAG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>0</tt></th><th><tt>C/0</tt></th><th><tt>426
+</tt></th></tr><tr><th><tt>427</tt></th><th><tt>AAAAAAAT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>0</tt></th><th><tt>C/0</tt></th><th><tt>427
+</tt></th></tr><tr><th><tt>429</tt></th><th><tt>AAAAAACA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>30</tt></th><th><tt>C/30</tt></th><th><tt>429
+</tt></th></tr><tr><th><tt>430</tt></th><th><tt>AAAAAACC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>30</tt></th><th><tt>C/30</tt></th><th><tt>430
+</tt></th></tr><tr><th><tt>431</tt></th><th><tt>AAAAAACG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>30</tt></th><th><tt>C/30</tt></th><th><tt>431
+</tt></th></tr><tr><th><tt>432</tt></th><th><tt>AAAAAACT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>30</tt></th><th><tt>C/30</tt></th><th><tt>432
+</tt></th></tr><tr><th><tt>434</tt></th><th><tt>AAAAAAGA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>30</tt></th><th><tt>LB/30</tt></th><th><tt>434
+</tt></th></tr><tr><th><tt>435</tt></th><th><tt>AAAAAAGC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>30</tt></th><th><tt>LB/30</tt></th><th><tt>435
+</tt></th></tr><tr><th><tt>436</tt></th><th><tt>AAAAAAGG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>30</tt></th><th><tt>LB/30</tt></th><th><tt>436
+</tt></th></tr><tr><th><tt>437</tt></th><th><tt>AAAAAAGT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>30</tt></th><th><tt>LB/30</tt></th><th><tt>437
+</tt></th></tr><tr><th><tt>439</tt></th><th><tt>AAAAAATA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>30</tt></th><th><tt>LB+LP/30</tt></th><th><tt>439
+</tt></th></tr><tr><th><tt>440</tt></th><th><tt>AAAAAATC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>30</tt></th><th><tt>LB+LP/30</tt></th><th><tt>440
+</tt></th></tr><tr><th><tt>441</tt></th><th><tt>AAAAAATG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>30</tt></th><th><tt>LB+LP/30</tt></th><th><tt>441
+</tt></th></tr><tr><th><tt>442</tt></th><th><tt>AAAAAATT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>30</tt></th><th><tt>LB+LP/30</tt></th><th><tt>442
+</tt></th></tr><tr><th><tt>831</tt></th><th><tt>AAAAACAA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>30+120h</tt></th><th><tt>C/30+120h</tt></th><th><tt>831
+</tt></th></tr><tr><th><tt>832</tt></th><th><tt>AAAAACAC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>30+120h</tt></th><th><tt>C/30+120h</tt></th><th><tt>832
+</tt></th></tr><tr><th><tt>833</tt></th><th><tt>AAAAACAG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>30+120h</tt></th><th><tt>C/30+120h</tt></th><th><tt>833
+</tt></th></tr><tr><th><tt>834</tt></th><th><tt>AAAAACAT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>30+120h</tt></th><th><tt>C/30+120h</tt></th><th><tt>834
+</tt></th></tr><tr><th><tt>836</tt></th><th><tt>AAAAACCA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>30+120h</tt></th><th><tt>LB/30+120h</tt></th><th><tt>836
+</tt></th></tr><tr><th><tt>837</tt></th><th><tt>AAAAACCC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>30+120h</tt></th><th><tt>LB/30+120h</tt></th><th><tt>837
+</tt></th></tr><tr><th><tt>838</tt></th><th><tt>AAAAACCG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>30+120h</tt></th><th><tt>LB/30+120h</tt></th><th><tt>838
+</tt></th></tr><tr><th><tt>839</tt></th><th><tt>AAAAACCT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>30+120h</tt></th><th><tt>LB/30+120h</tt></th><th><tt>839
+</tt></th></tr><tr><th><tt>841</tt></th><th><tt>AAAAACGA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>30+120h</tt></th><th><tt>LB+LP/30+120h</tt></th><th><tt>841
+</tt></th></tr><tr><th><tt>842</tt></th><th><tt>AAAAACGC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>30+120h</tt></th><th><tt>LB+LP/30+120h</tt></th><th><tt>842
+</tt></th></tr><tr><th><tt>843</tt></th><th><tt>AAAAACGG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>30+120h</tt></th><th><tt>LB+LP/30+120h</tt></th><th><tt>843
+</tt></th></tr><tr><th><tt>844</tt></th><th><tt>AAAAACGT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>30+120h</tt></th><th><tt>LB+LP/30+120h</tt></th><th><tt>844
+</tt></th></tr><tr><th><tt>447</tt></th><th><tt>AAAAACTA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90</tt></th><th><tt>C/90</tt></th><th><tt>447
+</tt></th></tr><tr><th><tt>448</tt></th><th><tt>AAAAACTC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90</tt></th><th><tt>C/90</tt></th><th><tt>448
+</tt></th></tr><tr><th><tt>449</tt></th><th><tt>AAAAACTG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90</tt></th><th><tt>C/90</tt></th><th><tt>449
+</tt></th></tr><tr><th><tt>450</tt></th><th><tt>AAAAACTT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90</tt></th><th><tt>C/90</tt></th><th><tt>450
+</tt></th></tr><tr><th><tt>451</tt></th><th><tt>AAAAAGAA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90</tt></th><th><tt>C/90</tt></th><th><tt>451
+</tt></th></tr><tr><th><tt>452</tt></th><th><tt>AAAAAGAC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90</tt></th><th><tt>LB/90</tt></th><th><tt>452
+</tt></th></tr><tr><th><tt>453</tt></th><th><tt>AAAAAGAG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90</tt></th><th><tt>LB/90</tt></th><th><tt>453
+</tt></th></tr><tr><th><tt>454</tt></th><th><tt>AAAAAGAT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90</tt></th><th><tt>LB/90</tt></th><th><tt>454
+</tt></th></tr><tr><th><tt>455</tt></th><th><tt>AAAAAGCA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90</tt></th><th><tt>LB/90</tt></th><th><tt>455
+</tt></th></tr><tr><th><tt>456</tt></th><th><tt>AAAAAGCC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90</tt></th><th><tt>LB/90</tt></th><th><tt>456
+</tt></th></tr><tr><th><tt>457</tt></th><th><tt>AAAAAGCG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90</tt></th><th><tt>LB+LP/90</tt></th><th><tt>457
+</tt></th></tr><tr><th><tt>458</tt></th><th><tt>AAAAAGCT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90</tt></th><th><tt>LB+LP/90</tt></th><th><tt>458
+</tt></th></tr><tr><th><tt>459</tt></th><th><tt>AAAAAGGA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90</tt></th><th><tt>LB+LP/90</tt></th><th><tt>459
+</tt></th></tr><tr><th><tt>460</tt></th><th><tt>AAAAAGGC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90</tt></th><th><tt>LB+LP/90</tt></th><th><tt>460
+</tt></th></tr><tr><th><tt>461</tt></th><th><tt>AAAAAGGG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90</tt></th><th><tt>LB+LP/90</tt></th><th><tt>461
+</tt></th></tr><tr><th><tt>757</tt></th><th><tt>AAAAAGGT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90</tt></th><th><tt>C-AS/90</tt></th><th><tt>757
+</tt></th></tr><tr><th><tt>758</tt></th><th><tt>AAAAAGTA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90</tt></th><th><tt>C-AS/90</tt></th><th><tt>758
+</tt></th></tr><tr><th><tt>759</tt></th><th><tt>AAAAAGTC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90</tt></th><th><tt>C-AS/90</tt></th><th><tt>759
+</tt></th></tr><tr><th><tt>760</tt></th><th><tt>AAAAAGTG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90</tt></th><th><tt>C-AS/90</tt></th><th><tt>760
+</tt></th></tr><tr><th><tt>761</tt></th><th><tt>AAAAAGTT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90</tt></th><th><tt>C-AS/90</tt></th><th><tt>761
+</tt></th></tr><tr><th><tt>762</tt></th><th><tt>AAAAATAA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90</tt></th><th><tt>LB-AS/90</tt></th><th><tt>762
+</tt></th></tr><tr><th><tt>763</tt></th><th><tt>AAAAATAC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90</tt></th><th><tt>LB-AS/90</tt></th><th><tt>763
+</tt></th></tr><tr><th><tt>764</tt></th><th><tt>AAAAATAG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90</tt></th><th><tt>LB-AS/90</tt></th><th><tt>764
+</tt></th></tr><tr><th><tt>765</tt></th><th><tt>AAAAATAT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90</tt></th><th><tt>LB-AS/90</tt></th><th><tt>765
+</tt></th></tr><tr><th><tt>766</tt></th><th><tt>AAAAATCA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90</tt></th><th><tt>LB-AS/90</tt></th><th><tt>766
+</tt></th></tr><tr><th><tt>1016</tt></th><th><tt>AAAAATCC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90+50h</tt></th><th><tt>C/90+50h</tt></th><th><tt>1016
+</tt></th></tr><tr><th><tt>1017</tt></th><th><tt>AAAAATCG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90+50h</tt></th><th><tt>C/90+50h</tt></th><th><tt>1017
+</tt></th></tr><tr><th><tt>1018</tt></th><th><tt>AAAAATCT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90+50h</tt></th><th><tt>C/90+50h</tt></th><th><tt>1018
+</tt></th></tr><tr><th><tt>1019</tt></th><th><tt>AAAAATGA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90+50h</tt></th><th><tt>C/90+50h</tt></th><th><tt>1019
+</tt></th></tr><tr><th><tt>1020</tt></th><th><tt>AAAAATGC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90+50h</tt></th><th><tt>C/90+50h</tt></th><th><tt>1020
+</tt></th></tr><tr><th><tt>1021</tt></th><th><tt>AAAAATGG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90+50h</tt></th><th><tt>LB/90+50h</tt></th><th><tt>1021
+</tt></th></tr><tr><th><tt>1022</tt></th><th><tt>AAAAATGT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90+50h</tt></th><th><tt>LB/90+50h</tt></th><th><tt>1022
+</tt></th></tr><tr><th><tt>1023</tt></th><th><tt>AAAAATTA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90+50h</tt></th><th><tt>LB/90+50h</tt></th><th><tt>1023
+</tt></th></tr><tr><th><tt>1024</tt></th><th><tt>AAAAATTC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90+50h</tt></th><th><tt>LB/90+50h</tt></th><th><tt>1024
+</tt></th></tr><tr><th><tt>1025</tt></th><th><tt>AAAAATTG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90+50h</tt></th><th><tt>LB/90+50h</tt></th><th><tt>1025
+</tt></th></tr><tr><th><tt>1026</tt></th><th><tt>AAAAATTT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90+50h</tt></th><th><tt>LB+LP/90+50h</tt></th><th><tt>1026
+</tt></th></tr><tr><th><tt>1027</tt></th><th><tt>AAAACAAA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90+50h</tt></th><th><tt>LB+LP/90+50h</tt></th><th><tt>1027
+</tt></th></tr><tr><th><tt>1028</tt></th><th><tt>AAAACAAC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90+50h</tt></th><th><tt>LB+LP/90+50h</tt></th><th><tt>1028
+</tt></th></tr><tr><th><tt>1029</tt></th><th><tt>AAAACAAG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90+50h</tt></th><th><tt>LB+LP/90+50h</tt></th><th><tt>1029
+</tt></th></tr><tr><th><tt>1030</tt></th><th><tt>AAAACAAT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90+50h</tt></th><th><tt>LB+LP/90+50h</tt></th><th><tt>1030
+</tt></th></tr><tr><th><tt>1031</tt></th><th><tt>AAAACACA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90+50h</tt></th><th><tt>C-AS/90+50h</tt></th><th><tt>1031
+</tt></th></tr><tr><th><tt>1032</tt></th><th><tt>AAAACACC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90+50h</tt></th><th><tt>C-AS/90+50h</tt></th><th><tt>1032
+</tt></th></tr><tr><th><tt>1033</tt></th><th><tt>AAAACACG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90+50h</tt></th><th><tt>C-AS/90+50h</tt></th><th><tt>1033
+</tt></th></tr><tr><th><tt>1034</tt></th><th><tt>AAAACACT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90+50h</tt></th><th><tt>C-AS/90+50h</tt></th><th><tt>1034
+</tt></th></tr><tr><th><tt>1035</tt></th><th><tt>AAAACAGA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90+50h</tt></th><th><tt>C-AS/90+50h</tt></th><th><tt>1035
+</tt></th></tr><tr><th><tt>1036</tt></th><th><tt>AAAACAGC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90+50h</tt></th><th><tt>LB-AS/90+50h</tt></th><th><tt>1036
+</tt></th></tr><tr><th><tt>1037</tt></th><th><tt>AAAACAGG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90+50h</tt></th><th><tt>LB-AS/90+50h</tt></th><th><tt>1037
+</tt></th></tr><tr><th><tt>1038</tt></th><th><tt>AAAACAGT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90+50h</tt></th><th><tt>LB-AS/90+50h</tt></th><th><tt>1038
+</tt></th></tr><tr><th><tt>1039</tt></th><th><tt>AAAACATA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90+50h</tt></th><th><tt>LB-AS/90+50h</tt></th><th><tt>1039
+</tt></th></tr><tr><th><tt>1040</tt></th><th><tt>AAAACATC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90+50h</tt></th><th><tt>LB-AS/90+50h</tt></th><th><tt>1040
+</tt></th></tr><tr><th><tt>1138</tt></th><th><tt>AAAACATG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90+140h</tt></th><th><tt>C/90+140h</tt></th><th><tt>1138
+</tt></th></tr><tr><th><tt>1139</tt></th><th><tt>AAAACATT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90+140h</tt></th><th><tt>C/90+140h</tt></th><th><tt>1139
+</tt></th></tr><tr><th><tt>1140</tt></th><th><tt>AAAACCAA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90+140h</tt></th><th><tt>C/90+140h</tt></th><th><tt>1140
+</tt></th></tr><tr><th><tt>1141</tt></th><th><tt>AAAACCAC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90+140h</tt></th><th><tt>C/90+140h</tt></th><th><tt>1141
+</tt></th></tr><tr><th><tt>1142</tt></th><th><tt>AAAACCAG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C</tt></th><th><tt>90+140h</tt></th><th><tt>C/90+140h</tt></th><th><tt>1142
+</tt></th></tr><tr><th><tt>1143</tt></th><th><tt>AAAACCAT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90+140h</tt></th><th><tt>LB/90+140h</tt></th><th><tt>1143
+</tt></th></tr><tr><th><tt>1144</tt></th><th><tt>AAAACCCA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90+140h</tt></th><th><tt>LB/90+140h</tt></th><th><tt>1144
+</tt></th></tr><tr><th><tt>1145</tt></th><th><tt>AAAACCCC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90+140h</tt></th><th><tt>LB/90+140h</tt></th><th><tt>1145
+</tt></th></tr><tr><th><tt>1146</tt></th><th><tt>AAAACCCG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90+140h</tt></th><th><tt>LB/90+140h</tt></th><th><tt>1146
+</tt></th></tr><tr><th><tt>1147</tt></th><th><tt>AAAACCCT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB</tt></th><th><tt>90+140h</tt></th><th><tt>LB/90+140h</tt></th><th><tt>1147
+</tt></th></tr><tr><th><tt>1148</tt></th><th><tt>AAAACCGA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90+140h</tt></th><th><tt>LB+LP/90+140h</tt></th><th><tt>1148
+</tt></th></tr><tr><th><tt>1149</tt></th><th><tt>AAAACCGC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90+140h</tt></th><th><tt>LB+LP/90+140h</tt></th><th><tt>1149
+</tt></th></tr><tr><th><tt>1150</tt></th><th><tt>AAAACCGG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90+140h</tt></th><th><tt>LB+LP/90+140h</tt></th><th><tt>1150
+</tt></th></tr><tr><th><tt>1151</tt></th><th><tt>AAAACCGT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90+140h</tt></th><th><tt>LB+LP/90+140h</tt></th><th><tt>1151
+</tt></th></tr><tr><th><tt>1152</tt></th><th><tt>AAAACCTA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB+LP</tt></th><th><tt>90+140h</tt></th><th><tt>LB+LP/90+140h</tt></th><th><tt>1152
+</tt></th></tr><tr><th><tt>1153</tt></th><th><tt>AAAACCTC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90+140h</tt></th><th><tt>C-AS/90+140h</tt></th><th><tt>1153
+</tt></th></tr><tr><th><tt>1154</tt></th><th><tt>AAAACCTG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90+140h</tt></th><th><tt>C-AS/90+140h</tt></th><th><tt>1154
+</tt></th></tr><tr><th><tt>1155</tt></th><th><tt>AAAACCTT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90+140h</tt></th><th><tt>C-AS/90+140h</tt></th><th><tt>1155
+</tt></th></tr><tr><th><tt>1156</tt></th><th><tt>AAAACGAA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90+140h</tt></th><th><tt>C-AS/90+140h</tt></th><th><tt>1156
+</tt></th></tr><tr><th><tt>1157</tt></th><th><tt>AAAACGAC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>C-AS</tt></th><th><tt>90+140h</tt></th><th><tt>C-AS/90+140h</tt></th><th><tt>1157
+</tt></th></tr><tr><th><tt>1158</tt></th><th><tt>AAAACGAG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90+140h</tt></th><th><tt>LB-AS/90+140</tt></th><th><tt>1158
+</tt></th></tr><tr><th><tt>1159</tt></th><th><tt>AAAACGAT</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90+140h</tt></th><th><tt>LB-AS/90+140h</tt></th><th><tt>1159
+</tt></th></tr><tr><th><tt>1160</tt></th><th><tt>AAAACGCA</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90+140h</tt></th><th><tt>LB-AS/90+140h</tt></th><th><tt>1160
+</tt></th></tr><tr><th><tt>1161</tt></th><th><tt>AAAACGCC</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90+140h</tt></th><th><tt>LB-AS/90+140h</tt></th><th><tt>1161
+</tt></th></tr><tr><th><tt>1162</tt></th><th><tt>AAAACGCG</tt></th><th><tt>CTTGGTCATTTAGAGGAAGTAA</tt></th><th><tt>GCTGCGTTCTTCATCGATGC</tt></th><th><tt>LB-AS</tt></th><th><tt>90+140h</tt></th><th><tt>LB-AS/90+140h</tt></th><th><tt>1162
+</tt></th></tr>
+</tr>
+</table>
+
+</body>
+</html>

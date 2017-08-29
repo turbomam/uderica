@@ -1,0 +1,17 @@
+Input file paths
+Sequence read filepath: /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-667-MSITS2a.extendedFrags.fastq (md5: 510a82a82eaadc78ccb360875a118a99)
+Quality filter results
+Total number of input sequences: 26596
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1046
+Count of N characters exceeds limit: 5
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 227.00
+667	25545
+
+Total number seqs written	25545
+---
+

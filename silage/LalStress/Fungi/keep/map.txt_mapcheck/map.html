@@ -1,0 +1,63 @@
+<html>
+<head>
+
+<script type="text/javascript" src="./overlib.js"></script>
+</head>
+<body bgcolor="white"> <h1>No errors or warnings detected.<br></h1><h1>Mapping file error and warning details.</h1>
+Notes for interpreting this report:
+<ul>
+    <li>Errors will be listed in red, warnings in yellow.
+    <li>Mouse over an error or warning in a cell for more details.
+    <li>Errors in the header row may mask other errors, so these should be corrected first.
+    <li>Modifications to your mapping file to fix certain issues may result in different errors. You should run <tt>validate_mapping_file.py</tt> until no errors (nor warnings, ideally) are found.
+</ul>
+<p>
+Some general rules about formatting mapping files (see <a href="http://qiime.org/documentation/file_formats.html#metadata-mapping-files">here</a> for additional details):
+<ul>
+    <li>Header characters should only contain alphanumeric and <tt>_</tt> characters only.
+    <li>Valid characters for SampleID fields are alphanumeric and <tt>.</tt> only.<br>
+    <li>Other fields allow alphanumeric and <tt>+-%./ :,;_</tt> characters.
+</ul>
+General issues with your mapping file (i.e., those that do not pertain to a particular cell) will be listed here, if any:<table border="1" cellspacing="0" cellpadding="7"><tr></tr></table><br>
+<table border="2" cellspacing="0" cellpadding="5">
+
+<tr></tr>
+<tr>
+<th>SampleID</th><th>BarcodeSequence</th><th>LinkerPrimerSequence</th><th>ReverseLinkerPrimerSequence</th><th>day</th><th>treatment</th><th>Description</th>
+</tr>
+
+<tr>
+<tr><th><tt>145</tt></th><th><tt>AAAAAAAA</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>0</tt></th><th><tt>C</tt></th><th><tt>145
+</tt></th></tr><tr><th><tt>146</tt></th><th><tt>AAAAAAAC</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>0</tt></th><th><tt>C</tt></th><th><tt>146
+</tt></th></tr><tr><th><tt>147</tt></th><th><tt>AAAAAAAG</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>0</tt></th><th><tt>C</tt></th><th><tt>147
+</tt></th></tr><tr><th><tt>148</tt></th><th><tt>AAAAAAAT</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>0</tt></th><th><tt>C</tt></th><th><tt>148
+</tt></th></tr><tr><th><tt>150</tt></th><th><tt>AAAAAACA</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-NO</tt></th><th><tt>150
+</tt></th></tr><tr><th><tt>151</tt></th><th><tt>AAAAAACC</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-NO</tt></th><th><tt>151
+</tt></th></tr><tr><th><tt>152</tt></th><th><tt>AAAAAACG</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-NO</tt></th><th><tt>152
+</tt></th></tr><tr><th><tt>153</tt></th><th><tt>AAAAAACT</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-NO</tt></th><th><tt>153
+</tt></th></tr><tr><th><tt>155</tt></th><th><tt>AAAAAAGA</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-EARLY</tt></th><th><tt>155
+</tt></th></tr><tr><th><tt>156</tt></th><th><tt>AAAAAAGC</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-EARLY</tt></th><th><tt>156
+</tt></th></tr><tr><th><tt>157</tt></th><th><tt>AAAAAAGG</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-EARLY</tt></th><th><tt>157
+</tt></th></tr><tr><th><tt>158</tt></th><th><tt>AAAAAAGT</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-EARLY</tt></th><th><tt>158
+</tt></th></tr><tr><th><tt>160</tt></th><th><tt>AAAAAATA</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-LATE</tt></th><th><tt>160
+</tt></th></tr><tr><th><tt>161</tt></th><th><tt>AAAAAATC</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-LATE</tt></th><th><tt>161
+</tt></th></tr><tr><th><tt>162</tt></th><th><tt>AAAAAATG</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-LATE</tt></th><th><tt>162
+</tt></th></tr><tr><th><tt>163</tt></th><th><tt>AAAAAATT</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>C-LATE</tt></th><th><tt>163
+</tt></th></tr><tr><th><tt>165</tt></th><th><tt>AAAAACAA</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-NO</tt></th><th><tt>165
+</tt></th></tr><tr><th><tt>166</tt></th><th><tt>AAAAACAC</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-NO</tt></th><th><tt>166
+</tt></th></tr><tr><th><tt>167</tt></th><th><tt>AAAAACAG</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-NO</tt></th><th><tt>167
+</tt></th></tr><tr><th><tt>168</tt></th><th><tt>AAAAACAT</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-NO</tt></th><th><tt>168
+</tt></th></tr><tr><th><tt>170</tt></th><th><tt>AAAAACCA</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-EARLY</tt></th><th><tt>170
+</tt></th></tr><tr><th><tt>171</tt></th><th><tt>AAAAACCC</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-EARLY</tt></th><th><tt>171
+</tt></th></tr><tr><th><tt>172</tt></th><th><tt>AAAAACCG</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-EARLY</tt></th><th><tt>172
+</tt></th></tr><tr><th><tt>173</tt></th><th><tt>AAAAACCT</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-EARLY</tt></th><th><tt>173
+</tt></th></tr><tr><th><tt>175</tt></th><th><tt>AAAAACGA</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-LATE</tt></th><th><tt>175
+</tt></th></tr><tr><th><tt>176</tt></th><th><tt>AAAAACGC</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-LATE</tt></th><th><tt>176
+</tt></th></tr><tr><th><tt>177</tt></th><th><tt>AAAAACGG</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-LATE</tt></th><th><tt>177
+</tt></th></tr><tr><th><tt>178</tt></th><th><tt>AAAAACGT</tt></th><th><tt>GTGCCAGCMGCCGCGGTAA</tt></th><th><tt>CCGTCAATTCMTTTRAGTTT</tt></th><th><tt>126</tt></th><th><tt>LB500-LATE</tt></th><th><tt>178
+</tt></th></tr>
+</tr>
+</table>
+
+</body>
+</html>

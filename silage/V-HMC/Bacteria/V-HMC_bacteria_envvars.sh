@@ -1,8 +1,6 @@
 export PROJ_GENE_TITLE="V-HMC_Bacteria"
 export PROJ_GENE_HOME="/home/mark/gitstage/uderica/silage/V-HMC/Bacteria"
 
-export PAIR_PREFIX="4924-"
-export PAIR_SUFFIX="-MS515F-926R"
 export R1="_R1"
 export R2="_R2"
 export FILE_EXT=".fastq"
@@ -14,14 +12,22 @@ export REF_SEQ_FILE="/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_
 export FASTQC_PATH="/home/mark/gitstage/uderica/silage/FastQC/fastqc"
 export MULTIQC_PATH="multiqc"
 
+export MULTIQC_CONFIG="/home/mark/gitstage/uderica/silage/multiqc_config.yaml"
+
+# also sem (parallel)... avaialble for OSX? and in2csv from csvkit
+
 export FLASH_PATH="/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash"
-export FLASH_OVERLAP=100
+export MIN_FLASH_OVERLAP=80
+export MAX_FLASH_OVERLAP=100
 
 # work on this some more... how to pick best depth?
 export CORE_DIV_MIN_DEPTH=10000
 export THREAD_CT=6
 
+export SLEEP_SECS=15
+
 export DATA_DIR="raw_data_bacteria"
+
 export FLASHED_DIR="${PROJ_GENE_HOME}/${DATA_DIR}/flashed"
 export EXTENDED_DIR="${FLASHED_DIR}/extended"
 export PICKED_DIR="${EXTENDED_DIR}/flash_trim_cat_pick"
@@ -36,12 +42,9 @@ export QIIME_MAPPING_FILE="${PROJ_GENE_HOME}/map.txt"
 # will be looping though some column looking for IDs,
 # which should then appear in files with names:
 # ${PROJ_GENE_HOME}/${DATA_DIR}/${PAIR_PREFIX}<ID>${PAIR_SUFFIX}{${R1}|${R2}}${FILE_EXT}
-export SAMPLE_METADATA_FILE="${PROJ_GENE_HOME}/LalStressMicrobiomeInfo.txt"
+# export SAMPLE_METADATA_FILE="${PROJ_GENE_HOME}/LalStressMicrobiomeInfo.txt"
 
 export FILE_PATH_FILE="${PROJ_GENE_HOME}/file_path.txt"
-
-export PHYLOSEQ_OUTPUT_PREFIX="V-HMC_bacteria"
-
 
 # could probably just loop though mapping file instead
 # add capability to look for ID:filename relationships in some lookup table
@@ -49,17 +52,17 @@ export PHYLOSEQ_OUTPUT_PREFIX="V-HMC_bacteria"
 # not doing any error/dependency checking yet
 # not doing and cleanup from previous run yet
 # FALSE
-export FRESH_LOG="TRUE"
-export INITIAL_FASTQC="TRUE"
-export INITIAL_MULTIQC="TRUE"
-export DO_FLASH="TRUE"
-export POST_FLASH_BOTHQC="TRUE"
+export FRESH_LOG="FALSE"
+export INITIAL_FASTQC="FALSE"
+export INITIAL_MULTIQC="FALSE"
+export DO_FLASH="FALSE"
+export POST_FLASH_BOTHQC="FALSE"
 # export POST_FLASH_FASTQC="TRUE"
 # export POST_FLASH_MULTIQC="TRUE"
-export DO_QIIME_SPLIT="TRUE"
-export DO_QIIME_PICK="TRUE"
+export DO_QIIME_SPLIT="FALSE"
+export DO_QIIME_PICK="FALSE"
 export DO_PYTHON_OTU_FILTERING="TRUE"
 export DO_BIOM_CONVERSION="TRUE"
 export DO_CORE_DIV="TRUE"
-export DO_PHYLOSEQ="TRUE"
+export DO_PHYLOSEQ="FALSE"
 

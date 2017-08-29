@@ -1,0 +1,150 @@
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:811
+Num new OTUs:0
+Num failures:10359
+Result path: /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_/POTU_qG7e_.0_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:777
+Num new OTUs:0
+Num failures:10431
+Result path: /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_/POTU_qG7e_.1_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:773
+Num new OTUs:0
+Num failures:11157
+Result path: /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_/POTU_qG7e_.2_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:326
+Num new OTUs:0
+Num failures:5877
+Result path: /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_/POTU_qG7e_.3_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:846
+Num new OTUs:0
+Num failures:14000
+Result path: /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_/POTU_qG7e_.4_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/silage/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:607
+Num new OTUs:0
+Num failures:14095
+Result path: /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_qG7e_/POTU_qG7e_.5_otus.txt

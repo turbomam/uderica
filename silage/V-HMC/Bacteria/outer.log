@@ -1,0 +1,15 @@
+CONFIG_FILE=/home/mark/gitstage/uderica/silage/V-HMC/Bacteria/V-HMC_bacteria_envvars.sh; unprocessed: 
+/home/mark/gitstage/uderica/silage/handsoff_qiime_bacteria.sh: line 84: myArray[$number]: bad array subscript
+No errors or warnings were found in mapping file.
+Mon Aug 28 22:11:18 EDT 2017 start core diversity
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.0133369720784 and the largest is 0.661986120437.
+  RuntimeWarning
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00695905389533 and the largest is 2.76742469451.
+  RuntimeWarning
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+Mon Aug 28 22:18:18 EDT 2017 core diversity complete
