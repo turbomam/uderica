@@ -103,8 +103,8 @@ mapfile <-
     '/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/otu_table_mc2_w_tax.biom'
   )
 
-
-
+otufile <-
+  'c:\\Users\\mark\\uderica\\silage\\V-HMC\\Fungi\\raw_data_fungi\\flashed\\extended\\flash_trim_cat_pick\\otu_table_mc2_w_tax.biom'
 
 # min # counts per sample relvant for qiime corediv, but not here (at least yet)
 # no "sing/doub" fitlering
@@ -117,6 +117,9 @@ mapfile <-
          experiment ,
          '/Fungi/',
          'map.txt')
+
+mapfile <- 'c:\\Users\\mark\\uderica\\silage\\V-HMC\\Fungi\\map.txt'
+
 
 # create a pdf devcie anmed after the experimetn witha timestamp
 
@@ -153,10 +156,22 @@ otu.melt <- otu.melt[otu.melt$log10count > 0 , ]
 # does the row have > 0 counts?
 
 lastfloor <- floor(max(otu.melt$log10count))
+cutoffs <- seq(from = 0, to = lastfloor, by = 0.5)
 
-temp <- lapply(seq(from = 0, to = lastfloor, by = 0.5), print)
+temp <-
+  lapply(cutoffs, function(cutoff) {
+    print
+    calcres <- otu.melt$log10count > cutoff
+  })
+names(temp) <- cutoffs
+temp <- do.call(cbind.data.frame, temp)
 
+otu.bound <- cbind.data.frame(otu.melt, temp)
 
+keepers <- setdiff(names(otu.bound), c("sample", "count", "log10count"))
+otu.bound <- otu.bound[,keepers]
+otu.bound <- reshape2::melt(otu.bound, id="OTU")
+otu.bound <- otu.bound[otu.bound$value,]
 
 unlisted.otu.counts <- unlist(otu.dat)
 
