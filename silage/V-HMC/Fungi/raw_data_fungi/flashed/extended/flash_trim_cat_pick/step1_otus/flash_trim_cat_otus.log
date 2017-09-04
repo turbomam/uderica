@@ -9,7 +9,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -19,10 +19,10 @@ suppress_new_clusters:True
 suppress_sort:True
 word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/its_12_11_otus/rep_set/97_otus.fasta
-Num OTUs:144
+Num OTUs:153
 Num new OTUs:0
-Num failures:52445
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_/POTU_L1yo_.0_otus.txt
+Num failures:63271
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_/POTU_ZG2B_.0_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -34,7 +34,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -44,10 +44,10 @@ suppress_new_clusters:True
 suppress_sort:True
 word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/its_12_11_otus/rep_set/97_otus.fasta
-Num OTUs:166
+Num OTUs:164
 Num new OTUs:0
-Num failures:14361
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_/POTU_L1yo_.1_otus.txt
+Num failures:16275
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_/POTU_ZG2B_.1_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -59,7 +59,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -69,10 +69,10 @@ suppress_new_clusters:True
 suppress_sort:True
 word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/its_12_11_otus/rep_set/97_otus.fasta
-Num OTUs:140
+Num OTUs:148
 Num new OTUs:0
-Num failures:22581
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_/POTU_L1yo_.2_otus.txt
+Num failures:25054
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_/POTU_ZG2B_.2_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -84,7 +84,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -94,10 +94,10 @@ suppress_new_clusters:True
 suppress_sort:True
 word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/its_12_11_otus/rep_set/97_otus.fasta
-Num OTUs:121
+Num OTUs:123
 Num new OTUs:0
-Num failures:12692
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_/POTU_L1yo_.3_otus.txt
+Num failures:15153
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_/POTU_ZG2B_.3_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -109,7 +109,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -119,10 +119,10 @@ suppress_new_clusters:True
 suppress_sort:True
 word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/its_12_11_otus/rep_set/97_otus.fasta
-Num OTUs:50
+Num OTUs:51
 Num new OTUs:0
-Num failures:7856
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_/POTU_L1yo_.4_otus.txt
+Num failures:8190
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_/POTU_ZG2B_.4_otus.txt
 OtuPicker parameters:
 Application:uclust
 Similarity:0.97
@@ -134,7 +134,7 @@ max_rejects:8
 new_cluster_identifier:denovo
 next_new_cluster_number:1
 optimal:False
-output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_
+output_dir:/home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_
 prefilter_identical_sequences:True
 presort_by_abundance:True
 save_uc_files:True
@@ -146,5 +146,5 @@ word_length:8
 Reference seqs:/home/mark/gitstage/uderica/silage/its_12_11_otus/rep_set/97_otus.fasta
 Num OTUs:79
 Num new OTUs:0
-Num failures:45751
-Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_L1yo_/POTU_L1yo_.5_otus.txt
+Num failures:46541
+Result path: /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step1_otus/POTU_ZG2B_/POTU_ZG2B_.5_otus.txt

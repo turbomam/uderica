@@ -15,5 +15,5 @@ stable_sort:True
 stepwords:8
 suppress_sort:True
 word_length:8
-Num OTUs:36
+Num OTUs:44
 Result path: /home/mark/gitstage/uderica/silage/LalStress/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/step2_otus//subsampled_failures_otus.txt

@@ -257,7 +257,14 @@ fi
 
 if [ $DO_QIIME_PICK == "TRUE" ]
   then
+
+    sleep ${SLEEP_SECS}
+    sleep ${SLEEP_SECS}
+
     find ${EXTENDED_DIR} -name seqs.fna -exec cat {} \; > ${EXTENDED_DIR}/flash_trim_cat.fna
+
+    sleep ${SLEEP_SECS}
+    sleep ${SLEEP_SECS}
 
     echo `date` "start OTU picking" | tee -a ${LOG_FILE}
 

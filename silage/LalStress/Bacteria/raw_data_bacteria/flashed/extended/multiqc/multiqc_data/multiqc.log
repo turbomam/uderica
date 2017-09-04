@@ -1,99 +1,102 @@
-[2017-08-28 20:07:22,661] multiqc                                            [DEBUG  ]  No MultiQC config found: /usr/local/lib/python2.7/dist-packages/multiqc_config.yaml
-[2017-08-28 20:07:22,661] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/mark/.multiqc_config.yaml
-[2017-08-28 20:07:22,661] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
-[2017-08-28 20:07:22,662] multiqc                                            [DEBUG  ]  Loading config settings from: /home/mark/gitstage/uderica/silage/multiqc_config.yaml
-[2017-08-28 20:07:22,662] multiqc                                            [DEBUG  ]  New config 'read_count_prefix': K
-[2017-08-28 20:07:22,662] multiqc                                            [DEBUG  ]  New config 'read_count_multiplier': 0.001
-[2017-08-28 20:07:22,662] multiqc                                            [DEBUG  ]  New config 'read_count_desc': thousands
-[2017-08-28 20:07:22,662] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc --config /home/mark/gitstage/uderica/silage/multiqc_config.yaml /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc -o /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc
-[2017-08-28 20:07:23,375] multiqc                                            [WARNING]  MultiQC Version v1.2 now available!
-[2017-08-28 20:07:23,375] multiqc                                            [INFO   ]  This is MultiQC v1.1
-[2017-08-28 20:07:23,375] multiqc                                            [DEBUG  ]  Command     : /usr/local/bin/multiqc --config /home/mark/gitstage/uderica/silage/multiqc_config.yaml /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc -o /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc
-[2017-08-28 20:07:23,376] multiqc                                            [DEBUG  ]  Working dir : /home/mark
-[2017-08-28 20:07:23,376] multiqc                                            [INFO   ]  Template    : default
-[2017-08-28 20:07:23,376] multiqc                                            [INFO   ]  Searching '/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc'
-[2017-08-28 20:07:23,377] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, qualimap, preseq, quast, qorts, rna_seqc, rseqc, busco, goleft_indexcov, disambiguate, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, jellyfish, bismark, hicup, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, adapterRemoval, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, fastqc, clusterflow
-[2017-08-28 20:07:23,377] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmprjEASP
-[2017-08-28 20:07:23,412] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-155-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,413] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-171-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,413] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-177-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,413] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-170-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,415] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-148-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,415] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-152-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,415] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-150-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,415] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-175-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,416] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-178-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,416] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-161-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,416] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-172-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,417] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-156-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,418] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-162-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,418] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-158-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,418] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-168-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,420] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-173-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,420] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-146-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,420] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-160-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,420] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-147-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,420] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-167-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,421] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-166-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,421] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-157-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,421] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-153-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,422] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-151-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,422] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-176-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,422] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-145-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,422] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-165-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,423] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-163-MS515F-926R.extendedFrags_fastqc.html
-[2017-08-28 20:07:23,575] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
-[2017-08-28 20:07:23,577] multiqc.modules.conpair.conpair                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,578] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,580] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,581] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
-[2017-08-28 20:07:23,581] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,583] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,584] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,585] multiqc.modules.qorts.qorts                        [DEBUG  ]  Could not find any QoRTs data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,587] multiqc.modules.rna_seqc.rna_seqc                  [DEBUG  ]  Could not find any RNA-SeQC data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,589] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,590] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,591] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,593] multiqc.modules.disambiguate.disambiguate          [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,594] multiqc.modules.homer.homer                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,595] multiqc.modules.macs2.macs2                        [DEBUG  ]  Could not find any MACS2 data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,596] multiqc.modules.theta2.theta2                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,598] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,599] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,600] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,602] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,603] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,605] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,606] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,608] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,609] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,611] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,612] multiqc.modules.jellyfish.jellyfish                [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,613] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,615] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,616] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,618] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,619] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
-[2017-08-28 20:07:23,620] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,622] multiqc.modules.hisat2.hisat2                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,623] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,624] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,626] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,627] multiqc.modules.adapterRemoval.adapterRemoval      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,628] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,630] multiqc.modules.flexbar.flexbar                    [DEBUG  ]  Could not find any Flexbar data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,631] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,632] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,633] multiqc.modules.sortmerna.sortmerna                [DEBUG  ]  Could not find any SortMeRNA data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,635] multiqc.modules.biobloomtools.biobloomtools        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:23,636] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:24,857] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 28 reports
-[2017-08-28 20:07:26,443] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
-[2017-08-28 20:07:26,477] multiqc                                            [INFO   ]  Compressing plot data
-[2017-08-28 20:07:27,374] multiqc                                            [INFO   ]  Report      : gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_report.html
-[2017-08-28 20:07:27,374] multiqc                                            [INFO   ]  Data        : gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_data
-[2017-08-28 20:07:27,374] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprjEASP/multiqc_data/multiqc_general_stats.txt' to '/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_data'
-[2017-08-28 20:07:27,374] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprjEASP/multiqc_data/multiqc_sources.txt' to '/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_data'
-[2017-08-28 20:07:27,374] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprjEASP/multiqc_data/multiqc_fastqc.txt' to '/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_data'
-[2017-08-28 20:07:27,472] multiqc                                            [INFO   ]  MultiQC complete
+[2017-09-01 16:58:19,500] multiqc                                            [DEBUG  ]  No MultiQC config found: /usr/local/lib/python2.7/dist-packages/multiqc_config.yaml
+[2017-09-01 16:58:19,500] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/mark/.multiqc_config.yaml
+[2017-09-01 16:58:19,501] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_config.yaml
+[2017-09-01 16:58:19,501] multiqc                                            [DEBUG  ]  New config 'read_count_prefix': K
+[2017-09-01 16:58:19,501] multiqc                                            [DEBUG  ]  New config 'read_count_multiplier': 0.001
+[2017-09-01 16:58:19,501] multiqc                                            [DEBUG  ]  New config 'read_count_desc': thousands
+[2017-09-01 16:58:19,502] multiqc                                            [DEBUG  ]  Loading config settings from: /home/mark/gitstage/uderica/silage/multiqc_config.yaml
+[2017-09-01 16:58:19,502] multiqc                                            [DEBUG  ]  New config 'read_count_prefix': K
+[2017-09-01 16:58:19,502] multiqc                                            [DEBUG  ]  New config 'read_count_multiplier': 0.001
+[2017-09-01 16:58:19,502] multiqc                                            [DEBUG  ]  New config 'read_count_desc': thousands
+[2017-09-01 16:58:19,502] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc --config /home/mark/gitstage/uderica/silage/multiqc_config.yaml /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc -o /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc
+[2017-09-01 16:58:19,863] multiqc                                            [WARNING]  MultiQC Version v1.2 now available!
+[2017-09-01 16:58:19,863] multiqc                                            [INFO   ]  This is MultiQC v1.1
+[2017-09-01 16:58:19,863] multiqc                                            [DEBUG  ]  Command     : /usr/local/bin/multiqc --config /home/mark/gitstage/uderica/silage/multiqc_config.yaml /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc -o /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc
+[2017-09-01 16:58:19,864] multiqc                                            [DEBUG  ]  Working dir : /home/mark/gitstage/uderica/silage
+[2017-09-01 16:58:19,864] multiqc                                            [INFO   ]  Template    : default
+[2017-09-01 16:58:19,864] multiqc                                            [INFO   ]  Searching '/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc'
+[2017-09-01 16:58:19,865] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, qualimap, preseq, quast, qorts, rna_seqc, rseqc, busco, goleft_indexcov, disambiguate, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, jellyfish, bismark, hicup, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, adapterRemoval, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, fastqc, clusterflow
+[2017-09-01 16:58:19,865] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpmEB27V
+[2017-09-01 16:58:19,909] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-155-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,910] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-171-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,910] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-177-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,910] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-170-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,912] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-148-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,912] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-152-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,913] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-150-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,913] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-175-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,913] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-178-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,913] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-161-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,913] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-172-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,914] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-156-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,915] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-162-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,916] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-158-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,916] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-168-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,917] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-173-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,917] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-146-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,917] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-160-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,917] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-147-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,918] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-167-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,918] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-166-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,919] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-157-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,919] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-153-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,919] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-151-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,919] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-176-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,919] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-145-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,920] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-165-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:19,920] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-163-MS515F-926R.extendedFrags_fastqc.html
+[2017-09-01 16:58:20,070] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2017-09-01 16:58:20,071] multiqc.modules.conpair.conpair                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,073] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,074] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,076] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2017-09-01 16:58:20,076] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,077] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,078] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,080] multiqc.modules.qorts.qorts                        [DEBUG  ]  Could not find any QoRTs data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,081] multiqc.modules.rna_seqc.rna_seqc                  [DEBUG  ]  Could not find any RNA-SeQC data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,083] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,084] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,086] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,087] multiqc.modules.disambiguate.disambiguate          [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,088] multiqc.modules.homer.homer                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,090] multiqc.modules.macs2.macs2                        [DEBUG  ]  Could not find any MACS2 data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,091] multiqc.modules.theta2.theta2                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,092] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,093] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,095] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,096] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,097] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,099] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,101] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,102] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,104] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,105] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,106] multiqc.modules.jellyfish.jellyfish                [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,108] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,109] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,110] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,112] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,113] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2017-09-01 16:58:20,114] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,116] multiqc.modules.hisat2.hisat2                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,117] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,118] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,120] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,121] multiqc.modules.adapterRemoval.adapterRemoval      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,122] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,124] multiqc.modules.flexbar.flexbar                    [DEBUG  ]  Could not find any Flexbar data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,125] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,126] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,127] multiqc.modules.sortmerna.sortmerna                [DEBUG  ]  Could not find any SortMeRNA data in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,129] multiqc.modules.biobloomtools.biobloomtools        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:20,130] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:21,349] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 28 reports
+[2017-09-01 16:58:22,928] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc',)
+[2017-09-01 16:58:22,963] multiqc                                            [INFO   ]  Compressing plot data
+[2017-09-01 16:58:23,868] multiqc                                            [INFO   ]  Report      : LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_report.html
+[2017-09-01 16:58:23,868] multiqc                                            [INFO   ]  Data        : LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_data
+[2017-09-01 16:58:23,868] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpmEB27V/multiqc_data/multiqc_general_stats.txt' to '/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_data'
+[2017-09-01 16:58:23,868] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpmEB27V/multiqc_data/multiqc_sources.txt' to '/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_data'
+[2017-09-01 16:58:23,868] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpmEB27V/multiqc_data/multiqc_fastqc.txt' to '/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_data'
+[2017-09-01 16:58:23,966] multiqc                                            [INFO   ]  MultiQC complete

@@ -1,4 +1,4 @@
-configuration from /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/Aer_comp_Fungi_envvars_new.sh
+configuration from Aer_Comp/Fungi/Aer_comp_Fungi_envvars_new.sh
 export PROJ_GENE_TITLE="AerComp_Fungi"
 export PROJ_GENE_HOME="/home/mark/gitstage/uderica/silage/Aer_Comp/Fungi"
 
@@ -70,63 +70,63 @@ export DO_PHYLOSEQ="FALSE"
 
 
 
-Mon Aug 28 23:07:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-657-MSITS2a
-Mon Aug 28 23:07:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-658-MSITS2a
-Mon Aug 28 23:07:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-659-MSITS2a
-Mon Aug 28 23:07:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-660-MSITS2a
-Mon Aug 28 23:07:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-662-MSITS2a
-Mon Aug 28 23:07:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-663-MSITS2a
-Mon Aug 28 23:07:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-664-MSITS2a
-Mon Aug 28 23:07:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-665-MSITS2a
-Mon Aug 28 23:07:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-667-MSITS2a
-Mon Aug 28 23:07:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-668-MSITS2a
-Mon Aug 28 23:07:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-669-MSITS2a
-Mon Aug 28 23:07:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-670-MSITS2a
-Mon Aug 28 23:07:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-672-MSITS2a
-Mon Aug 28 23:07:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-673-MSITS2a
-Mon Aug 28 23:07:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-674-MSITS2a
-Mon Aug 28 23:07:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-675-MSITS2a
-Mon Aug 28 23:07:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-677-MSITS2a
-Mon Aug 28 23:07:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-678-MSITS2a
-Mon Aug 28 23:07:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-679-MSITS2a
-Mon Aug 28 23:07:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-680-MSITS2a
-Mon Aug 28 23:07:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-692-MSITS2a
-Mon Aug 28 23:07:33 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-693-MSITS2a
-Mon Aug 28 23:07:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-694-MSITS2a
-Mon Aug 28 23:07:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-695-MSITS2a
-Mon Aug 28 23:07:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-697-MSITS2a
-Mon Aug 28 23:07:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-698-MSITS2a
-Mon Aug 28 23:07:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-699-MSITS2a
-Mon Aug 28 23:07:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-700-MSITS2a
-Mon Aug 28 23:08:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-657-MSITS2a
-Mon Aug 28 23:08:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-658-MSITS2a
-Mon Aug 28 23:08:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-659-MSITS2a
-Mon Aug 28 23:08:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-660-MSITS2a
-Mon Aug 28 23:08:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-662-MSITS2a
-Mon Aug 28 23:08:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-663-MSITS2a
-Mon Aug 28 23:08:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-664-MSITS2a
-Mon Aug 28 23:08:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-665-MSITS2a
-Mon Aug 28 23:08:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-667-MSITS2a
-Mon Aug 28 23:08:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-668-MSITS2a
-Mon Aug 28 23:08:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-669-MSITS2a
-Mon Aug 28 23:08:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-670-MSITS2a
-Mon Aug 28 23:08:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-672-MSITS2a
-Mon Aug 28 23:08:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-673-MSITS2a
-Mon Aug 28 23:08:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-674-MSITS2a
-Mon Aug 28 23:08:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-675-MSITS2a
-Mon Aug 28 23:08:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-677-MSITS2a
-Mon Aug 28 23:08:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-678-MSITS2a
-Mon Aug 28 23:08:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-679-MSITS2a
-Mon Aug 28 23:08:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-680-MSITS2a
-Mon Aug 28 23:08:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-692-MSITS2a
-Mon Aug 28 23:08:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-693-MSITS2a
-Mon Aug 28 23:08:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-694-MSITS2a
-Mon Aug 28 23:08:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-695-MSITS2a
-Mon Aug 28 23:08:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-697-MSITS2a
-Mon Aug 28 23:08:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-698-MSITS2a
-Mon Aug 28 23:08:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-699-MSITS2a
-Mon Aug 28 23:08:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-700-MSITS2a
-Mon Aug 28 23:09:42 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-657-MSITS2a
+Sat Sep 2 09:57:03 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-657-MSITS2a
+Sat Sep 2 09:57:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-658-MSITS2a
+Sat Sep 2 09:57:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-659-MSITS2a
+Sat Sep 2 09:57:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-660-MSITS2a
+Sat Sep 2 09:57:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-662-MSITS2a
+Sat Sep 2 09:57:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-663-MSITS2a
+Sat Sep 2 09:57:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-664-MSITS2a
+Sat Sep 2 09:57:05 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-665-MSITS2a
+Sat Sep 2 09:57:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-667-MSITS2a
+Sat Sep 2 09:57:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-668-MSITS2a
+Sat Sep 2 09:57:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-669-MSITS2a
+Sat Sep 2 09:57:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-670-MSITS2a
+Sat Sep 2 09:57:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-672-MSITS2a
+Sat Sep 2 09:57:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-673-MSITS2a
+Sat Sep 2 09:57:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-674-MSITS2a
+Sat Sep 2 09:57:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-675-MSITS2a
+Sat Sep 2 09:57:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-677-MSITS2a
+Sat Sep 2 09:57:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-678-MSITS2a
+Sat Sep 2 09:57:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-679-MSITS2a
+Sat Sep 2 09:57:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-680-MSITS2a
+Sat Sep 2 09:57:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-692-MSITS2a
+Sat Sep 2 09:57:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-693-MSITS2a
+Sat Sep 2 09:57:22 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-694-MSITS2a
+Sat Sep 2 09:57:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-695-MSITS2a
+Sat Sep 2 09:57:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-697-MSITS2a
+Sat Sep 2 09:57:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-698-MSITS2a
+Sat Sep 2 09:57:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-699-MSITS2a
+Sat Sep 2 09:57:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-700-MSITS2a
+Sat Sep 2 09:58:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-657-MSITS2a
+Sat Sep 2 09:58:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-658-MSITS2a
+Sat Sep 2 09:58:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-659-MSITS2a
+Sat Sep 2 09:58:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-660-MSITS2a
+Sat Sep 2 09:58:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-662-MSITS2a
+Sat Sep 2 09:58:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-663-MSITS2a
+Sat Sep 2 09:58:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-664-MSITS2a
+Sat Sep 2 09:58:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-665-MSITS2a
+Sat Sep 2 09:58:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-667-MSITS2a
+Sat Sep 2 09:58:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-668-MSITS2a
+Sat Sep 2 09:58:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-669-MSITS2a
+Sat Sep 2 09:58:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-670-MSITS2a
+Sat Sep 2 09:58:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-672-MSITS2a
+Sat Sep 2 09:58:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-673-MSITS2a
+Sat Sep 2 09:58:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-674-MSITS2a
+Sat Sep 2 09:58:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-675-MSITS2a
+Sat Sep 2 09:58:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-677-MSITS2a
+Sat Sep 2 09:58:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-678-MSITS2a
+Sat Sep 2 09:58:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-679-MSITS2a
+Sat Sep 2 09:58:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-680-MSITS2a
+Sat Sep 2 09:58:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-692-MSITS2a
+Sat Sep 2 09:58:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-693-MSITS2a
+Sat Sep 2 09:58:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-694-MSITS2a
+Sat Sep 2 09:58:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-695-MSITS2a
+Sat Sep 2 09:58:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-697-MSITS2a
+Sat Sep 2 09:58:33 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-698-MSITS2a
+Sat Sep 2 09:58:33 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-699-MSITS2a
+Sat Sep 2 09:58:33 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-700-MSITS2a
+Sat Sep 2 09:59:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-657-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -165,8 +165,8 @@ Mon Aug 28 23:09:42 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.101 seconds elapsed
-Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-658-MSITS2a
+[FLASH] 0.106 seconds elapsed
+Sat Sep 2 09:59:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-658-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -204,8 +204,8 @@ Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.079 seconds elapsed
-Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-659-MSITS2a
+[FLASH] 0.082 seconds elapsed
+Sat Sep 2 09:59:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-659-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -244,8 +244,8 @@ Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.100 seconds elapsed
-Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-660-MSITS2a
+[FLASH] 0.117 seconds elapsed
+Sat Sep 2 09:59:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-660-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -284,8 +284,8 @@ Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.100 seconds elapsed
-Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-662-MSITS2a
+[FLASH] 0.114 seconds elapsed
+Sat Sep 2 09:59:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-662-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -324,8 +324,8 @@ Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.112 seconds elapsed
-Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-663-MSITS2a
+[FLASH] 0.149 seconds elapsed
+Sat Sep 2 09:59:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-663-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -364,8 +364,8 @@ Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.096 seconds elapsed
-Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-664-MSITS2a
+[FLASH] 0.110 seconds elapsed
+Sat Sep 2 09:59:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-664-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -403,8 +403,8 @@ Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.069 seconds elapsed
-Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-665-MSITS2a
+[FLASH] 0.072 seconds elapsed
+Sat Sep 2 09:59:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-665-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -443,8 +443,8 @@ Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.095 seconds elapsed
-Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-667-MSITS2a
+[FLASH] 0.101 seconds elapsed
+Sat Sep 2 09:59:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-667-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -483,8 +483,8 @@ Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.113 seconds elapsed
-Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-668-MSITS2a
+[FLASH] 0.105 seconds elapsed
+Sat Sep 2 09:59:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-668-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -523,8 +523,8 @@ Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.085 seconds elapsed
-Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-669-MSITS2a
+[FLASH] 0.094 seconds elapsed
+Sat Sep 2 09:59:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-669-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -563,8 +563,8 @@ Mon Aug 28 23:09:43 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.100 seconds elapsed
-Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-670-MSITS2a
+[FLASH] 0.106 seconds elapsed
+Sat Sep 2 09:59:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-670-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -603,8 +603,8 @@ Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.086 seconds elapsed
-Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-672-MSITS2a
+[FLASH] 0.100 seconds elapsed
+Sat Sep 2 09:59:33 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-672-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -643,8 +643,8 @@ Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.083 seconds elapsed
-Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-673-MSITS2a
+[FLASH] 0.092 seconds elapsed
+Sat Sep 2 09:59:33 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-673-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -682,8 +682,8 @@ Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.060 seconds elapsed
-Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-674-MSITS2a
+[FLASH] 0.068 seconds elapsed
+Sat Sep 2 09:59:33 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-674-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -721,8 +721,8 @@ Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.072 seconds elapsed
-Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-675-MSITS2a
+[FLASH] 0.068 seconds elapsed
+Sat Sep 2 09:59:33 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-675-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -760,8 +760,8 @@ Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.086 seconds elapsed
-Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-677-MSITS2a
+[FLASH] 0.084 seconds elapsed
+Sat Sep 2 09:59:33 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-677-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -800,8 +800,8 @@ Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.103 seconds elapsed
-Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-678-MSITS2a
+[FLASH] 0.111 seconds elapsed
+Sat Sep 2 09:59:33 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-678-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -840,8 +840,8 @@ Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.088 seconds elapsed
-Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-679-MSITS2a
+[FLASH] 0.091 seconds elapsed
+Sat Sep 2 09:59:33 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-679-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -880,8 +880,8 @@ Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.107 seconds elapsed
-Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-680-MSITS2a
+[FLASH] 0.101 seconds elapsed
+Sat Sep 2 09:59:33 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-680-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -921,8 +921,8 @@ Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.157 seconds elapsed
-Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-692-MSITS2a
+[FLASH] 0.148 seconds elapsed
+Sat Sep 2 09:59:33 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-692-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -961,8 +961,8 @@ Mon Aug 28 23:09:44 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.151 seconds elapsed
-Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-693-MSITS2a
+[FLASH] 0.147 seconds elapsed
+Sat Sep 2 09:59:34 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-693-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1001,8 +1001,8 @@ Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.127 seconds elapsed
-Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-694-MSITS2a
+[FLASH] 0.123 seconds elapsed
+Sat Sep 2 09:59:34 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-694-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1041,8 +1041,8 @@ Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.085 seconds elapsed
-Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-695-MSITS2a
+[FLASH] 0.090 seconds elapsed
+Sat Sep 2 09:59:34 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-695-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1081,8 +1081,8 @@ Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.136 seconds elapsed
-Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-697-MSITS2a
+[FLASH] 0.149 seconds elapsed
+Sat Sep 2 09:59:34 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-697-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1121,8 +1121,8 @@ Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.125 seconds elapsed
-Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-698-MSITS2a
+[FLASH] 0.133 seconds elapsed
+Sat Sep 2 09:59:34 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-698-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1161,8 +1161,8 @@ Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.084 seconds elapsed
-Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-699-MSITS2a
+[FLASH] 0.090 seconds elapsed
+Sat Sep 2 09:59:34 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-699-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1201,7 +1201,7 @@ Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
 [FLASH] 0.084 seconds elapsed
-Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-700-MSITS2a
+Sat Sep 2 09:59:34 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/4924-700-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1239,101 +1239,107 @@ Mon Aug 28 23:09:45 EDT 2017 flashing /home/mark/gitstage/uderica/silage/Aer_Com
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.081 seconds elapsed
-Mon Aug 28 23:10:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-657-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-658-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-659-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-660-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-662-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-663-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-664-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-665-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-667-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-668-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-669-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-670-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-672-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-673-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-674-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-675-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-677-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-678-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-679-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-680-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-692-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-693-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-694-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-695-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:50 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-697-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:50 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-698-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:50 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-699-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:10:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-700-MSITS2a.extendedFrags.fastq
-Mon Aug 28 23:11:47 EDT 2017 'splitting' 4924-657-MSITS2a
-Mon Aug 28 23:11:47 EDT 2017 'splitting' 4924-658-MSITS2a
-Mon Aug 28 23:11:47 EDT 2017 'splitting' 4924-659-MSITS2a
-Mon Aug 28 23:11:48 EDT 2017 'splitting' 4924-660-MSITS2a
-Mon Aug 28 23:11:48 EDT 2017 'splitting' 4924-662-MSITS2a
-Mon Aug 28 23:11:48 EDT 2017 'splitting' 4924-663-MSITS2a
-Mon Aug 28 23:11:48 EDT 2017 'splitting' 4924-664-MSITS2a
-Mon Aug 28 23:11:48 EDT 2017 'splitting' 4924-665-MSITS2a
-Mon Aug 28 23:11:51 EDT 2017 'splitting' 4924-667-MSITS2a
-Mon Aug 28 23:11:52 EDT 2017 'splitting' 4924-668-MSITS2a
-Mon Aug 28 23:11:52 EDT 2017 'splitting' 4924-669-MSITS2a
-Mon Aug 28 23:11:52 EDT 2017 'splitting' 4924-670-MSITS2a
-Mon Aug 28 23:11:52 EDT 2017 'splitting' 4924-672-MSITS2a
-Mon Aug 28 23:11:53 EDT 2017 'splitting' 4924-673-MSITS2a
-Mon Aug 28 23:11:53 EDT 2017 'splitting' 4924-674-MSITS2a
-Mon Aug 28 23:11:56 EDT 2017 'splitting' 4924-675-MSITS2a
-Mon Aug 28 23:11:56 EDT 2017 'splitting' 4924-677-MSITS2a
-Mon Aug 28 23:11:56 EDT 2017 'splitting' 4924-678-MSITS2a
-Mon Aug 28 23:11:56 EDT 2017 'splitting' 4924-679-MSITS2a
-Mon Aug 28 23:11:56 EDT 2017 'splitting' 4924-680-MSITS2a
-Mon Aug 28 23:11:57 EDT 2017 'splitting' 4924-692-MSITS2a
-Mon Aug 28 23:11:57 EDT 2017 'splitting' 4924-693-MSITS2a
-Mon Aug 28 23:11:59 EDT 2017 'splitting' 4924-694-MSITS2a
-Mon Aug 28 23:11:59 EDT 2017 'splitting' 4924-695-MSITS2a
-Mon Aug 28 23:12:00 EDT 2017 'splitting' 4924-697-MSITS2a
-Mon Aug 28 23:12:00 EDT 2017 'splitting' 4924-698-MSITS2a
-Mon Aug 28 23:12:01 EDT 2017 'splitting' 4924-699-MSITS2a
-Mon Aug 28 23:12:03 EDT 2017 'splitting' 4924-700-MSITS2a
-Mon Aug 28 23:12:04 EDT 2017 start OTU picking
-Mon Aug 28 23:13:44 EDT 2017 OTU picking complete
-Num samples: 22
-Num observations: 450
-Total count: 490370
-Table density (fraction of non-zero values): 0.211
+[FLASH] 0.084 seconds elapsed
+Sat Sep 2 10:00:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-657-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-658-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-659-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-660-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-662-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-663-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-664-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:21 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-665-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-667-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-668-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-669-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-670-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-672-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-673-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-674-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-675-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-677-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:33 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-678-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:33 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-679-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-680-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-692-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-693-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-694-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-695-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-697-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-698-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:40 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-699-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:00:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/Aer_Comp/Fungi/raw_data_fungi/flashed/extended/4924-700-MSITS2a.extendedFrags.fastq
+Sat Sep 2 10:01:37 EDT 2017 'splitting' 4924-657-MSITS2a
+Sat Sep 2 10:01:37 EDT 2017 'splitting' 4924-658-MSITS2a
+Sat Sep 2 10:01:38 EDT 2017 'splitting' 4924-659-MSITS2a
+Sat Sep 2 10:01:38 EDT 2017 'splitting' 4924-660-MSITS2a
+Sat Sep 2 10:01:38 EDT 2017 'splitting' 4924-662-MSITS2a
+Sat Sep 2 10:01:38 EDT 2017 'splitting' 4924-663-MSITS2a
+Sat Sep 2 10:01:38 EDT 2017 'splitting' 4924-664-MSITS2a
+Sat Sep 2 10:01:38 EDT 2017 'splitting' 4924-665-MSITS2a
+Sat Sep 2 10:01:42 EDT 2017 'splitting' 4924-667-MSITS2a
+Sat Sep 2 10:01:42 EDT 2017 'splitting' 4924-668-MSITS2a
+Sat Sep 2 10:01:43 EDT 2017 'splitting' 4924-669-MSITS2a
+Sat Sep 2 10:01:43 EDT 2017 'splitting' 4924-670-MSITS2a
+Sat Sep 2 10:01:43 EDT 2017 'splitting' 4924-672-MSITS2a
+Sat Sep 2 10:01:43 EDT 2017 'splitting' 4924-673-MSITS2a
+Sat Sep 2 10:01:43 EDT 2017 'splitting' 4924-674-MSITS2a
+Sat Sep 2 10:01:45 EDT 2017 'splitting' 4924-675-MSITS2a
+Sat Sep 2 10:01:46 EDT 2017 'splitting' 4924-677-MSITS2a
+Sat Sep 2 10:01:46 EDT 2017 'splitting' 4924-678-MSITS2a
+Sat Sep 2 10:01:47 EDT 2017 'splitting' 4924-679-MSITS2a
+Sat Sep 2 10:01:47 EDT 2017 'splitting' 4924-680-MSITS2a
+Sat Sep 2 10:01:47 EDT 2017 'splitting' 4924-692-MSITS2a
+Sat Sep 2 10:01:47 EDT 2017 'splitting' 4924-693-MSITS2a
+Sat Sep 2 10:01:49 EDT 2017 'splitting' 4924-694-MSITS2a
+Sat Sep 2 10:01:50 EDT 2017 'splitting' 4924-695-MSITS2a
+Sat Sep 2 10:01:50 EDT 2017 'splitting' 4924-697-MSITS2a
+Sat Sep 2 10:01:51 EDT 2017 'splitting' 4924-698-MSITS2a
+Sat Sep 2 10:01:52 EDT 2017 'splitting' 4924-699-MSITS2a
+Sat Sep 2 10:01:53 EDT 2017 'splitting' 4924-700-MSITS2a
+Sat Sep 2 10:02:54 EDT 2017 start OTU picking
+Sat Sep 2 10:05:18 EDT 2017 OTU picking complete
+Num samples: 28
+Num observations: 525
+Total count: 665900
+Table density (fraction of non-zero values): 0.164
 
 Counts/sample summary:
- Min: 12687.0
- Max: 41592.0
- Median: 21807.000
- Mean: 22289.545
- Std. dev.: 6847.571
+ Min: 12686.0
+ Max: 41595.0
+ Median: 22166.000
+ Mean: 23782.143
+ Std. dev.: 7580.964
  Sample Metadata Categories: None provided
  Observation Metadata Categories: taxonomy
 
 Counts/sample detail:
-674: 12687.0
-673: 12727.0
-664: 13134.0
-675: 16513.0
-678: 17972.0
+674: 12686.0
+673: 12729.0
+664: 13228.0
+675: 16258.0
+678: 17970.0
 668: 18078.0
-658: 19161.0
-672: 19794.0
-670: 20066.0
-694: 20511.0
-669: 21530.0
-665: 22084.0
-679: 22245.0
+658: 19242.0
+672: 19793.0
+670: 20345.0
+694: 20447.0
+700: 21035.0
+699: 21320.0
+669: 21529.0
+665: 22085.0
+679: 22247.0
 663: 22386.0
+698: 22454.0
 677: 22622.0
-659: 24904.0
-660: 24957.0
+660: 24937.0
+659: 24996.0
 667: 25509.0
-662: 27348.0
-657: 27398.0
+662: 27347.0
+657: 27488.0
+697: 35395.0
+693: 36848.0
 680: 37152.0
-692: 41592.0
-Mon Aug 28 23:13:45 EDT 2017 start core diversity
-Mon Aug 28 23:17:32 EDT 2017 core diversity complete
+695: 38179.0
+692: 41595.0
+Sat Sep 2 10:05:19 EDT 2017 start core diversity
+Sat Sep 2 10:10:23 EDT 2017 core diversity complete

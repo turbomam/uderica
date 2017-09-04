@@ -24,7 +24,7 @@ export MAX_FLASH_OVERLAP=100
 export CORE_DIV_MIN_DEPTH=10000
 export THREAD_CT=6
 
-export SLEEP_SECS=15
+export SLEEP_SECS=30
 
 export DATA_DIR="raw_data_bacteria"
 
@@ -52,15 +52,15 @@ export FILE_PATH_FILE="${PROJ_GENE_HOME}/file_path.txt"
 # not doing any error/dependency checking yet
 # not doing and cleanup from previous run yet
 # FALSE
-export FRESH_LOG="FALSE"
-export INITIAL_FASTQC="FALSE"
-export INITIAL_MULTIQC="FALSE"
-export DO_FLASH="FALSE"
-export POST_FLASH_BOTHQC="FALSE"
+export FRESH_LOG="TRUE"
+export INITIAL_FASTQC="TRUE"
+export INITIAL_MULTIQC="TRUE"
+export DO_FLASH="TRUE"
+export POST_FLASH_BOTHQC="TRUE"
 # export POST_FLASH_FASTQC="TRUE"
 # export POST_FLASH_MULTIQC="TRUE"
-export DO_QIIME_SPLIT="FALSE"
-export DO_QIIME_PICK="FALSE"
+export DO_QIIME_SPLIT="TRUE"
+export DO_QIIME_PICK="TRUE"
 export DO_PYTHON_OTU_FILTERING="TRUE"
 export DO_BIOM_CONVERSION="TRUE"
 export DO_CORE_DIV="TRUE"

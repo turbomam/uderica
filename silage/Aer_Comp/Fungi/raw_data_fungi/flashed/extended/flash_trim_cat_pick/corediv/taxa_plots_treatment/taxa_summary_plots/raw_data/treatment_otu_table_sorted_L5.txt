@@ -1,49 +1,53 @@
 # Constructed from biom file
-#OTU ID	C	C-3H	C-3H-LATE	C-NS	S2-3H	S2-NS
-No blast hit;Other;Other;Other;Other	0.000134935957319	0.000356512016075	0.0	0.000141299484257	0.000120036010803	0.000105679696582
-k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	0.0297897075004	0.0223306162796	0.0141076432506	0.0513976873984	0.0485945783735	0.0973310005519
-k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae	0.000809615743912	0.0	0.0	0.0	0.0	1.17421885091e-05
-k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae	0.000238732847564	0.0	0.0	0.0	0.0	0.0
-k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	0.00353947395736	0.000437537474274	4.83138467485e-05	0.000376798624685	0.00123036911073	0.000669304745018
-k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae	7.26578231716e-05	0.0	0.0	0.0	0.0	0.0
-k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Venturiaceae	0.000124556268294	0.0	0.0	0.0	0.0	0.0
-k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__unidentified	0.00154657366465	0.0	0.0	0.0	0.00172051615485	0.000340523466764
-k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified	0.252641630857	0.000599588390672	0.0	0.0	0.000990297089127	0.00223101581673
-k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae	0.000871893878059	0.0	3.22092311657e-05	0.000482773237878	0.00100030009003	0.000117421885091
-k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Incertae_sedis;f__Monascaceae	0.0	1.62050916398e-05	0.829436016362	0.0	1.00030009003e-05	0.0
-k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Helotiaceae	0.00020759378049	0.0	0.0	0.000435673409792	0.0	0.0
-k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae_sedis	0.0	0.0	6.44184623313e-05	0.0	6.00180054016e-05	0.0
-k__Fungi;p__Ascomycota;c__Saccharomycetes;o__Saccharomycetales;f__Dipodascaceae	0.0	0.0	0.0	0.000353248710642	0.0	0.0
-k__Fungi;p__Ascomycota;c__Saccharomycetes;o__Saccharomycetales;f__Incertae_sedis	0.15162649727	0.22630410475	0.0348181788901	0.192379247816	0.119605881765	0.145027770276
-k__Fungi;p__Ascomycota;c__Saccharomycetes;o__Saccharomycetales;f__Metschnikowiaceae	0.0	0.000307896741156	0.0	0.00103619621788	0.000120036010803	0.000375750032291
-k__Fungi;p__Ascomycota;c__Saccharomycetes;o__Saccharomycetales;f__Pichiaceae	0.0011002470366	9.72305498388e-05	3.22092311657e-05	0.00050632315192	0.000680204061218	0.0005166562944
-k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Clavicipitaceae	0.000498225073177	0.0	0.0	0.000200174269364	0.0	0.0
-k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Incertae_sedis	0.0567976583422	0.000437537474274	8.05230779141e-05	0.00228434166215	0.000830249074722	0.000575367236946
-k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae	0.00400655996346	0.0	0.0	0.00075359724937	0.000120036010803	0.000681046933527
-k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__unidentified	0.00011417657927	0.0	0.0	0.0	0.0	3.52265655273e-05
-k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Incertae_sedis;f__Plectosphaerellaceae	0.0	0.0	0.0	0.0	0.000100030009003	0.0
-k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Cephalothecaceae	0.000332150048785	0.0	0.0	0.0	0.0	0.000528398482909
-k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Lasiosphaeriaceae	0.0	0.0	0.0	0.0	0.0	0.0003874922208
-k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae_sedis	5.18984451226e-05	1.62050916398e-05	0.0	0.000353248710642	0.0	0.0
-k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae	0.0	0.0	0.0	0.000883121776606	0.0	0.00176132827636
-k__Fungi;p__Ascomycota;c__Sordariomycetes;o__unidentified;f__unidentified	0.000166075024392	0.0	0.0	0.0	0.0	0.00144428918662
-k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified	0.0637935687447	0.00640101119772	0.000450929236319	0.0126816287121	0.00566169850955	0.00702182872844
-k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Agaricales;f__Lycoperdaceae	0.0	0.000129640733118	0.0	0.0	0.0	0.0
-k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Agaricales;f__Pluteaceae	0.000404807871956	0.0	0.0	0.0	0.000180054016205	0.0
-k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Agaricales;f__Psathyrellaceae	4.15187560981e-05	0.0	0.0	0.0	0.0	0.0
-k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Geastrales;f__Geastraceae	8.30375121961e-05	0.0	0.0	0.0	0.0	0.0
-k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Phallales;f__Phallaceae	0.000217973469515	0.0	0.0	0.0	0.0	0.0
-k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Polyporales;f__Ganodermataceae	7.26578231716e-05	8.1025458199e-05	0.0	0.0	0.000100030009003	0.0
-k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Polyporales;f__Polyporaceae	6.22781341471e-05	0.0	0.0	0.0	0.0	0.0
-k__Fungi;p__Basidiomycota;c__Cystobasidiomycetes;o__Cystobasidiales;f__Cystobasidiaceae	0.00670527910984	0.00247937902089	0.00322092311657	0.00284953959918	0.00222066619986	0.0029707736928
-k__Fungi;p__Basidiomycota;c__Microbotryomycetes;o__Sporidiobolales;f__Incertae_sedis	0.000581262585373	0.0	0.0	0.0	0.000420126037811	0.0
-k__Fungi;p__Basidiomycota;c__Pucciniomycetes;o__Pucciniales;f__Pucciniaceae	0.00172302837807	0.00392163217683	0.00138499694012	0.00228434166215	0.00351105331599	0.00541314890269
-k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Filobasidiales;f__Filobasidiaceae	0.0016088517988	0.00351650488584	0.00275388926466	0.00475708263665	0.000880264079224	0.00136209386705
-k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Tremellales;f__Incertae_sedis	0.00468123975006	0.013450226061	0.00842271394982	0.0361608930127	0.0250375112534	0.0287801040358
-k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Tremellales;f__Tremellaceae	0.00221087376222	0.0355377659661	0.00462202467227	0.0211949226385	0.0353606081825	0.0279816352172
-k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__unidentified;f__unidentified	0.00120404392684	0.00631998573952	4.83138467485e-05	0.00183689329534	0.00499149744923	0.000798468818618
-k__Fungi;p__Basidiomycota;c__Ustilaginomycetes;o__Ustilaginales;f__Ustilaginaceae	0.00123518299392	3.24101832796e-05	0.0	8.24246991498e-05	1.00030009003e-05	5.87109425455e-05
-k__Fungi;p__Basidiomycota;c__unidentified;o__unidentified;f__unidentified	0.0409790122688	0.0142766857347	0.000724707701227	0.0117867319784	0.00942282684805	0.00980472740509
-k__Fungi;p__Glomeromycota;c__Glomeromycetes;o__Glomerales;f__Glomeraceae	0.0	0.000291691649516	0.0	0.0	0.000140042012604	0.000410976597818
-k__Fungi;p__Zygomycota;c__Incertae_sedis;o__Mucorales;f__Mucoraceae	9.34172012207e-05	8.1025458199e-05	0.0	4.70998280856e-05	0.0	0.0
-k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified	0.369631105852	0.662577581876	0.09975198892	0.654734710218	0.736881064319	0.663257517936
+#OTU ID	C	C-3H	C-3H-LATE	C-NS	S2-3H	S2-3H-LATE	S2-NS
+No blast hit;Other;Other;Other;Other	0.000124239035905	0.00034171900934	2.91879191203e-05	0.000129378278563	0.00012003240875	2.99493855384e-05	0.000117037089054
+k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	0.0297345425933	0.0224070036125	0.00723130696205	0.0513396532662	0.0485831174417	0.00137767173477	0.0970939690788
+k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae	0.000807553733383	0.0	0.0	0.0	0.0	0.0	1.17037089054e-05
+k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae_sedis	0.0	0.0	0.0	0.0	0.0	0.00162724994759	0.0
+k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae	0.000238124818818	0.0	0.0	0.0	0.0	0.0	0.0
+k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	0.0027436120429	0.0	7.29697978007e-06	0.000364611512314	0.00123033218969	0.00107817787938	0.0006554076987
+k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae	7.24727709446e-05	0.0	0.0	0.0	0.0	0.0	0.0
+k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Venturiaceae	0.000124239035905	0.0	0.0	0.0	0.0	0.0	0.0
+k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__unidentified	0.00154263469582	0.0	0.0	0.0	0.00172046452542	9.98312851281e-06	0.000339407558255
+k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified	0.252246655899	0.00060207634979	7.29697978007e-05	0.0	0.00099026737219	0.0	0.00222370469202
+k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Incertae_sedis	0.0	0.0	0.0	0.0	0.0	6.98818995897e-05	0.0
+k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae	0.000880026504328	0.0	2.18909393402e-05	0.00048222812919	0.00100027007292	0.315456877876	0.000117037089054
+k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Incertae_sedis;f__Monascaceae	0.0	1.62723337781e-05	0.897652561605	0.0	1.00027007292e-05	0.553893919276	0.0
+k__Fungi;p__Ascomycota;c__Incertae_sedis;o__Incertae_sedis;f__Incertae_sedis	0.0	0.0	0.0	0.0	0.0	0.000738751509948	0.0
+k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Helotiaceae	0.000207065059842	0.0	0.0	0.00043518148244	0.0	0.0	0.0
+k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae_sedis	0.0	0.0	2.91879191203e-05	0.0	6.00162043752e-05	0.0	0.0
+k__Fungi;p__Ascomycota;c__Saccharomycetes;o__Saccharomycetales;f__Dipodascaceae	0.0	0.0	0.0	0.000352849850627	0.0	0.0	0.0
+k__Fungi;p__Ascomycota;c__Saccharomycetes;o__Saccharomycetales;f__Eremotheciaceae	0.0	0.0	0.0	0.0	0.0	0.000479190168615	0.0
+k__Fungi;p__Ascomycota;c__Saccharomycetes;o__Saccharomycetales;f__Incertae_sedis	0.152958959705	0.223956129788	0.0192859175587	0.192303168592	0.119592289918	0.00434266090307	0.147057102396
+k__Fungi;p__Ascomycota;c__Saccharomycetes;o__Saccharomycetales;f__Metschnikowiaceae	0.0	0.0005207146809	1.45939595601e-05	0.000823316318129	9.00243065628e-05	0.0	0.0006554076987
+k__Fungi;p__Ascomycota;c__Saccharomycetes;o__Saccharomycetales;f__Pichiaceae	0.00109744481716	9.76340026687e-05	2.18909393402e-05	0.000505751452565	0.000680183649585	0.000199662570256	0.000514963191835
+k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Clavicipitaceae	0.00049695614362	0.0	0.0	0.000199948248689	0.0	0.0	0.0
+k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Incertae_sedis	0.0566426471197	0.000439353012009	3.64848989003e-05	0.00228176236739	0.000830224160523	0.000878515309128	0.000573481736362
+k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae	0.00402741541392	0.0	2.91879191203e-05	0.000776269671379	0.00012003240875	0.000339426369436	0.000702222534321
+k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__unidentified	0.000113885782913	0.0	0.0	0.0	0.0	0.0	3.51111267161e-05
+k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Incertae_sedis;f__Plectosphaerellaceae	0.0	0.0	0.0	0.0	0.000100027007292	0.0	0.0
+k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Cephalothecaceae	0.000331304095747	0.0	0.0	0.0	0.0	0.0	0.000526666900741
+k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Lasiosphaeriaceae	0.0	0.0	0.0	0.0	0.0	0.0	0.000386222393877
+k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae_sedis	5.17662649605e-05	1.62723337781e-05	0.0	0.000352849850627	0.0	0.000499156425641	0.0
+k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae	0.0	0.0	0.0	0.000882124626567	0.0	0.0	0.0017555563358
+k__Fungi;p__Ascomycota;c__Sordariomycetes;o__unidentified;f__unidentified	0.000165652047873	0.0	0.0	0.0	0.0	0.0	0.00143955619536
+k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified	0.0634136745766	0.0110651869691	0.000328364090103	0.0145491755075	0.00626169065648	0.0224320897683	0.0159638589469
+k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Agaricales;f__Lycoperdaceae	0.0	0.000130178670225	0.0	0.0	0.0	0.0	0.0
+k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Agaricales;f__Pluteaceae	0.000403776866692	0.0	0.0	0.0	0.000180048613126	0.0	0.0
+k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Agaricales;f__Psathyrellaceae	4.14130119684e-05	0.0	0.0	0.0	0.0	0.0	0.0
+k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Geastrales;f__Geastraceae	8.28260239367e-05	0.0	0.0	0.0	0.0	0.0	0.0
+k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Phallales;f__Phallaceae	0.000217418312834	0.0	0.0	0.0	0.0	0.0	0.0
+k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Polyporales;f__Ganodermataceae	7.24727709446e-05	8.13616688906e-05	0.0	0.0	0.000100027007292	0.0	0.0
+k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Polyporales;f__Polyporaceae	6.21195179525e-05	0.0	0.0	0.0	0.0	0.0	0.0
+k__Fungi;p__Basidiomycota;c__Cystobasidiomycetes;o__Cystobasidiales;f__Cystobasidiaceae	0.00668820143289	0.00248966706805	0.00147398991557	0.00284632212839	0.00222059956188	0.0	0.00300785318868
+k__Fungi;p__Basidiomycota;c__Microbotryomycetes;o__Sporidiobolales;f__Incertae_sedis	0.000579782167557	0.0	0.0	0.0	0.000420113430626	0.00498158112789	0.0
+k__Fungi;p__Basidiomycota;c__Pucciniomycetes;o__Pucciniales;f__Pucciniaceae	0.00171863999669	0.0039379047743	0.000868340593828	0.00228176236739	0.00351094795595	9.98312851281e-06	0.00539540980537
+k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Filobasidiales;f__Filobasidiaceae	0.00160475421377	0.00353109642985	0.00131345636041	0.00476347298346	0.000880237664169	3.99325140513e-05	0.00135763023302
+k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Tremellales;f__Incertae_sedis	0.00467967035242	0.0134409477007	0.00482330363463	0.0361435863659	0.0250267572245	0.00115804290749	0.0286155682736
+k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Tremellales;f__Tremellaceae	0.00220524288732	0.0356364109741	0.00271447647819	0.0212297993461	0.0353395416763	0.00095838033723	0.0278782346125
+k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__unidentified;f__unidentified	0.00120097734708	0.00634621017346	8.02667775808e-05	0.00183481922326	0.00499134766387	0.000209645698769	0.000795852205564
+k__Fungi;p__Basidiomycota;c__Ustilaginomycetes;o__Ustilaginales;f__Ustilaginaceae	0.00122168385307	3.25446675562e-05	0.0	8.23316318129e-05	1.00027007292e-05	0.0	5.85185445268e-05
+k__Fungi;p__Basidiomycota;c__unidentified;o__unidentified;f__unidentified	0.0409057025717	0.014303381391	0.000715104018447	0.0117851850109	0.0094225440869	0.00112809352195	0.00978430064487
+k__Fungi;p__Glomeromycota;c__Glomeromycetes;o__Glomerales;f__Glomeraceae	0.0	0.0	0.0	0.0	0.000140037810209	0.0	0.000409629811687
+k__Fungi;p__Zygomycota;c__Incertae_sedis;o__Mucorales;f__Mucoraceae	9.31792769288e-05	8.13616688906e-05	0.0	4.70466467503e-05	0.0	0.0	0.0
+k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified	0.370201267238	0.660526572721	0.0632502207336	0.653207405142	0.736368819581	0.0880611766115	0.652528586309

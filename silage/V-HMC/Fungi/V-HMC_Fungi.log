@@ -1,4 +1,4 @@
-configuration from /home/mark/gitstage/uderica/silage/V-HMC/Fungi/V-HMC_Fungi_envvars_new.sh
+configuration from V-HMC/Fungi/V-HMC_Fungi_envvars_new.sh
 export PROJ_GENE_TITLE="V-HMC_Fungi"
 export PROJ_GENE_HOME="/home/mark/gitstage/uderica/silage/V-HMC/Fungi"
 
@@ -70,213 +70,213 @@ export DO_PHYLOSEQ="FALSE"
 
 
 
-Mon Aug 28 22:40:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-424-MSITS2a
-Mon Aug 28 22:40:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-425-MSITS2a
-Mon Aug 28 22:40:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-426-MSITS2a
-Mon Aug 28 22:40:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-427-MSITS2a
-Mon Aug 28 22:40:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-429-MSITS2a
-Mon Aug 28 22:40:35 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-430-MSITS2a
-Mon Aug 28 22:40:35 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-431-MSITS2a
-Mon Aug 28 22:40:35 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-432-MSITS2a
-Mon Aug 28 22:40:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-434-MSITS2a
-Mon Aug 28 22:40:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-435-MSITS2a
-Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-436-MSITS2a
-Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-437-MSITS2a
-Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-439-MSITS2a
-Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-440-MSITS2a
-Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-441-MSITS2a
-Mon Aug 28 22:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-442-MSITS2a
-Mon Aug 28 22:40:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-831-MSITS2a
-Mon Aug 28 22:40:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-832-MSITS2a
-Mon Aug 28 22:40:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-833-MSITS2a
-Mon Aug 28 22:40:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-834-MSITS2a
-Mon Aug 28 22:40:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-836-MSITS2a
-Mon Aug 28 22:40:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-837-MSITS2a
-Mon Aug 28 22:40:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-838-MSITS2a
-Mon Aug 28 22:40:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-839-MSITS2a
-Mon Aug 28 22:40:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-841-MSITS2a
-Mon Aug 28 22:40:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-842-MSITS2a
-Mon Aug 28 22:40:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-843-MSITS2a
-Mon Aug 28 22:40:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-844-MSITS2a
-Mon Aug 28 22:40:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-447-MSITS2a
-Mon Aug 28 22:40:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-448-MSITS2a
-Mon Aug 28 22:40:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-449-MSITS2a
-Mon Aug 28 22:40:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-450-MSITS2a
-Mon Aug 28 22:40:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-451-MSITS2a
-Mon Aug 28 22:40:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-452-MSITS2a
-Mon Aug 28 22:40:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-453-MSITS2a
-Mon Aug 28 22:40:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-454-MSITS2a
-Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-455-MSITS2a
-Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-456-MSITS2a
-Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-457-MSITS2a
-Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-458-MSITS2a
-Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-459-MSITS2a
-Mon Aug 28 22:41:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-460-MSITS2a
-Mon Aug 28 22:41:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-461-MSITS2a
-Mon Aug 28 22:41:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-757-MSITS2a
-Mon Aug 28 22:41:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-758-MSITS2a
-Mon Aug 28 22:41:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-759-MSITS2a
-Mon Aug 28 22:41:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-760-MSITS2a
-Mon Aug 28 22:41:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-761-MSITS2a
-Mon Aug 28 22:41:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-762-MSITS2a
-Mon Aug 28 22:41:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-763-MSITS2a
-Mon Aug 28 22:41:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-764-MSITS2a
-Mon Aug 28 22:41:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-765-MSITS2a
-Mon Aug 28 22:41:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-766-MSITS2a
-Mon Aug 28 22:41:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1016-MSITS2a
-Mon Aug 28 22:41:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1017-MSITS2a
-Mon Aug 28 22:41:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1018-MSITS2a
-Mon Aug 28 22:41:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1019-MSITS2a
-Mon Aug 28 22:41:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1020-MSITS2a
-Mon Aug 28 22:41:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1021-MSITS2a
-Mon Aug 28 22:41:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1022-MSITS2a
-Mon Aug 28 22:41:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1023-MSITS2a
-Mon Aug 28 22:41:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1024-MSITS2a
-Mon Aug 28 22:41:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1025-MSITS2a
-Mon Aug 28 22:41:10 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1026-MSITS2a
-Mon Aug 28 22:41:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1027-MSITS2a
-Mon Aug 28 22:41:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1028-MSITS2a
-Mon Aug 28 22:41:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1029-MSITS2a
-Mon Aug 28 22:41:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1030-MSITS2a
-Mon Aug 28 22:41:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1031-MSITS2a
-Mon Aug 28 22:41:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1032-MSITS2a
-Mon Aug 28 22:41:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1033-MSITS2a
-Mon Aug 28 22:41:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1034-MSITS2a
-Mon Aug 28 22:41:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1035-MSITS2a
-Mon Aug 28 22:41:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1036-MSITS2a
-Mon Aug 28 22:41:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1037-MSITS2a
-Mon Aug 28 22:41:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1038-MSITS2a
-Mon Aug 28 22:41:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1039-MSITS2a
-Mon Aug 28 22:41:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1040-MSITS2a
-Mon Aug 28 22:41:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1138-MSITS2a
-Mon Aug 28 22:41:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1139-MSITS2a
-Mon Aug 28 22:41:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1140-MSITS2a
-Mon Aug 28 22:41:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1141-MSITS2a
-Mon Aug 28 22:41:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1142-MSITS2a
-Mon Aug 28 22:41:21 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1143-MSITS2a
-Mon Aug 28 22:41:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1144-MSITS2a
-Mon Aug 28 22:41:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1145-MSITS2a
-Mon Aug 28 22:41:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1146-MSITS2a
-Mon Aug 28 22:41:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1147-MSITS2a
-Mon Aug 28 22:41:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1148-MSITS2a
-Mon Aug 28 22:41:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1149-MSITS2a
-Mon Aug 28 22:41:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1150-MSITS2a
-Mon Aug 28 22:41:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1151-MSITS2a
-Mon Aug 28 22:41:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1152-MSITS2a
-Mon Aug 28 22:41:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1153-MSITS2a
-Mon Aug 28 22:41:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1154-MSITS2a
-Mon Aug 28 22:41:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1155-MSITS2a
-Mon Aug 28 22:41:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1156-MSITS2a
-Mon Aug 28 22:41:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1157-MSITS2a
-Mon Aug 28 22:41:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1158-MSITS2a
-Mon Aug 28 22:41:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1159-MSITS2a
-Mon Aug 28 22:41:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1160-MSITS2a
-Mon Aug 28 22:41:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1161-MSITS2a
-Mon Aug 28 22:41:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1162-MSITS2a
-Mon Aug 28 22:42:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-424-MSITS2a
-Mon Aug 28 22:42:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-425-MSITS2a
-Mon Aug 28 22:42:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-426-MSITS2a
-Mon Aug 28 22:42:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-427-MSITS2a
-Mon Aug 28 22:42:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-429-MSITS2a
-Mon Aug 28 22:42:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-430-MSITS2a
-Mon Aug 28 22:42:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-431-MSITS2a
-Mon Aug 28 22:42:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-432-MSITS2a
-Mon Aug 28 22:42:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-434-MSITS2a
-Mon Aug 28 22:42:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-435-MSITS2a
-Mon Aug 28 22:42:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-436-MSITS2a
-Mon Aug 28 22:42:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-437-MSITS2a
-Mon Aug 28 22:42:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-439-MSITS2a
-Mon Aug 28 22:42:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-440-MSITS2a
-Mon Aug 28 22:42:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-441-MSITS2a
-Mon Aug 28 22:42:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-442-MSITS2a
-Mon Aug 28 22:42:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-831-MSITS2a
-Mon Aug 28 22:42:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-832-MSITS2a
-Mon Aug 28 22:42:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-833-MSITS2a
-Mon Aug 28 22:42:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-834-MSITS2a
-Mon Aug 28 22:42:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-836-MSITS2a
-Mon Aug 28 22:42:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-837-MSITS2a
-Mon Aug 28 22:42:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-838-MSITS2a
-Mon Aug 28 22:42:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-839-MSITS2a
-Mon Aug 28 22:42:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-841-MSITS2a
-Mon Aug 28 22:42:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-842-MSITS2a
-Mon Aug 28 22:42:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-843-MSITS2a
-Mon Aug 28 22:42:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-844-MSITS2a
-Mon Aug 28 22:42:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-447-MSITS2a
-Mon Aug 28 22:42:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-448-MSITS2a
-Mon Aug 28 22:42:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-449-MSITS2a
-Mon Aug 28 22:42:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-450-MSITS2a
-Mon Aug 28 22:42:40 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-451-MSITS2a
-Mon Aug 28 22:42:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-452-MSITS2a
-Mon Aug 28 22:42:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-453-MSITS2a
-Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-454-MSITS2a
-Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-455-MSITS2a
-Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-456-MSITS2a
-Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-457-MSITS2a
-Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-458-MSITS2a
-Mon Aug 28 22:42:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-459-MSITS2a
-Mon Aug 28 22:42:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-460-MSITS2a
-Mon Aug 28 22:42:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-461-MSITS2a
-Mon Aug 28 22:42:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-757-MSITS2a
-Mon Aug 28 22:42:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-758-MSITS2a
-Mon Aug 28 22:42:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-759-MSITS2a
-Mon Aug 28 22:42:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-760-MSITS2a
-Mon Aug 28 22:42:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-761-MSITS2a
-Mon Aug 28 22:42:50 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-762-MSITS2a
-Mon Aug 28 22:42:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-763-MSITS2a
-Mon Aug 28 22:42:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-764-MSITS2a
-Mon Aug 28 22:42:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-765-MSITS2a
-Mon Aug 28 22:42:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-766-MSITS2a
-Mon Aug 28 22:42:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1016-MSITS2a
-Mon Aug 28 22:42:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1017-MSITS2a
-Mon Aug 28 22:42:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1018-MSITS2a
-Mon Aug 28 22:42:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1019-MSITS2a
-Mon Aug 28 22:42:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1020-MSITS2a
-Mon Aug 28 22:42:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1021-MSITS2a
-Mon Aug 28 22:42:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1022-MSITS2a
-Mon Aug 28 22:42:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1023-MSITS2a
-Mon Aug 28 22:42:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1024-MSITS2a
-Mon Aug 28 22:42:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1025-MSITS2a
-Mon Aug 28 22:42:56 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1026-MSITS2a
-Mon Aug 28 22:42:57 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1027-MSITS2a
-Mon Aug 28 22:42:57 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1028-MSITS2a
-Mon Aug 28 22:42:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1029-MSITS2a
-Mon Aug 28 22:42:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1030-MSITS2a
-Mon Aug 28 22:42:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1031-MSITS2a
-Mon Aug 28 22:42:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1032-MSITS2a
-Mon Aug 28 22:42:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1033-MSITS2a
-Mon Aug 28 22:42:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1034-MSITS2a
-Mon Aug 28 22:43:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1035-MSITS2a
-Mon Aug 28 22:43:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1036-MSITS2a
-Mon Aug 28 22:43:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1037-MSITS2a
-Mon Aug 28 22:43:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1038-MSITS2a
-Mon Aug 28 22:43:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1039-MSITS2a
-Mon Aug 28 22:43:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1040-MSITS2a
-Mon Aug 28 22:43:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1138-MSITS2a
-Mon Aug 28 22:43:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1139-MSITS2a
-Mon Aug 28 22:43:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1140-MSITS2a
-Mon Aug 28 22:43:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1141-MSITS2a
-Mon Aug 28 22:43:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1142-MSITS2a
-Mon Aug 28 22:43:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1143-MSITS2a
-Mon Aug 28 22:43:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1144-MSITS2a
-Mon Aug 28 22:43:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1145-MSITS2a
-Mon Aug 28 22:43:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1146-MSITS2a
-Mon Aug 28 22:43:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1147-MSITS2a
-Mon Aug 28 22:43:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1148-MSITS2a
-Mon Aug 28 22:43:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1149-MSITS2a
-Mon Aug 28 22:43:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1150-MSITS2a
-Mon Aug 28 22:43:10 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1151-MSITS2a
-Mon Aug 28 22:43:10 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1152-MSITS2a
-Mon Aug 28 22:43:10 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1153-MSITS2a
-Mon Aug 28 22:43:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1154-MSITS2a
-Mon Aug 28 22:43:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1155-MSITS2a
-Mon Aug 28 22:43:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1156-MSITS2a
-Mon Aug 28 22:43:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1157-MSITS2a
-Mon Aug 28 22:43:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1158-MSITS2a
-Mon Aug 28 22:43:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1159-MSITS2a
-Mon Aug 28 22:43:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1160-MSITS2a
-Mon Aug 28 22:43:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1161-MSITS2a
-Mon Aug 28 22:43:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1162-MSITS2a
-Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-424-MSITS2a
+Sat Sep 2 09:35:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-424-MSITS2a
+Sat Sep 2 09:35:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-425-MSITS2a
+Sat Sep 2 09:35:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-426-MSITS2a
+Sat Sep 2 09:35:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-427-MSITS2a
+Sat Sep 2 09:35:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-429-MSITS2a
+Sat Sep 2 09:35:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-430-MSITS2a
+Sat Sep 2 09:35:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-431-MSITS2a
+Sat Sep 2 09:35:35 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-432-MSITS2a
+Sat Sep 2 09:35:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-434-MSITS2a
+Sat Sep 2 09:35:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-435-MSITS2a
+Sat Sep 2 09:35:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-436-MSITS2a
+Sat Sep 2 09:35:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-437-MSITS2a
+Sat Sep 2 09:35:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-439-MSITS2a
+Sat Sep 2 09:35:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-440-MSITS2a
+Sat Sep 2 09:35:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-441-MSITS2a
+Sat Sep 2 09:35:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-442-MSITS2a
+Sat Sep 2 09:35:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-831-MSITS2a
+Sat Sep 2 09:35:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-832-MSITS2a
+Sat Sep 2 09:35:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-833-MSITS2a
+Sat Sep 2 09:35:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-834-MSITS2a
+Sat Sep 2 09:35:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-836-MSITS2a
+Sat Sep 2 09:35:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-837-MSITS2a
+Sat Sep 2 09:35:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-838-MSITS2a
+Sat Sep 2 09:35:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-839-MSITS2a
+Sat Sep 2 09:35:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-841-MSITS2a
+Sat Sep 2 09:35:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-842-MSITS2a
+Sat Sep 2 09:35:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-843-MSITS2a
+Sat Sep 2 09:35:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-844-MSITS2a
+Sat Sep 2 09:35:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-447-MSITS2a
+Sat Sep 2 09:35:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-448-MSITS2a
+Sat Sep 2 09:35:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-449-MSITS2a
+Sat Sep 2 09:35:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-450-MSITS2a
+Sat Sep 2 09:35:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-451-MSITS2a
+Sat Sep 2 09:35:57 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-452-MSITS2a
+Sat Sep 2 09:35:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-453-MSITS2a
+Sat Sep 2 09:36:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-454-MSITS2a
+Sat Sep 2 09:36:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-455-MSITS2a
+Sat Sep 2 09:36:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-456-MSITS2a
+Sat Sep 2 09:36:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-457-MSITS2a
+Sat Sep 2 09:36:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-458-MSITS2a
+Sat Sep 2 09:36:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-459-MSITS2a
+Sat Sep 2 09:36:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-460-MSITS2a
+Sat Sep 2 09:36:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-461-MSITS2a
+Sat Sep 2 09:36:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-757-MSITS2a
+Sat Sep 2 09:36:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-758-MSITS2a
+Sat Sep 2 09:36:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-759-MSITS2a
+Sat Sep 2 09:36:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-760-MSITS2a
+Sat Sep 2 09:36:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-761-MSITS2a
+Sat Sep 2 09:36:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-762-MSITS2a
+Sat Sep 2 09:36:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-763-MSITS2a
+Sat Sep 2 09:36:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-764-MSITS2a
+Sat Sep 2 09:36:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-765-MSITS2a
+Sat Sep 2 09:36:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-766-MSITS2a
+Sat Sep 2 09:36:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1016-MSITS2a
+Sat Sep 2 09:36:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1017-MSITS2a
+Sat Sep 2 09:36:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1018-MSITS2a
+Sat Sep 2 09:36:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1019-MSITS2a
+Sat Sep 2 09:36:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1020-MSITS2a
+Sat Sep 2 09:36:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1021-MSITS2a
+Sat Sep 2 09:36:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1022-MSITS2a
+Sat Sep 2 09:36:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1023-MSITS2a
+Sat Sep 2 09:36:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1024-MSITS2a
+Sat Sep 2 09:36:10 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1025-MSITS2a
+Sat Sep 2 09:36:10 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1026-MSITS2a
+Sat Sep 2 09:36:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1027-MSITS2a
+Sat Sep 2 09:36:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1028-MSITS2a
+Sat Sep 2 09:36:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1029-MSITS2a
+Sat Sep 2 09:36:12 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1030-MSITS2a
+Sat Sep 2 09:36:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1031-MSITS2a
+Sat Sep 2 09:36:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1032-MSITS2a
+Sat Sep 2 09:36:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1033-MSITS2a
+Sat Sep 2 09:36:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1034-MSITS2a
+Sat Sep 2 09:36:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1035-MSITS2a
+Sat Sep 2 09:36:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1036-MSITS2a
+Sat Sep 2 09:36:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1037-MSITS2a
+Sat Sep 2 09:36:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1038-MSITS2a
+Sat Sep 2 09:36:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1039-MSITS2a
+Sat Sep 2 09:36:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1040-MSITS2a
+Sat Sep 2 09:36:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1138-MSITS2a
+Sat Sep 2 09:36:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1139-MSITS2a
+Sat Sep 2 09:36:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1140-MSITS2a
+Sat Sep 2 09:36:21 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1141-MSITS2a
+Sat Sep 2 09:36:21 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1142-MSITS2a
+Sat Sep 2 09:36:21 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1143-MSITS2a
+Sat Sep 2 09:36:22 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1144-MSITS2a
+Sat Sep 2 09:36:22 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1145-MSITS2a
+Sat Sep 2 09:36:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1146-MSITS2a
+Sat Sep 2 09:36:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1147-MSITS2a
+Sat Sep 2 09:36:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1148-MSITS2a
+Sat Sep 2 09:36:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1149-MSITS2a
+Sat Sep 2 09:36:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1150-MSITS2a
+Sat Sep 2 09:36:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1151-MSITS2a
+Sat Sep 2 09:36:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1152-MSITS2a
+Sat Sep 2 09:36:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1153-MSITS2a
+Sat Sep 2 09:36:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1154-MSITS2a
+Sat Sep 2 09:36:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1155-MSITS2a
+Sat Sep 2 09:36:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1156-MSITS2a
+Sat Sep 2 09:36:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1157-MSITS2a
+Sat Sep 2 09:36:28 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1158-MSITS2a
+Sat Sep 2 09:36:28 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1159-MSITS2a
+Sat Sep 2 09:36:28 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1160-MSITS2a
+Sat Sep 2 09:36:29 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1161-MSITS2a
+Sat Sep 2 09:36:29 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1162-MSITS2a
+Sat Sep 2 09:37:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-424-MSITS2a
+Sat Sep 2 09:37:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-425-MSITS2a
+Sat Sep 2 09:37:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-426-MSITS2a
+Sat Sep 2 09:37:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-427-MSITS2a
+Sat Sep 2 09:37:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-429-MSITS2a
+Sat Sep 2 09:37:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-430-MSITS2a
+Sat Sep 2 09:37:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-431-MSITS2a
+Sat Sep 2 09:37:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-432-MSITS2a
+Sat Sep 2 09:37:22 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-434-MSITS2a
+Sat Sep 2 09:37:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-435-MSITS2a
+Sat Sep 2 09:37:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-436-MSITS2a
+Sat Sep 2 09:37:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-437-MSITS2a
+Sat Sep 2 09:37:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-439-MSITS2a
+Sat Sep 2 09:37:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-440-MSITS2a
+Sat Sep 2 09:37:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-441-MSITS2a
+Sat Sep 2 09:37:23 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-442-MSITS2a
+Sat Sep 2 09:37:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-831-MSITS2a
+Sat Sep 2 09:37:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-832-MSITS2a
+Sat Sep 2 09:37:28 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-833-MSITS2a
+Sat Sep 2 09:37:29 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-834-MSITS2a
+Sat Sep 2 09:37:29 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-836-MSITS2a
+Sat Sep 2 09:37:29 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-837-MSITS2a
+Sat Sep 2 09:37:29 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-838-MSITS2a
+Sat Sep 2 09:37:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-839-MSITS2a
+Sat Sep 2 09:37:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-841-MSITS2a
+Sat Sep 2 09:37:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-842-MSITS2a
+Sat Sep 2 09:37:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-843-MSITS2a
+Sat Sep 2 09:37:34 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-844-MSITS2a
+Sat Sep 2 09:37:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-447-MSITS2a
+Sat Sep 2 09:37:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-448-MSITS2a
+Sat Sep 2 09:37:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-449-MSITS2a
+Sat Sep 2 09:37:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-450-MSITS2a
+Sat Sep 2 09:37:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-451-MSITS2a
+Sat Sep 2 09:37:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-452-MSITS2a
+Sat Sep 2 09:37:40 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-453-MSITS2a
+Sat Sep 2 09:37:40 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-454-MSITS2a
+Sat Sep 2 09:37:40 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-455-MSITS2a
+Sat Sep 2 09:37:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-456-MSITS2a
+Sat Sep 2 09:37:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-457-MSITS2a
+Sat Sep 2 09:37:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-458-MSITS2a
+Sat Sep 2 09:37:41 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-459-MSITS2a
+Sat Sep 2 09:37:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-460-MSITS2a
+Sat Sep 2 09:37:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-461-MSITS2a
+Sat Sep 2 09:37:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-757-MSITS2a
+Sat Sep 2 09:37:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-758-MSITS2a
+Sat Sep 2 09:37:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-759-MSITS2a
+Sat Sep 2 09:37:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-760-MSITS2a
+Sat Sep 2 09:37:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-761-MSITS2a
+Sat Sep 2 09:37:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-762-MSITS2a
+Sat Sep 2 09:37:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-763-MSITS2a
+Sat Sep 2 09:37:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-764-MSITS2a
+Sat Sep 2 09:37:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-765-MSITS2a
+Sat Sep 2 09:37:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-766-MSITS2a
+Sat Sep 2 09:37:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1016-MSITS2a
+Sat Sep 2 09:37:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1017-MSITS2a
+Sat Sep 2 09:37:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1018-MSITS2a
+Sat Sep 2 09:37:50 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1019-MSITS2a
+Sat Sep 2 09:37:50 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1020-MSITS2a
+Sat Sep 2 09:37:50 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1021-MSITS2a
+Sat Sep 2 09:37:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1022-MSITS2a
+Sat Sep 2 09:37:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1023-MSITS2a
+Sat Sep 2 09:37:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1024-MSITS2a
+Sat Sep 2 09:37:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1025-MSITS2a
+Sat Sep 2 09:37:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1026-MSITS2a
+Sat Sep 2 09:37:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1027-MSITS2a
+Sat Sep 2 09:37:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1028-MSITS2a
+Sat Sep 2 09:37:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1029-MSITS2a
+Sat Sep 2 09:37:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1030-MSITS2a
+Sat Sep 2 09:37:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1031-MSITS2a
+Sat Sep 2 09:37:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1032-MSITS2a
+Sat Sep 2 09:37:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1033-MSITS2a
+Sat Sep 2 09:37:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1034-MSITS2a
+Sat Sep 2 09:37:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1035-MSITS2a
+Sat Sep 2 09:37:56 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1036-MSITS2a
+Sat Sep 2 09:37:57 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1037-MSITS2a
+Sat Sep 2 09:37:57 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1038-MSITS2a
+Sat Sep 2 09:37:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1039-MSITS2a
+Sat Sep 2 09:37:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1040-MSITS2a
+Sat Sep 2 09:37:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1138-MSITS2a
+Sat Sep 2 09:37:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1139-MSITS2a
+Sat Sep 2 09:38:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1140-MSITS2a
+Sat Sep 2 09:38:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1141-MSITS2a
+Sat Sep 2 09:38:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1142-MSITS2a
+Sat Sep 2 09:38:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1143-MSITS2a
+Sat Sep 2 09:38:03 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1144-MSITS2a
+Sat Sep 2 09:38:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1145-MSITS2a
+Sat Sep 2 09:38:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1146-MSITS2a
+Sat Sep 2 09:38:05 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1147-MSITS2a
+Sat Sep 2 09:38:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1148-MSITS2a
+Sat Sep 2 09:38:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1149-MSITS2a
+Sat Sep 2 09:38:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1150-MSITS2a
+Sat Sep 2 09:38:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1151-MSITS2a
+Sat Sep 2 09:38:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1152-MSITS2a
+Sat Sep 2 09:38:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1153-MSITS2a
+Sat Sep 2 09:38:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1154-MSITS2a
+Sat Sep 2 09:38:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1155-MSITS2a
+Sat Sep 2 09:38:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1156-MSITS2a
+Sat Sep 2 09:38:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1157-MSITS2a
+Sat Sep 2 09:38:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1158-MSITS2a
+Sat Sep 2 09:38:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1159-MSITS2a
+Sat Sep 2 09:38:10 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1160-MSITS2a
+Sat Sep 2 09:38:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1161-MSITS2a
+Sat Sep 2 09:38:11 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1162-MSITS2a
+Sat Sep 2 09:39:19 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-424-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -315,8 +315,8 @@ Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.118 seconds elapsed
-Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-425-MSITS2a
+[FLASH] 0.103 seconds elapsed
+Sat Sep 2 09:39:19 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-425-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -355,8 +355,8 @@ Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.143 seconds elapsed
-Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-426-MSITS2a
+[FLASH] 0.136 seconds elapsed
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-426-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -395,8 +395,8 @@ Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.154 seconds elapsed
-Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-427-MSITS2a
+[FLASH] 0.152 seconds elapsed
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-427-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -434,8 +434,8 @@ Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.098 seconds elapsed
-Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-429-MSITS2a
+[FLASH] 0.089 seconds elapsed
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-429-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -474,8 +474,8 @@ Mon Aug 28 22:44:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.107 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-430-MSITS2a
+[FLASH] 0.139 seconds elapsed
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-430-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -514,8 +514,8 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.096 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-431-MSITS2a
+[FLASH] 0.133 seconds elapsed
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-431-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -553,8 +553,8 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.070 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-432-MSITS2a
+[FLASH] 0.079 seconds elapsed
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-432-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -592,10 +592,10 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.070 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-434-MSITS2a
+[FLASH] 0.088 seconds elapsed
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-434-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-435-MSITS2a
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-435-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -633,10 +633,10 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.051 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-436-MSITS2a
+[FLASH] 0.064 seconds elapsed
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-436-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-437-MSITS2a
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-437-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -675,8 +675,8 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.130 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-439-MSITS2a
+[FLASH] 0.140 seconds elapsed
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-439-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -714,8 +714,8 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.006 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-440-MSITS2a
+[FLASH] 0.010 seconds elapsed
+Sat Sep 2 09:39:20 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-440-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -753,8 +753,8 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.056 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-441-MSITS2a
+[FLASH] 0.068 seconds elapsed
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-441-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -792,10 +792,10 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.059 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-442-MSITS2a
+[FLASH] 0.071 seconds elapsed
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-442-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-831-MSITS2a
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-831-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -834,8 +834,8 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.109 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-832-MSITS2a
+[FLASH] 0.133 seconds elapsed
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-832-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -873,8 +873,8 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.069 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-833-MSITS2a
+[FLASH] 0.087 seconds elapsed
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-833-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -912,8 +912,8 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.044 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-834-MSITS2a
+[FLASH] 0.053 seconds elapsed
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-834-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -951,8 +951,8 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.074 seconds elapsed
-Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-836-MSITS2a
+[FLASH] 0.084 seconds elapsed
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-836-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -991,8 +991,8 @@ Mon Aug 28 22:44:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.101 seconds elapsed
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-837-MSITS2a
+[FLASH] 0.127 seconds elapsed
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-837-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1031,8 +1031,8 @@ Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.087 seconds elapsed
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-838-MSITS2a
+[FLASH] 0.099 seconds elapsed
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-838-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1070,8 +1070,8 @@ Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.078 seconds elapsed
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-839-MSITS2a
+[FLASH] 0.083 seconds elapsed
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-839-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1110,8 +1110,8 @@ Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.083 seconds elapsed
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-841-MSITS2a
+[FLASH] 0.100 seconds elapsed
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-841-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1149,8 +1149,8 @@ Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.068 seconds elapsed
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-842-MSITS2a
+[FLASH] 0.086 seconds elapsed
+Sat Sep 2 09:39:21 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-842-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1188,8 +1188,8 @@ Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.074 seconds elapsed
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-843-MSITS2a
+[FLASH] 0.097 seconds elapsed
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-843-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1227,8 +1227,8 @@ Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.063 seconds elapsed
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-844-MSITS2a
+[FLASH] 0.081 seconds elapsed
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/4924-844-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1267,8 +1267,8 @@ Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.113 seconds elapsed
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-447-MSITS2a
+[FLASH] 0.129 seconds elapsed
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-447-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1307,10 +1307,10 @@ Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.121 seconds elapsed
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-448-MSITS2a
+[FLASH] 0.143 seconds elapsed
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-448-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-449-MSITS2a
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-449-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1348,8 +1348,8 @@ Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.068 seconds elapsed
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-450-MSITS2a
+[FLASH] 0.087 seconds elapsed
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-450-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1387,8 +1387,8 @@ Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.070 seconds elapsed
-Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-451-MSITS2a
+[FLASH] 0.088 seconds elapsed
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-451-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1428,18 +1428,18 @@ Mon Aug 28 22:44:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.186 seconds elapsed
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-452-MSITS2a
+[FLASH] 0.204 seconds elapsed
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-452-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-453-MSITS2a
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-453-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-454-MSITS2a
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-454-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-455-MSITS2a
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-455-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-456-MSITS2a
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-456-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-457-MSITS2a
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-457-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1478,8 +1478,8 @@ Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.096 seconds elapsed
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-458-MSITS2a
+[FLASH] 0.104 seconds elapsed
+Sat Sep 2 09:39:22 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-458-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1517,14 +1517,14 @@ Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.046 seconds elapsed
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-459-MSITS2a
+[FLASH] 0.062 seconds elapsed
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-459-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-460-MSITS2a
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-460-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-461-MSITS2a
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-461-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-757-MSITS2a
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-757-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1563,8 +1563,8 @@ Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.130 seconds elapsed
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-758-MSITS2a
+[FLASH] 0.163 seconds elapsed
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-758-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1604,8 +1604,8 @@ Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.161 seconds elapsed
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-759-MSITS2a
+[FLASH] 0.221 seconds elapsed
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-759-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1644,8 +1644,8 @@ Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.139 seconds elapsed
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-760-MSITS2a
+[FLASH] 0.156 seconds elapsed
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-760-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1684,8 +1684,8 @@ Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.101 seconds elapsed
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-761-MSITS2a
+[FLASH] 0.107 seconds elapsed
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-761-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1725,18 +1725,18 @@ Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.184 seconds elapsed
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-762-MSITS2a
+[FLASH] 0.197 seconds elapsed
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-762-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-763-MSITS2a
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-763-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-764-MSITS2a
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-764-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-765-MSITS2a
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-765-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-766-MSITS2a
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-766-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1016-MSITS2a
+Sat Sep 2 09:39:23 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1016-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1776,8 +1776,8 @@ Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.161 seconds elapsed
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1017-MSITS2a
+[FLASH] 0.178 seconds elapsed
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1017-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1817,8 +1817,8 @@ Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.170 seconds elapsed
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1018-MSITS2a
+[FLASH] 0.168 seconds elapsed
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1018-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1858,8 +1858,8 @@ Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.175 seconds elapsed
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1019-MSITS2a
+[FLASH] 0.176 seconds elapsed
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1019-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1899,8 +1899,8 @@ Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.169 seconds elapsed
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1020-MSITS2a
+[FLASH] 0.167 seconds elapsed
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1020-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1940,14 +1940,14 @@ Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.147 seconds elapsed
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1021-MSITS2a
+[FLASH] 0.149 seconds elapsed
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1021-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1022-MSITS2a
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1022-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1023-MSITS2a
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1023-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1024-MSITS2a
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1024-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -1985,20 +1985,20 @@ Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.081 seconds elapsed
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1025-MSITS2a
+[FLASH] 0.076 seconds elapsed
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1025-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1026-MSITS2a
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1026-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1027-MSITS2a
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1027-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1028-MSITS2a
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1028-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1029-MSITS2a
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1029-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1030-MSITS2a
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1030-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1031-MSITS2a
+Sat Sep 2 09:39:24 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1031-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2038,8 +2038,8 @@ Mon Aug 28 22:44:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.171 seconds elapsed
-Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1032-MSITS2a
+[FLASH] 0.159 seconds elapsed
+Sat Sep 2 09:39:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1032-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2079,8 +2079,8 @@ Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.155 seconds elapsed
-Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1033-MSITS2a
+[FLASH] 0.150 seconds elapsed
+Sat Sep 2 09:39:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1033-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2120,8 +2120,8 @@ Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.188 seconds elapsed
-Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1034-MSITS2a
+[FLASH] 0.184 seconds elapsed
+Sat Sep 2 09:39:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1034-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2161,8 +2161,8 @@ Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.177 seconds elapsed
-Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1035-MSITS2a
+[FLASH] 0.173 seconds elapsed
+Sat Sep 2 09:39:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1035-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2202,16 +2202,16 @@ Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.206 seconds elapsed
-Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1036-MSITS2a
+[FLASH] 0.194 seconds elapsed
+Sat Sep 2 09:39:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1036-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1037-MSITS2a
+Sat Sep 2 09:39:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1037-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1038-MSITS2a
+Sat Sep 2 09:39:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1038-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1039-MSITS2a
+Sat Sep 2 09:39:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1039-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1040-MSITS2a
+Sat Sep 2 09:39:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1040-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2251,8 +2251,8 @@ Mon Aug 28 22:44:29 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.211 seconds elapsed
-Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1138-MSITS2a
+[FLASH] 0.187 seconds elapsed
+Sat Sep 2 09:39:25 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1138-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2293,8 +2293,8 @@ Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.236 seconds elapsed
-Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1139-MSITS2a
+[FLASH] 0.250 seconds elapsed
+Sat Sep 2 09:39:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1139-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2335,8 +2335,8 @@ Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.193 seconds elapsed
-Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1140-MSITS2a
+[FLASH] 0.189 seconds elapsed
+Sat Sep 2 09:39:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1140-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2377,8 +2377,8 @@ Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.196 seconds elapsed
-Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1141-MSITS2a
+[FLASH] 0.193 seconds elapsed
+Sat Sep 2 09:39:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1141-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2416,8 +2416,8 @@ Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.072 seconds elapsed
-Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1142-MSITS2a
+[FLASH] 0.073 seconds elapsed
+Sat Sep 2 09:39:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1142-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2458,12 +2458,12 @@ Mon Aug 28 22:44:30 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.218 seconds elapsed
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1143-MSITS2a
+[FLASH] 0.198 seconds elapsed
+Sat Sep 2 09:39:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1143-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1144-MSITS2a
+Sat Sep 2 09:39:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1144-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1145-MSITS2a
+Sat Sep 2 09:39:26 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1145-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2502,22 +2502,22 @@ Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.139 seconds elapsed
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1146-MSITS2a
+[FLASH] 0.123 seconds elapsed
+Sat Sep 2 09:39:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1146-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1147-MSITS2a
+Sat Sep 2 09:39:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1147-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1148-MSITS2a
+Sat Sep 2 09:39:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1148-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1149-MSITS2a
+Sat Sep 2 09:39:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1149-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1150-MSITS2a
+Sat Sep 2 09:39:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1150-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1151-MSITS2a
+Sat Sep 2 09:39:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1151-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1152-MSITS2a
+Sat Sep 2 09:39:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1152-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1153-MSITS2a
+Sat Sep 2 09:39:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1153-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2557,8 +2557,8 @@ Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.175 seconds elapsed
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1154-MSITS2a
+[FLASH] 0.156 seconds elapsed
+Sat Sep 2 09:39:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1154-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2597,8 +2597,8 @@ Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.131 seconds elapsed
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1155-MSITS2a
+[FLASH] 0.134 seconds elapsed
+Sat Sep 2 09:39:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1155-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2638,8 +2638,8 @@ Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.153 seconds elapsed
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1156-MSITS2a
+[FLASH] 0.292 seconds elapsed
+Sat Sep 2 09:39:27 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1156-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2679,8 +2679,8 @@ Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.158 seconds elapsed
-Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1157-MSITS2a
+[FLASH] 0.389 seconds elapsed
+Sat Sep 2 09:39:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1157-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2721,8 +2721,8 @@ Mon Aug 28 22:44:31 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.247 seconds elapsed
-Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1158-MSITS2a
+[FLASH] 0.262 seconds elapsed
+Sat Sep 2 09:39:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1158-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2761,14 +2761,14 @@ Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.090 seconds elapsed
-Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1159-MSITS2a
+[FLASH] 0.093 seconds elapsed
+Sat Sep 2 09:39:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1159-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1160-MSITS2a
+Sat Sep 2 09:39:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1160-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1161-MSITS2a
+Sat Sep 2 09:39:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1161-MSITS2a
 [FLASH] FLASH did not complete successfully; exiting with failure status (1)
-Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1162-MSITS2a
+Sat Sep 2 09:39:28 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/5101-1162-MSITS2a
 [FLASH] Starting FLASH v1.2.11
 [FLASH] Fast Length Adjustment of SHort reads
 [FLASH]  
@@ -2807,244 +2807,248 @@ Mon Aug 28 22:44:32 EDT 2017 flashing /home/mark/gitstage/uderica/silage/V-HMC/F
 [FLASH] Writing histogram files.
 [FLASH]  
 [FLASH] FLASH v1.2.11 complete!
-[FLASH] 0.106 seconds elapsed
-Mon Aug 28 22:45:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-424-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-425-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-426-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-427-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-429-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-430-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-431-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:18 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-432-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-435-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-437-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:24 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-439-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-440-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-441-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-831-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-832-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-833-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-834-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-836-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:30 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-837-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-838-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-839-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-841-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-842-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-843-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-844-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1016-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1017-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1018-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:38 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1019-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1020-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1024-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1031-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1032-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1033-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:44 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1034-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:45 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1035-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1040-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1138-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1139-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1140-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1141-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1142-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1145-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:56 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1153-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:56 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1154-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:56 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1155-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:57 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1156-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:57 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1157-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1158-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:45:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1162-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:46:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-447-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:46:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-449-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:46:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-450-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:46:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-451-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:46:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-457-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:46:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-458-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:46:05 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-757-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:46:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-758-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:46:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-759-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:46:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-760-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:46:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-761-MSITS2a.extendedFrags.fastq
-Mon Aug 28 22:47:11 EDT 2017 'splitting' 4924-424-MSITS2a
-Mon Aug 28 22:47:11 EDT 2017 'splitting' 4924-425-MSITS2a
-Mon Aug 28 22:47:11 EDT 2017 'splitting' 4924-426-MSITS2a
-Mon Aug 28 22:47:11 EDT 2017 'splitting' 4924-427-MSITS2a
-Mon Aug 28 22:47:11 EDT 2017 'splitting' 4924-429-MSITS2a
-Mon Aug 28 22:47:12 EDT 2017 'splitting' 4924-430-MSITS2a
-Mon Aug 28 22:47:12 EDT 2017 'splitting' 4924-431-MSITS2a
-Mon Aug 28 22:47:12 EDT 2017 'splitting' 4924-432-MSITS2a
-Mon Aug 28 22:47:15 EDT 2017 'splitting' 4924-434-MSITS2a
-Mon Aug 28 22:47:16 EDT 2017 'splitting' 4924-435-MSITS2a
-Mon Aug 28 22:47:16 EDT 2017 'splitting' 4924-436-MSITS2a
-Mon Aug 28 22:47:16 EDT 2017 'splitting' 4924-437-MSITS2a
-Mon Aug 28 22:47:16 EDT 2017 'splitting' 4924-439-MSITS2a
-Mon Aug 28 22:47:17 EDT 2017 'splitting' 4924-440-MSITS2a
-Mon Aug 28 22:47:18 EDT 2017 'splitting' 4924-441-MSITS2a
-Mon Aug 28 22:47:18 EDT 2017 'splitting' 4924-442-MSITS2a
-Mon Aug 28 22:47:18 EDT 2017 'splitting' 4924-831-MSITS2a
-Mon Aug 28 22:47:19 EDT 2017 'splitting' 4924-832-MSITS2a
-Mon Aug 28 22:47:19 EDT 2017 'splitting' 4924-833-MSITS2a
-Mon Aug 28 22:47:19 EDT 2017 'splitting' 4924-834-MSITS2a
-Mon Aug 28 22:47:20 EDT 2017 'splitting' 4924-836-MSITS2a
-Mon Aug 28 22:47:21 EDT 2017 'splitting' 4924-837-MSITS2a
-Mon Aug 28 22:47:21 EDT 2017 'splitting' 4924-838-MSITS2a
-Mon Aug 28 22:47:22 EDT 2017 'splitting' 4924-839-MSITS2a
-Mon Aug 28 22:47:22 EDT 2017 'splitting' 4924-841-MSITS2a
-Mon Aug 28 22:47:23 EDT 2017 'splitting' 4924-842-MSITS2a
-Mon Aug 28 22:47:24 EDT 2017 'splitting' 4924-843-MSITS2a
-Mon Aug 28 22:47:25 EDT 2017 'splitting' 4924-844-MSITS2a
-Mon Aug 28 22:47:26 EDT 2017 'splitting' 5101-447-MSITS2a
-Mon Aug 28 22:47:26 EDT 2017 'splitting' 5101-448-MSITS2a
-Mon Aug 28 22:47:26 EDT 2017 'splitting' 5101-449-MSITS2a
-Mon Aug 28 22:47:26 EDT 2017 'splitting' 5101-450-MSITS2a
-Mon Aug 28 22:47:27 EDT 2017 'splitting' 5101-451-MSITS2a
-Mon Aug 28 22:47:28 EDT 2017 'splitting' 5101-452-MSITS2a
-Mon Aug 28 22:47:28 EDT 2017 'splitting' 5101-453-MSITS2a
-Mon Aug 28 22:47:28 EDT 2017 'splitting' 5101-454-MSITS2a
-Mon Aug 28 22:47:30 EDT 2017 'splitting' 5101-455-MSITS2a
-Mon Aug 28 22:47:30 EDT 2017 'splitting' 5101-456-MSITS2a
-Mon Aug 28 22:47:30 EDT 2017 'splitting' 5101-457-MSITS2a
-Mon Aug 28 22:47:30 EDT 2017 'splitting' 5101-458-MSITS2a
-Mon Aug 28 22:47:31 EDT 2017 'splitting' 5101-459-MSITS2a
-Mon Aug 28 22:47:31 EDT 2017 'splitting' 5101-460-MSITS2a
-Mon Aug 28 22:47:31 EDT 2017 'splitting' 5101-461-MSITS2a
-Mon Aug 28 22:47:32 EDT 2017 'splitting' 5101-757-MSITS2a
-Mon Aug 28 22:47:32 EDT 2017 'splitting' 5101-758-MSITS2a
-Mon Aug 28 22:47:33 EDT 2017 'splitting' 5101-759-MSITS2a
-Mon Aug 28 22:47:33 EDT 2017 'splitting' 5101-760-MSITS2a
-Mon Aug 28 22:47:33 EDT 2017 'splitting' 5101-761-MSITS2a
-Mon Aug 28 22:47:34 EDT 2017 'splitting' 5101-762-MSITS2a
-Mon Aug 28 22:47:34 EDT 2017 'splitting' 5101-763-MSITS2a
-Mon Aug 28 22:47:35 EDT 2017 'splitting' 5101-764-MSITS2a
-Mon Aug 28 22:47:36 EDT 2017 'splitting' 5101-765-MSITS2a
-Mon Aug 28 22:47:36 EDT 2017 'splitting' 5101-766-MSITS2a
-Mon Aug 28 22:47:37 EDT 2017 'splitting' 5101-1016-MSITS2a
-Mon Aug 28 22:47:38 EDT 2017 'splitting' 5101-1017-MSITS2a
-Mon Aug 28 22:47:38 EDT 2017 'splitting' 5101-1018-MSITS2a
-Mon Aug 28 22:47:38 EDT 2017 'splitting' 5101-1019-MSITS2a
-Mon Aug 28 22:47:39 EDT 2017 'splitting' 5101-1020-MSITS2a
-Mon Aug 28 22:47:40 EDT 2017 'splitting' 5101-1021-MSITS2a
-Mon Aug 28 22:47:40 EDT 2017 'splitting' 5101-1022-MSITS2a
-Mon Aug 28 22:47:42 EDT 2017 'splitting' 5101-1023-MSITS2a
-Mon Aug 28 22:47:43 EDT 2017 'splitting' 5101-1024-MSITS2a
-Mon Aug 28 22:47:43 EDT 2017 'splitting' 5101-1025-MSITS2a
-Mon Aug 28 22:47:44 EDT 2017 'splitting' 5101-1026-MSITS2a
-Mon Aug 28 22:47:46 EDT 2017 'splitting' 5101-1027-MSITS2a
-Mon Aug 28 22:47:46 EDT 2017 'splitting' 5101-1028-MSITS2a
-Mon Aug 28 22:47:46 EDT 2017 'splitting' 5101-1029-MSITS2a
-Mon Aug 28 22:47:47 EDT 2017 'splitting' 5101-1030-MSITS2a
-Mon Aug 28 22:47:47 EDT 2017 'splitting' 5101-1031-MSITS2a
-Mon Aug 28 22:47:47 EDT 2017 'splitting' 5101-1032-MSITS2a
-Mon Aug 28 22:47:47 EDT 2017 'splitting' 5101-1033-MSITS2a
-Mon Aug 28 22:47:47 EDT 2017 'splitting' 5101-1034-MSITS2a
-Mon Aug 28 22:47:48 EDT 2017 'splitting' 5101-1035-MSITS2a
-Mon Aug 28 22:47:48 EDT 2017 'splitting' 5101-1036-MSITS2a
-Mon Aug 28 22:47:48 EDT 2017 'splitting' 5101-1037-MSITS2a
-Mon Aug 28 22:47:49 EDT 2017 'splitting' 5101-1038-MSITS2a
-Mon Aug 28 22:47:50 EDT 2017 'splitting' 5101-1039-MSITS2a
-Mon Aug 28 22:47:50 EDT 2017 'splitting' 5101-1040-MSITS2a
-Mon Aug 28 22:47:52 EDT 2017 'splitting' 5101-1138-MSITS2a
-Mon Aug 28 22:47:52 EDT 2017 'splitting' 5101-1139-MSITS2a
-Mon Aug 28 22:47:54 EDT 2017 'splitting' 5101-1140-MSITS2a
-Mon Aug 28 22:47:54 EDT 2017 'splitting' 5101-1141-MSITS2a
-Mon Aug 28 22:47:55 EDT 2017 'splitting' 5101-1142-MSITS2a
-Mon Aug 28 22:47:56 EDT 2017 'splitting' 5101-1143-MSITS2a
-Mon Aug 28 22:47:57 EDT 2017 'splitting' 5101-1144-MSITS2a
-Mon Aug 28 22:47:58 EDT 2017 'splitting' 5101-1145-MSITS2a
-Mon Aug 28 22:47:59 EDT 2017 'splitting' 5101-1146-MSITS2a
-Mon Aug 28 22:48:00 EDT 2017 'splitting' 5101-1147-MSITS2a
-Mon Aug 28 22:48:00 EDT 2017 'splitting' 5101-1148-MSITS2a
-Mon Aug 28 22:48:02 EDT 2017 'splitting' 5101-1149-MSITS2a
-Mon Aug 28 22:48:02 EDT 2017 'splitting' 5101-1150-MSITS2a
-Mon Aug 28 22:48:03 EDT 2017 'splitting' 5101-1151-MSITS2a
-Mon Aug 28 22:48:03 EDT 2017 'splitting' 5101-1152-MSITS2a
-Mon Aug 28 22:48:04 EDT 2017 'splitting' 5101-1153-MSITS2a
-Mon Aug 28 22:48:04 EDT 2017 'splitting' 5101-1154-MSITS2a
-Mon Aug 28 22:48:04 EDT 2017 'splitting' 5101-1155-MSITS2a
-Mon Aug 28 22:48:05 EDT 2017 'splitting' 5101-1156-MSITS2a
-Mon Aug 28 22:48:05 EDT 2017 'splitting' 5101-1157-MSITS2a
-Mon Aug 28 22:48:05 EDT 2017 'splitting' 5101-1158-MSITS2a
-Mon Aug 28 22:48:05 EDT 2017 'splitting' 5101-1159-MSITS2a
-Mon Aug 28 22:48:06 EDT 2017 'splitting' 5101-1160-MSITS2a
-Mon Aug 28 22:48:07 EDT 2017 'splitting' 5101-1161-MSITS2a
-Mon Aug 28 22:48:09 EDT 2017 'splitting' 5101-1162-MSITS2a
-Mon Aug 28 22:48:12 EDT 2017 start OTU picking
-Mon Aug 28 22:53:05 EDT 2017 OTU picking complete
-Num samples: 57
-Num observations: 801
-Total count: 1787503
-Table density (fraction of non-zero values): 0.071
+[FLASH] 0.225 seconds elapsed
+Sat Sep 2 09:40:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-424-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:13 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-425-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-426-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-427-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-429-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-430-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-431-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-432-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-435-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-437-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:19 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-439-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-440-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-441-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:20 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-831-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:21 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-832-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:25 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-833-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-834-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-836-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-837-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:26 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-838-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-839-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:27 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-841-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-842-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:31 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-843-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:32 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/4924-844-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:33 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1016-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:33 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1017-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:33 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1018-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:33 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1019-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:36 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1020-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1024-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:37 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1031-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1032-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1033-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1034-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:40 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1035-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1040-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:42 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1138-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:43 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1139-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1140-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1141-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1142-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1145-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:48 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1153-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1154-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:49 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1155-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:51 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1156-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1157-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:52 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1158-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-1162-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-447-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-449-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:55 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-450-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-451-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:58 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-457-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-458-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-757-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:40:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-758-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:41:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-759-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:41:02 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-760-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:41:04 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/V-HMC/Fungi/raw_data_fungi/flashed/extended/5101-761-MSITS2a.extendedFrags.fastq
+Sat Sep 2 09:42:05 EDT 2017 'splitting' 4924-424-MSITS2a
+Sat Sep 2 09:42:05 EDT 2017 'splitting' 4924-425-MSITS2a
+Sat Sep 2 09:42:06 EDT 2017 'splitting' 4924-426-MSITS2a
+Sat Sep 2 09:42:06 EDT 2017 'splitting' 4924-427-MSITS2a
+Sat Sep 2 09:42:06 EDT 2017 'splitting' 4924-429-MSITS2a
+Sat Sep 2 09:42:06 EDT 2017 'splitting' 4924-430-MSITS2a
+Sat Sep 2 09:42:06 EDT 2017 'splitting' 4924-431-MSITS2a
+Sat Sep 2 09:42:06 EDT 2017 'splitting' 4924-432-MSITS2a
+Sat Sep 2 09:42:09 EDT 2017 'splitting' 4924-434-MSITS2a
+Sat Sep 2 09:42:10 EDT 2017 'splitting' 4924-435-MSITS2a
+Sat Sep 2 09:42:10 EDT 2017 'splitting' 4924-436-MSITS2a
+Sat Sep 2 09:42:10 EDT 2017 'splitting' 4924-437-MSITS2a
+Sat Sep 2 09:42:11 EDT 2017 'splitting' 4924-439-MSITS2a
+Sat Sep 2 09:42:11 EDT 2017 'splitting' 4924-440-MSITS2a
+Sat Sep 2 09:42:12 EDT 2017 'splitting' 4924-441-MSITS2a
+Sat Sep 2 09:42:12 EDT 2017 'splitting' 4924-442-MSITS2a
+Sat Sep 2 09:42:12 EDT 2017 'splitting' 4924-831-MSITS2a
+Sat Sep 2 09:42:12 EDT 2017 'splitting' 4924-832-MSITS2a
+Sat Sep 2 09:42:13 EDT 2017 'splitting' 4924-833-MSITS2a
+Sat Sep 2 09:42:13 EDT 2017 'splitting' 4924-834-MSITS2a
+Sat Sep 2 09:42:14 EDT 2017 'splitting' 4924-836-MSITS2a
+Sat Sep 2 09:42:15 EDT 2017 'splitting' 4924-837-MSITS2a
+Sat Sep 2 09:42:15 EDT 2017 'splitting' 4924-838-MSITS2a
+Sat Sep 2 09:42:16 EDT 2017 'splitting' 4924-839-MSITS2a
+Sat Sep 2 09:42:17 EDT 2017 'splitting' 4924-841-MSITS2a
+Sat Sep 2 09:42:17 EDT 2017 'splitting' 4924-842-MSITS2a
+Sat Sep 2 09:42:18 EDT 2017 'splitting' 4924-843-MSITS2a
+Sat Sep 2 09:42:18 EDT 2017 'splitting' 4924-844-MSITS2a
+Sat Sep 2 09:42:20 EDT 2017 'splitting' 5101-447-MSITS2a
+Sat Sep 2 09:42:20 EDT 2017 'splitting' 5101-448-MSITS2a
+Sat Sep 2 09:42:20 EDT 2017 'splitting' 5101-449-MSITS2a
+Sat Sep 2 09:42:21 EDT 2017 'splitting' 5101-450-MSITS2a
+Sat Sep 2 09:42:21 EDT 2017 'splitting' 5101-451-MSITS2a
+Sat Sep 2 09:42:22 EDT 2017 'splitting' 5101-452-MSITS2a
+Sat Sep 2 09:42:22 EDT 2017 'splitting' 5101-453-MSITS2a
+Sat Sep 2 09:42:22 EDT 2017 'splitting' 5101-454-MSITS2a
+Sat Sep 2 09:42:23 EDT 2017 'splitting' 5101-455-MSITS2a
+Sat Sep 2 09:42:24 EDT 2017 'splitting' 5101-456-MSITS2a
+Sat Sep 2 09:42:24 EDT 2017 'splitting' 5101-457-MSITS2a
+Sat Sep 2 09:42:24 EDT 2017 'splitting' 5101-458-MSITS2a
+Sat Sep 2 09:42:25 EDT 2017 'splitting' 5101-459-MSITS2a
+Sat Sep 2 09:42:25 EDT 2017 'splitting' 5101-460-MSITS2a
+Sat Sep 2 09:42:25 EDT 2017 'splitting' 5101-461-MSITS2a
+Sat Sep 2 09:42:26 EDT 2017 'splitting' 5101-757-MSITS2a
+Sat Sep 2 09:42:26 EDT 2017 'splitting' 5101-758-MSITS2a
+Sat Sep 2 09:42:27 EDT 2017 'splitting' 5101-759-MSITS2a
+Sat Sep 2 09:42:27 EDT 2017 'splitting' 5101-760-MSITS2a
+Sat Sep 2 09:42:27 EDT 2017 'splitting' 5101-761-MSITS2a
+Sat Sep 2 09:42:28 EDT 2017 'splitting' 5101-762-MSITS2a
+Sat Sep 2 09:42:28 EDT 2017 'splitting' 5101-763-MSITS2a
+Sat Sep 2 09:42:29 EDT 2017 'splitting' 5101-764-MSITS2a
+Sat Sep 2 09:42:30 EDT 2017 'splitting' 5101-765-MSITS2a
+Sat Sep 2 09:42:30 EDT 2017 'splitting' 5101-766-MSITS2a
+Sat Sep 2 09:42:31 EDT 2017 'splitting' 5101-1016-MSITS2a
+Sat Sep 2 09:42:31 EDT 2017 'splitting' 5101-1017-MSITS2a
+Sat Sep 2 09:42:32 EDT 2017 'splitting' 5101-1018-MSITS2a
+Sat Sep 2 09:42:32 EDT 2017 'splitting' 5101-1019-MSITS2a
+Sat Sep 2 09:42:33 EDT 2017 'splitting' 5101-1020-MSITS2a
+Sat Sep 2 09:42:33 EDT 2017 'splitting' 5101-1021-MSITS2a
+Sat Sep 2 09:42:33 EDT 2017 'splitting' 5101-1022-MSITS2a
+Sat Sep 2 09:42:35 EDT 2017 'splitting' 5101-1023-MSITS2a
+Sat Sep 2 09:42:36 EDT 2017 'splitting' 5101-1024-MSITS2a
+Sat Sep 2 09:42:36 EDT 2017 'splitting' 5101-1025-MSITS2a
+Sat Sep 2 09:42:37 EDT 2017 'splitting' 5101-1026-MSITS2a
+Sat Sep 2 09:42:39 EDT 2017 'splitting' 5101-1027-MSITS2a
+Sat Sep 2 09:42:39 EDT 2017 'splitting' 5101-1028-MSITS2a
+Sat Sep 2 09:42:40 EDT 2017 'splitting' 5101-1029-MSITS2a
+Sat Sep 2 09:42:40 EDT 2017 'splitting' 5101-1030-MSITS2a
+Sat Sep 2 09:42:40 EDT 2017 'splitting' 5101-1031-MSITS2a
+Sat Sep 2 09:42:40 EDT 2017 'splitting' 5101-1032-MSITS2a
+Sat Sep 2 09:42:40 EDT 2017 'splitting' 5101-1033-MSITS2a
+Sat Sep 2 09:42:41 EDT 2017 'splitting' 5101-1034-MSITS2a
+Sat Sep 2 09:42:41 EDT 2017 'splitting' 5101-1035-MSITS2a
+Sat Sep 2 09:42:41 EDT 2017 'splitting' 5101-1036-MSITS2a
+Sat Sep 2 09:42:41 EDT 2017 'splitting' 5101-1037-MSITS2a
+Sat Sep 2 09:42:42 EDT 2017 'splitting' 5101-1038-MSITS2a
+Sat Sep 2 09:42:43 EDT 2017 'splitting' 5101-1039-MSITS2a
+Sat Sep 2 09:42:43 EDT 2017 'splitting' 5101-1040-MSITS2a
+Sat Sep 2 09:42:44 EDT 2017 'splitting' 5101-1138-MSITS2a
+Sat Sep 2 09:42:45 EDT 2017 'splitting' 5101-1139-MSITS2a
+Sat Sep 2 09:42:47 EDT 2017 'splitting' 5101-1140-MSITS2a
+Sat Sep 2 09:42:48 EDT 2017 'splitting' 5101-1141-MSITS2a
+Sat Sep 2 09:42:49 EDT 2017 'splitting' 5101-1142-MSITS2a
+Sat Sep 2 09:42:49 EDT 2017 'splitting' 5101-1143-MSITS2a
+Sat Sep 2 09:42:50 EDT 2017 'splitting' 5101-1144-MSITS2a
+Sat Sep 2 09:42:52 EDT 2017 'splitting' 5101-1145-MSITS2a
+Sat Sep 2 09:42:52 EDT 2017 'splitting' 5101-1146-MSITS2a
+Sat Sep 2 09:42:53 EDT 2017 'splitting' 5101-1147-MSITS2a
+Sat Sep 2 09:42:54 EDT 2017 'splitting' 5101-1148-MSITS2a
+Sat Sep 2 09:42:55 EDT 2017 'splitting' 5101-1149-MSITS2a
+Sat Sep 2 09:42:55 EDT 2017 'splitting' 5101-1150-MSITS2a
+Sat Sep 2 09:42:56 EDT 2017 'splitting' 5101-1151-MSITS2a
+Sat Sep 2 09:42:56 EDT 2017 'splitting' 5101-1152-MSITS2a
+Sat Sep 2 09:42:56 EDT 2017 'splitting' 5101-1153-MSITS2a
+Sat Sep 2 09:42:57 EDT 2017 'splitting' 5101-1154-MSITS2a
+Sat Sep 2 09:42:57 EDT 2017 'splitting' 5101-1155-MSITS2a
+Sat Sep 2 09:42:58 EDT 2017 'splitting' 5101-1156-MSITS2a
+Sat Sep 2 09:42:58 EDT 2017 'splitting' 5101-1157-MSITS2a
+Sat Sep 2 09:42:58 EDT 2017 'splitting' 5101-1158-MSITS2a
+Sat Sep 2 09:42:58 EDT 2017 'splitting' 5101-1159-MSITS2a
+Sat Sep 2 09:42:58 EDT 2017 'splitting' 5101-1160-MSITS2a
+Sat Sep 2 09:43:00 EDT 2017 'splitting' 5101-1161-MSITS2a
+Sat Sep 2 09:43:02 EDT 2017 'splitting' 5101-1162-MSITS2a
+Sat Sep 2 09:44:04 EDT 2017 start OTU picking
+Sat Sep 2 09:48:53 EDT 2017 OTU picking complete
+Num samples: 61
+Num observations: 824
+Total count: 1922162
+Table density (fraction of non-zero values): 0.068
 
 Counts/sample summary:
- Min: 349.0
- Max: 80033.0
- Median: 26566.000
- Mean: 31359.702
- Std. dev.: 19726.138
+ Min: 410.0
+ Max: 87743.0
+ Median: 25712.000
+ Mean: 31510.852
+ Std. dev.: 20656.086
  Sample Metadata Categories: None provided
  Observation Metadata Categories: taxonomy
 
 Counts/sample detail:
-439: 349.0
-451: 1577.0
+439: 410.0
+450: 3123.0
+1141: 3230.0
+758: 4533.0
 760: 5131.0
-833: 7248.0
-458: 8401.0
-432: 9237.0
-450: 9382.0
-435: 9641.0
-440: 10772.0
-449: 10855.0
-431: 10995.0
+432: 6968.0
+833: 7544.0
+458: 8413.0
+1034: 9958.0
+435: 10182.0
+440: 10773.0
+449: 10854.0
+431: 11028.0
 441: 11280.0
-843: 14716.0
-429: 14966.0
+843: 14732.0
 841: 15601.0
-1141: 16145.0
 1024: 16724.0
-832: 17155.0
-842: 17187.0
+832: 17157.0
+842: 17186.0
 834: 19187.0
 838: 19426.0
-427: 20371.0
-430: 21012.0
+429: 19641.0
+427: 20423.0
+430: 21014.0
 839: 21418.0
-457: 23961.0
-837: 24226.0
-424: 24527.0
-1158: 25277.0
-1142: 26566.0
-836: 30358.0
-1153: 31151.0
-831: 31698.0
+457: 23960.0
+837: 24227.0
+424: 24462.0
+1158: 25283.0
+759: 25464.0
+1162: 25712.0
+1142: 26570.0
+836: 30355.0
+831: 31697.0
 437: 32567.0
-844: 33250.0
-447: 35196.0
-1040: 35861.0
-425: 38478.0
-761: 39934.0
-426: 40473.0
-1145: 40507.0
-1154: 40998.0
-759: 41337.0
+844: 33249.0
+447: 35200.0
+1040: 35863.0
+425: 38479.0
+761: 39935.0
+451: 39963.0
+426: 40475.0
+1145: 40508.0
+1154: 41006.0
 757: 42945.0
-1020: 48551.0
-1032: 49329.0
-1031: 53263.0
-758: 54405.0
-1016: 56846.0
-1019: 57384.0
-1034: 60048.0
-1017: 60118.0
-1018: 60736.0
-1033: 62087.0
-1035: 63166.0
-1139: 65675.0
-1140: 67776.0
-1138: 80033.0
-Mon Aug 28 22:53:07 EDT 2017 start core diversity
-Mon Aug 28 22:56:49 EDT 2017 core diversity complete
+1156: 47803.0
+1020: 48560.0
+1155: 48860.0
+1153: 48860.0
+1032: 49328.0
+1031: 53269.0
+1016: 56848.0
+1019: 57390.0
+1017: 60127.0
+1018: 60754.0
+1033: 62083.0
+1035: 63173.0
+1139: 65683.0
+1140: 67789.0
+1138: 80036.0
+1157: 87743.0
+Sat Sep 2 09:48:55 EDT 2017 start core diversity
+Sat Sep 2 09:52:42 EDT 2017 core diversity complete

@@ -1,0 +1,713 @@
+---
+title: "Silage Metagenomics"
+author: "TBD"
+date: "September 3, 2017"
+output:
+  pdf_document: default
+  word_document: default
+classoption: landscape
+params:
+  study_name: Aer_Comp
+---
+
+# Study: `r params$study_name`
+
+
+```{r setup, include=FALSE}
+# when is chunk options "include=FALSE" or "echo=FALSE" necessary or useful?
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries_load, include=FALSE}
+library("optparse")
+library("phyloseq")
+library("ggplot2")
+library("plyr")
+library("DESeq2")
+library("ggthemes")
+library("pander")
+```
+
+```{r libraries_confirm}
+packageVersion("optparse")
+packageVersion("phyloseq")
+packageVersion("ggplot2")
+packageVersion("plyr")
+packageVersion("DESeq2")
+packageVersion("ggthemes")
+packageVersion("pander")
+```
+
+```{r graphics_options}
+theme_set(theme_bw())
+# would set pdf device here if we weren't knitting
+```
+
+
+```{r user_params}
+
+# min # counts/sample filtering relevant for qiime corediv, but not here (at least yet)
+# no "sing/doub" filtering
+# also, no json conversion!
+# have I chosen the most appropriate biom file?
+
+# taxon filtering:  min count in min samples
+# if the counts for a OTU are <= (max otu count)/max.frac, then discard
+# see also the calculation for the minimum number of samples in which this condition must be satisfied
+max.frac <- 1000
+
+# rank selected for plotting unless otherwise specified
+selected.rank <- "Family"
+
+# taxon filtering:  top N OTUs
+# only keep the top N OTUs, which could be of different taxonomic ranks
+#   and/or which could all come from a singe higher aggregated rank
+#   if OTUs L. acidophilus, L. delbrueckii, L. plantarum, L. brevis,  and L. buchneri all have counts of 2
+#   and E. faecalis and Bacteroides succinogenes both have counts of 5,
+#   and the top 2 are requested, aggregated genus Lactobacillus won't be reported
+the.N <- 10
+
+# at what rank should the results of this filtering be plotted
+top.N.plot.rank <- "Genus"
+
+# categorical factor for differential abundance comparison
+# add continuous or complex modeling later
+exp.factor <- "treatment"
+
+alpha.div.measures <-
+  c("Observed", "Chao1", "Shanon", "Simpson", "InvSimpson")
+alpha.div.plot.alab.fontsize <- 6
+alpha.point.size <- 5
+alpha.point.alpha <- 0.7
+
+ordination.dist <- "bray"
+ord_meths  <-
+  c("DCA", "CCA", "RDA", "DPCoA", "NMDS", "MDS", "PCoA")
+# see problems with DPCoA below!
+# ord_meths <- setdiff(ord_meths, "DPCoA")
+
+# max significance for reporting and plotting in DESeq2
+DESeq2.alpha <- 0.05
+
+# what two ranks should be used to group the OTUs
+higher.rank.name <- "Family"
+lower.rank.name <- "Genus"
+
+# what values from DESeq analysis should be plotted
+y.val.name <- "log2FoldChange"
+
+volcano.lfc <- 2
+volcano.pval <- 0.01
+
+```
+
+```{r experiment_specific}
+# experiment <- "Aer_Comp"
+# experiment <- "LalStress"
+# experiment <- "V-HMC"
+
+experiment <- params$study_name
+
+
+# THIS WILL DEFINITELY BE DIFFERENT FOR EACH STUDY
+# what levels of the exp.factor should be compared?
+# may want to do multiple
+# numerator... top portion of ratio
+
+# denominator... bottom portion of ratio
+if (experiment == "LalStress") {
+  constrat.num <- "C"
+  constrat.den <- "LB500.LATE"
+} else if (experiment == "V-HMC") {
+  constrat.num <- "C"
+  constrat.den <- "LB"
+} else if (experiment == "Aer_Comp") {
+  constrat.num <- "C"
+  constrat.den <- "S2.NS"
+}
+```
+
+
+```{r build_phyloseq_objects_1}
+
+otufile <- paste0('/home/mark/gitstage/uderica/silage/',
+                  experiment ,
+                  '/Fungi/raw_data_fungi/flashed/extended/flash_trim_cat_pick/otu_table_mc2_w_tax.biom')
+```
+
+# Warnings from import_biom may have been suppressed!
+# check the chunk parameters
+# MAM:  I haven't found a good way to summarize this
+
+
+```{r build_phyloseq_objects_supr_warns, warning=FALSE}
+# ow <- options("warn")
+# options(warn=1)
+# warnlist <- capture.output({otutable <-
+#   import_biom(BIOMfilename = otufile,
+#               parseFunction = parse_taxonomy_greengenes)})
+# table(warnlist)
+# options(ow)
+
+otutable <-
+  import_biom(BIOMfilename = otufile,
+              parseFunction = parse_taxonomy_greengenes)
+
+
+
+```
+
+```{r build_phyloseq_objects_2}
+mapfile <-
+  paste0('/home/mark/gitstage/uderica/silage/',
+         experiment ,
+         '/Fungi/',
+         'map.txt')
+
+mapping <-
+  import_qiime_sample_data(mapfilename = mapfile)
+
+phylo <- merge_phyloseq(otutable, mapping)
+
+print(phylo)
+
+```
+
+```{r otu_table_kable}
+otu.dat <- otutable@otu_table@.Data
+dim(otu.dat)
+
+otu.tab.excerpt <- otu.dat[order(rownames(otu.dat)),]
+otu.tab.excerpt <- otu.tab.excerpt[,order(as.numeric(colnames(otu.dat)))]
+pander(otu.tab.excerpt[1:9,1:9])
+
+```
+
+```{r otu_table_diags}
+
+unlisted.otu.counts <- unlist(otu.dat)
+
+# histogram, of unaggregated counts, log scale
+# would it be OK to filter out taxa with observations that are less than 1/x of the max
+# where x is something like 1000?
+
+max.count <- max(unlisted.otu.counts)
+min.proposal <- max.count / max.frac
+
+print(max.count)
+print(min.proposal)
+
+old.mar <- par("mar")
+par("mar" = c(5, 4, 3, 2))
+
+hist(
+  log10(unlisted.otu.counts),
+  breaks = 100,
+  main = "Histogram of reads per sample/OTU",
+  xlab = "log10(read counts)"
+)
+
+par("mar" = old.mar)
+
+
+
+otu.rowsums <- rowSums(otu.dat)
+otu.rowsums <-
+  cbind.data.frame(names(otu.rowsums), as.numeric(otu.rowsums))
+names(otu.rowsums) <- c("OTU", "count.sum")
+
+
+otu.colsums <- colSums(otu.dat)
+otu.colsums <-
+  cbind.data.frame(names(otu.colsums), as.numeric(otu.colsums))
+names(otu.colsums) <- c("sample", "count.sum")
+otu.colsums[] <- lapply(otu.colsums[], as.character)
+otu.colsums[] <- lapply(otu.colsums[], as.numeric)
+
+# is "new.cleanup.reference OTU"" a problem?
+# might have been mapped to a lineage despite that name
+# what about unmapped?
+# what has been lost before this point?
+#   un-flashed (really un-extended)
+#   discarded because of quality by qiime split?
+#   do "split" some sequences not make it into the biom file for some reason?
+
+```
+
+
+```{r sample_mapping_data}
+
+map.dat <- as.data.frame(mapping@.Data)
+names(map.dat) <- mapping@names
+
+exp.design.matrix <- map.dat[, c("X.SampleID", "treatment", "day")]
+
+# for V-HMC
+# days of fermentation and hours of air stress 
+if (sum(grepl(pattern = "h", x = exp.design.matrix$day))) {
+  names(exp.design.matrix) <-
+    c("SampleID", "treatment", "days.string")
+  
+  temp <-
+    strsplit(as.character(exp.design.matrix$days.string), "\\+|h")
+  temp <- ldply(temp, rbind)
+  temp <- as.data.frame(temp)
+  temp[] <- lapply(temp[], as.character)
+  temp[] <- lapply(temp[], as.numeric)
+  names(temp) <- c("days", "hours")
+  
+  temp$hours[is.na(temp$hours)] <- 0
+  exp.design.matrix <- cbind.data.frame(exp.design.matrix, temp)
+  
+  # exp.design.matrix$days.hours <- temp$days + (temp$hours / 24)
+  
+  exp.design.tabulation <-
+    table(exp.design.matrix$treatment, exp.design.matrix$days.string)
+  
+} else {
+  exp.design.tabulation <-
+    table(exp.design.matrix$treatment, exp.design.matrix$day)
+}
+
+
+exp.design.tabulation <- as.data.frame.matrix(exp.design.tabulation)
+pander(exp.design.tabulation)
+
+# # if col names are all arithmetics and have long decimal components
+# names(exp.design.tabulation) <-
+#   round(as.numeric(as.character(names(
+#     exp.design.tabulation
+#   ))), digits = 1)
+
+
+exp.design.tabulation[exp.design.tabulation == 0] <- NA
+temp.values <- unlist(exp.design.tabulation)
+temp.flag <- complete.cases(temp.values)
+
+pander(table(temp.values[temp.flag]))
+
+min.replication <- min(temp.values[temp.flag])
+
+
+```
+
+
+```{r taxon_data}
+tax.dat <- as.data.frame(otutable@tax_table)
+temp <- as.matrix(tax.dat)
+temp[grepl(pattern = "^uncultured", temp)] <- NA
+temp[temp == "unidentified"] <- NA
+temp <- !is.na(temp)
+taxonomic.specificity <- rowSums(temp)
+tax.dat$taxonomic.specificity <- taxonomic.specificity
+
+max.specificity <- max(tax.dat$taxonomic.specificity)
+temp.frame <-
+  cbind.data.frame((1:max.specificity), names(tax.dat)[1:max.specificity])
+names(temp.frame) <- c("rank", "label")
+
+max.count <- hist(tax.dat$taxonomic.specificity, plot = FALSE)
+max.count <- max.count$counts
+max.count <-  max(max.count)
+
+par("mar" = c(5, 4, 3, 2))
+
+hist(
+  tax.dat$taxonomic.specificity,
+  labels = as.character(temp.frame$label),
+  breaks = 0:max.specificity,
+  main = "Histogram of INFERRED most specific rank",
+  xlab = 'Number of non "uncultured" and "unidentified" phylogenetic levels',
+  ylim = c(0, (max.count + 20))
+)
+
+par("mar" =  old.mar)
+
+```
+
+``````{r k_A_taxon_filtering}
+re.min.filtered <-
+  genefilter_sample(phylo,
+                    filterfun_sample(function(x)
+                      x > min.proposal),
+                    A = min.replication)
+
+phylo.k.of.A <- prune_taxa(re.min.filtered, phylo)
+
+print(phylo.k.of.A)
+```
+
+
+```{r bars_by_sample, fig.height = 6, fig.width = 8, fig.align = "center"}
+# absolute or relative?
+# plot bar is absolute reads
+
+# could use + scale_colour_brewer(palette = "Set1"), but that adds in ORANGE separators !?
+# set3 is paler but has 4 more levels
+# paired also has more levels but is "paired"!
+# + scale_colour_manual(values = colorRamps::primary.colors(n = 10))
+
+# ungrouped... one way to make sure that all samples made it to this phase
+p <- plot_bar(phylo.k.of.A, fill = "Family")
+# to get rid of black dividers
+p + geom_bar(aes(color = Family, fill = Family),
+             stat = "identity") + theme(axis.text=element_text(size=6))
+
+
+```
+
+
+```{r erica_did_top_N}
+
+taxa.named.vector <- sort(taxa_sums(phylo), TRUE)
+taxa.ids <- names(taxa.named.vector)
+top.taxa <- taxa.ids[1:the.N]
+
+phylo.top.N <- prune_taxa(top.taxa, phylo)
+
+p <- plot_bar(phylo.top.N, exp.factor, fill = top.N.plot.rank)
+p + geom_bar(aes_(
+  color = as.name(top.N.plot.rank),
+  fill = as.name(top.N.plot.rank)
+), stat = "identity")
+
+
+```
+
+
+```{r k_of_A_barplot}
+
+p <- plot_bar(phylo.k.of.A, exp.factor, fill = "Family")
+
+# this gets rid of the black otu separators
+# add faceting?
+p + geom_bar(aes(color = Family, fill = Family),
+             stat = "identity")
+
+
+```
+
+
+```{r alpha_div}
+
+# plot richness without filtering?
+p <-
+  plot_richness(phylo,
+                x = exp.factor,
+                color = exp.factor,
+                measures = alpha.div.measures)
+
+# parameterize
+p + geom_point(size = alpha.point.size, alpha = alpha.point.alpha) + theme(axis.text.x = element_text(
+  angle = 45,
+  hjust = 1,
+  vjust = 1,
+  size = alpha.div.plot.alab.fontsize
+))
+
+
+alpha.diversity <-
+  estimate_richness(phylo,
+                    measures = alpha.div.measures)
+alpha.diversity$sample.id.string <-
+  as.numeric(sub("^X", "", rownames(alpha.diversity)))
+rownames(alpha.diversity) <- NULL
+non.sample.cols <-
+  sort(setdiff(names(alpha.diversity), "sample.id.string"))
+alpha.diversity <-
+  alpha.diversity[order(alpha.diversity$sample), c("sample.id.string", non.sample.cols)]
+# write.table(alpha.diversity, "safeearly.txt")
+# dump to xtable if knitting
+
+```
+
+```{r ordination, fig.height = 6, fig.width = 8, fig.align = "center"}
+# messages when including DPCoA
+# 1) Species coordinates not found directly in ordination object. Attempting weighted average (`vegan::wascores`)
+# 2) non-unique values when setting 'row.names':
+
+# DPCoA = Double Principle Coordinate Analysis using a (corrected, if necessary) phylogenetic/patristic distance between species. The calculation is performed by DPCoA(), which ultimately uses dpcoa after making the appropriate accessions/corrections of the data.
+
+ord_meths <- setdiff(ord_meths, "DPCoA")
+
+plist <- llply(as.list(ord_meths), function(i, phylo.k.of.A, dist) {
+  message(i)
+  ordi <- ordinate(phylo.k.of.A, method = i, distance = dist)
+  plot_ordination(phylo.k.of.A, ordi, "samples", color = exp.factor)
+}, phylo.k.of.A, ordination.dist)
+
+names(plist) <- ord_meths
+
+
+pdataframe <- ldply(plist, function(x) {
+  df <- x$data[, 1:2]
+  colnames(df) <- c("Axis_1", "Axis_2")
+  return(cbind(df, x$data))
+})
+
+names(pdataframe)[1] <- "method"
+
+
+p <- ggplot(pdataframe,
+            aes(Axis_1, Axis_2, color = treatment, fill = treatment))
+p <- p + geom_point(size = 4) + geom_polygon()
+p <- p + facet_wrap( ~ method, scales = "free")
+p <- p + scale_fill_brewer(type = "qual", palette = "Set1")
+p <- p + scale_colour_brewer(type = "qual", palette = "Set1")
+p
+
+# user may desire an individual plot on a page by itself
+# so print all on a page by themselves?
+# how did Erica determine that p = plist[[6]] (MDS) was the best ordination?
+
+# these analyses WERE being run at different levels of filtering
+# initial barplot and alpha diversity at 2 (from Bash script)
+# ordination refiltered to 3
+# diff abundance back to 2
+#
+
+
+```
+
+
+```{r diffy, fig.height = 7, fig.width = 9, fig.align = "center"}
+
+message(" \n start differential analysis \n ")
+
+
+# DESeq2.data <- phylo
+# DESeq2.data <- subset_samples(DESeq2.data, mapping != exp.factor)
+# DESeq2.data
+# head(sample_data(DESeq2.data)$treatment, 8)
+# # http://joey711.github.io/phyloseq-extensions/DESeq2.html warns of "none" diagnoses
+# # I don't think that kind of filetering is relevant here
+# sample_data(DESeq2.data)$treatment
+
+# DESeq2.data <- subset_samples(DESeq2.data, mapping != exp.factor)
+
+# diagdds <- phyloseq_to_deseq2(DESeq2.data, ~ treatment)
+#   V-HMC, without modificatiosn below:
+#      estimating size factors Error in estimateSizeFactorsForMatrix(counts(object), locfunc = locfunc,  :
+#      every gene contains at least one zero, cannot compute log geometric means
+# DESeq2.rowSums <- rowSums(counts(diagdds))
+# DESeq2.rowSums <- cbind.data.frame(names(DESeq2.rowSums),as.numeric(DESeq2.rowSums))
+#
+# DESeq2.colSums <- colSums(counts(diagdds))
+# DESeq2.colSums <- cbind.data.frame(names(DESeq2.colSums),as.numeric(DESeq2.colSums))
+
+# dezeroed  = diagdds[ rowSums(counts(diagdds)) > 1000 , ]
+# dezeroed
+
+# x <- estimateSizeFactors(diagdds, type="iterate")
+# idx <- rowSums( counts(x, normalized=TRUE) >= 5 ) >= 3
+# x <- x[idx,]
+# x <- DESeq(x)
+
+# DESeq2.data <- phylo.k.of.A
+# make a DESEQ2 object
+
+
+# review the treatments (see legacy fitlering above)
+# also shows the order, whcih can be relevled
+# sample_data(phylo.k.of.A)$treatment <- relevel(sample_data(phylo.k.of.A)$treatment, "LB-AS")
+# the first is the reference
+sample_data(phylo.k.of.A)$treatment
+
+
+###   ###   ###
+
+diagdds <- phyloseq_to_deseq2(phylo.k.of.A, ~ treatment)
+
+###   ###   ###
+
+class(diagdds)
+
+# create a matrix with direct access to the counts (whicha are a slot of an S4 object)
+cts <- counts(diagdds)
+class(cts)
+
+# do rowwise and colwise sums... was handy when figurting out DESeq2 calulation failure
+# would also be applciible to intiial filtering
+DESeq2.rowSums <- rowSums(cts)
+DESeq2.rowSums <-
+  cbind.data.frame(names(DESeq2.rowSums), as.numeric(DESeq2.rowSums))
+
+DESeq2.colSums <- colSums(cts)
+DESeq2.colSums <-
+  cbind.data.frame(names(DESeq2.colSums), as.numeric(DESeq2.colSums))
+
+# this was necessary for the DESeq calulation when non-zero values were extremely sparse
+geoMeans <-
+  apply(cts, 1, function(row)
+    if (all(row == 0))
+      0
+    else
+      exp(mean(log(row[row != 0]))))
+class(geoMeans)
+
+diagdds <- estimateSizeFactors(diagdds, geoMeans = geoMeans)
+class(diagdds)
+
+###   ###   ###
+
+# should I make the model explicit here
+diagdds <- DESeq(diagdds, test = "Wald", fitType = "parametric")
+class(diagdds)
+
+rnms <- resultsNames(diagdds)
+rnms
+
+res <-
+  results(
+    diagdds,
+    contrast = c("treatment", constrat.num, constrat.den),
+    cooksCutoff = FALSE
+  )
+class(res)
+
+# contrast
+# this argument specifies what comparison to extract from the object to build a results table. one of either:
+#   a character vector with exactly three elements:
+#       the name of a factor in the design formula, the name of the numerator level for the fold change,
+#       and the name of the denominator level for the fold change (simplest case)
+# a list of 2 character vectors:
+#       the names of the fold changes for the numerator, and the names of the fold changes for the denominator.
+#       these names should be elements of resultsNames(object).
+#       if the list is length 1, a second element is added which is the empty character vector, character().
+#       (more general case, can be to combine interaction terms and main effects)
+# a numeric contrast vector with one element for each element in resultsNames(object) (most general case)
+# If specified, the name argument is ignored.
+#
+# name
+#     the name of the individual effect (coefficient) for building a results table.
+#     Use this argument rather than contrast for continuous variables,
+#     individual effects or for individual interaction terms.
+#     The value provided to name must be an element of resultsNames(object).
+
+###   ###   ###
+
+
+# get table with adjsuted pvalues below a user-speciifed cutoff
+sigtab <- res[which(res$padj < DESeq2.alpha), ]
+class(sigtab)
+
+sigtab <-
+  cbind(as(sigtab, "data.frame"), as(tax_table(phylo.k.of.A)[rownames(sigtab),], "matrix"))
+
+# this shows a single significatnce and abundance fold change by taxon
+# what condition is being compared to what? (there are more than two treatmenrts in LalStress)
+# see the phyloseq to deseq2 converter which has a parameter for the model
+
+head(sigtab)
+
+dim(sigtab)
+
+
+# volcano?
+
+# scale_fill_discrete <- function(palname = "Set1", ...) {
+#   scale_fill_brewer(palette = palname, ...)
+# }
+
+
+# use color an x position to render two different ranks
+# get the rank labels in x
+# make sure they're ordered factors
+
+
+
+higher.rank.pos <- which(names(sigtab) == higher.rank.name)
+lower.rank.pos <- which(names(sigtab) == lower.rank.name)
+
+
+# higher order
+x <-
+  tapply(sigtab$log2FoldChange, sigtab[, higher.rank.pos], function(x)
+    max(x))
+x <- sort(x, TRUE)
+sigtab[, higher.rank.pos] <-
+  factor(as.character(sigtab[, higher.rank.pos]), levels = names(x))
+
+
+# lower order
+x <-
+  tapply(sigtab$log2FoldChange, sigtab[, lower.rank.pos], function(x)
+    max(x))
+x <- sort(x, TRUE)
+sigtab[, lower.rank.pos] <-
+  factor(as.character(sigtab[, lower.rank.pos]), levels = names(x))
+
+# create plot
+p <-
+  ggplot(sigtab,
+         aes_(
+           x = as.name(lower.rank.name),
+           y = as.name(y.val.name),
+           color = as.name(higher.rank.name)
+         )) +
+  geom_point(size = 6) +
+  theme(axis.text.x = element_text(
+    angle = -90,
+    hjust = 0,
+    vjust = 0.5
+  )) + labs(title = paste0(
+    "Differential abundance ratio, ",
+    constrat.num ,
+    " / ",
+    constrat.den
+  ))
+p
+
+plot_heatmap(phylo.k.of.A)
+
+# dump sigtab to a file 
+
+
+```
+
+```{r DESeq.volcano, fig.height = 7, fig.width = 9, fig.align = "center"}
+
+
+tab <- data.frame(logFC = res$log2FoldChange,
+                 negLogPval = -log10(res$pvalue))
+# head(tab)
+par(mar = c(5, 4, 4, 4))
+plot(
+  tab,
+  pch = 16,
+  cex = 0.6,
+  xlab = expression(log[2] ~ fold ~ change),
+  ylab = expression(-log[10] ~ pvalue)
+)
+
+sigOTUs <- (abs(tab$logFC) > volcano.lfc & tab$negLogPval > -log10(volcano.pval))
+points(tab[sigOTUs,],
+       pch = 16,
+       cex = 0.8,
+       col = "red")
+abline(h = -log10(volcano.pval),
+       col = "green3",
+       lty = 2)
+abline(v = c(-volcano.lfc, volcano.lfc),
+       col = "blue",
+       lty = 2)
+mtext(
+  paste("pval =", volcano.pval),
+  side = 4,
+  at = -log10(volcano.pval),
+  cex = 0.8,
+  line = 0.5,
+  las = 1
+)
+mtext(
+  c(paste("-", volcano.lfc, "fold"), paste("+", volcano.lfc, "fold")),
+  side = 3,
+  at = c(-volcano.lfc, volcano.lfc),
+  cex = 0.8,
+  line = 0.5
+)
+
+# running interactively?
+identify(tab)
+# results will be numerical indicies of OTUs... get ID from tab, then lookup in tax table
+```

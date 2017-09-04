@@ -1,0 +1,3126 @@
+CONFIG_FILE=LalStress/Bacteria/LalStress_Bacteria_envvars.sh; unprocessed: 
+rm: cannot remove '/home/mark/gitstage/uderica/silage/LalStress/Bacteria/LalStress_Bacteria.log': No such file or directory
+No errors or warnings were found in mapping file.
+Fri Sep 1 16:13:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R
+Fri Sep 1 16:13:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R
+Fri Sep 1 16:13:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R
+Fri Sep 1 16:13:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R
+Fri Sep 1 16:13:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R
+Fri Sep 1 16:13:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R
+Fri Sep 1 16:13:39 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R
+Fri Sep 1 16:13:40 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R
+Analysis complete for 5101-145-MS515F-926R_R1.fastq
+Started analysis of 5101-145-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-145-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-145-MS515F-926R_R1.fastq
+Analysis complete for 5101-146-MS515F-926R_R1.fastq
+Started analysis of 5101-146-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-146-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-146-MS515F-926R_R1.fastq
+Analysis complete for 5101-147-MS515F-926R_R1.fastq
+Started analysis of 5101-147-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-147-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-147-MS515F-926R_R1.fastq
+Analysis complete for 5101-148-MS515F-926R_R1.fastq
+Started analysis of 5101-148-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-148-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-148-MS515F-926R_R1.fastq
+Fri Sep 1 16:13:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R
+Analysis complete for 5101-150-MS515F-926R_R1.fastq
+Started analysis of 5101-150-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-150-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-150-MS515F-926R_R1.fastq
+Fri Sep 1 16:13:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R
+Analysis complete for 5101-151-MS515F-926R_R1.fastq
+Started analysis of 5101-151-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-151-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-151-MS515F-926R_R1.fastq
+Fri Sep 1 16:13:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R
+Fri Sep 1 16:13:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R
+Analysis complete for 5101-152-MS515F-926R_R1.fastq
+Started analysis of 5101-152-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-152-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-152-MS515F-926R_R1.fastq
+Fri Sep 1 16:13:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R
+Fri Sep 1 16:13:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R
+Fri Sep 1 16:13:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R
+Analysis complete for 5101-153-MS515F-926R_R1.fastq
+Started analysis of 5101-153-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-153-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-153-MS515F-926R_R1.fastq
+Fri Sep 1 16:13:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R
+Analysis complete for 5101-156-MS515F-926R_R1.fastq
+Started analysis of 5101-156-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-156-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-156-MS515F-926R_R1.fastq
+Fri Sep 1 16:13:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R
+Analysis complete for 5101-157-MS515F-926R_R1.fastq
+Started analysis of 5101-157-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-157-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-157-MS515F-926R_R1.fastq
+Fri Sep 1 16:13:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R
+Analysis complete for 5101-158-MS515F-926R_R1.fastq
+Started analysis of 5101-158-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-158-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-158-MS515F-926R_R1.fastq
+Fri Sep 1 16:13:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R
+Analysis complete for 5101-160-MS515F-926R_R1.fastq
+Started analysis of 5101-160-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-160-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-160-MS515F-926R_R1.fastq
+Fri Sep 1 16:13:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R
+Analysis complete for 5101-155-MS515F-926R_R1.fastq
+Started analysis of 5101-155-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-155-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-155-MS515F-926R_R1.fastq
+Analysis complete for 5101-161-MS515F-926R_R1.fastq
+Started analysis of 5101-161-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-161-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-161-MS515F-926R_R1.fastq
+Fri Sep 1 16:13:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R
+Fri Sep 1 16:13:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R
+Analysis complete for 5101-162-MS515F-926R_R1.fastq
+Started analysis of 5101-162-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-162-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-162-MS515F-926R_R1.fastq
+Analysis complete for 5101-163-MS515F-926R_R1.fastq
+Started analysis of 5101-163-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-163-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-163-MS515F-926R_R1.fastq
+Analysis complete for 5101-165-MS515F-926R_R1.fastq
+Started analysis of 5101-165-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-165-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-165-MS515F-926R_R1.fastq
+Fri Sep 1 16:14:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R
+Analysis complete for 5101-166-MS515F-926R_R1.fastq
+Started analysis of 5101-166-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-166-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-166-MS515F-926R_R1.fastq
+Fri Sep 1 16:14:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R
+Fri Sep 1 16:14:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R
+Analysis complete for 5101-167-MS515F-926R_R1.fastq
+Started analysis of 5101-167-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-167-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-167-MS515F-926R_R1.fastq
+Fri Sep 1 16:14:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R
+Analysis complete for 5101-168-MS515F-926R_R1.fastq
+Started analysis of 5101-168-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-168-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-168-MS515F-926R_R1.fastq
+Fri Sep 1 16:14:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R
+Analysis complete for 5101-170-MS515F-926R_R1.fastq
+Started analysis of 5101-170-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-170-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-170-MS515F-926R_R1.fastq
+Fri Sep 1 16:14:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R
+Analysis complete for 5101-171-MS515F-926R_R1.fastq
+Started analysis of 5101-171-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-171-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-171-MS515F-926R_R1.fastq
+Analysis complete for 5101-173-MS515F-926R_R1.fastq
+Started analysis of 5101-173-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-173-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-173-MS515F-926R_R1.fastq
+Analysis complete for 5101-175-MS515F-926R_R1.fastq
+Started analysis of 5101-175-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-175-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-175-MS515F-926R_R1.fastq
+Analysis complete for 5101-176-MS515F-926R_R1.fastq
+Started analysis of 5101-176-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-176-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-176-MS515F-926R_R1.fastq
+Analysis complete for 5101-177-MS515F-926R_R1.fastq
+Started analysis of 5101-177-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-177-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-177-MS515F-926R_R1.fastq
+Analysis complete for 5101-172-MS515F-926R_R1.fastq
+Started analysis of 5101-172-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-172-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-172-MS515F-926R_R1.fastq
+Analysis complete for 5101-178-MS515F-926R_R1.fastq
+Started analysis of 5101-178-MS515F-926R_R1.fastq
+Approx 5% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 10% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 15% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 20% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 25% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 30% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 35% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 40% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 45% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 50% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 55% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 60% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 65% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 70% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 75% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 80% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 85% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 90% complete for 5101-178-MS515F-926R_R1.fastq
+Approx 95% complete for 5101-178-MS515F-926R_R1.fastq
+Fri Sep 1 16:14:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R
+Fri Sep 1 16:14:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R
+Fri Sep 1 16:14:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R
+Fri Sep 1 16:14:46 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R
+Fri Sep 1 16:14:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R
+Fri Sep 1 16:14:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R
+Fri Sep 1 16:14:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R
+Fri Sep 1 16:14:47 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R
+Analysis complete for 5101-145-MS515F-926R_R2.fastq
+Started analysis of 5101-145-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-145-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-145-MS515F-926R_R2.fastq
+Fri Sep 1 16:14:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R
+Analysis complete for 5101-146-MS515F-926R_R2.fastq
+Started analysis of 5101-146-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-146-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-146-MS515F-926R_R2.fastq
+Fri Sep 1 16:14:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R
+Analysis complete for 5101-147-MS515F-926R_R2.fastq
+Started analysis of 5101-147-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-147-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-147-MS515F-926R_R2.fastq
+Fri Sep 1 16:14:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R
+Analysis complete for 5101-148-MS515F-926R_R2.fastq
+Started analysis of 5101-148-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-148-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-148-MS515F-926R_R2.fastq
+Analysis complete for 5101-152-MS515F-926R_R2.fastq
+Started analysis of 5101-152-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-152-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-152-MS515F-926R_R2.fastq
+Fri Sep 1 16:14:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R
+Analysis complete for 5101-150-MS515F-926R_R2.fastq
+Started analysis of 5101-150-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-150-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-150-MS515F-926R_R2.fastq
+Fri Sep 1 16:14:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R
+Analysis complete for 5101-151-MS515F-926R_R2.fastq
+Started analysis of 5101-151-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-151-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-151-MS515F-926R_R2.fastq
+Fri Sep 1 16:14:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R
+Fri Sep 1 16:14:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R
+Analysis complete for 5101-155-MS515F-926R_R2.fastq
+Started analysis of 5101-155-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-155-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-155-MS515F-926R_R2.fastq
+Fri Sep 1 16:14:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R
+Analysis complete for 5101-160-MS515F-926R_R2.fastq
+Started analysis of 5101-160-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-160-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-160-MS515F-926R_R2.fastq
+Fri Sep 1 16:14:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R
+Analysis complete for 5101-153-MS515F-926R_R2.fastq
+Started analysis of 5101-153-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-153-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-153-MS515F-926R_R2.fastq
+Fri Sep 1 16:15:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R
+Analysis complete for 5101-156-MS515F-926R_R2.fastq
+Started analysis of 5101-156-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-156-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-156-MS515F-926R_R2.fastq
+Fri Sep 1 16:15:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R
+Analysis complete for 5101-157-MS515F-926R_R2.fastq
+Started analysis of 5101-157-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-157-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-157-MS515F-926R_R2.fastq
+Fri Sep 1 16:15:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R
+Analysis complete for 5101-158-MS515F-926R_R2.fastq
+Started analysis of 5101-158-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-158-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-158-MS515F-926R_R2.fastq
+Fri Sep 1 16:15:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R
+Analysis complete for 5101-161-MS515F-926R_R2.fastq
+Started analysis of 5101-161-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-161-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-161-MS515F-926R_R2.fastq
+Fri Sep 1 16:15:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R
+Analysis complete for 5101-162-MS515F-926R_R2.fastq
+Started analysis of 5101-162-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-162-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-162-MS515F-926R_R2.fastq
+Fri Sep 1 16:15:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R
+Analysis complete for 5101-163-MS515F-926R_R2.fastq
+Started analysis of 5101-163-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-163-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-163-MS515F-926R_R2.fastq
+Fri Sep 1 16:15:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R
+Analysis complete for 5101-165-MS515F-926R_R2.fastq
+Started analysis of 5101-165-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-165-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-165-MS515F-926R_R2.fastq
+Fri Sep 1 16:15:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R
+Analysis complete for 5101-166-MS515F-926R_R2.fastq
+Started analysis of 5101-166-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-166-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-166-MS515F-926R_R2.fastq
+Fri Sep 1 16:15:06 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R
+Analysis complete for 5101-167-MS515F-926R_R2.fastq
+Started analysis of 5101-167-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-167-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-167-MS515F-926R_R2.fastq
+Fri Sep 1 16:15:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R
+Analysis complete for 5101-168-MS515F-926R_R2.fastq
+Started analysis of 5101-168-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-168-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-168-MS515F-926R_R2.fastq
+Fri Sep 1 16:15:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R
+Analysis complete for 5101-170-MS515F-926R_R2.fastq
+Started analysis of 5101-170-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-170-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-170-MS515F-926R_R2.fastq
+mkdir: cannot create directory ‘/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/fastqc’: File exists
+Analysis complete for 5101-171-MS515F-926R_R2.fastq
+Started analysis of 5101-171-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-171-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-171-MS515F-926R_R2.fastq
+Analysis complete for 5101-172-MS515F-926R_R2.fastq
+Started analysis of 5101-172-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-172-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-172-MS515F-926R_R2.fastq
+Analysis complete for 5101-173-MS515F-926R_R2.fastq
+Started analysis of 5101-173-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-173-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-173-MS515F-926R_R2.fastq
+Analysis complete for 5101-175-MS515F-926R_R2.fastq
+Started analysis of 5101-175-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-175-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-175-MS515F-926R_R2.fastq
+Analysis complete for 5101-176-MS515F-926R_R2.fastq
+Started analysis of 5101-176-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-176-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-176-MS515F-926R_R2.fastq
+Analysis complete for 5101-178-MS515F-926R_R2.fastq
+Started analysis of 5101-178-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-178-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-178-MS515F-926R_R2.fastq
+Analysis complete for 5101-177-MS515F-926R_R2.fastq
+Started analysis of 5101-177-MS515F-926R_R2.fastq
+Approx 5% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 10% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 15% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 20% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 25% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 30% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 35% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 40% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 45% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 50% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 55% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 60% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 65% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 70% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 75% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 80% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 85% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 90% complete for 5101-177-MS515F-926R_R2.fastq
+Approx 95% complete for 5101-177-MS515F-926R_R2.fastq
+multiqc --config /home/mark/gitstage/uderica/silage/multiqc_config.yaml /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/fastqc -o /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/multiqc
+[WARNING]         multiqc : MultiQC Version v1.2 now available!
+[INFO   ]         multiqc : This is MultiQC v1.1
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/fastqc'
+Searching 112 files..
+[INFO   ]          fastqc : Found 56 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : LalStress/Bacteria/raw_data_bacteria/multiqc/multiqc_report.html
+[INFO   ]         multiqc : Data        : LalStress/Bacteria/raw_data_bacteria/multiqc/multiqc_data
+[INFO   ]         multiqc : MultiQC complete
+Fri Sep 1 16:16:04 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-145-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-145-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-145-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-145-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-145-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-145-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-145-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 37725 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      37725
+[FLASH]     Combined pairs:   36561
+[FLASH]     Uncombined pairs: 1164
+[FLASH]     Percent combined: 96.91%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.113 seconds elapsed
+Fri Sep 1 16:16:04 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-146-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-146-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-146-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-146-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-146-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-146-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-146-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 33880 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      33880
+[FLASH]     Combined pairs:   33197
+[FLASH]     Uncombined pairs: 683
+[FLASH]     Percent combined: 97.98%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.099 seconds elapsed
+Fri Sep 1 16:16:04 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-147-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-147-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-147-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-147-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-147-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-147-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-147-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 38934 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      38934
+[FLASH]     Combined pairs:   37825
+[FLASH]     Uncombined pairs: 1109
+[FLASH]     Percent combined: 97.15%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.109 seconds elapsed
+Fri Sep 1 16:16:04 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-148-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-148-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-148-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-148-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-148-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-148-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-148-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 37851 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      37851
+[FLASH]     Combined pairs:   36791
+[FLASH]     Uncombined pairs: 1060
+[FLASH]     Percent combined: 97.20%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.115 seconds elapsed
+Fri Sep 1 16:16:04 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-150-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-150-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-150-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-150-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-150-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-150-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-150-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 47978 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      47978
+[FLASH]     Combined pairs:   47488
+[FLASH]     Uncombined pairs: 490
+[FLASH]     Percent combined: 98.98%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.130 seconds elapsed
+Fri Sep 1 16:16:04 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-151-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-151-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-151-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-151-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-151-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-151-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-151-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 37806 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      37806
+[FLASH]     Combined pairs:   37420
+[FLASH]     Uncombined pairs: 386
+[FLASH]     Percent combined: 98.98%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.116 seconds elapsed
+Fri Sep 1 16:16:04 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-152-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-152-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-152-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-152-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-152-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-152-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-152-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 43581 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      43581
+[FLASH]     Combined pairs:   43182
+[FLASH]     Uncombined pairs: 399
+[FLASH]     Percent combined: 99.08%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.128 seconds elapsed
+Fri Sep 1 16:16:05 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-153-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-153-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-153-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-153-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-153-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-153-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-153-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 39656 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      39656
+[FLASH]     Combined pairs:   39261
+[FLASH]     Uncombined pairs: 395
+[FLASH]     Percent combined: 99.00%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.117 seconds elapsed
+Fri Sep 1 16:16:05 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-155-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-155-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-155-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-155-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-155-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-155-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-155-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 47274 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      47274
+[FLASH]     Combined pairs:   46770
+[FLASH]     Uncombined pairs: 504
+[FLASH]     Percent combined: 98.93%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.145 seconds elapsed
+Fri Sep 1 16:16:05 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-156-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-156-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-156-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-156-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-156-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-156-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-156-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 41502 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      41502
+[FLASH]     Combined pairs:   40853
+[FLASH]     Uncombined pairs: 649
+[FLASH]     Percent combined: 98.44%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.119 seconds elapsed
+Fri Sep 1 16:16:05 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-157-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-157-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-157-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-157-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-157-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-157-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-157-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 42983 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      42983
+[FLASH]     Combined pairs:   42476
+[FLASH]     Uncombined pairs: 507
+[FLASH]     Percent combined: 98.82%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.120 seconds elapsed
+Fri Sep 1 16:16:05 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-158-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-158-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-158-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-158-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-158-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-158-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-158-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 33858 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      33858
+[FLASH]     Combined pairs:   33381
+[FLASH]     Uncombined pairs: 477
+[FLASH]     Percent combined: 98.59%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.099 seconds elapsed
+Fri Sep 1 16:16:05 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-160-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-160-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-160-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-160-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-160-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-160-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-160-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 16712 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      16712
+[FLASH]     Combined pairs:   16489
+[FLASH]     Uncombined pairs: 223
+[FLASH]     Percent combined: 98.67%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.062 seconds elapsed
+Fri Sep 1 16:16:05 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-161-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-161-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-161-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-161-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-161-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-161-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-161-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 48273 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      48273
+[FLASH]     Combined pairs:   47746
+[FLASH]     Uncombined pairs: 527
+[FLASH]     Percent combined: 98.91%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.139 seconds elapsed
+Fri Sep 1 16:16:05 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-162-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-162-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-162-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-162-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-162-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-162-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-162-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 41927 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      41927
+[FLASH]     Combined pairs:   41473
+[FLASH]     Uncombined pairs: 454
+[FLASH]     Percent combined: 98.92%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.122 seconds elapsed
+Fri Sep 1 16:16:06 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-163-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-163-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-163-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-163-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-163-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-163-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-163-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 45556 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      45556
+[FLASH]     Combined pairs:   45054
+[FLASH]     Uncombined pairs: 502
+[FLASH]     Percent combined: 98.90%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.131 seconds elapsed
+Fri Sep 1 16:16:06 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-165-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-165-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-165-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-165-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-165-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-165-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-165-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 53230 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      53230
+[FLASH]     Combined pairs:   52525
+[FLASH]     Uncombined pairs: 705
+[FLASH]     Percent combined: 98.68%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.159 seconds elapsed
+Fri Sep 1 16:16:06 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-166-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-166-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-166-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-166-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-166-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-166-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-166-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 57544 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      57544
+[FLASH]     Combined pairs:   56746
+[FLASH]     Uncombined pairs: 798
+[FLASH]     Percent combined: 98.61%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.161 seconds elapsed
+Fri Sep 1 16:16:06 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-167-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-167-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-167-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-167-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-167-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-167-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-167-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 55017 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      55017
+[FLASH]     Combined pairs:   54238
+[FLASH]     Uncombined pairs: 779
+[FLASH]     Percent combined: 98.58%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.151 seconds elapsed
+Fri Sep 1 16:16:06 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-168-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-168-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-168-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-168-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-168-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-168-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-168-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 63557 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      63557
+[FLASH]     Combined pairs:   62640
+[FLASH]     Uncombined pairs: 917
+[FLASH]     Percent combined: 98.56%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.167 seconds elapsed
+Fri Sep 1 16:16:06 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-170-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-170-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-170-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-170-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-170-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-170-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-170-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 59964 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      59964
+[FLASH]     Combined pairs:   59053
+[FLASH]     Uncombined pairs: 911
+[FLASH]     Percent combined: 98.48%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.163 seconds elapsed
+Fri Sep 1 16:16:06 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-171-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-171-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-171-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-171-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-171-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-171-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-171-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 55070 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      55070
+[FLASH]     Combined pairs:   54237
+[FLASH]     Uncombined pairs: 833
+[FLASH]     Percent combined: 98.49%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.152 seconds elapsed
+Fri Sep 1 16:16:07 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-172-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-172-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-172-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-172-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-172-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-172-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-172-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 48995 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      48995
+[FLASH]     Combined pairs:   48390
+[FLASH]     Uncombined pairs: 605
+[FLASH]     Percent combined: 98.77%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.137 seconds elapsed
+Fri Sep 1 16:16:07 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-173-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-173-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-173-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-173-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-173-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-173-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-173-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 48886 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      48886
+[FLASH]     Combined pairs:   48192
+[FLASH]     Uncombined pairs: 694
+[FLASH]     Percent combined: 98.58%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.148 seconds elapsed
+Fri Sep 1 16:16:07 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-175-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-175-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-175-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-175-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-175-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-175-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-175-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 55285 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      55285
+[FLASH]     Combined pairs:   54501
+[FLASH]     Uncombined pairs: 784
+[FLASH]     Percent combined: 98.58%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.152 seconds elapsed
+Fri Sep 1 16:16:07 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-176-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-176-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-176-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-176-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-176-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-176-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-176-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 56298 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      56298
+[FLASH]     Combined pairs:   55548
+[FLASH]     Uncombined pairs: 750
+[FLASH]     Percent combined: 98.67%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.153 seconds elapsed
+Fri Sep 1 16:16:07 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-177-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-177-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-177-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-177-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-177-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-177-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-177-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 53548 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      53548
+[FLASH]     Combined pairs:   52859
+[FLASH]     Uncombined pairs: 689
+[FLASH]     Percent combined: 98.71%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.147 seconds elapsed
+Fri Sep 1 16:16:07 EDT 2017 flashing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R
+/home/mark/gitstage/uderica/silage/FLASH-1.2.11/flash /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R_R1.fastq /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R_R2.fastq -m 80 -M 100 -d /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed -o 5101-178-MS515F-926R
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/5101-178-MS515F-926R_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-178-MS515F-926R.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-178-MS515F-926R.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-178-MS515F-926R.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-178-MS515F-926R.hist
+[FLASH]     /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/5101-178-MS515F-926R.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           80
+[FLASH]     Max overlap:           100
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 62241 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      62241
+[FLASH]     Combined pairs:   61331
+[FLASH]     Uncombined pairs: 910
+[FLASH]     Percent combined: 98.54%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.173 seconds elapsed
+Fri Sep 1 16:16:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-145-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-145-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:16:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-146-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-146-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:16:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-147-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-147-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:16:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-148-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-148-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:16:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-150-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-150-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:16:53 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-151-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-151-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:16:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-152-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-152-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:16:54 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-153-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-153-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-145-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:16:59 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-155-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-155-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-146-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-156-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-156-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-147-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-157-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-157-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-148-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-158-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-158-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-150-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-160-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-160-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-151-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:00 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-161-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-161-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-152-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:01 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-162-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-162-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-153-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-155-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-160-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-156-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:07 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-163-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-163-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-165-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-165-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-166-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-166-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-167-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-167-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-157-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-168-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-168-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-158-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:08 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-170-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-170-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-161-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:09 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-171-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-171-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-162-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:14 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-172-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-172-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-163-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:15 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-173-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-173-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-165-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-175-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-175-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-167-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-176-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-176-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-168-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:16 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-177-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-177-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-166-MS515F-926R.extendedFrags.fastq
+Fri Sep 1 16:17:17 EDT 2017 fastqc'ing /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-178-MS515F-926R.extendedFrags.fastq
+/home/mark/gitstage/uderica/silage/FastQC/fastqc /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/5101-178-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-170-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-171-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-173-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-172-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-175-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-176-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-177-MS515F-926R.extendedFrags.fastq
+Analysis complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Started analysis of 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 5% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 10% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 15% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 20% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 25% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 30% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 35% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 40% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 45% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 50% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 55% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 60% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 65% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 70% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 75% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 80% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 85% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 90% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+Approx 95% complete for 5101-178-MS515F-926R.extendedFrags.fastq
+multiqc --config /home/mark/gitstage/uderica/silage/multiqc_config.yaml /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc -o /home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc
+[WARNING]         multiqc : MultiQC Version v1.2 now available!
+[INFO   ]         multiqc : This is MultiQC v1.1
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '/home/mark/gitstage/uderica/silage/LalStress/Bacteria/raw_data_bacteria/flashed/extended/fastqc'
+Searching 56 files..
+[INFO   ]          fastqc : Found 28 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_report.html
+[INFO   ]         multiqc : Data        : LalStress/Bacteria/raw_data_bacteria/flashed/extended/multiqc/multiqc_data
+[INFO   ]         multiqc : MultiQC complete
+Fri Sep 1 16:18:14 EDT 2017 'splitting' 5101-145-MS515F-926R
+Fri Sep 1 16:18:14 EDT 2017 'splitting' 5101-146-MS515F-926R
+Fri Sep 1 16:18:14 EDT 2017 'splitting' 5101-147-MS515F-926R
+Fri Sep 1 16:18:14 EDT 2017 'splitting' 5101-148-MS515F-926R
+Fri Sep 1 16:18:14 EDT 2017 'splitting' 5101-150-MS515F-926R
+Fri Sep 1 16:18:15 EDT 2017 'splitting' 5101-151-MS515F-926R
+Fri Sep 1 16:18:15 EDT 2017 'splitting' 5101-152-MS515F-926R
+Fri Sep 1 16:18:15 EDT 2017 'splitting' 5101-153-MS515F-926R
+Fri Sep 1 16:18:21 EDT 2017 'splitting' 5101-155-MS515F-926R
+Fri Sep 1 16:18:21 EDT 2017 'splitting' 5101-156-MS515F-926R
+Fri Sep 1 16:18:21 EDT 2017 'splitting' 5101-157-MS515F-926R
+Fri Sep 1 16:18:21 EDT 2017 'splitting' 5101-158-MS515F-926R
+Fri Sep 1 16:18:21 EDT 2017 'splitting' 5101-160-MS515F-926R
+Fri Sep 1 16:18:21 EDT 2017 'splitting' 5101-161-MS515F-926R
+Fri Sep 1 16:18:22 EDT 2017 'splitting' 5101-162-MS515F-926R
+Fri Sep 1 16:18:25 EDT 2017 'splitting' 5101-163-MS515F-926R
+Fri Sep 1 16:18:27 EDT 2017 'splitting' 5101-165-MS515F-926R
+Fri Sep 1 16:18:27 EDT 2017 'splitting' 5101-166-MS515F-926R
+Fri Sep 1 16:18:27 EDT 2017 'splitting' 5101-167-MS515F-926R
+Fri Sep 1 16:18:28 EDT 2017 'splitting' 5101-168-MS515F-926R
+Fri Sep 1 16:18:28 EDT 2017 'splitting' 5101-170-MS515F-926R
+Fri Sep 1 16:18:29 EDT 2017 'splitting' 5101-171-MS515F-926R
+Fri Sep 1 16:18:32 EDT 2017 'splitting' 5101-172-MS515F-926R
+Fri Sep 1 16:18:34 EDT 2017 'splitting' 5101-173-MS515F-926R
+Fri Sep 1 16:18:35 EDT 2017 'splitting' 5101-175-MS515F-926R
+Fri Sep 1 16:18:36 EDT 2017 'splitting' 5101-176-MS515F-926R
+Fri Sep 1 16:18:36 EDT 2017 'splitting' 5101-177-MS515F-926R
+Fri Sep 1 16:18:37 EDT 2017 'splitting' 5101-178-MS515F-926R
+Fri Sep 1 16:19:39 EDT 2017 start OTU picking
+Fri Sep 1 16:29:19 EDT 2017 OTU picking complete
+Num samples: 21
+Num observations: 5438
+Total count: 785176
+Table density (fraction of non-zero values): 0.136
+
+Counts/sample summary:
+ Min: 14514.0
+ Max: 54096.0
+ Median: 37274.000
+ Mean: 37389.333
+ Std. dev.: 9252.582
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+160: 14514.0
+146: 26225.0
+158: 28475.0
+145: 28864.0
+148: 29022.0
+147: 30353.0
+151: 33311.0
+156: 34024.0
+153: 34857.0
+162: 36925.0
+157: 37274.0
+152: 38550.0
+163: 39926.0
+155: 41179.0
+161: 42045.0
+150: 42184.0
+165: 45715.0
+167: 47251.0
+166: 48915.0
+170: 51471.0
+168: 54096.0
+Fri Sep 1 16:29:21 EDT 2017 start core diversity
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00925440083638 and the largest is 2.6618751198.
+  RuntimeWarning
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+Fri Sep 1 16:36:35 EDT 2017 core diversity complete
