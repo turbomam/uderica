@@ -142,6 +142,22 @@ print(phylo)
 
 otu.dat <- otutable@otu_table@.Data
 
+
+otu.melt <- reshape2::melt(otu.dat)
+names(otu.melt) <-  c("OTU", "sample", "count")
+# otu.melt <- otu.melt[otu.melt$count > 0 , ]
+otu.melt$log10count <- log10(otu.melt$count)
+otu.melt <- otu.melt[otu.melt$log10count > 0 , ]
+
+# loop  i from 0 to floor(log10count)
+# does the row have > 0 counts?
+
+lastfloor <- floor(max(otu.melt$log10count))
+
+temp <- lapply(seq(from = 0, to = lastfloor, by = 0.5), print)
+
+
+
 unlisted.otu.counts <- unlist(otu.dat)
 
 # histogram, of unaggreagted counts, log scale
