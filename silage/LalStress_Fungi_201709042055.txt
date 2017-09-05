@@ -1,0 +1,102 @@
+     treatment
+day   C C-EARLY C-LATE C-NO LB500-EARLY LB500-LATE LB500-NO
+  0   4       0      0    0           0          0        0
+  126 0       4      4    4           4          4        4
+phyloseq-class experiment-level object
+otu_table()   OTU Table:         [ 778 taxa and 28 samples ]
+sample_data() Sample Data:       [ 28 samples by 7 sample variables ]
+tax_table()   Taxonomy Table:    [ 778 taxa by 7 taxonomic ranks ]
+Warning message:
+In strsplit(msg, "\n") : input string 1 is invalid in this locale
+[1] 778  28
+Warning message:
+In class(X) <- NULL :
+  Setting class(x) to NULL;   result will no longer be an S4 object
+
+-----------------------------------------------------------------------------
+ &nbsp;    C   C-EARLY   C-LATE   C-NO   LB500-EARLY   LB500-LATE   LB500-NO 
+--------- --- --------- -------- ------ ------------- ------------ ----------
+  **0**    4      0        0       0          0            0           0     
+
+ **126**   0      4        4       4          4            4           4     
+-----------------------------------------------------------------------------
+
+NULL
+     treatment
+day   C C-EARLY C-LATE C-NO LB500-EARLY LB500-LATE LB500-NO
+  0   4       0      0    0           0          0        0
+  126 0       4      4    4           4          4        4
+[1] "all levels have 4 repeats"
+[1] "LalStress"
+[1] "Fungi"
+Warning message:
+Removed 84 rows containing missing values (geom_errorbar). 
+DCA
+CCA
+RDA
+NMDS
+Square root transformation
+Wisconsin double standardization
+Run 0 stress 0.2143851 
+Run 1 stress 0.2219886 
+Run 2 stress 0.2229667 
+Run 3 stress 0.2067651 
+... New best solution
+... Procrustes: rmse 0.1665244  max resid 0.3000652 
+Run 4 stress 0.2374129 
+Run 5 stress 0.2140697 
+Run 6 stress 0.2093839 
+Run 7 stress 0.2255397 
+Run 8 stress 0.2081042 
+Run 9 stress 0.2230396 
+Run 10 stress 0.2147152 
+Run 11 stress 0.2140378 
+Run 12 stress 0.218579 
+Run 13 stress 0.2222642 
+Run 14 stress 0.2220931 
+Run 15 stress 0.2063697 
+... New best solution
+... Procrustes: rmse 0.1423297  max resid 0.355764 
+Run 16 stress 0.2064596 
+... Procrustes: rmse 0.1026982  max resid 0.3805345 
+Run 17 stress 0.2118612 
+Run 18 stress 0.2288002 
+Run 19 stress 0.2217599 
+Run 20 stress 0.2125434 
+*** No convergence -- monoMDS stopping criteria:
+     1: no. of iterations >= maxit
+    19: stress ratio > sratmax
+MDS
+PCoA
+phyloseq-class experiment-level object
+otu_table()   OTU Table:         [ 778 taxa and 28 samples ]
+sample_data() Sample Data:       [ 28 samples by 7 sample variables ]
+tax_table()   Taxonomy Table:    [ 778 taxa by 7 taxonomic ranks ]
+[1] "treatment"
+[1] "C"
+   Group.1     Group.2  distance
+15       C      C-LATE 0.9646244
+29       C LB500-EARLY 0.8991296
+8        C     C-EARLY 0.8738535
+36       C  LB500-LATE 0.7751233
+43       C    LB500-NO 0.7150331
+22       C        C-NO 0.7059481
+1        C           C 0.2804053
+Warning message:
+Transformation introduced infinite values in discrete y-axis 
+phyloseq-class experiment-level object
+otu_table()   OTU Table:         [ 778 taxa and 28 samples ]
+sample_data() Sample Data:       [ 28 samples by 7 sample variables ]
+tax_table()   Taxonomy Table:    [ 778 taxa by 7 taxonomic ranks ]
+converting counts to integer mode
+using pre-existing size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+[1] "Intercept"   "C"           "C.EARLY"     "C.LATE"      "C.NO"        "LB500.EARLY" "LB500.LATE"  "LB500.NO"   
+Error in dimnames(x) <- dn : 
+  length of 'dimnames' [1] not equal to array extent
+null device 
+          1 

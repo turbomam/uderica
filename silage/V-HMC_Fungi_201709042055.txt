@@ -1,0 +1,912 @@
+, , Treatment = C/0
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     4  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C/30
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  4       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C/30+120h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       4  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C/90
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  5       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C/90+140h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       5      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C/90+50h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      5
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C-AS/90
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  5       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C-AS/90+140h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       5      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C-AS/90+50h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      5
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB/30
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  4       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB/30+120h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       4  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB/90
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  5       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB/90+140h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       5      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB/90+50h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      5
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB-AS/90
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  5       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB-AS/90+140
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       1      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB-AS/90+140h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       4      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB-AS/90+50h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      5
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB+LP/30
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  4       0  0       0      0
+
+, , Treatment = LB+LP/30+120h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       4  0       0      0
+
+, , Treatment = LB+LP/90
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  5       0      0
+
+, , Treatment = LB+LP/90+140h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       5      0
+
+, , Treatment = LB+LP/90+50h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      5
+
+phyloseq-class experiment-level object
+otu_table()   OTU Table:         [ 824 taxa and 61 samples ]
+sample_data() Sample Data:       [ 61 samples by 8 sample variables ]
+tax_table()   Taxonomy Table:    [ 824 taxa by 14 taxonomic ranks ]
+Warning messages:
+1: In strsplit(msg, "\n") : input string 1 is invalid in this locale
+2: In parseFunction(i$metadata$taxonomy) :
+  No greengenes prefixes were found. 
+Consider using parse_taxonomy_default() instead if true for all OTUs. 
+Dummy ranks may be included among taxonomic ranks now.
+3: In parseFunction(i$metadata$taxonomy) :
+  No greengenes prefixes were found. 
+Consider using parse_taxonomy_default() instead if true for all OTUs. 
+Dummy ranks may be included among taxonomic ranks now.
+4: In parseFunction(i$metadata$taxonomy) :
+  No greengenes prefixes were found. 
+Consider using parse_taxonomy_default() instead if true for all OTUs. 
+Dummy ranks may be included among taxonomic ranks now.
+5: In parseFunction(i$metadata$taxonomy) :
+  No greengenes prefixes were found. 
+Consider using parse_taxonomy_default() instead if true for all OTUs. 
+Dummy ranks may be included among taxonomic ranks now.
+6: In parseFunction(i$metadata$taxonomy) :
+  No greengenes prefixes were found. 
+Consider using parse_taxonomy_default() instead if true for all OTUs. 
+Dummy ranks may be included among taxonomic ranks now.
+7: In parseFunction(i$metadata$taxonomy) :
+  No greengenes prefixes were found. 
+Consider using parse_taxonomy_default() instead if true for all OTUs. 
+Dummy ranks may be included among taxonomic ranks now.
+8: In parseFunction(i$metadata$taxonomy) :
+  No greengenes prefixes were found. 
+Consider using parse_taxonomy_default() instead if true for all OTUs. 
+Dummy ranks may be included among taxonomic ranks now.
+9: In parseFunction(i$metadata$taxonomy) :
+  No greengenes prefixes were found. 
+Consider using parse_taxonomy_default() instead if true for all OTUs. 
+Dummy ranks may be included among taxonomic ranks now.
+[1] 824  61
+Warning message:
+In class(X) <- NULL :
+  Setting class(x) to NULL;   result will no longer be an S4 object
+
+----------- --------- ----------- ----- ------ ----------- ------ -----------
+                       Treatment   C/0   C/30   C/30+120h   C/90   C/90+140h 
+
+ treatment     day                                                           
+
+     C          0                   4     0         0        0         0     
+
+               30                   0     4         0        0         0     
+
+             30+120h                0     0         4        0         0     
+
+               90                   0     0         0        4         0     
+
+             90+140h                0     0         0        0         5     
+
+             90+50h                 0     0         0        0         0     
+
+   C-AS         0                   0     0         0        0         0     
+
+               30                   0     0         0        0         0     
+
+             30+120h                0     0         0        0         0     
+
+               90                   0     0         0        0         0     
+
+             90+140h                0     0         0        0         0     
+
+             90+50h                 0     0         0        0         0     
+
+    LB          0                   0     0         0        0         0     
+
+               30                   0     0         0        0         0     
+
+             30+120h                0     0         0        0         0     
+
+               90                   0     0         0        0         0     
+
+             90+140h                0     0         0        0         0     
+
+             90+50h                 0     0         0        0         0     
+
+   LB-AS        0                   0     0         0        0         0     
+
+               30                   0     0         0        0         0     
+
+             30+120h                0     0         0        0         0     
+
+               90                   0     0         0        0         0     
+
+             90+140h                0     0         0        0         0     
+
+             90+50h                 0     0         0        0         0     
+
+   LB+LP        0                   0     0         0        0         0     
+
+               30                   0     0         0        0         0     
+
+             30+120h                0     0         0        0         0     
+
+               90                   0     0         0        0         0     
+
+             90+140h                0     0         0        0         0     
+
+             90+50h                 0     0         0        0         0     
+----------- --------- ----------- ----- ------ ----------- ------ -----------
+
+Table: Table continues below
+
+ 
+---------- --------- -------------- ------------- ------- ------------
+ C/90+50h   C-AS/90   C-AS/90+140h   C-AS/90+50h   LB/30   LB/30+120h 
+
+                                                                      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    5          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          5           0              0          0         0      
+
+    0          0           5              0          0         0      
+
+    0          0           0              5          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          2         0      
+
+    0          0           0              0          0         4      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+
+    0          0           0              0          0         0      
+---------- --------- -------------- ------------- ------- ------------
+
+Table: Table continues below
+
+ 
+------------ ----------- -------------- --------------- --------------
+ LB/90+140h   LB/90+50h   LB-AS/90+140   LB-AS/90+140h   LB-AS/90+50h 
+
+                                                                      
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     1            0            0               0              0       
+
+     0            1            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            1               1              0       
+
+     0            0            0               0              1       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+
+     0            0            0               0              0       
+------------ ----------- -------------- --------------- --------------
+
+Table: Table continues below
+
+ 
+---------- --------------- ----------
+ LB+LP/30   LB+LP/30+120h   LB+LP/90 
+
+                                     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    0             0            0     
+
+    3             0            0     
+
+    0             4            0     
+
+    0             0            2     
+
+    0             0            0     
+
+    0             0            0     
+---------- --------------- ----------
+
+NULL
+, , Treatment = C/0
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     4  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C/30
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  4       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C/30+120h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       4  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C/90
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  4       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C/90+140h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       5      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C/90+50h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      5
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C-AS/90
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  5       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C-AS/90+140h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       5      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = C-AS/90+50h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      5
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB/30
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  2       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB/30+120h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       4  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB/90+140h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       1      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB/90+50h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      1
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB-AS/90+140
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       1      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB-AS/90+140h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       1      0
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB-AS/90+50h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      1
+    LB+LP 0  0       0  0       0      0
+
+, , Treatment = LB+LP/30
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  3       0  0       0      0
+
+, , Treatment = LB+LP/30+120h
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       4  0       0      0
+
+, , Treatment = LB+LP/90
+
+         day
+treatment 0 30 30+120h 90 90+140h 90+50h
+    C     0  0       0  0       0      0
+    C-AS  0  0       0  0       0      0
+    LB    0  0       0  0       0      0
+    LB-AS 0  0       0  0       0      0
+    LB+LP 0  0       0  2       0      0
+
+[1] "V-HMC"
+[1] "Fungi"
+Warning message:
+Removed 183 rows containing missing values (geom_errorbar). 
+DCA
+CCA
+RDA
+NMDS
+Square root transformation
+Wisconsin double standardization
+Run 0 stress 0.1601674 
+Run 1 stress 0.1644471 
+Run 2 stress 0.1833753 
+Run 3 stress 0.1961592 
+Run 4 stress 0.194813 
+Run 5 stress 0.1830762 
+Run 6 stress 0.1601674 
+... Procrustes: rmse 1.26984e-05  max resid 5.119333e-05 
+... Similar to previous best
+Run 7 stress 0.1601674 
+... Procrustes: rmse 1.065031e-05  max resid 4.946627e-05 
+... Similar to previous best
+Run 8 stress 0.172294 
+Run 9 stress 0.1685897 
+Run 10 stress 0.1566178 
+... New best solution
+... Procrustes: rmse 0.05284764  max resid 0.3988511 
+Run 11 stress 0.1657388 
+Run 12 stress 0.1947954 
+Run 13 stress 0.1566178 
+... Procrustes: rmse 8.229644e-06  max resid 3.563124e-05 
+... Similar to previous best
+Run 14 stress 0.17357 
+Run 15 stress 0.1703457 
+Run 16 stress 0.1758641 
+Run 17 stress 0.1566178 
+... New best solution
+... Procrustes: rmse 5.4844e-06  max resid 2.852062e-05 
+... Similar to previous best
+Run 18 stress 0.1848231 
+Run 19 stress 0.1616127 
+Run 20 stress 0.1794876 
+*** Solution reached
+MDS
+PCoA
+Warning messages:
+1: In RColorBrewer::brewer.pal(n, pal) :
+  n too large, allowed maximum for palette Set1 is 9
+Returning the palette you asked for with that many colors
+
+2: In RColorBrewer::brewer.pal(n, pal) :
+  n too large, allowed maximum for palette Set1 is 9
+Returning the palette you asked for with that many colors
+
+3: Removed 120 rows containing missing values (geom_point). 
+phyloseq-class experiment-level object
+otu_table()   OTU Table:         [ 824 taxa and 61 samples ]
+sample_data() Sample Data:       [ 61 samples by 8 sample variables ]
+tax_table()   Taxonomy Table:    [ 824 taxa by 14 taxonomic ranks ]
+[1] "Treatment"
+[1] "C/0"
+    Group.1       Group.2  distance
+77      C/0     C/90+140h 0.9996536
+96      C/0      C/90+50h 0.9996007
+153     C/0   C-AS/90+50h 0.9973570
+286     C/0  LB-AS/90+50h 0.9927135
+229     C/0     LB/90+50h 0.9914195
+134     C/0  C-AS/90+140h 0.9869929
+115     C/0       C-AS/90 0.9867148
+58      C/0          C/90 0.9741508
+210     C/0    LB/90+140h 0.9597276
+39      C/0     C/30+120h 0.9431062
+267     C/0 LB-AS/90+140h 0.9394769
+248     C/0  LB-AS/90+140 0.9370142
+324     C/0 LB+LP/30+120h 0.9330846
+343     C/0      LB+LP/90 0.9246675
+191     C/0    LB/30+120h 0.9148038
+20      C/0          C/30 0.8926529
+172     C/0         LB/30 0.8396922
+305     C/0      LB+LP/30 0.7839489
+1       C/0           C/0 0.2609723
+Warning message:
+Transformation introduced infinite values in discrete y-axis 
+phyloseq-class experiment-level object
+otu_table()   OTU Table:         [ 824 taxa and 61 samples ]
+sample_data() Sample Data:       [ 61 samples by 8 sample variables ]
+tax_table()   Taxonomy Table:    [ 824 taxa by 14 taxonomic ranks ]
+converting counts to integer mode
+using pre-existing size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+ [1] "Intercept"     "C.0"           "C.30"          "C.30.120h"     "C.90"          "C.90.140h"     "C.90.50h"     
+ [8] "C.AS.90"       "C.AS.90.140h"  "C.AS.90.50h"   "LB.30"         "LB.30.120h"    "LB.90.140h"    "LB.90.50h"    
+[15] "LB.AS.90.140"  "LB.AS.90.140h" "LB.AS.90.50h"  "LB.LP.30"      "LB.LP.30.120h" "LB.LP.90"     
+                             log2FoldChange       pvalue       padj Kingdom        Phylum                Class
+FN562062                           2.462371 0.0020066520 0.03442639   Fungi    Ascomycota         unidentified
+DQ421212                           2.840040 0.0004001113 0.02357859   Fungi  unidentified         unidentified
+JQ038255                           2.293324 0.0040043806 0.04599317   Fungi    Ascomycota      Dothideomycetes
+JF300397                           4.474313 0.0016398226 0.03442639   Fungi    Ascomycota         unidentified
+DQ421278                           2.387065 0.0027404092 0.03442639   Fungi  unidentified         unidentified
+HQ631023                           2.298631 0.0043983022 0.04778696   Fungi    Ascomycota      Dothideomycetes
+JN906829                           2.725655 0.0006672856 0.02682488   Fungi  unidentified         unidentified
+GQ525422                           2.961553 0.0002319136 0.02357859   Fungi    Ascomycota         unidentified
+AY313025                           2.277981 0.0042556491 0.04752141   Fungi Basidiomycota      Tremellomycetes
+EU673082                           2.834377 0.0004105725 0.02357859   Fungi Basidiomycota      Tremellomycetes
+HQ630976                           2.953197 0.0002402681 0.02357859   Fungi  unidentified         unidentified
+DQ420936                           2.424670 0.0023451401 0.03442639   Fungi  unidentified         unidentified
+HQ631071                          -4.412327 0.0021288463 0.03442639   Fungi    Ascomycota      Saccharomycetes
+DQ421253                           2.594902 0.0012863282 0.03041788   Fungi  unidentified         unidentified
+GQ524925                           2.576508 0.0012601928 0.03041788   Fungi  unidentified         unidentified
+GU566267                           2.299264 0.0039107832 0.04599317   Fungi    Ascomycota      Sordariomycetes
+JN905052                           2.400964 0.0025877228 0.03442639   Fungi  unidentified         unidentified
+HQ631017                           2.710548 0.0007349249 0.02685817   Fungi Basidiomycota  Cystobasidiomycetes
+DQ447767                           2.750153 0.0005990946 0.02675956   Fungi Basidiomycota         unidentified
+GQ525954                           2.419823 0.0025239307 0.03442639   Fungi    Ascomycota      Dothideomycetes
+AM901903                           2.965272 0.0002282805 0.02357859   Fungi Basidiomycota         unidentified
+FJ762984                           2.393731 0.0026661891 0.03442639   Fungi  unidentified         unidentified
+GQ525731                           2.778761 0.0005276035 0.02651207   Fungi  unidentified         unidentified
+AM901740                           2.587645 0.0012437626 0.03041788   Fungi Basidiomycota         unidentified
+FM178236                           2.963872 0.0002296439 0.02357859   Fungi    Ascomycota      Sordariomycetes
+JF770474                           2.432532 0.0022694085 0.03442639   Fungi Basidiomycota      Pucciniomycetes
+AM901802                           2.898853 0.0003051140 0.02357859   Fungi    Ascomycota         unidentified
+New.CleanUp.ReferenceOTU73         2.414577 0.0026505409 0.03442639   Fungi    Ascomycota      Saccharomycetes
+New.CleanUp.ReferenceOTU167        2.510729 0.0016495969 0.03442639   Fungi    Ascomycota      Sordariomycetes
+New.CleanUp.ReferenceOTU393       -2.435904 0.0022376150 0.03442639   Fungi  unidentified         unidentified
+New.CleanUp.ReferenceOTU1252       2.643863 0.0009773124 0.03022151   Fungi  unidentified         unidentified
+New.CleanUp.ReferenceOTU1599       2.444976 0.0022334298 0.03442639   Fungi    Ascomycota         unidentified
+New.CleanUp.ReferenceOTU1735       2.595154 0.0011661374 0.03041788   Fungi Basidiomycota Agaricostilbomycetes
+New.CleanUp.ReferenceOTU1851       2.341070 0.0033062410 0.04027603   Fungi  unidentified         unidentified
+New.CleanUp.ReferenceOTU1893       2.464700 0.0019875484 0.03442639   Fungi    Ascomycota      Dothideomycetes
+New.CleanUp.ReferenceOTU2044       2.653906 0.0009100178 0.03022151   Fungi    Ascomycota      Dothideomycetes
+New.CleanUp.ReferenceOTU2133       2.409326 0.0024996556 0.03442639   Fungi  unidentified         unidentified
+                                         Order             Family          Genus
+FN562062                          unidentified       unidentified   unidentified
+DQ421212                          unidentified       unidentified   unidentified
+JQ038255                          Pleosporales      Pleosporaceae      Epicoccum
+JF300397                          unidentified       unidentified   unidentified
+DQ421278                          unidentified       unidentified   unidentified
+HQ631023                          Pleosporales      Pleosporaceae      Epicoccum
+JN906829                          unidentified       unidentified   unidentified
+GQ525422                          unidentified       unidentified   unidentified
+AY313025                           Tremellales       Tremellaceae        Bullera
+EU673082                           Tremellales       Tremellaceae       Tremella
+HQ630976                          unidentified       unidentified   unidentified
+DQ420936                          unidentified       unidentified   unidentified
+HQ631071                     Saccharomycetales         Pichiaceae         Pichia
+DQ421253                          unidentified       unidentified   unidentified
+GQ524925                          unidentified       unidentified   unidentified
+GU566267                           Hypocreales     Incertae_sedis     Acremonium
+JN905052                          unidentified       unidentified   unidentified
+HQ631017                       Cystobasidiales   Cystobasidiaceae     Occultifur
+DQ447767                          unidentified       unidentified   unidentified
+GQ525954                          Pleosporales      Pleosporaceae      Epicoccum
+AM901903                          unidentified       unidentified   unidentified
+FJ762984                          unidentified       unidentified   unidentified
+GQ525731                          unidentified       unidentified   unidentified
+AM901740                          unidentified       unidentified   unidentified
+FM178236                           Hypocreales    Clavicipitaceae   unidentified
+JF770474                           Pucciniales       Pucciniaceae       Puccinia
+AM901802                          unidentified       unidentified   unidentified
+New.CleanUp.ReferenceOTU73   Saccharomycetales     Incertae_sedis        Candida
+New.CleanUp.ReferenceOTU167        Sordariales   Cephalothecaceae   Phialemonium
+New.CleanUp.ReferenceOTU393       unidentified       unidentified   unidentified
+New.CleanUp.ReferenceOTU1252      unidentified       unidentified   unidentified
+New.CleanUp.ReferenceOTU1599      unidentified       unidentified   unidentified
+New.CleanUp.ReferenceOTU1735  Agaricostilbales  Chionosphaeraceae Kurtzmanomyces
+New.CleanUp.ReferenceOTU1851      unidentified       unidentified   unidentified
+New.CleanUp.ReferenceOTU1893       Capnodiales Teratosphaeriaceae      Devriesia
+New.CleanUp.ReferenceOTU2044      Pleosporales       unidentified   unidentified
+New.CleanUp.ReferenceOTU2133      unidentified       unidentified   unidentified
+null device 
+          1 
