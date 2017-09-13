@@ -3,18 +3,27 @@
 # omitted snippets:
 # could show snippets of otu counts, sample data, taxon data...
 
-my.exp <- "Aer_Comp"
-my.fact <- "Treatment"
-my.ref <- "C/0"
-my.other <- "S2-3H-LATE/56"
+# my.exp <- "Aer_Comp"
+# my.fact <- "Treatment"
+# my.ref <- "C/0"
+# my.other <- "S2-3H-LATE/56"
 
-# my.exp <- "LalStress"
-# my.fact <- "treatment"
-# my.ref <- "C"
-# my.other <- "LB500"
+my.exp <- "LalStress"
+my.fact <- "treatment"
+my.ref <- "C"
+my.other <- "LB500-EARLY"
 
-my.domain <- "Fungi"
-# my.domain <- "Bacteria"
+# my.exp <- "V-HMC"
+# my.fact <- "Treatment"
+# my.ref <- "C/0"
+# # fungi
+# # my.other <- "LB-AS/90+50h"
+# # bacteria
+# my.other <- "LB/30"
+
+
+# my.domain <- "Fungi"
+my.domain <- "Bacteria"
 
 my.timestamp <- format(Sys.time(), format = "%Y%m%d%H%M")
 
@@ -26,13 +35,8 @@ sinkfile <- paste0(my.exp,
                    ".txt")
 
 con <- file(sinkfile)
-
-# sink(con, append = TRUE)
-# sink(con, append = TRUE, type = "message")
-
-setwd('/home/mark/gitstage/uderica/silage/')
-
-source("uderica_fxns.R")
+sink(con, append = TRUE)
+sink(con, append = TRUE, type = "message")
 
 pdf(paste0(my.exp,
            "_",
@@ -40,6 +44,12 @@ pdf(paste0(my.exp,
            "_",
            my.timestamp,
            ".pdf"))
+
+setwd('/home/mark/gitstage/uderica/silage/')
+
+source("uderica_fxns.R")
+
+
 
 
 
@@ -179,7 +189,7 @@ uderica.diffy(
   the.factor = my.fact,
   the.contrast.num = my.ref,
   the.contrast.denom =  my.other,
-  the.alpha = 0.05,
+  the.alpha = .05,
   the.high.rank = "Phylum",
   the.low.rank = "Class",
   the.y.axis = "log2FoldChange"

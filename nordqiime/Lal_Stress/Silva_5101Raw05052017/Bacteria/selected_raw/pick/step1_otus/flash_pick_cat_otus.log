@@ -1,0 +1,175 @@
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:809
+Num new OTUs:0
+Num failures:13242
+Result path: /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_/POTU_ZiIg_.0_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:778
+Num new OTUs:0
+Num failures:12400
+Result path: /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_/POTU_ZiIg_.1_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:316
+Num new OTUs:0
+Num failures:6797
+Result path: /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_/POTU_ZiIg_.2_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:520
+Num new OTUs:0
+Num failures:8745
+Result path: /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_/POTU_ZiIg_.3_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:760
+Num new OTUs:0
+Num failures:9088
+Result path: /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_/POTU_ZiIg_.4_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:818
+Num new OTUs:0
+Num failures:9709
+Result path: /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_/POTU_ZiIg_.5_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:314
+Num new OTUs:0
+Num failures:6162
+Result path: /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/POTU_ZiIg_/POTU_ZiIg_.6_otus.txt

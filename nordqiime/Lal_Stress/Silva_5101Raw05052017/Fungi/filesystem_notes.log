@@ -1,0 +1,3 @@
+put all fastq files in "raw_data"
+probably wnt use all of them, since they're not all referenced in the mapping file or "file path.xlsx"
+

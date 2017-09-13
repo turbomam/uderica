@@ -1,0 +1,17 @@
+Input file paths
+Sequence read filepath: /home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/1142.extendedFrags.fastq (md5: 1909cd29f7dd9889ccdf810743d29a1c)
+Quality filter results
+Total number of input sequences: 14156
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1942
+Count of N characters exceeds limit: 17
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+1142	12197
+
+Total number seqs written	12197
+---
+

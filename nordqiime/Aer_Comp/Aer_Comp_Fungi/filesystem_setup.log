@@ -1,0 +1,8 @@
+qiime pythion scripts don't like spaces in file/foder names
+
+Aer Comp Fungi -> Aer_Comp_Fungi
+created raw_data and moved fastq files
+
+added final description column to map.txt
+added synthetic barcodes, as with all other map.txt files...
+

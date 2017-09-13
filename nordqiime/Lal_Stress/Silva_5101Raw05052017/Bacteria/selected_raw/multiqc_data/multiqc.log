@@ -1,0 +1,186 @@
+[2017-09-12 21:33:01,404] multiqc                                            [DEBUG  ]  No MultiQC config found: /usr/local/lib/python2.7/dist-packages/multiqc_config.yaml
+[2017-09-12 21:33:01,404] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/mark/.multiqc_config.yaml
+[2017-09-12 21:33:01,405] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_config.yaml
+[2017-09-12 21:33:01,406] multiqc                                            [DEBUG  ]  New config 'read_count_prefix': K
+[2017-09-12 21:33:01,406] multiqc                                            [DEBUG  ]  New config 'read_count_multiplier': 0.001
+[2017-09-12 21:33:01,406] multiqc                                            [DEBUG  ]  New config 'read_count_desc': thousands
+[2017-09-12 21:33:01,407] multiqc                                            [DEBUG  ]  Loading config settings from: /home/mark/gitstage/uderica/nordqiime/multiqc_config.yaml
+[2017-09-12 21:33:01,407] multiqc                                            [DEBUG  ]  New config 'read_count_prefix': K
+[2017-09-12 21:33:01,407] multiqc                                            [DEBUG  ]  New config 'read_count_multiplier': 0.001
+[2017-09-12 21:33:01,407] multiqc                                            [DEBUG  ]  New config 'read_count_desc': thousands
+[2017-09-12 21:33:01,407] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc --config /home/mark/gitstage/uderica/nordqiime/multiqc_config.yaml /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw
+[2017-09-12 21:33:02,176] multiqc                                            [WARNING]  MultiQC Version v1.2 now available!
+[2017-09-12 21:33:02,176] multiqc                                            [INFO   ]  This is MultiQC v1.1
+[2017-09-12 21:33:02,176] multiqc                                            [DEBUG  ]  Command     : /usr/local/bin/multiqc --config /home/mark/gitstage/uderica/nordqiime/multiqc_config.yaml /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw
+[2017-09-12 21:33:02,176] multiqc                                            [DEBUG  ]  Working dir : /home/mark/gitstage/uderica/nordqiime
+[2017-09-12 21:33:02,177] multiqc                                            [INFO   ]  Template    : default
+[2017-09-12 21:33:02,177] multiqc                                            [INFO   ]  Searching '/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw'
+[2017-09-12 21:33:02,178] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, qualimap, preseq, quast, qorts, rna_seqc, rseqc, busco, goleft_indexcov, disambiguate, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, jellyfish, bismark, hicup, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, adapterRemoval, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, fastqc, clusterflow
+[2017-09-12 21:33:02,178] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmp9cInVQ
+[2017-09-12 21:33:02,212] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-148-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,212] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-153-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,212] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-167-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,212] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-156-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,212] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-176-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,222] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-146-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,222] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-146-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,222] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-175-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,223] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-166-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,223] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-165-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,223] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-155-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,223] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-177-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-173-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-151-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-158-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-153-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-173-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-160-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-178-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-162-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,225] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-173-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,225] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-150-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,225] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-171-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,225] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-170-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,225] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-157-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,225] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-163-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,225] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-148-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,225] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-156-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,225] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-177-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,226] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-155-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,226] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-153-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,226] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-155-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,226] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-167-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,226] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-161-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,226] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-157-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,226] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-157-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,227] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-167-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,228] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-175-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,228] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-163-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,229] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-170-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,230] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-167-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,231] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-157-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,231] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-147-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,231] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-145-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,232] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-150-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,232] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-178-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,232] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-148-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,232] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-161-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,232] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-150-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,232] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-176-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,232] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-168-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,233] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-147-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,233] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-151-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,233] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-161-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,233] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-147-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,233] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-175-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,235] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-162-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,235] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-171-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,235] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-151-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,235] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-156-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,235] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-172-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,236] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-160-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,236] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-172-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,236] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-176-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,237] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-168-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,237] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-173-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,238] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-172-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,238] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-178-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,238] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-145-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,239] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-152-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,240] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-162-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,240] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-176-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,240] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-168-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,240] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-160-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,241] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-168-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,241] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-145-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,241] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-155-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,241] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-150-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,241] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-170-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,242] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-152-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,242] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-165-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,243] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-146-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,244] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-172-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,244] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-162-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,244] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-158-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,245] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-152-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,245] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-171-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,245] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-152-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,245] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-158-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,246] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-145-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,246] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-178-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,246] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-158-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,246] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-171-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,246] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-148-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,246] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-165-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,246] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-146-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,247] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-166-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,247] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-160-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,247] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-175-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,247] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-163-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,247] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-177-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,247] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-170-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,248] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-151-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,248] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-165-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,248] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-153-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,248] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-147-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,248] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-166-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,248] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-163-MS515F-926R_R2.fastq
+[2017-09-12 21:33:02,249] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-156-MS515F-926R_R1_fastqc.html
+[2017-09-12 21:33:02,249] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-161-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,249] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-177-MS515F-926R_R2_fastqc.html
+[2017-09-12 21:33:02,249] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 5101-166-MS515F-926R_R1.fastq
+[2017-09-12 21:33:02,467] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2017-09-12 21:33:02,469] multiqc.modules.conpair.conpair                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,471] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,473] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,476] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2017-09-12 21:33:02,476] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,478] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,479] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,481] multiqc.modules.qorts.qorts                        [DEBUG  ]  Could not find any QoRTs data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,483] multiqc.modules.rna_seqc.rna_seqc                  [DEBUG  ]  Could not find any RNA-SeQC data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,487] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,489] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,490] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,492] multiqc.modules.disambiguate.disambiguate          [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,495] multiqc.modules.homer.homer                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,497] multiqc.modules.macs2.macs2                        [DEBUG  ]  Could not find any MACS2 data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,499] multiqc.modules.theta2.theta2                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,501] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,503] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,505] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,507] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,509] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,513] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,515] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,517] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,526] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,529] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,531] multiqc.modules.jellyfish.jellyfish                [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,533] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,536] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,538] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,540] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,543] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2017-09-12 21:33:02,545] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,547] multiqc.modules.hisat2.hisat2                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,549] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,551] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,552] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,554] multiqc.modules.adapterRemoval.adapterRemoval      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,556] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,558] multiqc.modules.flexbar.flexbar                    [DEBUG  ]  Could not find any Flexbar data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,563] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,565] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,567] multiqc.modules.sortmerna.sortmerna                [DEBUG  ]  Could not find any SortMeRNA data in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,569] multiqc.modules.biobloomtools.biobloomtools        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:02,572] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:05,311] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 56 reports
+[2017-09-12 21:33:09,331] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw',)
+[2017-09-12 21:33:09,397] multiqc                                            [INFO   ]  Compressing plot data
+[2017-09-12 21:33:11,845] multiqc                                            [INFO   ]  Report      : Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/multiqc_report.html
+[2017-09-12 21:33:11,846] multiqc                                            [INFO   ]  Data        : Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/multiqc_data
+[2017-09-12 21:33:11,848] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmp9cInVQ/multiqc_data/multiqc_general_stats.txt' to '/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/multiqc_data'
+[2017-09-12 21:33:11,848] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmp9cInVQ/multiqc_data/multiqc_sources.txt' to '/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/multiqc_data'
+[2017-09-12 21:33:11,848] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmp9cInVQ/multiqc_data/multiqc_fastqc.txt' to '/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/multiqc_data'
+[2017-09-12 21:33:11,965] multiqc                                            [INFO   ]  MultiQC complete

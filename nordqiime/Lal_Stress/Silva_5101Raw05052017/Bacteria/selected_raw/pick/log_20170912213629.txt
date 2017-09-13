@@ -1,0 +1,137 @@
+Logging started at 21:36:29 on 12 Sep 2017
+QIIME version: 1.9.1
+
+qiime_config values:
+pick_otus_reference_seqs_fp	/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+sc_queue	all.q
+pynast_template_alignment_fp	/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set_aligned/85_otus.pynast.fasta
+cluster_jobs_fp	start_parallel_jobs.py
+assign_taxonomy_reference_seqs_fp	/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+torque_queue	friendlyq
+jobs_to_start	1
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+temp_dir	/tmp/
+blastall_fp	blastall
+seconds_to_sleep	1
+
+parameter file values:
+parallel:jobs_to_start	7
+pick_otus:enable_rev_strand_match	True
+
+Input file md5 sums:
+/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/flash_pick_cat.fna: 5c7c4e17734fefd45ffbf6b830416ebd
+/home/mark/gitstage/uderica/nordqiime/gg_13_8_otus/rep_set/97_otus.fasta: 50b2269712b3738afb41892bed936c29
+
+Executing commands.
+
+# Pick Reference OTUs command 
+parallel_pick_otus_uclust_ref.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/flash_pick_cat.fna -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus -r /home/mark/gitstage/uderica/nordqiime/gg_13_8_otus/rep_set/97_otus.fasta -T --jobs_to_start 7 --enable_rev_strand_match
+
+Stdout:
+
+Stderr:
+
+# Generate full failures fasta file command 
+filter_fasta.py -f /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/flash_pick_cat.fna -s /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/flash_pick_cat_failures.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/failures.fasta
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Pick rep set command 
+pick_rep_set.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/flash_pick_cat_otus.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/step1_rep_set.fna -f /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/flash_pick_cat.fna
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Pick de novo OTUs on step1 failures command 
+pick_otus.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/failures.fasta -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step4_otus/ -m uclust  --denovo_otu_id_prefix New.CleanUp.ReferenceOTU --enable_rev_strand_match
+
+Stdout:
+
+Stderr:
+
+# Merge OTU maps command 
+cat /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/flash_pick_cat_otus.txt  /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step4_otus//failures_otus.txt > /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//final_otu_map.txt
+
+Stdout:
+
+Stderr:
+
+# Pick representative set for subsampled failures command 
+pick_rep_set.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step4_otus//failures_otus.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step4_otus//step4_rep_set.fna -f /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//step1_otus/failures.fasta
+
+Stdout:
+
+Stderr:
+
+# Filter singletons from the otu map using API 
+python -c "import qiime; qiime.filter.filter_otus_from_otu_map('/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/final_otu_map.txt', '/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/final_otu_map_mc2.txt', '2')"
+
+# Write non-singleton otus representative sequences from step1 to the final rep set file: /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//rep_set.fna
+
+# Copy the full input refseqs file to the new refseq file
+cp /home/mark/gitstage/uderica/nordqiime/gg_13_8_otus/rep_set/97_otus.fasta /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//new_refseqs.fna
+
+# Write non-singleton otus representative sequences from step 4 to the final representative set and the new reference set (/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//rep_set.fna and /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//new_refseqs.fna respectively)
+
+Executing commands.
+
+# Make the otu table command 
+make_otu_table.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//final_otu_map_mc2.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//otu_table_mc2.biom
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Assign taxonomy command 
+parallel_assign_taxonomy_uclust.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//rep_set.fna -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//uclust_assigned_taxonomy -T --jobs_to_start 7 
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Add taxa to OTU table command 
+biom add-metadata -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//otu_table_mc2.biom --observation-metadata-fp /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//uclust_assigned_taxonomy/rep_set_tax_assignments.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//otu_table_mc2_w_tax.biom --sc-separated taxonomy --observation-header OTUID,taxonomy
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Align sequences command 
+parallel_align_seqs_pynast.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//rep_set.fna -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//pynast_aligned_seqs -T --jobs_to_start 7 
+
+Stdout:
+
+Stderr:
+
+# Filter alignment command 
+filter_alignment.py -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//pynast_aligned_seqs -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//pynast_aligned_seqs/rep_set_aligned.fasta 
+
+Stdout:
+
+Stderr:
+
+# Build phylogenetic tree command 
+make_phylogeny.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//pynast_aligned_seqs/rep_set_aligned_pfiltered.fasta -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick//rep_set.tre 
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+
+Logging stopped at 21:47:40 on 12 Sep 2017

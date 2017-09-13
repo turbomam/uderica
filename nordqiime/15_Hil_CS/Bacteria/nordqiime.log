@@ -1,0 +1,2999 @@
+-rw-rw-r-- 1 mark mark 8843724 Sep  6 12:41 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 9952915 Sep  6 12:42 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 6426750 Sep  6 12:42 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 7091346 Sep  6 12:42 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 13179881 Sep  6 12:43 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 14533461 Sep  6 12:43 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 10318462 Sep  6 12:43 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 11057963 Sep  6 12:43 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 6126510 Sep  6 12:43 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 6129121 Sep  6 12:44 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8692067 Sep  6 12:44 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8728191 Sep  6 12:44 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 10333408 Sep  6 12:44 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 10740639 Sep  6 12:44 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 5530704 Sep  6 12:44 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 5684100 Sep  6 12:45 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8273272 Sep  6 12:45 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8343161 Sep  6 12:45 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 13871174 Sep  6 12:45 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 13741021 Sep  6 12:46 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8590203 Sep  6 12:46 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8730846 Sep  6 12:46 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8223021 Sep  6 12:46 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8337329 Sep  6 12:47 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 6838253 Sep  6 12:47 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 6999962 Sep  6 12:47 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 4232400 Sep  6 12:48 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 4311844 Sep  6 12:48 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 7500408 Sep  6 12:48 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 7385028 Sep  6 12:48 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 3668638 Sep  6 12:48 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 3884884 Sep  6 12:48 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8031365 Sep  6 12:49 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8745909 Sep  6 12:49 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8433268 Sep  6 12:49 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 9201141 Sep  6 12:50 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 7512766 Sep  6 12:50 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8289850 Sep  6 12:50 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 5143748 Sep  6 12:50 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 5799864 Sep  6 12:51 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 5865110 Sep  6 12:51 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 6499700 Sep  6 12:51 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 6287308 Sep  6 12:51 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 6791741 Sep  6 12:51 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 4862032 Sep  6 12:52 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 5236421 Sep  6 12:52 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 7527451 Sep  6 12:52 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8148242 Sep  6 12:52 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 6695087 Sep  6 12:52 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 7268648 Sep  6 12:53 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 5017868 Sep  6 12:53 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 5524037 Sep  6 12:53 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+-rw-rw-r-- 1 mark mark 7963217 Sep  6 12:53 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+-rw-rw-r-- 1 mark mark 8775549 Sep  6 12:53 /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Started analysis of LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Started analysis of LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 5% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 10% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 15% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 20% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 25% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 30% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 35% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 40% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 45% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 50% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 55% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 60% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+Approx 65% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 70% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 75% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 80% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 85% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 90% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Approx 95% complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+Analysis complete for LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+[WARNING]         multiqc : MultiQC Version v1.2 now available!
+[INFO   ]         multiqc : This is MultiQC v1.1
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S'
+Searching 162 files..
+[INFO   ]          fastqc : Found 54 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : 15_Hil_CS/Bacteria/16S/multiqc_report.html
+[INFO   ]         multiqc : Data        : 15_Hil_CS/Bacteria/16S/multiqc_data
+[INFO   ]         multiqc : MultiQC complete
+Tue Sep 12 19:52:58 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-146-Control-0d-CS-16S_S1_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//146.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//146.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//146.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//146.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//146.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 71612 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      71612
+[FLASH]     Combined pairs:   70604
+[FLASH]     Uncombined pairs: 1008
+[FLASH]     Percent combined: 98.59%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.269 seconds elapsed
+Tue Sep 12 19:52:58 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-147-Control-0d-CS-16S_S2_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//147.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//147.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//147.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//147.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//147.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 47745 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      47745
+[FLASH]     Combined pairs:   47145
+[FLASH]     Uncombined pairs: 600
+[FLASH]     Percent combined: 98.74%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.200 seconds elapsed
+Tue Sep 12 19:52:58 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-148-Control-0d-CS-16S_S3_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//148.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//148.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//148.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//148.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//148.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 97061 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      97061
+[FLASH]     Combined pairs:   95755
+[FLASH]     Uncombined pairs: 1306
+[FLASH]     Percent combined: 98.65%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.364 seconds elapsed
+Tue Sep 12 19:52:58 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-171-Control-30d-CS-16S_S4_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//171.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//171.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//171.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//171.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//171.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 84550 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      84550
+[FLASH]     Combined pairs:   83423
+[FLASH]     Uncombined pairs: 1127
+[FLASH]     Percent combined: 98.67%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.313 seconds elapsed
+Tue Sep 12 19:52:59 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-172-Control-30d-CS-16S_S5_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//172.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//172.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//172.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//172.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//172.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 46593 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      46593
+[FLASH]     Combined pairs:   45968
+[FLASH]     Uncombined pairs: 625
+[FLASH]     Percent combined: 98.66%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.186 seconds elapsed
+Tue Sep 12 19:52:59 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-173-Control-30d-CS-16S_S6_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//173.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//173.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//173.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//173.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//173.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 66307 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      66307
+[FLASH]     Combined pairs:   65368
+[FLASH]     Uncombined pairs: 939
+[FLASH]     Percent combined: 98.58%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.250 seconds elapsed
+Tue Sep 12 19:52:59 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-176-LH-30d-CS-16S_S7_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//176.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//176.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//176.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//176.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//176.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 83192 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      83192
+[FLASH]     Combined pairs:   82232
+[FLASH]     Uncombined pairs: 960
+[FLASH]     Percent combined: 98.85%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.323 seconds elapsed
+Tue Sep 12 19:53:00 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-177-LH-30d-CS-16S_S8_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//177.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//177.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//177.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//177.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//177.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 43417 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      43417
+[FLASH]     Combined pairs:   42837
+[FLASH]     Uncombined pairs: 580
+[FLASH]     Percent combined: 98.66%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.174 seconds elapsed
+Tue Sep 12 19:53:00 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-178-LH-30d-CS-16S_S9_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//178.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//178.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//178.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//178.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//178.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 62971 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      62971
+[FLASH]     Combined pairs:   61988
+[FLASH]     Uncombined pairs: 983
+[FLASH]     Percent combined: 98.44%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.248 seconds elapsed
+Tue Sep 12 19:53:00 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-181-LH-LB-30d-CS-16S_S10_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//181.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//181.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//181.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//181.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//181.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 107381 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      107381
+[FLASH]     Combined pairs:   105977
+[FLASH]     Uncombined pairs: 1404
+[FLASH]     Percent combined: 98.69%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.391 seconds elapsed
+Tue Sep 12 19:53:00 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-182-LH-LB-30d-CS-16S_S11_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//182.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//182.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//182.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//182.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//182.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 67874 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      67874
+[FLASH]     Combined pairs:   67020
+[FLASH]     Uncombined pairs: 854
+[FLASH]     Percent combined: 98.74%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.262 seconds elapsed
+Tue Sep 12 19:53:01 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-183-LH-LB-30d-CS-16S_S12_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//183.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//183.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//183.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//183.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//183.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 64950 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      64950
+[FLASH]     Combined pairs:   64207
+[FLASH]     Uncombined pairs: 743
+[FLASH]     Percent combined: 98.86%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.247 seconds elapsed
+Tue Sep 12 19:53:01 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-186-LB-30d-CS-16S_S13_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//186.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//186.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//186.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//186.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//186.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 54746 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      54746
+[FLASH]     Combined pairs:   53985
+[FLASH]     Uncombined pairs: 761
+[FLASH]     Percent combined: 98.61%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.215 seconds elapsed
+Tue Sep 12 19:53:01 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-187-LB-30d-CS-16S_S14_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//187.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//187.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//187.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//187.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//187.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 32972 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      32972
+[FLASH]     Combined pairs:   32544
+[FLASH]     Uncombined pairs: 428
+[FLASH]     Percent combined: 98.70%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.139 seconds elapsed
+Tue Sep 12 19:53:01 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-188-LB-30d-CS-16S_S15_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//188.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//188.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//188.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//188.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//188.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 57484 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      57484
+[FLASH]     Combined pairs:   56859
+[FLASH]     Uncombined pairs: 625
+[FLASH]     Percent combined: 98.91%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.225 seconds elapsed
+Tue Sep 12 19:53:01 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-191-Control-112d-CS-16S_S16_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//191.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//191.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//191.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//191.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//191.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 29501 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      29501
+[FLASH]     Combined pairs:   29089
+[FLASH]     Uncombined pairs: 412
+[FLASH]     Percent combined: 98.60%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.124 seconds elapsed
+Tue Sep 12 19:53:02 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-192-Control-112d-CS-16S_S17_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//192.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//192.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//192.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//192.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//192.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 64895 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      64895
+[FLASH]     Combined pairs:   64139
+[FLASH]     Uncombined pairs: 756
+[FLASH]     Percent combined: 98.84%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.260 seconds elapsed
+Tue Sep 12 19:53:02 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-193-Control-112d-CS-16S_S18_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//193.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//193.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//193.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//193.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//193.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 69186 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      69186
+[FLASH]     Combined pairs:   68211
+[FLASH]     Uncombined pairs: 975
+[FLASH]     Percent combined: 98.59%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.272 seconds elapsed
+Tue Sep 12 19:53:02 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-196-LH-112d-CS-16S_S19_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//196.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//196.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//196.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//196.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//196.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 61266 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      61266
+[FLASH]     Combined pairs:   60501
+[FLASH]     Uncombined pairs: 765
+[FLASH]     Percent combined: 98.75%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.231 seconds elapsed
+Tue Sep 12 19:53:02 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-197-LH-112d-CS-16S_S20_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//197.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//197.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//197.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//197.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//197.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 42836 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      42836
+[FLASH]     Combined pairs:   42254
+[FLASH]     Uncombined pairs: 582
+[FLASH]     Percent combined: 98.64%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.173 seconds elapsed
+Tue Sep 12 19:53:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-198-LH-112d-CS-16S_S21_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//198.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//198.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//198.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//198.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//198.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 48243 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      48243
+[FLASH]     Combined pairs:   47492
+[FLASH]     Uncombined pairs: 751
+[FLASH]     Percent combined: 98.44%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.185 seconds elapsed
+Tue Sep 12 19:53:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-201-LH-LB-112d-CS-16S_S22_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//201.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//201.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//201.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//201.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//201.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 51066 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      51066
+[FLASH]     Combined pairs:   50381
+[FLASH]     Uncombined pairs: 685
+[FLASH]     Percent combined: 98.66%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.192 seconds elapsed
+Tue Sep 12 19:53:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-202-LH-LB-112d-CS-16S_S23_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//202.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//202.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//202.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//202.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//202.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 39977 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      39977
+[FLASH]     Combined pairs:   39436
+[FLASH]     Uncombined pairs: 541
+[FLASH]     Percent combined: 98.65%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.162 seconds elapsed
+Tue Sep 12 19:53:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-203-LH-LB-112d-CS-16S_S24_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//203.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//203.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//203.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//203.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//203.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 59217 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      59217
+[FLASH]     Combined pairs:   58485
+[FLASH]     Uncombined pairs: 732
+[FLASH]     Percent combined: 98.76%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.227 seconds elapsed
+Tue Sep 12 19:53:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-206-LB-112d-CS-16S_S25_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//206.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//206.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//206.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//206.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//206.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 52926 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      52926
+[FLASH]     Combined pairs:   52323
+[FLASH]     Uncombined pairs: 603
+[FLASH]     Percent combined: 98.86%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.207 seconds elapsed
+Tue Sep 12 19:53:04 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-207-LB-112d-CS-16S_S26_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//207.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//207.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//207.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//207.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//207.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 40004 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      40004
+[FLASH]     Combined pairs:   39609
+[FLASH]     Uncombined pairs: 395
+[FLASH]     Percent combined: 99.01%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.168 seconds elapsed
+Tue Sep 12 19:53:04 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz and /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R1_001.fastq.gz
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/LALL-PD-KC2015-208-LB-112d-CS-16S_S27_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//208.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//208.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//208.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//208.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags//208.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 64212 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      64212
+[FLASH]     Combined pairs:   63592
+[FLASH]     Uncombined pairs: 620
+[FLASH]     Percent combined: 99.03%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.253 seconds elapsed
+Started analysis of 146.extendedFrags.fastq
+Approx 5% complete for 146.extendedFrags.fastq
+Approx 10% complete for 146.extendedFrags.fastq
+Approx 15% complete for 146.extendedFrags.fastq
+Approx 20% complete for 146.extendedFrags.fastq
+Approx 25% complete for 146.extendedFrags.fastq
+Approx 30% complete for 146.extendedFrags.fastq
+Started analysis of 147.extendedFrags.fastq
+Approx 35% complete for 146.extendedFrags.fastq
+Approx 5% complete for 147.extendedFrags.fastq
+Approx 40% complete for 146.extendedFrags.fastq
+Approx 10% complete for 147.extendedFrags.fastq
+Approx 45% complete for 146.extendedFrags.fastq
+Approx 15% complete for 147.extendedFrags.fastq
+Approx 50% complete for 146.extendedFrags.fastq
+Approx 20% complete for 147.extendedFrags.fastq
+Approx 55% complete for 146.extendedFrags.fastq
+Approx 25% complete for 147.extendedFrags.fastq
+Approx 30% complete for 147.extendedFrags.fastq
+Approx 60% complete for 146.extendedFrags.fastq
+Approx 35% complete for 147.extendedFrags.fastq
+Approx 65% complete for 146.extendedFrags.fastq
+Approx 40% complete for 147.extendedFrags.fastq
+Approx 70% complete for 146.extendedFrags.fastq
+Approx 45% complete for 147.extendedFrags.fastq
+Approx 75% complete for 146.extendedFrags.fastq
+Approx 50% complete for 147.extendedFrags.fastq
+Started analysis of 148.extendedFrags.fastq
+Approx 55% complete for 147.extendedFrags.fastq
+Approx 80% complete for 146.extendedFrags.fastq
+Approx 60% complete for 147.extendedFrags.fastq
+Approx 5% complete for 148.extendedFrags.fastq
+Approx 65% complete for 147.extendedFrags.fastq
+Approx 85% complete for 146.extendedFrags.fastq
+Approx 70% complete for 147.extendedFrags.fastq
+Approx 10% complete for 148.extendedFrags.fastq
+Approx 90% complete for 146.extendedFrags.fastq
+Approx 75% complete for 147.extendedFrags.fastq
+Approx 15% complete for 148.extendedFrags.fastq
+Approx 80% complete for 147.extendedFrags.fastq
+Approx 95% complete for 146.extendedFrags.fastq
+Approx 85% complete for 147.extendedFrags.fastq
+Analysis complete for 146.extendedFrags.fastq
+Approx 20% complete for 148.extendedFrags.fastq
+Approx 90% complete for 147.extendedFrags.fastq
+Approx 25% complete for 148.extendedFrags.fastq
+Approx 95% complete for 147.extendedFrags.fastq
+Started analysis of 171.extendedFrags.fastq
+Approx 30% complete for 148.extendedFrags.fastq
+Analysis complete for 147.extendedFrags.fastq
+Approx 5% complete for 171.extendedFrags.fastq
+Approx 35% complete for 148.extendedFrags.fastq
+Approx 10% complete for 171.extendedFrags.fastq
+Approx 40% complete for 148.extendedFrags.fastq
+Approx 15% complete for 171.extendedFrags.fastq
+Approx 20% complete for 171.extendedFrags.fastq
+Approx 45% complete for 148.extendedFrags.fastq
+Approx 25% complete for 171.extendedFrags.fastq
+Approx 50% complete for 148.extendedFrags.fastq
+Started analysis of 172.extendedFrags.fastq
+Approx 30% complete for 171.extendedFrags.fastq
+Approx 55% complete for 148.extendedFrags.fastq
+Approx 5% complete for 172.extendedFrags.fastq
+Approx 10% complete for 172.extendedFrags.fastq
+Approx 35% complete for 171.extendedFrags.fastq
+Approx 15% complete for 172.extendedFrags.fastq
+Approx 60% complete for 148.extendedFrags.fastq
+Approx 40% complete for 171.extendedFrags.fastq
+Approx 20% complete for 172.extendedFrags.fastq
+Approx 45% complete for 171.extendedFrags.fastq
+Approx 65% complete for 148.extendedFrags.fastq
+Approx 25% complete for 172.extendedFrags.fastq
+Approx 30% complete for 172.extendedFrags.fastq
+Approx 50% complete for 171.extendedFrags.fastq
+Approx 70% complete for 148.extendedFrags.fastq
+Approx 35% complete for 172.extendedFrags.fastq
+Approx 55% complete for 171.extendedFrags.fastq
+Approx 40% complete for 172.extendedFrags.fastq
+Approx 75% complete for 148.extendedFrags.fastq
+Approx 45% complete for 172.extendedFrags.fastq
+Approx 60% complete for 171.extendedFrags.fastq
+Approx 50% complete for 172.extendedFrags.fastq
+Started analysis of 173.extendedFrags.fastq
+Approx 65% complete for 171.extendedFrags.fastq
+Approx 80% complete for 148.extendedFrags.fastq
+Approx 55% complete for 172.extendedFrags.fastq
+Approx 5% complete for 173.extendedFrags.fastq
+Approx 60% complete for 172.extendedFrags.fastq
+Approx 85% complete for 148.extendedFrags.fastq
+Approx 10% complete for 173.extendedFrags.fastq
+Approx 70% complete for 171.extendedFrags.fastq
+Approx 65% complete for 172.extendedFrags.fastq
+Approx 15% complete for 173.extendedFrags.fastq
+Approx 70% complete for 172.extendedFrags.fastq
+Approx 75% complete for 171.extendedFrags.fastq
+Approx 75% complete for 172.extendedFrags.fastq
+Approx 20% complete for 173.extendedFrags.fastq
+Approx 90% complete for 148.extendedFrags.fastq
+Approx 80% complete for 172.extendedFrags.fastq
+Approx 80% complete for 171.extendedFrags.fastq
+Approx 25% complete for 173.extendedFrags.fastq
+Approx 95% complete for 148.extendedFrags.fastq
+Approx 85% complete for 172.extendedFrags.fastq
+Approx 30% complete for 173.extendedFrags.fastq
+Approx 85% complete for 171.extendedFrags.fastq
+Approx 90% complete for 172.extendedFrags.fastq
+Analysis complete for 148.extendedFrags.fastq
+Approx 35% complete for 173.extendedFrags.fastq
+Approx 90% complete for 171.extendedFrags.fastq
+Approx 95% complete for 172.extendedFrags.fastq
+Approx 40% complete for 173.extendedFrags.fastq
+Analysis complete for 172.extendedFrags.fastq
+Started analysis of 176.extendedFrags.fastq
+Approx 95% complete for 171.extendedFrags.fastq
+Approx 45% complete for 173.extendedFrags.fastq
+Approx 50% complete for 173.extendedFrags.fastq
+Approx 5% complete for 176.extendedFrags.fastq
+Analysis complete for 171.extendedFrags.fastq
+Approx 10% complete for 176.extendedFrags.fastq
+Approx 55% complete for 173.extendedFrags.fastq
+Approx 60% complete for 173.extendedFrags.fastq
+Approx 15% complete for 176.extendedFrags.fastq
+Approx 65% complete for 173.extendedFrags.fastq
+Approx 70% complete for 173.extendedFrags.fastq
+Approx 20% complete for 176.extendedFrags.fastq
+Approx 25% complete for 176.extendedFrags.fastq
+Approx 75% complete for 173.extendedFrags.fastq
+Approx 80% complete for 173.extendedFrags.fastq
+Approx 30% complete for 176.extendedFrags.fastq
+Approx 85% complete for 173.extendedFrags.fastq
+Approx 35% complete for 176.extendedFrags.fastq
+Approx 90% complete for 173.extendedFrags.fastq
+Approx 40% complete for 176.extendedFrags.fastq
+Approx 95% complete for 173.extendedFrags.fastq
+Approx 45% complete for 176.extendedFrags.fastq
+Analysis complete for 173.extendedFrags.fastq
+Approx 50% complete for 176.extendedFrags.fastq
+Approx 55% complete for 176.extendedFrags.fastq
+Approx 60% complete for 176.extendedFrags.fastq
+Approx 65% complete for 176.extendedFrags.fastq
+Approx 70% complete for 176.extendedFrags.fastq
+Approx 75% complete for 176.extendedFrags.fastq
+Approx 80% complete for 176.extendedFrags.fastq
+Approx 85% complete for 176.extendedFrags.fastq
+Approx 90% complete for 176.extendedFrags.fastq
+Approx 95% complete for 176.extendedFrags.fastq
+Analysis complete for 176.extendedFrags.fastq
+Started analysis of 177.extendedFrags.fastq
+Approx 5% complete for 177.extendedFrags.fastq
+Approx 10% complete for 177.extendedFrags.fastq
+Approx 15% complete for 177.extendedFrags.fastq
+Approx 20% complete for 177.extendedFrags.fastq
+Approx 25% complete for 177.extendedFrags.fastq
+Approx 30% complete for 177.extendedFrags.fastq
+Approx 35% complete for 177.extendedFrags.fastq
+Approx 40% complete for 177.extendedFrags.fastq
+Approx 45% complete for 177.extendedFrags.fastq
+Approx 50% complete for 177.extendedFrags.fastq
+Approx 55% complete for 177.extendedFrags.fastq
+Started analysis of 178.extendedFrags.fastq
+Approx 60% complete for 177.extendedFrags.fastq
+Approx 5% complete for 178.extendedFrags.fastq
+Approx 65% complete for 177.extendedFrags.fastq
+Approx 70% complete for 177.extendedFrags.fastq
+Approx 10% complete for 178.extendedFrags.fastq
+Approx 75% complete for 177.extendedFrags.fastq
+Approx 15% complete for 178.extendedFrags.fastq
+Approx 80% complete for 177.extendedFrags.fastq
+Approx 20% complete for 178.extendedFrags.fastq
+Approx 85% complete for 177.extendedFrags.fastq
+Approx 25% complete for 178.extendedFrags.fastq
+Approx 90% complete for 177.extendedFrags.fastq
+Approx 95% complete for 177.extendedFrags.fastq
+Approx 30% complete for 178.extendedFrags.fastq
+Analysis complete for 177.extendedFrags.fastq
+Approx 35% complete for 178.extendedFrags.fastq
+Approx 40% complete for 178.extendedFrags.fastq
+Approx 45% complete for 178.extendedFrags.fastq
+Approx 50% complete for 178.extendedFrags.fastq
+Started analysis of 181.extendedFrags.fastq
+Approx 55% complete for 178.extendedFrags.fastq
+Approx 5% complete for 181.extendedFrags.fastq
+Approx 60% complete for 178.extendedFrags.fastq
+Approx 65% complete for 178.extendedFrags.fastq
+Approx 10% complete for 181.extendedFrags.fastq
+Approx 70% complete for 178.extendedFrags.fastq
+Approx 15% complete for 181.extendedFrags.fastq
+Approx 75% complete for 178.extendedFrags.fastq
+Approx 80% complete for 178.extendedFrags.fastq
+Approx 20% complete for 181.extendedFrags.fastq
+Approx 85% complete for 178.extendedFrags.fastq
+Approx 25% complete for 181.extendedFrags.fastq
+Approx 90% complete for 178.extendedFrags.fastq
+Approx 95% complete for 178.extendedFrags.fastq
+Approx 30% complete for 181.extendedFrags.fastq
+Analysis complete for 178.extendedFrags.fastq
+Started analysis of 182.extendedFrags.fastq
+Approx 35% complete for 181.extendedFrags.fastq
+Approx 5% complete for 182.extendedFrags.fastq
+Approx 10% complete for 182.extendedFrags.fastq
+Approx 40% complete for 181.extendedFrags.fastq
+Approx 15% complete for 182.extendedFrags.fastq
+Approx 45% complete for 181.extendedFrags.fastq
+Approx 20% complete for 182.extendedFrags.fastq
+Approx 50% complete for 181.extendedFrags.fastq
+Approx 25% complete for 182.extendedFrags.fastq
+Approx 55% complete for 181.extendedFrags.fastq
+Approx 30% complete for 182.extendedFrags.fastq
+Started analysis of 183.extendedFrags.fastq
+Approx 35% complete for 182.extendedFrags.fastq
+Approx 60% complete for 181.extendedFrags.fastq
+Approx 40% complete for 182.extendedFrags.fastq
+Approx 5% complete for 183.extendedFrags.fastq
+Approx 65% complete for 181.extendedFrags.fastq
+Approx 10% complete for 183.extendedFrags.fastq
+Approx 45% complete for 182.extendedFrags.fastq
+Approx 15% complete for 183.extendedFrags.fastq
+Approx 50% complete for 182.extendedFrags.fastq
+Approx 70% complete for 181.extendedFrags.fastq
+Approx 20% complete for 183.extendedFrags.fastq
+Approx 55% complete for 182.extendedFrags.fastq
+Approx 75% complete for 181.extendedFrags.fastq
+Approx 25% complete for 183.extendedFrags.fastq
+Approx 60% complete for 182.extendedFrags.fastq
+Approx 30% complete for 183.extendedFrags.fastq
+Approx 80% complete for 181.extendedFrags.fastq
+Approx 65% complete for 182.extendedFrags.fastq
+Approx 35% complete for 183.extendedFrags.fastq
+Approx 70% complete for 182.extendedFrags.fastq
+Approx 40% complete for 183.extendedFrags.fastq
+Approx 85% complete for 181.extendedFrags.fastq
+Approx 75% complete for 182.extendedFrags.fastq
+Approx 45% complete for 183.extendedFrags.fastq
+Started analysis of 186.extendedFrags.fastq
+Approx 90% complete for 181.extendedFrags.fastq
+Approx 80% complete for 182.extendedFrags.fastq
+Approx 5% complete for 186.extendedFrags.fastq
+Approx 50% complete for 183.extendedFrags.fastq
+Approx 85% complete for 182.extendedFrags.fastq
+Approx 10% complete for 186.extendedFrags.fastq
+Approx 55% complete for 183.extendedFrags.fastq
+Approx 95% complete for 181.extendedFrags.fastq
+Approx 15% complete for 186.extendedFrags.fastq
+Approx 60% complete for 183.extendedFrags.fastq
+Approx 90% complete for 182.extendedFrags.fastq
+Approx 20% complete for 186.extendedFrags.fastq
+Analysis complete for 181.extendedFrags.fastq
+Approx 65% complete for 183.extendedFrags.fastq
+Approx 95% complete for 182.extendedFrags.fastq
+Approx 25% complete for 186.extendedFrags.fastq
+Approx 70% complete for 183.extendedFrags.fastq
+Analysis complete for 182.extendedFrags.fastq
+Approx 30% complete for 186.extendedFrags.fastq
+Approx 35% complete for 186.extendedFrags.fastq
+Approx 75% complete for 183.extendedFrags.fastq
+Approx 40% complete for 186.extendedFrags.fastq
+Approx 80% complete for 183.extendedFrags.fastq
+Approx 45% complete for 186.extendedFrags.fastq
+Approx 85% complete for 183.extendedFrags.fastq
+Started analysis of 187.extendedFrags.fastq
+Approx 50% complete for 186.extendedFrags.fastq
+Approx 90% complete for 183.extendedFrags.fastq
+Approx 5% complete for 187.extendedFrags.fastq
+Approx 55% complete for 186.extendedFrags.fastq
+Approx 10% complete for 187.extendedFrags.fastq
+Approx 95% complete for 183.extendedFrags.fastq
+Approx 15% complete for 187.extendedFrags.fastq
+Approx 60% complete for 186.extendedFrags.fastq
+Analysis complete for 183.extendedFrags.fastq
+Approx 20% complete for 187.extendedFrags.fastq
+Approx 65% complete for 186.extendedFrags.fastq
+Approx 25% complete for 187.extendedFrags.fastq
+Approx 70% complete for 186.extendedFrags.fastq
+Approx 30% complete for 187.extendedFrags.fastq
+Approx 35% complete for 187.extendedFrags.fastq
+Approx 75% complete for 186.extendedFrags.fastq
+Approx 40% complete for 187.extendedFrags.fastq
+Approx 80% complete for 186.extendedFrags.fastq
+Approx 45% complete for 187.extendedFrags.fastq
+Approx 50% complete for 187.extendedFrags.fastq
+Approx 85% complete for 186.extendedFrags.fastq
+Approx 55% complete for 187.extendedFrags.fastq
+Approx 90% complete for 186.extendedFrags.fastq
+Approx 60% complete for 187.extendedFrags.fastq
+Approx 95% complete for 186.extendedFrags.fastq
+Approx 65% complete for 187.extendedFrags.fastq
+Approx 70% complete for 187.extendedFrags.fastq
+Analysis complete for 186.extendedFrags.fastq
+Started analysis of 188.extendedFrags.fastq
+Approx 75% complete for 187.extendedFrags.fastq
+Approx 5% complete for 188.extendedFrags.fastq
+Approx 80% complete for 187.extendedFrags.fastq
+Approx 85% complete for 187.extendedFrags.fastq
+Approx 10% complete for 188.extendedFrags.fastq
+Approx 90% complete for 187.extendedFrags.fastq
+Approx 95% complete for 187.extendedFrags.fastq
+Approx 15% complete for 188.extendedFrags.fastq
+Analysis complete for 187.extendedFrags.fastq
+Approx 20% complete for 188.extendedFrags.fastq
+Approx 25% complete for 188.extendedFrags.fastq
+Approx 30% complete for 188.extendedFrags.fastq
+Approx 35% complete for 188.extendedFrags.fastq
+Approx 40% complete for 188.extendedFrags.fastq
+Approx 45% complete for 188.extendedFrags.fastq
+Started analysis of 191.extendedFrags.fastq
+Approx 50% complete for 188.extendedFrags.fastq
+Approx 5% complete for 191.extendedFrags.fastq
+Approx 10% complete for 191.extendedFrags.fastq
+Approx 55% complete for 188.extendedFrags.fastq
+Approx 15% complete for 191.extendedFrags.fastq
+Approx 20% complete for 191.extendedFrags.fastq
+Approx 60% complete for 188.extendedFrags.fastq
+Approx 25% complete for 191.extendedFrags.fastq
+Approx 65% complete for 188.extendedFrags.fastq
+Approx 30% complete for 191.extendedFrags.fastq
+Approx 70% complete for 188.extendedFrags.fastq
+Approx 35% complete for 191.extendedFrags.fastq
+Approx 40% complete for 191.extendedFrags.fastq
+Approx 75% complete for 188.extendedFrags.fastq
+Approx 45% complete for 191.extendedFrags.fastq
+Approx 50% complete for 191.extendedFrags.fastq
+Approx 80% complete for 188.extendedFrags.fastq
+Approx 55% complete for 191.extendedFrags.fastq
+Approx 85% complete for 188.extendedFrags.fastq
+Approx 60% complete for 191.extendedFrags.fastq
+Approx 65% complete for 191.extendedFrags.fastq
+Approx 90% complete for 188.extendedFrags.fastq
+Approx 70% complete for 191.extendedFrags.fastq
+Approx 75% complete for 191.extendedFrags.fastq
+Approx 95% complete for 188.extendedFrags.fastq
+Approx 80% complete for 191.extendedFrags.fastq
+Analysis complete for 188.extendedFrags.fastq
+Approx 85% complete for 191.extendedFrags.fastq
+Approx 90% complete for 191.extendedFrags.fastq
+Approx 95% complete for 191.extendedFrags.fastq
+Analysis complete for 191.extendedFrags.fastq
+Started analysis of 192.extendedFrags.fastq
+Approx 5% complete for 192.extendedFrags.fastq
+Approx 10% complete for 192.extendedFrags.fastq
+Approx 15% complete for 192.extendedFrags.fastq
+Approx 20% complete for 192.extendedFrags.fastq
+Approx 25% complete for 192.extendedFrags.fastq
+Approx 30% complete for 192.extendedFrags.fastq
+Approx 35% complete for 192.extendedFrags.fastq
+Approx 40% complete for 192.extendedFrags.fastq
+Started analysis of 193.extendedFrags.fastq
+Approx 45% complete for 192.extendedFrags.fastq
+Approx 5% complete for 193.extendedFrags.fastq
+Approx 50% complete for 192.extendedFrags.fastq
+Approx 55% complete for 192.extendedFrags.fastq
+Approx 10% complete for 193.extendedFrags.fastq
+Approx 60% complete for 192.extendedFrags.fastq
+Approx 15% complete for 193.extendedFrags.fastq
+Approx 65% complete for 192.extendedFrags.fastq
+Approx 20% complete for 193.extendedFrags.fastq
+Approx 70% complete for 192.extendedFrags.fastq
+Approx 25% complete for 193.extendedFrags.fastq
+Approx 30% complete for 193.extendedFrags.fastq
+Approx 75% complete for 192.extendedFrags.fastq
+Approx 35% complete for 193.extendedFrags.fastq
+Approx 80% complete for 192.extendedFrags.fastq
+Approx 40% complete for 193.extendedFrags.fastq
+Approx 85% complete for 192.extendedFrags.fastq
+Started analysis of 196.extendedFrags.fastq
+Approx 45% complete for 193.extendedFrags.fastq
+Approx 90% complete for 192.extendedFrags.fastq
+Approx 5% complete for 196.extendedFrags.fastq
+Approx 10% complete for 196.extendedFrags.fastq
+Approx 95% complete for 192.extendedFrags.fastq
+Approx 50% complete for 193.extendedFrags.fastq
+Approx 15% complete for 196.extendedFrags.fastq
+Approx 55% complete for 193.extendedFrags.fastq
+Analysis complete for 192.extendedFrags.fastq
+Approx 20% complete for 196.extendedFrags.fastq
+Approx 60% complete for 193.extendedFrags.fastq
+Approx 25% complete for 196.extendedFrags.fastq
+Approx 65% complete for 193.extendedFrags.fastq
+Approx 30% complete for 196.extendedFrags.fastq
+Approx 70% complete for 193.extendedFrags.fastq
+Approx 35% complete for 196.extendedFrags.fastq
+Approx 75% complete for 193.extendedFrags.fastq
+Approx 40% complete for 196.extendedFrags.fastq
+Approx 80% complete for 193.extendedFrags.fastq
+Started analysis of 197.extendedFrags.fastq
+Approx 45% complete for 196.extendedFrags.fastq
+Approx 85% complete for 193.extendedFrags.fastq
+Approx 5% complete for 197.extendedFrags.fastq
+Approx 50% complete for 196.extendedFrags.fastq
+Approx 90% complete for 193.extendedFrags.fastq
+Approx 10% complete for 197.extendedFrags.fastq
+Approx 55% complete for 196.extendedFrags.fastq
+Approx 15% complete for 197.extendedFrags.fastq
+Approx 95% complete for 193.extendedFrags.fastq
+Approx 20% complete for 197.extendedFrags.fastq
+Approx 60% complete for 196.extendedFrags.fastq
+Analysis complete for 193.extendedFrags.fastq
+Approx 25% complete for 197.extendedFrags.fastq
+Approx 65% complete for 196.extendedFrags.fastq
+Approx 30% complete for 197.extendedFrags.fastq
+Approx 70% complete for 196.extendedFrags.fastq
+Approx 35% complete for 197.extendedFrags.fastq
+Approx 40% complete for 197.extendedFrags.fastq
+Approx 75% complete for 196.extendedFrags.fastq
+Approx 45% complete for 197.extendedFrags.fastq
+Approx 80% complete for 196.extendedFrags.fastq
+Approx 50% complete for 197.extendedFrags.fastq
+Approx 85% complete for 196.extendedFrags.fastq
+Approx 55% complete for 197.extendedFrags.fastq
+Started analysis of 198.extendedFrags.fastq
+Approx 90% complete for 196.extendedFrags.fastq
+Approx 60% complete for 197.extendedFrags.fastq
+Approx 5% complete for 198.extendedFrags.fastq
+Approx 65% complete for 197.extendedFrags.fastq
+Approx 95% complete for 196.extendedFrags.fastq
+Approx 10% complete for 198.extendedFrags.fastq
+Approx 70% complete for 197.extendedFrags.fastq
+Analysis complete for 196.extendedFrags.fastq
+Approx 15% complete for 198.extendedFrags.fastq
+Approx 75% complete for 197.extendedFrags.fastq
+Approx 20% complete for 198.extendedFrags.fastq
+Approx 80% complete for 197.extendedFrags.fastq
+Approx 25% complete for 198.extendedFrags.fastq
+Approx 85% complete for 197.extendedFrags.fastq
+Approx 30% complete for 198.extendedFrags.fastq
+Approx 90% complete for 197.extendedFrags.fastq
+Approx 35% complete for 198.extendedFrags.fastq
+Approx 95% complete for 197.extendedFrags.fastq
+Approx 40% complete for 198.extendedFrags.fastq
+Analysis complete for 197.extendedFrags.fastq
+Approx 45% complete for 198.extendedFrags.fastq
+Approx 50% complete for 198.extendedFrags.fastq
+Started analysis of 201.extendedFrags.fastq
+Approx 55% complete for 198.extendedFrags.fastq
+Approx 5% complete for 201.extendedFrags.fastq
+Approx 60% complete for 198.extendedFrags.fastq
+Approx 65% complete for 198.extendedFrags.fastq
+Approx 10% complete for 201.extendedFrags.fastq
+Approx 15% complete for 201.extendedFrags.fastq
+Approx 70% complete for 198.extendedFrags.fastq
+Approx 75% complete for 198.extendedFrags.fastq
+Approx 20% complete for 201.extendedFrags.fastq
+Approx 80% complete for 198.extendedFrags.fastq
+Approx 25% complete for 201.extendedFrags.fastq
+Approx 85% complete for 198.extendedFrags.fastq
+Approx 30% complete for 201.extendedFrags.fastq
+Approx 90% complete for 198.extendedFrags.fastq
+Approx 35% complete for 201.extendedFrags.fastq
+Approx 95% complete for 198.extendedFrags.fastq
+Started analysis of 202.extendedFrags.fastq
+Approx 40% complete for 201.extendedFrags.fastq
+Analysis complete for 198.extendedFrags.fastq
+Approx 5% complete for 202.extendedFrags.fastq
+Approx 45% complete for 201.extendedFrags.fastq
+Approx 10% complete for 202.extendedFrags.fastq
+Approx 50% complete for 201.extendedFrags.fastq
+Approx 15% complete for 202.extendedFrags.fastq
+Approx 20% complete for 202.extendedFrags.fastq
+Approx 55% complete for 201.extendedFrags.fastq
+Approx 25% complete for 202.extendedFrags.fastq
+Approx 60% complete for 201.extendedFrags.fastq
+Approx 65% complete for 201.extendedFrags.fastq
+Approx 30% complete for 202.extendedFrags.fastq
+Approx 35% complete for 202.extendedFrags.fastq
+Approx 70% complete for 201.extendedFrags.fastq
+Approx 40% complete for 202.extendedFrags.fastq
+Approx 75% complete for 201.extendedFrags.fastq
+Approx 45% complete for 202.extendedFrags.fastq
+Approx 80% complete for 201.extendedFrags.fastq
+Approx 50% complete for 202.extendedFrags.fastq
+Approx 85% complete for 201.extendedFrags.fastq
+Approx 55% complete for 202.extendedFrags.fastq
+Approx 90% complete for 201.extendedFrags.fastq
+Approx 60% complete for 202.extendedFrags.fastq
+Started analysis of 203.extendedFrags.fastq
+Approx 95% complete for 201.extendedFrags.fastq
+Approx 65% complete for 202.extendedFrags.fastq
+Approx 5% complete for 203.extendedFrags.fastq
+Analysis complete for 201.extendedFrags.fastq
+Approx 70% complete for 202.extendedFrags.fastq
+Approx 10% complete for 203.extendedFrags.fastq
+Approx 75% complete for 202.extendedFrags.fastq
+Approx 15% complete for 203.extendedFrags.fastq
+Approx 80% complete for 202.extendedFrags.fastq
+Approx 20% complete for 203.extendedFrags.fastq
+Approx 85% complete for 202.extendedFrags.fastq
+Approx 25% complete for 203.extendedFrags.fastq
+Approx 90% complete for 202.extendedFrags.fastq
+Approx 95% complete for 202.extendedFrags.fastq
+Approx 30% complete for 203.extendedFrags.fastq
+Analysis complete for 202.extendedFrags.fastq
+Approx 35% complete for 203.extendedFrags.fastq
+Approx 40% complete for 203.extendedFrags.fastq
+Started analysis of 206.extendedFrags.fastq
+Approx 45% complete for 203.extendedFrags.fastq
+Approx 5% complete for 206.extendedFrags.fastq
+Approx 50% complete for 203.extendedFrags.fastq
+Approx 10% complete for 206.extendedFrags.fastq
+Approx 55% complete for 203.extendedFrags.fastq
+Approx 15% complete for 206.extendedFrags.fastq
+Approx 60% complete for 203.extendedFrags.fastq
+Approx 20% complete for 206.extendedFrags.fastq
+Approx 65% complete for 203.extendedFrags.fastq
+Approx 25% complete for 206.extendedFrags.fastq
+Approx 70% complete for 203.extendedFrags.fastq
+Approx 30% complete for 206.extendedFrags.fastq
+Approx 75% complete for 203.extendedFrags.fastq
+Approx 35% complete for 206.extendedFrags.fastq
+Approx 80% complete for 203.extendedFrags.fastq
+Approx 40% complete for 206.extendedFrags.fastq
+Approx 85% complete for 203.extendedFrags.fastq
+Approx 45% complete for 206.extendedFrags.fastq
+Approx 90% complete for 203.extendedFrags.fastq
+Started analysis of 207.extendedFrags.fastq
+Approx 50% complete for 206.extendedFrags.fastq
+Approx 5% complete for 207.extendedFrags.fastq
+Approx 55% complete for 206.extendedFrags.fastq
+Approx 95% complete for 203.extendedFrags.fastq
+Approx 10% complete for 207.extendedFrags.fastq
+Analysis complete for 203.extendedFrags.fastq
+Approx 60% complete for 206.extendedFrags.fastq
+Approx 15% complete for 207.extendedFrags.fastq
+Approx 20% complete for 207.extendedFrags.fastq
+Approx 65% complete for 206.extendedFrags.fastq
+Approx 25% complete for 207.extendedFrags.fastq
+Approx 70% complete for 206.extendedFrags.fastq
+Approx 30% complete for 207.extendedFrags.fastq
+Approx 75% complete for 206.extendedFrags.fastq
+Approx 35% complete for 207.extendedFrags.fastq
+Approx 80% complete for 206.extendedFrags.fastq
+Approx 40% complete for 207.extendedFrags.fastq
+Approx 45% complete for 207.extendedFrags.fastq
+Approx 85% complete for 206.extendedFrags.fastq
+Approx 50% complete for 207.extendedFrags.fastq
+Approx 90% complete for 206.extendedFrags.fastq
+Approx 55% complete for 207.extendedFrags.fastq
+Approx 95% complete for 206.extendedFrags.fastq
+Approx 60% complete for 207.extendedFrags.fastq
+Started analysis of 208.extendedFrags.fastq
+Analysis complete for 206.extendedFrags.fastq
+Approx 65% complete for 207.extendedFrags.fastq
+Approx 5% complete for 208.extendedFrags.fastq
+Approx 70% complete for 207.extendedFrags.fastq
+Approx 10% complete for 208.extendedFrags.fastq
+Approx 75% complete for 207.extendedFrags.fastq
+Approx 15% complete for 208.extendedFrags.fastq
+Approx 80% complete for 207.extendedFrags.fastq
+Approx 20% complete for 208.extendedFrags.fastq
+Approx 85% complete for 207.extendedFrags.fastq
+Approx 90% complete for 207.extendedFrags.fastq
+Approx 25% complete for 208.extendedFrags.fastq
+Approx 95% complete for 207.extendedFrags.fastq
+Approx 30% complete for 208.extendedFrags.fastq
+Analysis complete for 207.extendedFrags.fastq
+Approx 35% complete for 208.extendedFrags.fastq
+Approx 40% complete for 208.extendedFrags.fastq
+Approx 45% complete for 208.extendedFrags.fastq
+Approx 50% complete for 208.extendedFrags.fastq
+Approx 55% complete for 208.extendedFrags.fastq
+Approx 60% complete for 208.extendedFrags.fastq
+Approx 65% complete for 208.extendedFrags.fastq
+Approx 70% complete for 208.extendedFrags.fastq
+Approx 75% complete for 208.extendedFrags.fastq
+Approx 80% complete for 208.extendedFrags.fastq
+Approx 85% complete for 208.extendedFrags.fastq
+Approx 90% complete for 208.extendedFrags.fastq
+Approx 95% complete for 208.extendedFrags.fastq
+Analysis complete for 208.extendedFrags.fastq
+[WARNING]         multiqc : MultiQC Version v1.2 now available!
+[INFO   ]         multiqc : This is MultiQC v1.1
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/extendedFrags/'
+Searching 189 files..
+[INFO   ]          fastqc : Found 27 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : 15_Hil_CS/Bacteria/16S/extendedFrags/multiqc_report.html
+[INFO   ]         multiqc : Data        : 15_Hil_CS/Bacteria/16S/extendedFrags/multiqc_data
+[INFO   ]         multiqc : MultiQC complete
+splitting 146
+splitting 147
+splitting 148
+splitting 171
+splitting 172
+splitting 173
+splitting 176
+splitting 177
+splitting 178
+splitting 181
+splitting 182
+splitting 183
+splitting 186
+splitting 187
+splitting 188
+splitting 191
+splitting 192
+splitting 193
+splitting 196
+splitting 197
+splitting 198
+splitting 201
+splitting 202
+splitting 203
+splitting 206
+splitting 207
+splitting 208
+Tue Sep 12 19:56:40 EDT 2017 start OTU picking
+Tue Sep 12 20:07:52 EDT 2017 OTU picking complete
+Num samples: 27
+Num observations: 7702
+Total count: 1491582
+Table density (fraction of non-zero values): 0.152
+
+Counts/sample summary:
+ Min: 27348.0
+ Max: 99949.0
+ Median: 54498.000
+ Mean: 55243.778
+ Std. dev.: 16688.446
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+191: 27348.0
+187: 30582.0
+202: 36991.0
+207: 37267.0
+197: 39670.0
+177: 40259.0
+172: 43116.0
+147: 43285.0
+198: 44505.0
+201: 47439.0
+206: 49254.0
+186: 50695.0
+188: 53473.0
+203: 54498.0
+196: 56743.0
+178: 57915.0
+208: 60043.0
+192: 60189.0
+183: 60663.0
+173: 61205.0
+182: 63024.0
+193: 63969.0
+146: 65173.0
+176: 77683.0
+171: 78456.0
+148: 88188.0
+181: 99949.0
+Num samples: 27
+Num observations: 7671
+Total count: 1487431
+Table density (fraction of non-zero values): 0.152
+
+Counts/sample summary:
+ Min: 27318.0
+ Max: 99859.0
+ Median: 54454.000
+ Mean: 55090.037
+ Std. dev.: 16554.377
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+191: 27318.0
+187: 30573.0
+202: 36960.0
+207: 37233.0
+197: 39628.0
+177: 40244.0
+147: 42508.0
+172: 43010.0
+198: 44468.0
+201: 47403.0
+206: 49154.0
+186: 50631.0
+188: 53428.0
+203: 54454.0
+196: 56691.0
+178: 57861.0
+208: 59948.0
+192: 60098.0
+183: 60631.0
+173: 61142.0
+182: 62983.0
+193: 63911.0
+146: 65130.0
+176: 77668.0
+171: 78436.0
+148: 86061.0
+181: 99859.0
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00688267504561 and the largest is 0.620990940226.
+  RuntimeWarning
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):

@@ -1,0 +1,494 @@
+[2017-09-12 22:05:44,030] multiqc                                            [DEBUG  ]  No MultiQC config found: /usr/local/lib/python2.7/dist-packages/multiqc_config.yaml
+[2017-09-12 22:05:44,030] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/mark/.multiqc_config.yaml
+[2017-09-12 22:05:44,031] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_config.yaml
+[2017-09-12 22:05:44,031] multiqc                                            [DEBUG  ]  New config 'read_count_prefix': K
+[2017-09-12 22:05:44,031] multiqc                                            [DEBUG  ]  New config 'read_count_multiplier': 0.001
+[2017-09-12 22:05:44,031] multiqc                                            [DEBUG  ]  New config 'read_count_desc': thousands
+[2017-09-12 22:05:44,032] multiqc                                            [DEBUG  ]  Loading config settings from: /home/mark/gitstage/uderica/nordqiime/multiqc_config.yaml
+[2017-09-12 22:05:44,032] multiqc                                            [DEBUG  ]  New config 'read_count_prefix': K
+[2017-09-12 22:05:44,032] multiqc                                            [DEBUG  ]  New config 'read_count_multiplier': 0.001
+[2017-09-12 22:05:44,032] multiqc                                            [DEBUG  ]  New config 'read_count_desc': thousands
+[2017-09-12 22:05:44,032] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc --config /home/mark/gitstage/uderica/nordqiime/multiqc_config.yaml /home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/ -o /home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/
+[2017-09-12 22:05:44,356] multiqc                                            [WARNING]  MultiQC Version v1.2 now available!
+[2017-09-12 22:05:44,357] multiqc                                            [INFO   ]  This is MultiQC v1.1
+[2017-09-12 22:05:44,357] multiqc                                            [DEBUG  ]  Command     : /usr/local/bin/multiqc --config /home/mark/gitstage/uderica/nordqiime/multiqc_config.yaml /home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/ -o /home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/
+[2017-09-12 22:05:44,357] multiqc                                            [DEBUG  ]  Working dir : /home/mark/gitstage/uderica/nordqiime
+[2017-09-12 22:05:44,357] multiqc                                            [INFO   ]  Template    : default
+[2017-09-12 22:05:44,357] multiqc                                            [INFO   ]  Searching '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/'
+[2017-09-12 22:05:44,358] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, qualimap, preseq, quast, qorts, rna_seqc, rseqc, busco, goleft_indexcov, disambiguate, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, jellyfish, bismark, hicup, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, adapterRemoval, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, fastqc, clusterflow
+[2017-09-12 22:05:44,359] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpU4mv8i
+[2017-09-12 22:05:44,435] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1016.notCombined_2.fastq
+[2017-09-12 22:05:44,436] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1161.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,442] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 458.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,442] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1147.notCombined_1.fastq
+[2017-09-12 22:05:44,442] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 427.notCombined_1.fastq
+[2017-09-12 22:05:44,442] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 457.extendedFrags.fastq
+[2017-09-12 22:05:44,454] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1025.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,454] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 766.notCombined_1.fastq
+[2017-09-12 22:05:44,454] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 437.notCombined_2.fastq
+[2017-09-12 22:05:44,454] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1035.notCombined_1.fastq
+[2017-09-12 22:05:44,454] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 441.notCombined_1.fastq
+[2017-09-12 22:05:44,454] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1151.extendedFrags.fastq
+[2017-09-12 22:05:44,454] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 431.extendedFrags.fastq
+[2017-09-12 22:05:44,457] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 431.notCombined_2.fastq
+[2017-09-12 22:05:44,457] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 839.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,488] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 451.notCombined_1.fastq
+[2017-09-12 22:05:44,491] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1016.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,491] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 451.notCombined_2.fastq
+[2017-09-12 22:05:44,496] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 431.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,507] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1148.notCombined_2.fastq
+[2017-09-12 22:05:44,507] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 765.notCombined_1.fastq
+[2017-09-12 22:05:44,508] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1150.notCombined_2.fastq
+[2017-09-12 22:05:44,508] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1033.notCombined_2.fastq
+[2017-09-12 22:05:44,508] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1147.extendedFrags.fastq
+[2017-09-12 22:05:44,508] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1140.notCombined_1.fastq
+[2017-09-12 22:05:44,515] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 456.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,518] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1158.notCombined_2.fastq
+[2017-09-12 22:05:44,518] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1038.notCombined_2.fastq
+[2017-09-12 22:05:44,522] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 452.notCombined_1.fastq
+[2017-09-12 22:05:44,522] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1040.notCombined_2.fastq
+[2017-09-12 22:05:44,524] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1148.notCombined_1.fastq
+[2017-09-12 22:05:44,524] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 838.extendedFrags.fastq
+[2017-09-12 22:05:44,525] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1149.extendedFrags.fastq
+[2017-09-12 22:05:44,525] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1024.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,528] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 440.notCombined_1.fastq
+[2017-09-12 22:05:44,537] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 425.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,538] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1155.extendedFrags.fastq
+[2017-09-12 22:05:44,538] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 439.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,538] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1149.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,551] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 452.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,551] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1033.extendedFrags.fastq
+[2017-09-12 22:05:44,555] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1147.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,555] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 457.notCombined_1.fastq
+[2017-09-12 22:05:44,556] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1160.notCombined_2.fastq
+[2017-09-12 22:05:44,556] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1153.extendedFrags.fastq
+[2017-09-12 22:05:44,556] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1152.notCombined_2.fastq
+[2017-09-12 22:05:44,556] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1155.notCombined_2.fastq
+[2017-09-12 22:05:44,556] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 453.extendedFrags.fastq
+[2017-09-12 22:05:44,556] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1143.extendedFrags.fastq
+[2017-09-12 22:05:44,556] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 430.notCombined_1.fastq
+[2017-09-12 22:05:44,556] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1036.extendedFrags.fastq
+[2017-09-12 22:05:44,557] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 832.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,557] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1032.notCombined_2.fastq
+[2017-09-12 22:05:44,557] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1029.notCombined_2.fastq
+[2017-09-12 22:05:44,557] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 760.notCombined_1.fastq
+[2017-09-12 22:05:44,563] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1161.notCombined_2.fastq
+[2017-09-12 22:05:44,564] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 441.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,592] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 448.notCombined_2.fastq
+[2017-09-12 22:05:44,592] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 458.notCombined_1.fastq
+[2017-09-12 22:05:44,592] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1144.notCombined_2.fastq
+[2017-09-12 22:05:44,593] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 437.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,596] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1034.extendedFrags.fastq
+[2017-09-12 22:05:44,605] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 844.notCombined_1.fastq
+[2017-09-12 22:05:44,624] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1018.notCombined_2.fastq
+[2017-09-12 22:05:44,638] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1022.notCombined_1.fastq
+[2017-09-12 22:05:44,639] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 440.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,659] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1032.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,660] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 441.notCombined_2.fastq
+[2017-09-12 22:05:44,663] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 838.notCombined_2.fastq
+[2017-09-12 22:05:44,671] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 759.notCombined_2.fastq
+[2017-09-12 22:05:44,671] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1031.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,675] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1140.notCombined_2.fastq
+[2017-09-12 22:05:44,675] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1140.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 833.notCombined_1.fastq
+[2017-09-12 22:05:44,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 836.notCombined_2.fastq
+[2017-09-12 22:05:44,687] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1139.extendedFrags.fastq
+[2017-09-12 22:05:44,687] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1142.notCombined_2.fastq
+[2017-09-12 22:05:44,687] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 455.notCombined_1.fastq
+[2017-09-12 22:05:44,687] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 841.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,693] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 459.notCombined_1.fastq
+[2017-09-12 22:05:44,693] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1039.extendedFrags.fastq
+[2017-09-12 22:05:44,696] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 761.notCombined_2.fastq
+[2017-09-12 22:05:44,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1150.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1021.extendedFrags.fastq
+[2017-09-12 22:05:44,733] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1020.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,737] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 447.notCombined_2.fastq
+[2017-09-12 22:05:44,737] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1016.notCombined_1.fastq
+[2017-09-12 22:05:44,743] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 454.notCombined_1.fastq
+[2017-09-12 22:05:44,747] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1024.notCombined_2.fastq
+[2017-09-12 22:05:44,747] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 448.extendedFrags.fastq
+[2017-09-12 22:05:44,747] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 453.notCombined_2.fastq
+[2017-09-12 22:05:44,753] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1154.notCombined_2.fastq
+[2017-09-12 22:05:44,767] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 460.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,768] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 837.extendedFrags.fastq
+[2017-09-12 22:05:44,768] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 450.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,768] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1162.extendedFrags.fastq
+[2017-09-12 22:05:44,768] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1143.notCombined_1.fastq
+[2017-09-12 22:05:44,769] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 461.notCombined_1.fastq
+[2017-09-12 22:05:44,779] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1037.notCombined_2.fastq
+[2017-09-12 22:05:44,790] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1156.notCombined_1.fastq
+[2017-09-12 22:05:44,790] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1020.notCombined_1.fastq
+[2017-09-12 22:05:44,790] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 447.extendedFrags.fastq
+[2017-09-12 22:05:44,790] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 424.extendedFrags.fastq
+[2017-09-12 22:05:44,794] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1028.extendedFrags.fastq
+[2017-09-12 22:05:44,797] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1026.notCombined_1.fastq
+[2017-09-12 22:05:44,797] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 434.notCombined_2.fastq
+[2017-09-12 22:05:44,797] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1138.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,797] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 766.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,797] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1035.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,797] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 432.extendedFrags.fastq
+[2017-09-12 22:05:44,797] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1034.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,798] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1037.notCombined_1.fastq
+[2017-09-12 22:05:44,801] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 425.notCombined_2.fastq
+[2017-09-12 22:05:44,801] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1157.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,801] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 838.notCombined_1.fastq
+[2017-09-12 22:05:44,801] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1147.notCombined_2.fastq
+[2017-09-12 22:05:44,805] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 764.notCombined_1.fastq
+[2017-09-12 22:05:44,805] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1039.notCombined_1.fastq
+[2017-09-12 22:05:44,805] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 425.notCombined_1.fastq
+[2017-09-12 22:05:44,805] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 424.notCombined_1.fastq
+[2017-09-12 22:05:44,808] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 762.extendedFrags.fastq
+[2017-09-12 22:05:44,819] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 442.notCombined_1.fastq
+[2017-09-12 22:05:44,819] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 762.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,822] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 842.extendedFrags.fastq
+[2017-09-12 22:05:44,822] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1139.notCombined_2.fastq
+[2017-09-12 22:05:44,823] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1032.extendedFrags.fastq
+[2017-09-12 22:05:44,823] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1017.notCombined_1.fastq
+[2017-09-12 22:05:44,823] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1033.notCombined_1.fastq
+[2017-09-12 22:05:44,835] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 435.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,835] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 841.notCombined_2.fastq
+[2017-09-12 22:05:44,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1023.notCombined_1.fastq
+[2017-09-12 22:05:44,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 449.notCombined_1.fastq
+[2017-09-12 22:05:44,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 844.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,878] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1148.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,878] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 765.extendedFrags.fastq
+[2017-09-12 22:05:44,884] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 434.notCombined_1.fastq
+[2017-09-12 22:05:44,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 426.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 429.extendedFrags.fastq
+[2017-09-12 22:05:44,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1026.notCombined_2.fastq
+[2017-09-12 22:05:44,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 432.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1141.extendedFrags.fastq
+[2017-09-12 22:05:44,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 844.notCombined_2.fastq
+[2017-09-12 22:05:44,896] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1156.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,897] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 761.extendedFrags.fastq
+[2017-09-12 22:05:44,897] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1143.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,918] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 765.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,932] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 439.notCombined_2.fastq
+[2017-09-12 22:05:44,932] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1157.extendedFrags.fastq
+[2017-09-12 22:05:44,932] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 757.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,932] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1027.notCombined_1.fastq
+[2017-09-12 22:05:44,932] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1040.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,932] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 764.extendedFrags.fastq
+[2017-09-12 22:05:44,943] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 766.notCombined_2.fastq
+[2017-09-12 22:05:44,943] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1017.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,943] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1018.notCombined_1.fastq
+[2017-09-12 22:05:44,948] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 447.notCombined_1.fastq
+[2017-09-12 22:05:44,948] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 454.notCombined_2.fastq
+[2017-09-12 22:05:44,948] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 763.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,949] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 843.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,962] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1027.extendedFrags.fastq
+[2017-09-12 22:05:44,962] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1036.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,983] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 449.extendedFrags.fastq
+[2017-09-12 22:05:44,983] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1022.extendedFrags.fastq
+[2017-09-12 22:05:44,987] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 839.notCombined_1.fastq
+[2017-09-12 22:05:44,987] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1149.notCombined_2.fastq
+[2017-09-12 22:05:44,987] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 435.notCombined_2.fastq
+[2017-09-12 22:05:44,987] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 450.extendedFrags.fastq
+[2017-09-12 22:05:44,987] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 457.extendedFrags_fastqc.html
+[2017-09-12 22:05:44,988] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 430.extendedFrags.fastq
+[2017-09-12 22:05:44,988] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 460.notCombined_2.fastq
+[2017-09-12 22:05:44,988] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 757.extendedFrags.fastq
+[2017-09-12 22:05:44,988] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 427.extendedFrags.fastq
+[2017-09-12 22:05:45,013] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 842.notCombined_1.fastq
+[2017-09-12 22:05:45,013] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 460.extendedFrags.fastq
+[2017-09-12 22:05:45,014] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 430.notCombined_2.fastq
+[2017-09-12 22:05:45,014] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 442.notCombined_2.fastq
+[2017-09-12 22:05:45,014] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 432.notCombined_1.fastq
+[2017-09-12 22:05:45,014] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1019.notCombined_2.fastq
+[2017-09-12 22:05:45,014] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 451.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,014] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 758.notCombined_2.fastq
+[2017-09-12 22:05:45,033] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1155.notCombined_1.fastq
+[2017-09-12 22:05:45,033] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 440.notCombined_2.fastq
+[2017-09-12 22:05:45,033] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1145.extendedFrags.fastq
+[2017-09-12 22:05:45,033] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 762.notCombined_2.fastq
+[2017-09-12 22:05:45,033] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1159.notCombined_2.fastq
+[2017-09-12 22:05:45,033] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1029.extendedFrags.fastq
+[2017-09-12 22:05:45,036] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1159.extendedFrags.fastq
+[2017-09-12 22:05:45,036] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1038.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,036] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1156.notCombined_2.fastq
+[2017-09-12 22:05:45,036] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1142.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,036] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 426.extendedFrags.fastq
+[2017-09-12 22:05:45,037] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 832.notCombined_2.fastq
+[2017-09-12 22:05:45,038] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1029.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,038] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 434.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,038] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1142.notCombined_1.fastq
+[2017-09-12 22:05:45,055] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 831.extendedFrags.fastq
+[2017-09-12 22:05:45,055] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1161.extendedFrags.fastq
+[2017-09-12 22:05:45,055] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1028.notCombined_1.fastq
+[2017-09-12 22:05:45,056] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1154.notCombined_1.fastq
+[2017-09-12 22:05:45,056] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1033.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,056] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1158.extendedFrags.fastq
+[2017-09-12 22:05:45,056] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 437.extendedFrags.fastq
+[2017-09-12 22:05:45,056] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1162.notCombined_2.fastq
+[2017-09-12 22:05:45,056] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 437.notCombined_1.fastq
+[2017-09-12 22:05:45,059] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1162.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,059] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1022.notCombined_2.fastq
+[2017-09-12 22:05:45,059] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1157.notCombined_1.fastq
+[2017-09-12 22:05:45,065] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1146.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,065] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 459.extendedFrags.fastq
+[2017-09-12 22:05:45,068] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1032.notCombined_1.fastq
+[2017-09-12 22:05:45,079] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1017.notCombined_2.fastq
+[2017-09-12 22:05:45,080] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 832.extendedFrags.fastq
+[2017-09-12 22:05:45,080] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1153.notCombined_2.fastq
+[2017-09-12 22:05:45,083] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 429.notCombined_1.fastq
+[2017-09-12 22:05:45,083] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 843.notCombined_2.fastq
+[2017-09-12 22:05:45,084] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1034.notCombined_1.fastq
+[2017-09-12 22:05:45,090] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 449.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,090] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 450.notCombined_2.fastq
+[2017-09-12 22:05:45,090] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 758.extendedFrags.fastq
+[2017-09-12 22:05:45,090] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1019.notCombined_1.fastq
+[2017-09-12 22:05:45,091] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1023.notCombined_2.fastq
+[2017-09-12 22:05:45,091] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 450.notCombined_1.fastq
+[2017-09-12 22:05:45,099] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1027.notCombined_2.fastq
+[2017-09-12 22:05:45,100] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1030.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,100] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 448.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,111] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 439.notCombined_1.fastq
+[2017-09-12 22:05:45,111] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 844.extendedFrags.fastq
+[2017-09-12 22:05:45,111] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 837.notCombined_1.fastq
+[2017-09-12 22:05:45,115] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1027.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,115] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1037.extendedFrags.fastq
+[2017-09-12 22:05:45,115] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1162.notCombined_1.fastq
+[2017-09-12 22:05:45,115] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1152.extendedFrags.fastq
+[2017-09-12 22:05:45,118] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 763.notCombined_2.fastq
+[2017-09-12 22:05:45,118] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1030.notCombined_1.fastq
+[2017-09-12 22:05:45,118] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1159.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,118] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 836.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,118] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1022.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,139] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 839.notCombined_2.fastq
+[2017-09-12 22:05:45,139] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1023.extendedFrags.fastq
+[2017-09-12 22:05:45,139] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1146.notCombined_2.fastq
+[2017-09-12 22:05:45,140] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1149.notCombined_1.fastq
+[2017-09-12 22:05:45,140] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1030.extendedFrags.fastq
+[2017-09-12 22:05:45,142] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 435.extendedFrags.fastq
+[2017-09-12 22:05:45,143] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1025.extendedFrags.fastq
+[2017-09-12 22:05:45,143] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1138.notCombined_2.fastq
+[2017-09-12 22:05:45,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 757.notCombined_1.fastq
+[2017-09-12 22:05:45,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 448.notCombined_1.fastq
+[2017-09-12 22:05:45,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 453.notCombined_1.fastq
+[2017-09-12 22:05:45,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 761.notCombined_1.fastq
+[2017-09-12 22:05:45,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 434.extendedFrags.fastq
+[2017-09-12 22:05:45,168] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1151.notCombined_2.fastq
+[2017-09-12 22:05:45,168] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1155.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,171] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 436.notCombined_2.fastq
+[2017-09-12 22:05:45,180] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1018.extendedFrags.fastq
+[2017-09-12 22:05:45,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 460.notCombined_1.fastq
+[2017-09-12 22:05:45,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1035.extendedFrags.fastq
+[2017-09-12 22:05:45,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1160.notCombined_1.fastq
+[2017-09-12 22:05:45,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 455.notCombined_2.fastq
+[2017-09-12 22:05:45,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1021.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,190] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 456.extendedFrags.fastq
+[2017-09-12 22:05:45,200] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1023.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,201] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1139.notCombined_1.fastq
+[2017-09-12 22:05:45,221] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 455.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 459.notCombined_2.fastq
+[2017-09-12 22:05:45,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1028.notCombined_2.fastq
+[2017-09-12 22:05:45,225] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 764.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,226] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1160.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,229] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 838.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,235] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1150.notCombined_1.fastq
+[2017-09-12 22:05:45,249] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 836.extendedFrags.fastq
+[2017-09-12 22:05:45,249] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1024.notCombined_1.fastq
+[2017-09-12 22:05:45,249] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 762.notCombined_1.fastq
+[2017-09-12 22:05:45,253] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 758.notCombined_1.fastq
+[2017-09-12 22:05:45,256] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 763.extendedFrags.fastq
+[2017-09-12 22:05:45,262] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 759.notCombined_1.fastq
+[2017-09-12 22:05:45,262] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1020.notCombined_2.fastq
+[2017-09-12 22:05:45,286] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 456.notCombined_2.fastq
+[2017-09-12 22:05:45,289] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1138.extendedFrags.fastq
+[2017-09-12 22:05:45,292] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1161.notCombined_1.fastq
+[2017-09-12 22:05:45,292] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1142.extendedFrags.fastq
+[2017-09-12 22:05:45,292] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 427.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,292] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1159.notCombined_1.fastq
+[2017-09-12 22:05:45,293] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 452.notCombined_2.fastq
+[2017-09-12 22:05:45,296] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1144.notCombined_1.fastq
+[2017-09-12 22:05:45,296] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 461.notCombined_2.fastq
+[2017-09-12 22:05:45,296] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 831.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,313] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 837.notCombined_2.fastq
+[2017-09-12 22:05:45,316] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1036.notCombined_2.fastq
+[2017-09-12 22:05:45,320] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 842.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,320] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1153.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,326] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 841.notCombined_1.fastq
+[2017-09-12 22:05:45,333] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1034.notCombined_2.fastq
+[2017-09-12 22:05:45,333] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 429.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,333] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1038.notCombined_1.fastq
+[2017-09-12 22:05:45,337] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1028.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,341] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1038.extendedFrags.fastq
+[2017-09-12 22:05:45,341] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1141.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,341] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1145.notCombined_1.fastq
+[2017-09-12 22:05:45,349] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 761.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,349] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 442.extendedFrags.fastq
+[2017-09-12 22:05:45,350] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1152.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,352] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1031.notCombined_1.fastq
+[2017-09-12 22:05:45,356] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 436.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,356] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 764.notCombined_2.fastq
+[2017-09-12 22:05:45,367] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1026.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,367] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1025.notCombined_2.fastq
+[2017-09-12 22:05:45,367] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 839.extendedFrags.fastq
+[2017-09-12 22:05:45,367] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1024.extendedFrags.fastq
+[2017-09-12 22:05:45,368] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 452.extendedFrags.fastq
+[2017-09-12 22:05:45,371] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 833.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,371] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1140.extendedFrags.fastq
+[2017-09-12 22:05:45,371] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 454.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,371] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 456.notCombined_1.fastq
+[2017-09-12 22:05:45,371] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1025.notCombined_1.fastq
+[2017-09-12 22:05:45,372] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 430.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,372] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1017.extendedFrags.fastq
+[2017-09-12 22:05:45,375] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 760.notCombined_2.fastq
+[2017-09-12 22:05:45,375] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 425.extendedFrags.fastq
+[2017-09-12 22:05:45,375] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1040.notCombined_1.fastq
+[2017-09-12 22:05:45,375] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 426.notCombined_2.fastq
+[2017-09-12 22:05:45,375] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 765.notCombined_2.fastq
+[2017-09-12 22:05:45,375] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1141.notCombined_2.fastq
+[2017-09-12 22:05:45,375] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1146.notCombined_1.fastq
+[2017-09-12 22:05:45,375] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 833.notCombined_2.fastq
+[2017-09-12 22:05:45,375] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 427.notCombined_2.fastq
+[2017-09-12 22:05:45,379] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 843.notCombined_1.fastq
+[2017-09-12 22:05:45,392] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 759.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,392] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 760.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,392] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1156.extendedFrags.fastq
+[2017-09-12 22:05:45,392] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 760.extendedFrags.fastq
+[2017-09-12 22:05:45,406] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 459.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,406] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1152.notCombined_1.fastq
+[2017-09-12 22:05:45,406] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 441.extendedFrags.fastq
+[2017-09-12 22:05:45,409] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1026.extendedFrags.fastq
+[2017-09-12 22:05:45,434] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 454.extendedFrags.fastq
+[2017-09-12 22:05:45,438] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 458.notCombined_2.fastq
+[2017-09-12 22:05:45,438] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1153.notCombined_1.fastq
+[2017-09-12 22:05:45,438] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 834.notCombined_1.fastq
+[2017-09-12 22:05:45,468] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1036.notCombined_1.fastq
+[2017-09-12 22:05:45,468] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 429.notCombined_2.fastq
+[2017-09-12 22:05:45,468] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1040.extendedFrags.fastq
+[2017-09-12 22:05:45,471] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1139.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,471] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1148.extendedFrags.fastq
+[2017-09-12 22:05:45,480] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1150.extendedFrags.fastq
+[2017-09-12 22:05:45,483] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1154.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,483] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1037.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,483] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 431.notCombined_1.fastq
+[2017-09-12 22:05:45,487] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 455.extendedFrags.fastq
+[2017-09-12 22:05:45,487] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1146.extendedFrags.fastq
+[2017-09-12 22:05:45,487] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1154.extendedFrags.fastq
+[2017-09-12 22:05:45,487] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 447.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,487] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1158.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,487] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 436.notCombined_1.fastq
+[2017-09-12 22:05:45,491] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 424.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,494] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 834.extendedFrags.fastq
+[2017-09-12 22:05:45,494] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 458.extendedFrags.fastq
+[2017-09-12 22:05:45,514] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1018.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,515] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1035.notCombined_2.fastq
+[2017-09-12 22:05:45,515] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 757.notCombined_2.fastq
+[2017-09-12 22:05:45,515] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1019.extendedFrags.fastq
+[2017-09-12 22:05:45,515] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 440.extendedFrags.fastq
+[2017-09-12 22:05:45,515] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 833.extendedFrags.fastq
+[2017-09-12 22:05:45,515] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1141.notCombined_1.fastq
+[2017-09-12 22:05:45,516] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 457.notCombined_2.fastq
+[2017-09-12 22:05:45,516] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 831.notCombined_2.fastq
+[2017-09-12 22:05:45,516] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1021.notCombined_1.fastq
+[2017-09-12 22:05:45,516] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 426.notCombined_1.fastq
+[2017-09-12 22:05:45,516] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1144.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,522] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1145.notCombined_2.fastq
+[2017-09-12 22:05:45,532] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 451.extendedFrags.fastq
+[2017-09-12 22:05:45,532] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1031.notCombined_2.fastq
+[2017-09-12 22:05:45,535] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1030.notCombined_2.fastq
+[2017-09-12 22:05:45,535] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 758.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,536] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 843.extendedFrags.fastq
+[2017-09-12 22:05:45,536] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 449.notCombined_2.fastq
+[2017-09-12 22:05:45,542] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 424.notCombined_2.fastq
+[2017-09-12 22:05:45,542] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 766.extendedFrags.fastq
+[2017-09-12 22:05:45,554] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1031.extendedFrags.fastq
+[2017-09-12 22:05:45,557] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1145.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,557] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 436.extendedFrags.fastq
+[2017-09-12 22:05:45,557] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1151.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,566] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 442.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,569] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 831.notCombined_1.fastq
+[2017-09-12 22:05:45,580] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1016.extendedFrags.fastq
+[2017-09-12 22:05:45,581] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 461.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,581] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1151.notCombined_1.fastq
+[2017-09-12 22:05:45,581] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 834.notCombined_2.fastq
+[2017-09-12 22:05:45,581] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1138.notCombined_1.fastq
+[2017-09-12 22:05:45,585] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1039.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,585] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1157.notCombined_2.fastq
+[2017-09-12 22:05:45,585] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 439.extendedFrags.fastq
+[2017-09-12 22:05:45,585] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1143.notCombined_2.fastq
+[2017-09-12 22:05:45,594] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1020.extendedFrags.fastq
+[2017-09-12 22:05:45,594] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 453.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,594] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 834.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,598] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 841.extendedFrags.fastq
+[2017-09-12 22:05:45,601] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 461.extendedFrags.fastq
+[2017-09-12 22:05:45,601] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 432.notCombined_2.fastq
+[2017-09-12 22:05:45,601] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 837.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,601] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 435.notCombined_1.fastq
+[2017-09-12 22:05:45,623] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1158.notCombined_1.fastq
+[2017-09-12 22:05:45,623] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1021.notCombined_2.fastq
+[2017-09-12 22:05:45,623] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1144.extendedFrags.fastq
+[2017-09-12 22:05:45,624] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1039.notCombined_2.fastq
+[2017-09-12 22:05:45,624] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1029.notCombined_1.fastq
+[2017-09-12 22:05:45,628] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 836.notCombined_1.fastq
+[2017-09-12 22:05:45,632] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 763.notCombined_1.fastq
+[2017-09-12 22:05:45,632] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1019.extendedFrags_fastqc.html
+[2017-09-12 22:05:45,632] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 842.notCombined_2.fastq
+[2017-09-12 22:05:45,633] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 759.extendedFrags.fastq
+[2017-09-12 22:05:45,633] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 1160.extendedFrags.fastq
+[2017-09-12 22:05:45,633] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 832.notCombined_1.fastq
+[2017-09-12 22:05:45,752] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2017-09-12 22:05:45,754] multiqc.modules.conpair.conpair                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,755] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,757] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,758] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2017-09-12 22:05:45,758] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,760] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,761] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,762] multiqc.modules.qorts.qorts                        [DEBUG  ]  Could not find any QoRTs data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,764] multiqc.modules.rna_seqc.rna_seqc                  [DEBUG  ]  Could not find any RNA-SeQC data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,766] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,767] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,768] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,770] multiqc.modules.disambiguate.disambiguate          [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,771] multiqc.modules.homer.homer                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,772] multiqc.modules.macs2.macs2                        [DEBUG  ]  Could not find any MACS2 data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,774] multiqc.modules.theta2.theta2                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,775] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,776] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,778] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,780] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,782] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,784] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,786] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,788] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,790] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,792] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,793] multiqc.modules.jellyfish.jellyfish                [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,795] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,797] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,799] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,801] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,802] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2017-09-12 22:05:45,804] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,805] multiqc.modules.hisat2.hisat2                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,806] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,807] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,809] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,810] multiqc.modules.adapterRemoval.adapterRemoval      [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,811] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,813] multiqc.modules.flexbar.flexbar                    [DEBUG  ]  Could not find any Flexbar data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,814] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,815] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,818] multiqc.modules.sortmerna.sortmerna                [DEBUG  ]  Could not find any SortMeRNA data in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,819] multiqc.modules.biobloomtools.biobloomtools        [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:45,820] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:05:50,297] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 103 reports
+[2017-09-12 22:06:00,838] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/',)
+[2017-09-12 22:06:00,961] multiqc                                            [INFO   ]  Compressing plot data
+[2017-09-12 22:06:00,961] multiqc                                            [INFO   ]  Report      : V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_report.html
+[2017-09-12 22:06:00,961] multiqc                                            [INFO   ]  Data        : V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data
+[2017-09-12 22:06:00,961] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpU4mv8i/multiqc_data/mqc_fastqc_overrepresented_sequencesi_plot_1.txt' to '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data'
+[2017-09-12 22:06:00,961] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpU4mv8i/multiqc_data/mqc_fastqc_per_base_n_content_plot_1.txt' to '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data'
+[2017-09-12 22:06:00,962] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpU4mv8i/multiqc_data/mqc_fastqc_sequence_duplication_levels_plot_1.txt' to '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data'
+[2017-09-12 22:06:00,962] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpU4mv8i/multiqc_data/mqc_fastqc_per_sequence_quality_scores_plot_1.txt' to '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data'
+[2017-09-12 22:06:00,962] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpU4mv8i/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Counts.txt' to '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data'
+[2017-09-12 22:06:00,962] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpU4mv8i/multiqc_data/mqc_fastqc_sequence_length_distribution_plot_1.txt' to '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data'
+[2017-09-12 22:06:00,962] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpU4mv8i/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Percentages.txt' to '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data'
+[2017-09-12 22:06:00,962] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpU4mv8i/multiqc_data/mqc_fastqc_per_base_sequence_quality_plot_1.txt' to '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data'
+[2017-09-12 22:06:00,962] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpU4mv8i/multiqc_data/multiqc_general_stats.txt' to '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data'
+[2017-09-12 22:06:00,962] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpU4mv8i/multiqc_data/multiqc_sources.txt' to '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data'
+[2017-09-12 22:06:00,962] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpU4mv8i/multiqc_data/multiqc_fastqc.txt' to '/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria/raw_data_bacteria/extendedFrags/multiqc_data'
+[2017-09-12 22:06:01,075] multiqc                                            [INFO   ]  MultiQC complete

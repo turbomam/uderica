@@ -1,0 +1,17 @@
+Input file paths
+Sequence read filepath: /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/extendedFrags/145.extendedFrags.fastq (md5: dbaccacc2b1e8d6cc32c0f27e7c33b04)
+Quality filter results
+Total number of input sequences: 36977
+Barcode not in mapping file: 0
+Read too short after quality truncation: 6372
+Count of N characters exceeds limit: 19
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+145	30586
+
+Total number seqs written	30586
+---
+

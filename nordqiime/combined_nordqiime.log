@@ -1,0 +1,53 @@
+/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria
+
+Num samples: 27
+Num observations: 7761
+Total count: 1491628
+Table density (fraction of non-zero values): 0.152
+
+Counts/sample summary:
+ Min: 27349.0
+ Max: 99965.0
+ Median: 54503.000
+ Mean: 55245.481
+ Std. dev.: 16690.541
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+
+/home/mark/gitstage/uderica/nordqiime/15_Hil_HMC/Bacteria
+lots of chloroplast in C/0
+
+Num samples: 39
+Num observations: 3900
+Total count: 1719516
+Table density (fraction of non-zero values): 0.136
+
+Counts/sample summary:
+ Min: 12736.0
+ Max: 101749.0
+ Median: 42431.000
+ Mean: 44090.154
+ Std. dev.: 15947.624
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+
+/home/mark/gitstage/uderica/nordqiime/V-HMC/Bacteria
+
+Num samples: 103
+Num observations: 3115
+Total count: 3148328
+Table density (fraction of non-zero values): 0.097
+
+Counts/sample summary:
+ Min: 2210.0
+ Max: 58607.0
+ Median: 30809.000
+ Mean: 30566.291
+ Std. dev.: 15793.748
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+
+

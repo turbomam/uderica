@@ -1,0 +1,264 @@
+Logging started at 21:47:44 on 12 Sep 2017
+QIIME version: 1.9.1
+
+qiime_config values:
+pick_otus_reference_seqs_fp	/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+sc_queue	all.q
+pynast_template_alignment_fp	/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set_aligned/85_otus.pynast.fasta
+cluster_jobs_fp	start_parallel_jobs.py
+assign_taxonomy_reference_seqs_fp	/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+torque_queue	friendlyq
+jobs_to_start	1
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+temp_dir	/tmp/
+blastall_fp	blastall
+seconds_to_sleep	1
+
+parameter file values:
+parallel:jobs_to_start	7
+
+Input file md5 sums:
+/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/otu_table_3plus.biom: fe6079f02d784f5d6f5df71c230175d5
+/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/map.txt: 037f5cce5ee5241fde37e6f297c52d61
+/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/rep_set.tre: b0ca133af7cf8875492dbcc5ba49f5ff
+
+Executing commands.
+
+# Generate BIOM table summary command 
+biom summarize-table -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/otu_table_3plus.biom -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/biom_table_summary.txt 
+
+Stdout:
+
+Stderr:
+
+# Filter low sequence count samples from table (minimum sequence count: 18000) command 
+filter_samples_from_otu_table.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/otu_table_3plus.biom -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/table_mc18000.biom -n 18000
+
+Stdout:
+
+Stderr:
+
+# Rarify the OTU table to 18000 sequences/sample command 
+single_rarefaction.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/table_mc18000.biom -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/table_even18000.biom -d 18000
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Beta Diversity (weighted_unifrac) command 
+parallel_beta_diversity.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/table_even18000.biom -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000/ --metrics weighted_unifrac -T  -t /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/rep_set.tre --jobs_to_start 7
+
+Stdout:
+
+Stderr:
+
+# Rename distance matrix (weighted_unifrac) command 
+mv /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//weighted_unifrac_table_even18000.txt /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//weighted_unifrac_dm.txt
+
+Stdout:
+
+Stderr:
+
+# Principal coordinates (weighted_unifrac) command 
+principal_coordinates.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//weighted_unifrac_dm.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//weighted_unifrac_pc.txt 
+
+Stdout:
+
+Stderr:
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.0270259775049 and the largest is 1.40022072072.
+  RuntimeWarning
+
+# Make emperor plots, weighted_unifrac) command 
+make_emperor.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//weighted_unifrac_pc.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//weighted_unifrac_emperor_pcoa_plot/ -m /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/map.txt 
+
+Stdout:
+
+Stderr:
+
+# Beta Diversity (unweighted_unifrac) command 
+parallel_beta_diversity.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/table_even18000.biom -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000/ --metrics unweighted_unifrac -T  -t /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/rep_set.tre --jobs_to_start 7
+
+Stdout:
+
+Stderr:
+
+# Rename distance matrix (unweighted_unifrac) command 
+mv /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//unweighted_unifrac_table_even18000.txt /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//unweighted_unifrac_dm.txt
+
+Stdout:
+
+Stderr:
+
+# Principal coordinates (unweighted_unifrac) command 
+principal_coordinates.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//unweighted_unifrac_dm.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//unweighted_unifrac_pc.txt 
+
+Stdout:
+
+Stderr:
+
+# Make emperor plots, unweighted_unifrac) command 
+make_emperor.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//unweighted_unifrac_pc.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//unweighted_unifrac_emperor_pcoa_plot/ -m /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/map.txt 
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Alpha rarefaction command 
+parallel_multiple_rarefactions.py -T -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/table_mc18000.biom -m 10 -x 18000 -s 1799 -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//rarefaction/  --jobs_to_start 7
+
+Stdout:
+
+Stderr:
+
+# Alpha diversity on rarefied OTU tables command 
+parallel_alpha_diversity.py -T -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//rarefaction/ -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//alpha_div/  -t /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/pick/rep_set.tre --jobs_to_start 7
+
+Stdout:
+
+Stderr:
+
+# Collate alpha command 
+collate_alpha.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//alpha_div/ -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//alpha_div_collated/ 
+
+Stdout:
+
+Stderr:
+
+# Removing intermediate files command 
+rm -r /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//rarefaction/ /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//alpha_div/
+
+Stdout:
+
+Stderr:
+
+# Rarefaction plot: All metrics command 
+make_rarefaction_plots.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//alpha_div_collated/ -m /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/map.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//alpha_rarefaction_plots/ 
+
+Stdout:
+
+Stderr:
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+
+Executing commands.
+
+# Sort OTU Table command 
+sort_otu_table.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/table_mc18000.biom -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots/table_mc18000_sorted.biom
+
+Stdout:
+
+Stderr:
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots/table_mc18000_sorted.biom -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots/ 
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots/table_mc18000_sorted_L2.txt,/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots/table_mc18000_sorted_L3.txt,/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots/table_mc18000_sorted_L4.txt,/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots/table_mc18000_sorted_L5.txt,/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots/table_mc18000_sorted_L6.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots//taxa_summary_plots/ 
+
+Stdout:
+
+Stderr:
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+
+Executing commands.
+
+# Collapse samples in OTU table by categories command 
+collapse_samples.py -m /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/map.txt -b /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/table_mc18000.biom --output_biom_fp /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment/treatment_otu_table.biom --output_mapping_fp /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment/treatment_map.txt --collapse_fields 'treatment' 
+
+Stdout:
+
+Stderr:
+
+# Sort OTU Table command 
+sort_otu_table.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment/treatment_otu_table.biom -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment/treatment_otu_table_sorted.biom
+
+Stdout:
+
+Stderr:
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment/treatment_otu_table_sorted.biom -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment/ 
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment/treatment_otu_table_sorted_L2.txt,/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment/treatment_otu_table_sorted_L3.txt,/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment/treatment_otu_table_sorted_L4.txt,/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment/treatment_otu_table_sorted_L5.txt,/home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment/treatment_otu_table_sorted_L6.txt -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/taxa_plots_treatment//taxa_summary_plots/ 
+
+Stdout:
+
+Stderr:
+/home/mark/miniconda3/envs/qiime1/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+
+Executing commands.
+
+# Boxplots (treatment) command 
+make_distance_boxplots.py -d /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//weighted_unifrac_dm.txt -f treatment -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//weighted_unifrac_boxplots/ -m /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/map.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Boxplots (treatment) command 
+make_distance_boxplots.py -d /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//unweighted_unifrac_dm.txt -f treatment -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/bdiv_even18000//unweighted_unifrac_boxplots/ -m /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/map.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (PD_whole_tree) command 
+compare_alpha_diversity.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//alpha_div_collated/PD_whole_tree.txt -m /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/map.txt -c treatment -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//compare_PD_whole_tree -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (observed_otus) command 
+compare_alpha_diversity.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//alpha_div_collated/observed_otus.txt -m /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/map.txt -c treatment -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//compare_observed_otus -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (chao1) command 
+compare_alpha_diversity.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//alpha_div_collated/chao1.txt -m /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/map.txt -c treatment -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/arare_max18000//compare_chao1 -n 999 
+
+Stdout:
+
+Stderr:
+
+# Group significance (treatment) command 
+group_significance.py -i /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/table_even18000.biom -m /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/map.txt -c treatment -o /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/group_significance_treatment.txt 
+
+Stdout:
+
+Stderr:
+
+# Compress the filtered BIOM table command 
+gzip /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/table_mc18000.biom
+
+Stdout:
+
+Stderr:
+
+# Compress the rarefied BIOM table command 
+gzip /home/mark/gitstage/uderica/nordqiime/Lal_Stress/Silva_5101Raw05052017/Bacteria/selected_raw/corediv/table_even18000.biom
+
+Stdout:
+
+Stderr:
+
+
+Logging stopped at 21:56:58 on 12 Sep 2017

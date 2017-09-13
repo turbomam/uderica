@@ -1,0 +1,12 @@
+qiime pythion scripts don't like spaces in fil/foder names
+
+15 Hil CS -> 15_Hil_CS
+
+15 Hil HMC -> 15_Hil_HMC
+
+Aer Comp -> Aer_Comp
+
+created Lal_Stress, expanded Silva_5101Raw05052017.zip
+created Bacteria and Fungi folders, moved files (see ???)
+
+cp ../raw_data/5101-{145..178}*.fastq .

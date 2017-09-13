@@ -1,0 +1,2971 @@
+-rw-rw-r-- 1 mark mark 18437869 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-657-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 18459683 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-657-MSITS2a_R2.fastq
+Started analysis of 4924-657-MSITS2a_R1.fastq
+Approx 5% complete for 4924-657-MSITS2a_R1.fastq
+Approx 10% complete for 4924-657-MSITS2a_R1.fastq
+Approx 15% complete for 4924-657-MSITS2a_R1.fastq
+Approx 20% complete for 4924-657-MSITS2a_R1.fastq
+Approx 25% complete for 4924-657-MSITS2a_R1.fastq
+Approx 30% complete for 4924-657-MSITS2a_R1.fastq
+Approx 35% complete for 4924-657-MSITS2a_R1.fastq
+Approx 40% complete for 4924-657-MSITS2a_R1.fastq
+Approx 45% complete for 4924-657-MSITS2a_R1.fastq
+Approx 50% complete for 4924-657-MSITS2a_R1.fastq
+Approx 55% complete for 4924-657-MSITS2a_R1.fastq
+Approx 60% complete for 4924-657-MSITS2a_R1.fastq
+Approx 65% complete for 4924-657-MSITS2a_R1.fastq
+Started analysis of 4924-657-MSITS2a_R2.fastq
+Approx 5% complete for 4924-657-MSITS2a_R2.fastq
+Approx 70% complete for 4924-657-MSITS2a_R1.fastq
+Approx 10% complete for 4924-657-MSITS2a_R2.fastq
+Approx 75% complete for 4924-657-MSITS2a_R1.fastq
+Approx 80% complete for 4924-657-MSITS2a_R1.fastq
+Approx 15% complete for 4924-657-MSITS2a_R2.fastq
+Approx 20% complete for 4924-657-MSITS2a_R2.fastq
+Approx 85% complete for 4924-657-MSITS2a_R1.fastq
+Approx 25% complete for 4924-657-MSITS2a_R2.fastq
+Approx 90% complete for 4924-657-MSITS2a_R1.fastq
+Approx 30% complete for 4924-657-MSITS2a_R2.fastq
+Approx 95% complete for 4924-657-MSITS2a_R1.fastq
+Approx 35% complete for 4924-657-MSITS2a_R2.fastq
+Analysis complete for 4924-657-MSITS2a_R1.fastq
+Approx 40% complete for 4924-657-MSITS2a_R2.fastq
+Approx 45% complete for 4924-657-MSITS2a_R2.fastq
+Approx 50% complete for 4924-657-MSITS2a_R2.fastq
+Approx 55% complete for 4924-657-MSITS2a_R2.fastq
+Approx 60% complete for 4924-657-MSITS2a_R2.fastq
+Approx 65% complete for 4924-657-MSITS2a_R2.fastq
+Approx 70% complete for 4924-657-MSITS2a_R2.fastq
+Approx 75% complete for 4924-657-MSITS2a_R2.fastq
+Approx 80% complete for 4924-657-MSITS2a_R2.fastq
+Approx 85% complete for 4924-657-MSITS2a_R2.fastq
+Approx 90% complete for 4924-657-MSITS2a_R2.fastq
+Approx 95% complete for 4924-657-MSITS2a_R2.fastq
+Analysis complete for 4924-657-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 12928945 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-658-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 12936829 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-658-MSITS2a_R2.fastq
+Started analysis of 4924-658-MSITS2a_R1.fastq
+Approx 5% complete for 4924-658-MSITS2a_R1.fastq
+Approx 10% complete for 4924-658-MSITS2a_R1.fastq
+Approx 15% complete for 4924-658-MSITS2a_R1.fastq
+Approx 20% complete for 4924-658-MSITS2a_R1.fastq
+Approx 25% complete for 4924-658-MSITS2a_R1.fastq
+Approx 30% complete for 4924-658-MSITS2a_R1.fastq
+Approx 35% complete for 4924-658-MSITS2a_R1.fastq
+Approx 40% complete for 4924-658-MSITS2a_R1.fastq
+Approx 45% complete for 4924-658-MSITS2a_R1.fastq
+Approx 50% complete for 4924-658-MSITS2a_R1.fastq
+Approx 55% complete for 4924-658-MSITS2a_R1.fastq
+Approx 60% complete for 4924-658-MSITS2a_R1.fastq
+Approx 65% complete for 4924-658-MSITS2a_R1.fastq
+Approx 70% complete for 4924-658-MSITS2a_R1.fastq
+Approx 75% complete for 4924-658-MSITS2a_R1.fastq
+Approx 80% complete for 4924-658-MSITS2a_R1.fastq
+Started analysis of 4924-658-MSITS2a_R2.fastq
+Approx 85% complete for 4924-658-MSITS2a_R1.fastq
+Approx 5% complete for 4924-658-MSITS2a_R2.fastq
+Approx 90% complete for 4924-658-MSITS2a_R1.fastq
+Approx 10% complete for 4924-658-MSITS2a_R2.fastq
+Approx 95% complete for 4924-658-MSITS2a_R1.fastq
+Approx 15% complete for 4924-658-MSITS2a_R2.fastq
+Analysis complete for 4924-658-MSITS2a_R1.fastq
+Approx 20% complete for 4924-658-MSITS2a_R2.fastq
+Approx 25% complete for 4924-658-MSITS2a_R2.fastq
+Approx 30% complete for 4924-658-MSITS2a_R2.fastq
+Approx 35% complete for 4924-658-MSITS2a_R2.fastq
+Approx 40% complete for 4924-658-MSITS2a_R2.fastq
+Approx 45% complete for 4924-658-MSITS2a_R2.fastq
+Approx 50% complete for 4924-658-MSITS2a_R2.fastq
+Approx 55% complete for 4924-658-MSITS2a_R2.fastq
+Approx 60% complete for 4924-658-MSITS2a_R2.fastq
+Approx 65% complete for 4924-658-MSITS2a_R2.fastq
+Approx 70% complete for 4924-658-MSITS2a_R2.fastq
+Approx 75% complete for 4924-658-MSITS2a_R2.fastq
+Approx 80% complete for 4924-658-MSITS2a_R2.fastq
+Approx 85% complete for 4924-658-MSITS2a_R2.fastq
+Approx 90% complete for 4924-658-MSITS2a_R2.fastq
+Approx 95% complete for 4924-658-MSITS2a_R2.fastq
+Analysis complete for 4924-658-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 16851728 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-659-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 16892012 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-659-MSITS2a_R2.fastq
+Started analysis of 4924-659-MSITS2a_R1.fastq
+Approx 5% complete for 4924-659-MSITS2a_R1.fastq
+Approx 10% complete for 4924-659-MSITS2a_R1.fastq
+Approx 15% complete for 4924-659-MSITS2a_R1.fastq
+Approx 20% complete for 4924-659-MSITS2a_R1.fastq
+Approx 25% complete for 4924-659-MSITS2a_R1.fastq
+Approx 30% complete for 4924-659-MSITS2a_R1.fastq
+Approx 35% complete for 4924-659-MSITS2a_R1.fastq
+Approx 40% complete for 4924-659-MSITS2a_R1.fastq
+Approx 45% complete for 4924-659-MSITS2a_R1.fastq
+Approx 50% complete for 4924-659-MSITS2a_R1.fastq
+Approx 55% complete for 4924-659-MSITS2a_R1.fastq
+Approx 60% complete for 4924-659-MSITS2a_R1.fastq
+Approx 65% complete for 4924-659-MSITS2a_R1.fastq
+Started analysis of 4924-659-MSITS2a_R2.fastq
+Approx 70% complete for 4924-659-MSITS2a_R1.fastq
+Approx 5% complete for 4924-659-MSITS2a_R2.fastq
+Approx 75% complete for 4924-659-MSITS2a_R1.fastq
+Approx 10% complete for 4924-659-MSITS2a_R2.fastq
+Approx 80% complete for 4924-659-MSITS2a_R1.fastq
+Approx 15% complete for 4924-659-MSITS2a_R2.fastq
+Approx 85% complete for 4924-659-MSITS2a_R1.fastq
+Approx 20% complete for 4924-659-MSITS2a_R2.fastq
+Approx 90% complete for 4924-659-MSITS2a_R1.fastq
+Approx 25% complete for 4924-659-MSITS2a_R2.fastq
+Approx 95% complete for 4924-659-MSITS2a_R1.fastq
+Approx 30% complete for 4924-659-MSITS2a_R2.fastq
+Analysis complete for 4924-659-MSITS2a_R1.fastq
+Approx 35% complete for 4924-659-MSITS2a_R2.fastq
+Approx 40% complete for 4924-659-MSITS2a_R2.fastq
+Approx 45% complete for 4924-659-MSITS2a_R2.fastq
+Approx 50% complete for 4924-659-MSITS2a_R2.fastq
+Approx 55% complete for 4924-659-MSITS2a_R2.fastq
+Approx 60% complete for 4924-659-MSITS2a_R2.fastq
+Approx 65% complete for 4924-659-MSITS2a_R2.fastq
+Approx 70% complete for 4924-659-MSITS2a_R2.fastq
+Approx 75% complete for 4924-659-MSITS2a_R2.fastq
+Approx 80% complete for 4924-659-MSITS2a_R2.fastq
+Approx 85% complete for 4924-659-MSITS2a_R2.fastq
+Approx 90% complete for 4924-659-MSITS2a_R2.fastq
+Approx 95% complete for 4924-659-MSITS2a_R2.fastq
+Analysis complete for 4924-659-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 16460189 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-660-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 16481729 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-660-MSITS2a_R2.fastq
+Started analysis of 4924-660-MSITS2a_R1.fastq
+Approx 5% complete for 4924-660-MSITS2a_R1.fastq
+Approx 10% complete for 4924-660-MSITS2a_R1.fastq
+Approx 15% complete for 4924-660-MSITS2a_R1.fastq
+Approx 20% complete for 4924-660-MSITS2a_R1.fastq
+Approx 25% complete for 4924-660-MSITS2a_R1.fastq
+Approx 30% complete for 4924-660-MSITS2a_R1.fastq
+Approx 35% complete for 4924-660-MSITS2a_R1.fastq
+Approx 40% complete for 4924-660-MSITS2a_R1.fastq
+Approx 45% complete for 4924-660-MSITS2a_R1.fastq
+Approx 50% complete for 4924-660-MSITS2a_R1.fastq
+Approx 55% complete for 4924-660-MSITS2a_R1.fastq
+Approx 60% complete for 4924-660-MSITS2a_R1.fastq
+Started analysis of 4924-660-MSITS2a_R2.fastq
+Approx 65% complete for 4924-660-MSITS2a_R1.fastq
+Approx 70% complete for 4924-660-MSITS2a_R1.fastq
+Approx 5% complete for 4924-660-MSITS2a_R2.fastq
+Approx 10% complete for 4924-660-MSITS2a_R2.fastq
+Approx 75% complete for 4924-660-MSITS2a_R1.fastq
+Approx 15% complete for 4924-660-MSITS2a_R2.fastq
+Approx 80% complete for 4924-660-MSITS2a_R1.fastq
+Approx 20% complete for 4924-660-MSITS2a_R2.fastq
+Approx 85% complete for 4924-660-MSITS2a_R1.fastq
+Approx 25% complete for 4924-660-MSITS2a_R2.fastq
+Approx 90% complete for 4924-660-MSITS2a_R1.fastq
+Approx 30% complete for 4924-660-MSITS2a_R2.fastq
+Approx 95% complete for 4924-660-MSITS2a_R1.fastq
+Analysis complete for 4924-660-MSITS2a_R1.fastq
+Approx 35% complete for 4924-660-MSITS2a_R2.fastq
+Approx 40% complete for 4924-660-MSITS2a_R2.fastq
+Approx 45% complete for 4924-660-MSITS2a_R2.fastq
+Approx 50% complete for 4924-660-MSITS2a_R2.fastq
+Approx 55% complete for 4924-660-MSITS2a_R2.fastq
+Approx 60% complete for 4924-660-MSITS2a_R2.fastq
+Approx 65% complete for 4924-660-MSITS2a_R2.fastq
+Approx 70% complete for 4924-660-MSITS2a_R2.fastq
+Approx 75% complete for 4924-660-MSITS2a_R2.fastq
+Approx 80% complete for 4924-660-MSITS2a_R2.fastq
+Approx 85% complete for 4924-660-MSITS2a_R2.fastq
+Approx 90% complete for 4924-660-MSITS2a_R2.fastq
+Approx 95% complete for 4924-660-MSITS2a_R2.fastq
+Analysis complete for 4924-660-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 20048452 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-662-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 20196430 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-662-MSITS2a_R2.fastq
+Started analysis of 4924-662-MSITS2a_R1.fastq
+Approx 5% complete for 4924-662-MSITS2a_R1.fastq
+Approx 10% complete for 4924-662-MSITS2a_R1.fastq
+Approx 15% complete for 4924-662-MSITS2a_R1.fastq
+Approx 20% complete for 4924-662-MSITS2a_R1.fastq
+Approx 25% complete for 4924-662-MSITS2a_R1.fastq
+Approx 30% complete for 4924-662-MSITS2a_R1.fastq
+Approx 35% complete for 4924-662-MSITS2a_R1.fastq
+Approx 40% complete for 4924-662-MSITS2a_R1.fastq
+Approx 45% complete for 4924-662-MSITS2a_R1.fastq
+Approx 50% complete for 4924-662-MSITS2a_R1.fastq
+Approx 55% complete for 4924-662-MSITS2a_R1.fastq
+Started analysis of 4924-662-MSITS2a_R2.fastq
+Approx 60% complete for 4924-662-MSITS2a_R1.fastq
+Approx 5% complete for 4924-662-MSITS2a_R2.fastq
+Approx 65% complete for 4924-662-MSITS2a_R1.fastq
+Approx 10% complete for 4924-662-MSITS2a_R2.fastq
+Approx 70% complete for 4924-662-MSITS2a_R1.fastq
+Approx 15% complete for 4924-662-MSITS2a_R2.fastq
+Approx 75% complete for 4924-662-MSITS2a_R1.fastq
+Approx 20% complete for 4924-662-MSITS2a_R2.fastq
+Approx 80% complete for 4924-662-MSITS2a_R1.fastq
+Approx 25% complete for 4924-662-MSITS2a_R2.fastq
+Approx 85% complete for 4924-662-MSITS2a_R1.fastq
+Approx 30% complete for 4924-662-MSITS2a_R2.fastq
+Approx 90% complete for 4924-662-MSITS2a_R1.fastq
+Approx 35% complete for 4924-662-MSITS2a_R2.fastq
+Approx 95% complete for 4924-662-MSITS2a_R1.fastq
+Approx 40% complete for 4924-662-MSITS2a_R2.fastq
+Analysis complete for 4924-662-MSITS2a_R1.fastq
+Approx 45% complete for 4924-662-MSITS2a_R2.fastq
+Approx 50% complete for 4924-662-MSITS2a_R2.fastq
+Approx 55% complete for 4924-662-MSITS2a_R2.fastq
+Approx 60% complete for 4924-662-MSITS2a_R2.fastq
+Approx 65% complete for 4924-662-MSITS2a_R2.fastq
+Approx 70% complete for 4924-662-MSITS2a_R2.fastq
+Approx 75% complete for 4924-662-MSITS2a_R2.fastq
+Approx 80% complete for 4924-662-MSITS2a_R2.fastq
+Approx 85% complete for 4924-662-MSITS2a_R2.fastq
+Approx 90% complete for 4924-662-MSITS2a_R2.fastq
+Approx 95% complete for 4924-662-MSITS2a_R2.fastq
+Analysis complete for 4924-662-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 16361090 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-663-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 16475300 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-663-MSITS2a_R2.fastq
+Started analysis of 4924-663-MSITS2a_R1.fastq
+Approx 5% complete for 4924-663-MSITS2a_R1.fastq
+Approx 10% complete for 4924-663-MSITS2a_R1.fastq
+Approx 15% complete for 4924-663-MSITS2a_R1.fastq
+Approx 20% complete for 4924-663-MSITS2a_R1.fastq
+Approx 25% complete for 4924-663-MSITS2a_R1.fastq
+Approx 30% complete for 4924-663-MSITS2a_R1.fastq
+Approx 35% complete for 4924-663-MSITS2a_R1.fastq
+Approx 40% complete for 4924-663-MSITS2a_R1.fastq
+Approx 45% complete for 4924-663-MSITS2a_R1.fastq
+Approx 50% complete for 4924-663-MSITS2a_R1.fastq
+Approx 55% complete for 4924-663-MSITS2a_R1.fastq
+Approx 60% complete for 4924-663-MSITS2a_R1.fastq
+Started analysis of 4924-663-MSITS2a_R2.fastq
+Approx 65% complete for 4924-663-MSITS2a_R1.fastq
+Approx 5% complete for 4924-663-MSITS2a_R2.fastq
+Approx 70% complete for 4924-663-MSITS2a_R1.fastq
+Approx 75% complete for 4924-663-MSITS2a_R1.fastq
+Approx 10% complete for 4924-663-MSITS2a_R2.fastq
+Approx 80% complete for 4924-663-MSITS2a_R1.fastq
+Approx 15% complete for 4924-663-MSITS2a_R2.fastq
+Approx 20% complete for 4924-663-MSITS2a_R2.fastq
+Approx 85% complete for 4924-663-MSITS2a_R1.fastq
+Approx 90% complete for 4924-663-MSITS2a_R1.fastq
+Approx 25% complete for 4924-663-MSITS2a_R2.fastq
+Approx 30% complete for 4924-663-MSITS2a_R2.fastq
+Approx 95% complete for 4924-663-MSITS2a_R1.fastq
+Approx 35% complete for 4924-663-MSITS2a_R2.fastq
+Analysis complete for 4924-663-MSITS2a_R1.fastq
+Approx 40% complete for 4924-663-MSITS2a_R2.fastq
+Approx 45% complete for 4924-663-MSITS2a_R2.fastq
+Approx 50% complete for 4924-663-MSITS2a_R2.fastq
+Approx 55% complete for 4924-663-MSITS2a_R2.fastq
+Approx 60% complete for 4924-663-MSITS2a_R2.fastq
+Approx 65% complete for 4924-663-MSITS2a_R2.fastq
+Approx 70% complete for 4924-663-MSITS2a_R2.fastq
+Approx 75% complete for 4924-663-MSITS2a_R2.fastq
+Approx 80% complete for 4924-663-MSITS2a_R2.fastq
+Approx 85% complete for 4924-663-MSITS2a_R2.fastq
+Approx 90% complete for 4924-663-MSITS2a_R2.fastq
+Approx 95% complete for 4924-663-MSITS2a_R2.fastq
+Analysis complete for 4924-663-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 10564285 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-664-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 10646801 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-664-MSITS2a_R2.fastq
+Started analysis of 4924-664-MSITS2a_R1.fastq
+Approx 10% complete for 4924-664-MSITS2a_R1.fastq
+Approx 15% complete for 4924-664-MSITS2a_R1.fastq
+Approx 20% complete for 4924-664-MSITS2a_R1.fastq
+Approx 25% complete for 4924-664-MSITS2a_R1.fastq
+Approx 30% complete for 4924-664-MSITS2a_R1.fastq
+Approx 35% complete for 4924-664-MSITS2a_R1.fastq
+Approx 40% complete for 4924-664-MSITS2a_R1.fastq
+Approx 45% complete for 4924-664-MSITS2a_R1.fastq
+Approx 50% complete for 4924-664-MSITS2a_R1.fastq
+Approx 55% complete for 4924-664-MSITS2a_R1.fastq
+Approx 60% complete for 4924-664-MSITS2a_R1.fastq
+Approx 65% complete for 4924-664-MSITS2a_R1.fastq
+Approx 70% complete for 4924-664-MSITS2a_R1.fastq
+Approx 75% complete for 4924-664-MSITS2a_R1.fastq
+Approx 80% complete for 4924-664-MSITS2a_R1.fastq
+Approx 85% complete for 4924-664-MSITS2a_R1.fastq
+Started analysis of 4924-664-MSITS2a_R2.fastq
+Approx 90% complete for 4924-664-MSITS2a_R1.fastq
+Approx 5% complete for 4924-664-MSITS2a_R2.fastq
+Approx 95% complete for 4924-664-MSITS2a_R1.fastq
+Analysis complete for 4924-664-MSITS2a_R1.fastq
+Approx 10% complete for 4924-664-MSITS2a_R2.fastq
+Approx 15% complete for 4924-664-MSITS2a_R2.fastq
+Approx 20% complete for 4924-664-MSITS2a_R2.fastq
+Approx 25% complete for 4924-664-MSITS2a_R2.fastq
+Approx 30% complete for 4924-664-MSITS2a_R2.fastq
+Approx 35% complete for 4924-664-MSITS2a_R2.fastq
+Approx 40% complete for 4924-664-MSITS2a_R2.fastq
+Approx 45% complete for 4924-664-MSITS2a_R2.fastq
+Approx 50% complete for 4924-664-MSITS2a_R2.fastq
+Approx 55% complete for 4924-664-MSITS2a_R2.fastq
+Approx 60% complete for 4924-664-MSITS2a_R2.fastq
+Approx 65% complete for 4924-664-MSITS2a_R2.fastq
+Approx 70% complete for 4924-664-MSITS2a_R2.fastq
+Approx 75% complete for 4924-664-MSITS2a_R2.fastq
+Approx 80% complete for 4924-664-MSITS2a_R2.fastq
+Approx 85% complete for 4924-664-MSITS2a_R2.fastq
+Approx 90% complete for 4924-664-MSITS2a_R2.fastq
+Approx 95% complete for 4924-664-MSITS2a_R2.fastq
+Analysis complete for 4924-664-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 16572155 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-665-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 16719827 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-665-MSITS2a_R2.fastq
+Started analysis of 4924-665-MSITS2a_R1.fastq
+Approx 5% complete for 4924-665-MSITS2a_R1.fastq
+Approx 10% complete for 4924-665-MSITS2a_R1.fastq
+Approx 15% complete for 4924-665-MSITS2a_R1.fastq
+Approx 20% complete for 4924-665-MSITS2a_R1.fastq
+Approx 25% complete for 4924-665-MSITS2a_R1.fastq
+Approx 30% complete for 4924-665-MSITS2a_R1.fastq
+Approx 35% complete for 4924-665-MSITS2a_R1.fastq
+Approx 40% complete for 4924-665-MSITS2a_R1.fastq
+Approx 45% complete for 4924-665-MSITS2a_R1.fastq
+Approx 50% complete for 4924-665-MSITS2a_R1.fastq
+Approx 55% complete for 4924-665-MSITS2a_R1.fastq
+Approx 60% complete for 4924-665-MSITS2a_R1.fastq
+Approx 65% complete for 4924-665-MSITS2a_R1.fastq
+Started analysis of 4924-665-MSITS2a_R2.fastq
+Approx 70% complete for 4924-665-MSITS2a_R1.fastq
+Approx 5% complete for 4924-665-MSITS2a_R2.fastq
+Approx 75% complete for 4924-665-MSITS2a_R1.fastq
+Approx 10% complete for 4924-665-MSITS2a_R2.fastq
+Approx 80% complete for 4924-665-MSITS2a_R1.fastq
+Approx 15% complete for 4924-665-MSITS2a_R2.fastq
+Approx 85% complete for 4924-665-MSITS2a_R1.fastq
+Approx 20% complete for 4924-665-MSITS2a_R2.fastq
+Approx 90% complete for 4924-665-MSITS2a_R1.fastq
+Approx 25% complete for 4924-665-MSITS2a_R2.fastq
+Approx 95% complete for 4924-665-MSITS2a_R1.fastq
+Analysis complete for 4924-665-MSITS2a_R1.fastq
+Approx 30% complete for 4924-665-MSITS2a_R2.fastq
+Approx 35% complete for 4924-665-MSITS2a_R2.fastq
+Approx 40% complete for 4924-665-MSITS2a_R2.fastq
+Approx 45% complete for 4924-665-MSITS2a_R2.fastq
+Approx 50% complete for 4924-665-MSITS2a_R2.fastq
+Approx 55% complete for 4924-665-MSITS2a_R2.fastq
+Approx 60% complete for 4924-665-MSITS2a_R2.fastq
+Approx 65% complete for 4924-665-MSITS2a_R2.fastq
+Approx 70% complete for 4924-665-MSITS2a_R2.fastq
+Approx 75% complete for 4924-665-MSITS2a_R2.fastq
+Approx 80% complete for 4924-665-MSITS2a_R2.fastq
+Approx 85% complete for 4924-665-MSITS2a_R2.fastq
+Approx 90% complete for 4924-665-MSITS2a_R2.fastq
+Approx 95% complete for 4924-665-MSITS2a_R2.fastq
+Analysis complete for 4924-665-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 19046710 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-667-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 19176770 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-667-MSITS2a_R2.fastq
+Started analysis of 4924-667-MSITS2a_R1.fastq
+Approx 5% complete for 4924-667-MSITS2a_R1.fastq
+Approx 10% complete for 4924-667-MSITS2a_R1.fastq
+Approx 15% complete for 4924-667-MSITS2a_R1.fastq
+Approx 20% complete for 4924-667-MSITS2a_R1.fastq
+Approx 25% complete for 4924-667-MSITS2a_R1.fastq
+Approx 30% complete for 4924-667-MSITS2a_R1.fastq
+Approx 35% complete for 4924-667-MSITS2a_R1.fastq
+Approx 40% complete for 4924-667-MSITS2a_R1.fastq
+Approx 45% complete for 4924-667-MSITS2a_R1.fastq
+Approx 50% complete for 4924-667-MSITS2a_R1.fastq
+Approx 55% complete for 4924-667-MSITS2a_R1.fastq
+Started analysis of 4924-667-MSITS2a_R2.fastq
+Approx 60% complete for 4924-667-MSITS2a_R1.fastq
+Approx 5% complete for 4924-667-MSITS2a_R2.fastq
+Approx 65% complete for 4924-667-MSITS2a_R1.fastq
+Approx 10% complete for 4924-667-MSITS2a_R2.fastq
+Approx 70% complete for 4924-667-MSITS2a_R1.fastq
+Approx 15% complete for 4924-667-MSITS2a_R2.fastq
+Approx 75% complete for 4924-667-MSITS2a_R1.fastq
+Approx 20% complete for 4924-667-MSITS2a_R2.fastq
+Approx 80% complete for 4924-667-MSITS2a_R1.fastq
+Approx 25% complete for 4924-667-MSITS2a_R2.fastq
+Approx 85% complete for 4924-667-MSITS2a_R1.fastq
+Approx 30% complete for 4924-667-MSITS2a_R2.fastq
+Approx 90% complete for 4924-667-MSITS2a_R1.fastq
+Approx 35% complete for 4924-667-MSITS2a_R2.fastq
+Approx 95% complete for 4924-667-MSITS2a_R1.fastq
+Analysis complete for 4924-667-MSITS2a_R1.fastq
+Approx 40% complete for 4924-667-MSITS2a_R2.fastq
+Approx 45% complete for 4924-667-MSITS2a_R2.fastq
+Approx 50% complete for 4924-667-MSITS2a_R2.fastq
+Approx 55% complete for 4924-667-MSITS2a_R2.fastq
+Approx 60% complete for 4924-667-MSITS2a_R2.fastq
+Approx 65% complete for 4924-667-MSITS2a_R2.fastq
+Approx 70% complete for 4924-667-MSITS2a_R2.fastq
+Approx 75% complete for 4924-667-MSITS2a_R2.fastq
+Approx 80% complete for 4924-667-MSITS2a_R2.fastq
+Approx 85% complete for 4924-667-MSITS2a_R2.fastq
+Approx 90% complete for 4924-667-MSITS2a_R2.fastq
+Approx 95% complete for 4924-667-MSITS2a_R2.fastq
+Analysis complete for 4924-667-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 13917055 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-668-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 14001853 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-668-MSITS2a_R2.fastq
+Started analysis of 4924-668-MSITS2a_R1.fastq
+Approx 5% complete for 4924-668-MSITS2a_R1.fastq
+Approx 10% complete for 4924-668-MSITS2a_R1.fastq
+Approx 15% complete for 4924-668-MSITS2a_R1.fastq
+Approx 20% complete for 4924-668-MSITS2a_R1.fastq
+Approx 25% complete for 4924-668-MSITS2a_R1.fastq
+Approx 30% complete for 4924-668-MSITS2a_R1.fastq
+Approx 35% complete for 4924-668-MSITS2a_R1.fastq
+Approx 40% complete for 4924-668-MSITS2a_R1.fastq
+Approx 45% complete for 4924-668-MSITS2a_R1.fastq
+Approx 50% complete for 4924-668-MSITS2a_R1.fastq
+Approx 55% complete for 4924-668-MSITS2a_R1.fastq
+Approx 60% complete for 4924-668-MSITS2a_R1.fastq
+Approx 65% complete for 4924-668-MSITS2a_R1.fastq
+Approx 70% complete for 4924-668-MSITS2a_R1.fastq
+Approx 75% complete for 4924-668-MSITS2a_R1.fastq
+Started analysis of 4924-668-MSITS2a_R2.fastq
+Approx 5% complete for 4924-668-MSITS2a_R2.fastq
+Approx 80% complete for 4924-668-MSITS2a_R1.fastq
+Approx 10% complete for 4924-668-MSITS2a_R2.fastq
+Approx 85% complete for 4924-668-MSITS2a_R1.fastq
+Approx 15% complete for 4924-668-MSITS2a_R2.fastq
+Approx 90% complete for 4924-668-MSITS2a_R1.fastq
+Approx 20% complete for 4924-668-MSITS2a_R2.fastq
+Approx 95% complete for 4924-668-MSITS2a_R1.fastq
+Analysis complete for 4924-668-MSITS2a_R1.fastq
+Approx 25% complete for 4924-668-MSITS2a_R2.fastq
+Approx 30% complete for 4924-668-MSITS2a_R2.fastq
+Approx 35% complete for 4924-668-MSITS2a_R2.fastq
+Approx 40% complete for 4924-668-MSITS2a_R2.fastq
+Approx 45% complete for 4924-668-MSITS2a_R2.fastq
+Approx 50% complete for 4924-668-MSITS2a_R2.fastq
+Approx 55% complete for 4924-668-MSITS2a_R2.fastq
+Approx 60% complete for 4924-668-MSITS2a_R2.fastq
+Approx 65% complete for 4924-668-MSITS2a_R2.fastq
+Approx 70% complete for 4924-668-MSITS2a_R2.fastq
+Approx 75% complete for 4924-668-MSITS2a_R2.fastq
+Approx 80% complete for 4924-668-MSITS2a_R2.fastq
+Approx 85% complete for 4924-668-MSITS2a_R2.fastq
+Approx 90% complete for 4924-668-MSITS2a_R2.fastq
+Approx 95% complete for 4924-668-MSITS2a_R2.fastq
+Analysis complete for 4924-668-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 16343113 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-669-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 16471405 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-669-MSITS2a_R2.fastq
+Started analysis of 4924-669-MSITS2a_R1.fastq
+Approx 5% complete for 4924-669-MSITS2a_R1.fastq
+Approx 10% complete for 4924-669-MSITS2a_R1.fastq
+Approx 15% complete for 4924-669-MSITS2a_R1.fastq
+Approx 20% complete for 4924-669-MSITS2a_R1.fastq
+Approx 25% complete for 4924-669-MSITS2a_R1.fastq
+Approx 30% complete for 4924-669-MSITS2a_R1.fastq
+Approx 35% complete for 4924-669-MSITS2a_R1.fastq
+Approx 40% complete for 4924-669-MSITS2a_R1.fastq
+Approx 45% complete for 4924-669-MSITS2a_R1.fastq
+Approx 50% complete for 4924-669-MSITS2a_R1.fastq
+Approx 55% complete for 4924-669-MSITS2a_R1.fastq
+Approx 60% complete for 4924-669-MSITS2a_R1.fastq
+Approx 65% complete for 4924-669-MSITS2a_R1.fastq
+Approx 70% complete for 4924-669-MSITS2a_R1.fastq
+Started analysis of 4924-669-MSITS2a_R2.fastq
+Approx 5% complete for 4924-669-MSITS2a_R2.fastq
+Approx 75% complete for 4924-669-MSITS2a_R1.fastq
+Approx 80% complete for 4924-669-MSITS2a_R1.fastq
+Approx 10% complete for 4924-669-MSITS2a_R2.fastq
+Approx 15% complete for 4924-669-MSITS2a_R2.fastq
+Approx 85% complete for 4924-669-MSITS2a_R1.fastq
+Approx 90% complete for 4924-669-MSITS2a_R1.fastq
+Approx 20% complete for 4924-669-MSITS2a_R2.fastq
+Approx 25% complete for 4924-669-MSITS2a_R2.fastq
+Approx 95% complete for 4924-669-MSITS2a_R1.fastq
+Analysis complete for 4924-669-MSITS2a_R1.fastq
+Approx 30% complete for 4924-669-MSITS2a_R2.fastq
+Approx 35% complete for 4924-669-MSITS2a_R2.fastq
+Approx 40% complete for 4924-669-MSITS2a_R2.fastq
+Approx 45% complete for 4924-669-MSITS2a_R2.fastq
+Approx 50% complete for 4924-669-MSITS2a_R2.fastq
+Approx 55% complete for 4924-669-MSITS2a_R2.fastq
+Approx 60% complete for 4924-669-MSITS2a_R2.fastq
+Approx 65% complete for 4924-669-MSITS2a_R2.fastq
+Approx 70% complete for 4924-669-MSITS2a_R2.fastq
+Approx 75% complete for 4924-669-MSITS2a_R2.fastq
+Approx 80% complete for 4924-669-MSITS2a_R2.fastq
+Approx 85% complete for 4924-669-MSITS2a_R2.fastq
+Approx 90% complete for 4924-669-MSITS2a_R2.fastq
+Approx 95% complete for 4924-669-MSITS2a_R2.fastq
+Analysis complete for 4924-669-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 15048109 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-670-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 15159675 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-670-MSITS2a_R2.fastq
+Started analysis of 4924-670-MSITS2a_R1.fastq
+Approx 5% complete for 4924-670-MSITS2a_R1.fastq
+Approx 10% complete for 4924-670-MSITS2a_R1.fastq
+Approx 15% complete for 4924-670-MSITS2a_R1.fastq
+Approx 20% complete for 4924-670-MSITS2a_R1.fastq
+Approx 25% complete for 4924-670-MSITS2a_R1.fastq
+Approx 30% complete for 4924-670-MSITS2a_R1.fastq
+Approx 35% complete for 4924-670-MSITS2a_R1.fastq
+Approx 40% complete for 4924-670-MSITS2a_R1.fastq
+Approx 45% complete for 4924-670-MSITS2a_R1.fastq
+Approx 50% complete for 4924-670-MSITS2a_R1.fastq
+Approx 55% complete for 4924-670-MSITS2a_R1.fastq
+Approx 60% complete for 4924-670-MSITS2a_R1.fastq
+Approx 65% complete for 4924-670-MSITS2a_R1.fastq
+Approx 70% complete for 4924-670-MSITS2a_R1.fastq
+Started analysis of 4924-670-MSITS2a_R2.fastq
+Approx 5% complete for 4924-670-MSITS2a_R2.fastq
+Approx 75% complete for 4924-670-MSITS2a_R1.fastq
+Approx 10% complete for 4924-670-MSITS2a_R2.fastq
+Approx 80% complete for 4924-670-MSITS2a_R1.fastq
+Approx 85% complete for 4924-670-MSITS2a_R1.fastq
+Approx 15% complete for 4924-670-MSITS2a_R2.fastq
+Approx 90% complete for 4924-670-MSITS2a_R1.fastq
+Approx 20% complete for 4924-670-MSITS2a_R2.fastq
+Approx 95% complete for 4924-670-MSITS2a_R1.fastq
+Approx 25% complete for 4924-670-MSITS2a_R2.fastq
+Analysis complete for 4924-670-MSITS2a_R1.fastq
+Approx 30% complete for 4924-670-MSITS2a_R2.fastq
+Approx 35% complete for 4924-670-MSITS2a_R2.fastq
+Approx 40% complete for 4924-670-MSITS2a_R2.fastq
+Approx 45% complete for 4924-670-MSITS2a_R2.fastq
+Approx 50% complete for 4924-670-MSITS2a_R2.fastq
+Approx 55% complete for 4924-670-MSITS2a_R2.fastq
+Approx 60% complete for 4924-670-MSITS2a_R2.fastq
+Approx 65% complete for 4924-670-MSITS2a_R2.fastq
+Approx 70% complete for 4924-670-MSITS2a_R2.fastq
+Approx 75% complete for 4924-670-MSITS2a_R2.fastq
+Approx 80% complete for 4924-670-MSITS2a_R2.fastq
+Approx 85% complete for 4924-670-MSITS2a_R2.fastq
+Approx 90% complete for 4924-670-MSITS2a_R2.fastq
+Approx 95% complete for 4924-670-MSITS2a_R2.fastq
+Analysis complete for 4924-670-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 14608999 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-672-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 14693695 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-672-MSITS2a_R2.fastq
+Started analysis of 4924-672-MSITS2a_R1.fastq
+Approx 5% complete for 4924-672-MSITS2a_R1.fastq
+Approx 10% complete for 4924-672-MSITS2a_R1.fastq
+Approx 15% complete for 4924-672-MSITS2a_R1.fastq
+Approx 20% complete for 4924-672-MSITS2a_R1.fastq
+Approx 25% complete for 4924-672-MSITS2a_R1.fastq
+Approx 30% complete for 4924-672-MSITS2a_R1.fastq
+Approx 35% complete for 4924-672-MSITS2a_R1.fastq
+Approx 40% complete for 4924-672-MSITS2a_R1.fastq
+Approx 45% complete for 4924-672-MSITS2a_R1.fastq
+Approx 50% complete for 4924-672-MSITS2a_R1.fastq
+Approx 55% complete for 4924-672-MSITS2a_R1.fastq
+Approx 60% complete for 4924-672-MSITS2a_R1.fastq
+Approx 65% complete for 4924-672-MSITS2a_R1.fastq
+Started analysis of 4924-672-MSITS2a_R2.fastq
+Approx 70% complete for 4924-672-MSITS2a_R1.fastq
+Approx 75% complete for 4924-672-MSITS2a_R1.fastq
+Approx 5% complete for 4924-672-MSITS2a_R2.fastq
+Approx 80% complete for 4924-672-MSITS2a_R1.fastq
+Approx 10% complete for 4924-672-MSITS2a_R2.fastq
+Approx 85% complete for 4924-672-MSITS2a_R1.fastq
+Approx 15% complete for 4924-672-MSITS2a_R2.fastq
+Approx 90% complete for 4924-672-MSITS2a_R1.fastq
+Approx 20% complete for 4924-672-MSITS2a_R2.fastq
+Approx 95% complete for 4924-672-MSITS2a_R1.fastq
+Approx 25% complete for 4924-672-MSITS2a_R2.fastq
+Analysis complete for 4924-672-MSITS2a_R1.fastq
+Approx 30% complete for 4924-672-MSITS2a_R2.fastq
+Approx 35% complete for 4924-672-MSITS2a_R2.fastq
+Approx 40% complete for 4924-672-MSITS2a_R2.fastq
+Approx 45% complete for 4924-672-MSITS2a_R2.fastq
+Approx 50% complete for 4924-672-MSITS2a_R2.fastq
+Approx 55% complete for 4924-672-MSITS2a_R2.fastq
+Approx 60% complete for 4924-672-MSITS2a_R2.fastq
+Approx 65% complete for 4924-672-MSITS2a_R2.fastq
+Approx 70% complete for 4924-672-MSITS2a_R2.fastq
+Approx 75% complete for 4924-672-MSITS2a_R2.fastq
+Approx 80% complete for 4924-672-MSITS2a_R2.fastq
+Approx 85% complete for 4924-672-MSITS2a_R2.fastq
+Approx 90% complete for 4924-672-MSITS2a_R2.fastq
+Approx 95% complete for 4924-672-MSITS2a_R2.fastq
+Analysis complete for 4924-672-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 9057463 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-673-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 9118475 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-673-MSITS2a_R2.fastq
+Started analysis of 4924-673-MSITS2a_R1.fastq
+Approx 5% complete for 4924-673-MSITS2a_R1.fastq
+Approx 10% complete for 4924-673-MSITS2a_R1.fastq
+Approx 15% complete for 4924-673-MSITS2a_R1.fastq
+Approx 20% complete for 4924-673-MSITS2a_R1.fastq
+Approx 25% complete for 4924-673-MSITS2a_R1.fastq
+Approx 30% complete for 4924-673-MSITS2a_R1.fastq
+Approx 40% complete for 4924-673-MSITS2a_R1.fastq
+Approx 45% complete for 4924-673-MSITS2a_R1.fastq
+Approx 50% complete for 4924-673-MSITS2a_R1.fastq
+Approx 55% complete for 4924-673-MSITS2a_R1.fastq
+Approx 60% complete for 4924-673-MSITS2a_R1.fastq
+Approx 65% complete for 4924-673-MSITS2a_R1.fastq
+Approx 75% complete for 4924-673-MSITS2a_R1.fastq
+Approx 80% complete for 4924-673-MSITS2a_R1.fastq
+Approx 85% complete for 4924-673-MSITS2a_R1.fastq
+Approx 90% complete for 4924-673-MSITS2a_R1.fastq
+Approx 95% complete for 4924-673-MSITS2a_R1.fastq
+Analysis complete for 4924-673-MSITS2a_R1.fastq
+Started analysis of 4924-673-MSITS2a_R2.fastq
+Approx 5% complete for 4924-673-MSITS2a_R2.fastq
+Approx 10% complete for 4924-673-MSITS2a_R2.fastq
+Approx 15% complete for 4924-673-MSITS2a_R2.fastq
+Approx 20% complete for 4924-673-MSITS2a_R2.fastq
+Approx 25% complete for 4924-673-MSITS2a_R2.fastq
+Approx 30% complete for 4924-673-MSITS2a_R2.fastq
+Approx 40% complete for 4924-673-MSITS2a_R2.fastq
+Approx 45% complete for 4924-673-MSITS2a_R2.fastq
+Approx 50% complete for 4924-673-MSITS2a_R2.fastq
+Approx 55% complete for 4924-673-MSITS2a_R2.fastq
+Approx 60% complete for 4924-673-MSITS2a_R2.fastq
+Approx 65% complete for 4924-673-MSITS2a_R2.fastq
+Approx 75% complete for 4924-673-MSITS2a_R2.fastq
+Approx 80% complete for 4924-673-MSITS2a_R2.fastq
+Approx 85% complete for 4924-673-MSITS2a_R2.fastq
+Approx 90% complete for 4924-673-MSITS2a_R2.fastq
+Approx 95% complete for 4924-673-MSITS2a_R2.fastq
+Analysis complete for 4924-673-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 9944776 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-674-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 10007610 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-674-MSITS2a_R2.fastq
+Started analysis of 4924-674-MSITS2a_R1.fastq
+Approx 5% complete for 4924-674-MSITS2a_R1.fastq
+Approx 10% complete for 4924-674-MSITS2a_R1.fastq
+Approx 15% complete for 4924-674-MSITS2a_R1.fastq
+Approx 20% complete for 4924-674-MSITS2a_R1.fastq
+Approx 25% complete for 4924-674-MSITS2a_R1.fastq
+Approx 30% complete for 4924-674-MSITS2a_R1.fastq
+Approx 35% complete for 4924-674-MSITS2a_R1.fastq
+Approx 40% complete for 4924-674-MSITS2a_R1.fastq
+Approx 45% complete for 4924-674-MSITS2a_R1.fastq
+Approx 50% complete for 4924-674-MSITS2a_R1.fastq
+Approx 55% complete for 4924-674-MSITS2a_R1.fastq
+Approx 60% complete for 4924-674-MSITS2a_R1.fastq
+Approx 65% complete for 4924-674-MSITS2a_R1.fastq
+Approx 70% complete for 4924-674-MSITS2a_R1.fastq
+Approx 75% complete for 4924-674-MSITS2a_R1.fastq
+Approx 80% complete for 4924-674-MSITS2a_R1.fastq
+Approx 90% complete for 4924-674-MSITS2a_R1.fastq
+Started analysis of 4924-674-MSITS2a_R2.fastq
+Approx 95% complete for 4924-674-MSITS2a_R1.fastq
+Approx 5% complete for 4924-674-MSITS2a_R2.fastq
+Analysis complete for 4924-674-MSITS2a_R1.fastq
+Approx 10% complete for 4924-674-MSITS2a_R2.fastq
+Approx 15% complete for 4924-674-MSITS2a_R2.fastq
+Approx 20% complete for 4924-674-MSITS2a_R2.fastq
+Approx 25% complete for 4924-674-MSITS2a_R2.fastq
+Approx 30% complete for 4924-674-MSITS2a_R2.fastq
+Approx 35% complete for 4924-674-MSITS2a_R2.fastq
+Approx 40% complete for 4924-674-MSITS2a_R2.fastq
+Approx 45% complete for 4924-674-MSITS2a_R2.fastq
+Approx 50% complete for 4924-674-MSITS2a_R2.fastq
+Approx 55% complete for 4924-674-MSITS2a_R2.fastq
+Approx 60% complete for 4924-674-MSITS2a_R2.fastq
+Approx 65% complete for 4924-674-MSITS2a_R2.fastq
+Approx 70% complete for 4924-674-MSITS2a_R2.fastq
+Approx 75% complete for 4924-674-MSITS2a_R2.fastq
+Approx 80% complete for 4924-674-MSITS2a_R2.fastq
+Approx 90% complete for 4924-674-MSITS2a_R2.fastq
+Approx 95% complete for 4924-674-MSITS2a_R2.fastq
+Analysis complete for 4924-674-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 12772708 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-675-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 12894190 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-675-MSITS2a_R2.fastq
+Started analysis of 4924-675-MSITS2a_R1.fastq
+Approx 5% complete for 4924-675-MSITS2a_R1.fastq
+Approx 10% complete for 4924-675-MSITS2a_R1.fastq
+Approx 15% complete for 4924-675-MSITS2a_R1.fastq
+Approx 20% complete for 4924-675-MSITS2a_R1.fastq
+Approx 25% complete for 4924-675-MSITS2a_R1.fastq
+Approx 30% complete for 4924-675-MSITS2a_R1.fastq
+Approx 35% complete for 4924-675-MSITS2a_R1.fastq
+Approx 40% complete for 4924-675-MSITS2a_R1.fastq
+Approx 45% complete for 4924-675-MSITS2a_R1.fastq
+Approx 50% complete for 4924-675-MSITS2a_R1.fastq
+Approx 55% complete for 4924-675-MSITS2a_R1.fastq
+Approx 60% complete for 4924-675-MSITS2a_R1.fastq
+Approx 65% complete for 4924-675-MSITS2a_R1.fastq
+Approx 70% complete for 4924-675-MSITS2a_R1.fastq
+Approx 75% complete for 4924-675-MSITS2a_R1.fastq
+Approx 80% complete for 4924-675-MSITS2a_R1.fastq
+Started analysis of 4924-675-MSITS2a_R2.fastq
+Approx 85% complete for 4924-675-MSITS2a_R1.fastq
+Approx 5% complete for 4924-675-MSITS2a_R2.fastq
+Approx 90% complete for 4924-675-MSITS2a_R1.fastq
+Approx 10% complete for 4924-675-MSITS2a_R2.fastq
+Approx 95% complete for 4924-675-MSITS2a_R1.fastq
+Approx 15% complete for 4924-675-MSITS2a_R2.fastq
+Analysis complete for 4924-675-MSITS2a_R1.fastq
+Approx 20% complete for 4924-675-MSITS2a_R2.fastq
+Approx 25% complete for 4924-675-MSITS2a_R2.fastq
+Approx 30% complete for 4924-675-MSITS2a_R2.fastq
+Approx 35% complete for 4924-675-MSITS2a_R2.fastq
+Approx 40% complete for 4924-675-MSITS2a_R2.fastq
+Approx 45% complete for 4924-675-MSITS2a_R2.fastq
+Approx 50% complete for 4924-675-MSITS2a_R2.fastq
+Approx 55% complete for 4924-675-MSITS2a_R2.fastq
+Approx 60% complete for 4924-675-MSITS2a_R2.fastq
+Approx 65% complete for 4924-675-MSITS2a_R2.fastq
+Approx 70% complete for 4924-675-MSITS2a_R2.fastq
+Approx 75% complete for 4924-675-MSITS2a_R2.fastq
+Approx 80% complete for 4924-675-MSITS2a_R2.fastq
+Approx 85% complete for 4924-675-MSITS2a_R2.fastq
+Approx 90% complete for 4924-675-MSITS2a_R2.fastq
+Approx 95% complete for 4924-675-MSITS2a_R2.fastq
+Analysis complete for 4924-675-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 17478153 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-677-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 17625785 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-677-MSITS2a_R2.fastq
+Started analysis of 4924-677-MSITS2a_R1.fastq
+Approx 5% complete for 4924-677-MSITS2a_R1.fastq
+Approx 10% complete for 4924-677-MSITS2a_R1.fastq
+Approx 15% complete for 4924-677-MSITS2a_R1.fastq
+Approx 20% complete for 4924-677-MSITS2a_R1.fastq
+Approx 25% complete for 4924-677-MSITS2a_R1.fastq
+Approx 30% complete for 4924-677-MSITS2a_R1.fastq
+Approx 35% complete for 4924-677-MSITS2a_R1.fastq
+Approx 40% complete for 4924-677-MSITS2a_R1.fastq
+Approx 45% complete for 4924-677-MSITS2a_R1.fastq
+Approx 50% complete for 4924-677-MSITS2a_R1.fastq
+Approx 55% complete for 4924-677-MSITS2a_R1.fastq
+Approx 60% complete for 4924-677-MSITS2a_R1.fastq
+Approx 65% complete for 4924-677-MSITS2a_R1.fastq
+Started analysis of 4924-677-MSITS2a_R2.fastq
+Approx 70% complete for 4924-677-MSITS2a_R1.fastq
+Approx 5% complete for 4924-677-MSITS2a_R2.fastq
+Approx 75% complete for 4924-677-MSITS2a_R1.fastq
+Approx 10% complete for 4924-677-MSITS2a_R2.fastq
+Approx 80% complete for 4924-677-MSITS2a_R1.fastq
+Approx 15% complete for 4924-677-MSITS2a_R2.fastq
+Approx 85% complete for 4924-677-MSITS2a_R1.fastq
+Approx 20% complete for 4924-677-MSITS2a_R2.fastq
+Approx 90% complete for 4924-677-MSITS2a_R1.fastq
+Approx 95% complete for 4924-677-MSITS2a_R1.fastq
+Approx 25% complete for 4924-677-MSITS2a_R2.fastq
+Analysis complete for 4924-677-MSITS2a_R1.fastq
+Approx 30% complete for 4924-677-MSITS2a_R2.fastq
+Approx 35% complete for 4924-677-MSITS2a_R2.fastq
+Approx 40% complete for 4924-677-MSITS2a_R2.fastq
+Approx 45% complete for 4924-677-MSITS2a_R2.fastq
+Approx 50% complete for 4924-677-MSITS2a_R2.fastq
+Approx 55% complete for 4924-677-MSITS2a_R2.fastq
+Approx 60% complete for 4924-677-MSITS2a_R2.fastq
+Approx 65% complete for 4924-677-MSITS2a_R2.fastq
+Approx 70% complete for 4924-677-MSITS2a_R2.fastq
+Approx 75% complete for 4924-677-MSITS2a_R2.fastq
+Approx 80% complete for 4924-677-MSITS2a_R2.fastq
+Approx 85% complete for 4924-677-MSITS2a_R2.fastq
+Approx 90% complete for 4924-677-MSITS2a_R2.fastq
+Approx 95% complete for 4924-677-MSITS2a_R2.fastq
+Analysis complete for 4924-677-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 13770976 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-678-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 13834106 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-678-MSITS2a_R2.fastq
+Started analysis of 4924-678-MSITS2a_R1.fastq
+Approx 5% complete for 4924-678-MSITS2a_R1.fastq
+Approx 10% complete for 4924-678-MSITS2a_R1.fastq
+Approx 15% complete for 4924-678-MSITS2a_R1.fastq
+Approx 20% complete for 4924-678-MSITS2a_R1.fastq
+Approx 25% complete for 4924-678-MSITS2a_R1.fastq
+Approx 30% complete for 4924-678-MSITS2a_R1.fastq
+Approx 35% complete for 4924-678-MSITS2a_R1.fastq
+Approx 40% complete for 4924-678-MSITS2a_R1.fastq
+Approx 45% complete for 4924-678-MSITS2a_R1.fastq
+Approx 50% complete for 4924-678-MSITS2a_R1.fastq
+Approx 55% complete for 4924-678-MSITS2a_R1.fastq
+Approx 60% complete for 4924-678-MSITS2a_R1.fastq
+Approx 65% complete for 4924-678-MSITS2a_R1.fastq
+Approx 70% complete for 4924-678-MSITS2a_R1.fastq
+Approx 75% complete for 4924-678-MSITS2a_R1.fastq
+Started analysis of 4924-678-MSITS2a_R2.fastq
+Approx 80% complete for 4924-678-MSITS2a_R1.fastq
+Approx 5% complete for 4924-678-MSITS2a_R2.fastq
+Approx 85% complete for 4924-678-MSITS2a_R1.fastq
+Approx 10% complete for 4924-678-MSITS2a_R2.fastq
+Approx 15% complete for 4924-678-MSITS2a_R2.fastq
+Approx 90% complete for 4924-678-MSITS2a_R1.fastq
+Approx 95% complete for 4924-678-MSITS2a_R1.fastq
+Approx 20% complete for 4924-678-MSITS2a_R2.fastq
+Analysis complete for 4924-678-MSITS2a_R1.fastq
+Approx 25% complete for 4924-678-MSITS2a_R2.fastq
+Approx 30% complete for 4924-678-MSITS2a_R2.fastq
+Approx 35% complete for 4924-678-MSITS2a_R2.fastq
+Approx 40% complete for 4924-678-MSITS2a_R2.fastq
+Approx 45% complete for 4924-678-MSITS2a_R2.fastq
+Approx 50% complete for 4924-678-MSITS2a_R2.fastq
+Approx 55% complete for 4924-678-MSITS2a_R2.fastq
+Approx 60% complete for 4924-678-MSITS2a_R2.fastq
+Approx 65% complete for 4924-678-MSITS2a_R2.fastq
+Approx 70% complete for 4924-678-MSITS2a_R2.fastq
+Approx 75% complete for 4924-678-MSITS2a_R2.fastq
+Approx 80% complete for 4924-678-MSITS2a_R2.fastq
+Approx 85% complete for 4924-678-MSITS2a_R2.fastq
+Approx 90% complete for 4924-678-MSITS2a_R2.fastq
+Approx 95% complete for 4924-678-MSITS2a_R2.fastq
+Analysis complete for 4924-678-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 16717816 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-679-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 16853432 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-679-MSITS2a_R2.fastq
+Started analysis of 4924-679-MSITS2a_R1.fastq
+Approx 5% complete for 4924-679-MSITS2a_R1.fastq
+Approx 10% complete for 4924-679-MSITS2a_R1.fastq
+Approx 15% complete for 4924-679-MSITS2a_R1.fastq
+Approx 20% complete for 4924-679-MSITS2a_R1.fastq
+Approx 25% complete for 4924-679-MSITS2a_R1.fastq
+Approx 30% complete for 4924-679-MSITS2a_R1.fastq
+Approx 35% complete for 4924-679-MSITS2a_R1.fastq
+Approx 40% complete for 4924-679-MSITS2a_R1.fastq
+Approx 45% complete for 4924-679-MSITS2a_R1.fastq
+Approx 50% complete for 4924-679-MSITS2a_R1.fastq
+Approx 55% complete for 4924-679-MSITS2a_R1.fastq
+Approx 60% complete for 4924-679-MSITS2a_R1.fastq
+Approx 65% complete for 4924-679-MSITS2a_R1.fastq
+Started analysis of 4924-679-MSITS2a_R2.fastq
+Approx 70% complete for 4924-679-MSITS2a_R1.fastq
+Approx 5% complete for 4924-679-MSITS2a_R2.fastq
+Approx 75% complete for 4924-679-MSITS2a_R1.fastq
+Approx 10% complete for 4924-679-MSITS2a_R2.fastq
+Approx 80% complete for 4924-679-MSITS2a_R1.fastq
+Approx 15% complete for 4924-679-MSITS2a_R2.fastq
+Approx 85% complete for 4924-679-MSITS2a_R1.fastq
+Approx 20% complete for 4924-679-MSITS2a_R2.fastq
+Approx 90% complete for 4924-679-MSITS2a_R1.fastq
+Approx 25% complete for 4924-679-MSITS2a_R2.fastq
+Approx 95% complete for 4924-679-MSITS2a_R1.fastq
+Approx 30% complete for 4924-679-MSITS2a_R2.fastq
+Analysis complete for 4924-679-MSITS2a_R1.fastq
+Approx 35% complete for 4924-679-MSITS2a_R2.fastq
+Approx 40% complete for 4924-679-MSITS2a_R2.fastq
+Approx 45% complete for 4924-679-MSITS2a_R2.fastq
+Approx 50% complete for 4924-679-MSITS2a_R2.fastq
+Approx 55% complete for 4924-679-MSITS2a_R2.fastq
+Approx 60% complete for 4924-679-MSITS2a_R2.fastq
+Approx 65% complete for 4924-679-MSITS2a_R2.fastq
+Approx 70% complete for 4924-679-MSITS2a_R2.fastq
+Approx 75% complete for 4924-679-MSITS2a_R2.fastq
+Approx 80% complete for 4924-679-MSITS2a_R2.fastq
+Approx 85% complete for 4924-679-MSITS2a_R2.fastq
+Approx 90% complete for 4924-679-MSITS2a_R2.fastq
+Approx 95% complete for 4924-679-MSITS2a_R2.fastq
+Analysis complete for 4924-679-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 27897161 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-680-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 28085107 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-680-MSITS2a_R2.fastq
+Started analysis of 4924-680-MSITS2a_R1.fastq
+Approx 5% complete for 4924-680-MSITS2a_R1.fastq
+Approx 10% complete for 4924-680-MSITS2a_R1.fastq
+Approx 15% complete for 4924-680-MSITS2a_R1.fastq
+Approx 20% complete for 4924-680-MSITS2a_R1.fastq
+Approx 25% complete for 4924-680-MSITS2a_R1.fastq
+Approx 30% complete for 4924-680-MSITS2a_R1.fastq
+Approx 35% complete for 4924-680-MSITS2a_R1.fastq
+Approx 40% complete for 4924-680-MSITS2a_R1.fastq
+Approx 45% complete for 4924-680-MSITS2a_R1.fastq
+Started analysis of 4924-680-MSITS2a_R2.fastq
+Approx 50% complete for 4924-680-MSITS2a_R1.fastq
+Approx 5% complete for 4924-680-MSITS2a_R2.fastq
+Approx 55% complete for 4924-680-MSITS2a_R1.fastq
+Approx 10% complete for 4924-680-MSITS2a_R2.fastq
+Approx 60% complete for 4924-680-MSITS2a_R1.fastq
+Approx 15% complete for 4924-680-MSITS2a_R2.fastq
+Approx 65% complete for 4924-680-MSITS2a_R1.fastq
+Approx 20% complete for 4924-680-MSITS2a_R2.fastq
+Approx 70% complete for 4924-680-MSITS2a_R1.fastq
+Approx 25% complete for 4924-680-MSITS2a_R2.fastq
+Approx 75% complete for 4924-680-MSITS2a_R1.fastq
+Approx 30% complete for 4924-680-MSITS2a_R2.fastq
+Approx 80% complete for 4924-680-MSITS2a_R1.fastq
+Approx 85% complete for 4924-680-MSITS2a_R1.fastq
+Approx 35% complete for 4924-680-MSITS2a_R2.fastq
+Approx 90% complete for 4924-680-MSITS2a_R1.fastq
+Approx 40% complete for 4924-680-MSITS2a_R2.fastq
+Approx 95% complete for 4924-680-MSITS2a_R1.fastq
+Approx 45% complete for 4924-680-MSITS2a_R2.fastq
+Analysis complete for 4924-680-MSITS2a_R1.fastq
+Approx 50% complete for 4924-680-MSITS2a_R2.fastq
+Approx 55% complete for 4924-680-MSITS2a_R2.fastq
+Approx 60% complete for 4924-680-MSITS2a_R2.fastq
+Approx 65% complete for 4924-680-MSITS2a_R2.fastq
+Approx 70% complete for 4924-680-MSITS2a_R2.fastq
+Approx 75% complete for 4924-680-MSITS2a_R2.fastq
+Approx 80% complete for 4924-680-MSITS2a_R2.fastq
+Approx 85% complete for 4924-680-MSITS2a_R2.fastq
+Approx 90% complete for 4924-680-MSITS2a_R2.fastq
+Approx 95% complete for 4924-680-MSITS2a_R2.fastq
+Analysis complete for 4924-680-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 27621486 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-692-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 27473750 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-692-MSITS2a_R2.fastq
+Started analysis of 4924-692-MSITS2a_R1.fastq
+Approx 5% complete for 4924-692-MSITS2a_R1.fastq
+Approx 10% complete for 4924-692-MSITS2a_R1.fastq
+Approx 15% complete for 4924-692-MSITS2a_R1.fastq
+Approx 20% complete for 4924-692-MSITS2a_R1.fastq
+Approx 25% complete for 4924-692-MSITS2a_R1.fastq
+Approx 30% complete for 4924-692-MSITS2a_R1.fastq
+Approx 35% complete for 4924-692-MSITS2a_R1.fastq
+Approx 40% complete for 4924-692-MSITS2a_R1.fastq
+Approx 45% complete for 4924-692-MSITS2a_R1.fastq
+Approx 50% complete for 4924-692-MSITS2a_R1.fastq
+Started analysis of 4924-692-MSITS2a_R2.fastq
+Approx 55% complete for 4924-692-MSITS2a_R1.fastq
+Approx 5% complete for 4924-692-MSITS2a_R2.fastq
+Approx 60% complete for 4924-692-MSITS2a_R1.fastq
+Approx 10% complete for 4924-692-MSITS2a_R2.fastq
+Approx 65% complete for 4924-692-MSITS2a_R1.fastq
+Approx 15% complete for 4924-692-MSITS2a_R2.fastq
+Approx 70% complete for 4924-692-MSITS2a_R1.fastq
+Approx 20% complete for 4924-692-MSITS2a_R2.fastq
+Approx 75% complete for 4924-692-MSITS2a_R1.fastq
+Approx 25% complete for 4924-692-MSITS2a_R2.fastq
+Approx 80% complete for 4924-692-MSITS2a_R1.fastq
+Approx 30% complete for 4924-692-MSITS2a_R2.fastq
+Approx 85% complete for 4924-692-MSITS2a_R1.fastq
+Approx 35% complete for 4924-692-MSITS2a_R2.fastq
+Approx 90% complete for 4924-692-MSITS2a_R1.fastq
+Approx 40% complete for 4924-692-MSITS2a_R2.fastq
+Approx 95% complete for 4924-692-MSITS2a_R1.fastq
+Approx 45% complete for 4924-692-MSITS2a_R2.fastq
+Approx 50% complete for 4924-692-MSITS2a_R2.fastq
+Analysis complete for 4924-692-MSITS2a_R1.fastq
+Approx 55% complete for 4924-692-MSITS2a_R2.fastq
+Approx 60% complete for 4924-692-MSITS2a_R2.fastq
+Approx 65% complete for 4924-692-MSITS2a_R2.fastq
+Approx 70% complete for 4924-692-MSITS2a_R2.fastq
+Approx 75% complete for 4924-692-MSITS2a_R2.fastq
+Approx 80% complete for 4924-692-MSITS2a_R2.fastq
+Approx 85% complete for 4924-692-MSITS2a_R2.fastq
+Approx 90% complete for 4924-692-MSITS2a_R2.fastq
+Approx 95% complete for 4924-692-MSITS2a_R2.fastq
+Analysis complete for 4924-692-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 24298561 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-693-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 24173335 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-693-MSITS2a_R2.fastq
+Started analysis of 4924-693-MSITS2a_R1.fastq
+Approx 5% complete for 4924-693-MSITS2a_R1.fastq
+Approx 10% complete for 4924-693-MSITS2a_R1.fastq
+Approx 15% complete for 4924-693-MSITS2a_R1.fastq
+Approx 20% complete for 4924-693-MSITS2a_R1.fastq
+Approx 25% complete for 4924-693-MSITS2a_R1.fastq
+Approx 30% complete for 4924-693-MSITS2a_R1.fastq
+Approx 35% complete for 4924-693-MSITS2a_R1.fastq
+Approx 40% complete for 4924-693-MSITS2a_R1.fastq
+Approx 45% complete for 4924-693-MSITS2a_R1.fastq
+Approx 50% complete for 4924-693-MSITS2a_R1.fastq
+Approx 55% complete for 4924-693-MSITS2a_R1.fastq
+Started analysis of 4924-693-MSITS2a_R2.fastq
+Approx 60% complete for 4924-693-MSITS2a_R1.fastq
+Approx 5% complete for 4924-693-MSITS2a_R2.fastq
+Approx 65% complete for 4924-693-MSITS2a_R1.fastq
+Approx 10% complete for 4924-693-MSITS2a_R2.fastq
+Approx 70% complete for 4924-693-MSITS2a_R1.fastq
+Approx 15% complete for 4924-693-MSITS2a_R2.fastq
+Approx 75% complete for 4924-693-MSITS2a_R1.fastq
+Approx 20% complete for 4924-693-MSITS2a_R2.fastq
+Approx 80% complete for 4924-693-MSITS2a_R1.fastq
+Approx 25% complete for 4924-693-MSITS2a_R2.fastq
+Approx 85% complete for 4924-693-MSITS2a_R1.fastq
+Approx 30% complete for 4924-693-MSITS2a_R2.fastq
+Approx 90% complete for 4924-693-MSITS2a_R1.fastq
+Approx 35% complete for 4924-693-MSITS2a_R2.fastq
+Approx 95% complete for 4924-693-MSITS2a_R1.fastq
+Analysis complete for 4924-693-MSITS2a_R1.fastq
+Approx 40% complete for 4924-693-MSITS2a_R2.fastq
+Approx 45% complete for 4924-693-MSITS2a_R2.fastq
+Approx 50% complete for 4924-693-MSITS2a_R2.fastq
+Approx 55% complete for 4924-693-MSITS2a_R2.fastq
+Approx 60% complete for 4924-693-MSITS2a_R2.fastq
+Approx 65% complete for 4924-693-MSITS2a_R2.fastq
+Approx 70% complete for 4924-693-MSITS2a_R2.fastq
+Approx 75% complete for 4924-693-MSITS2a_R2.fastq
+Approx 80% complete for 4924-693-MSITS2a_R2.fastq
+Approx 85% complete for 4924-693-MSITS2a_R2.fastq
+Approx 90% complete for 4924-693-MSITS2a_R2.fastq
+Approx 95% complete for 4924-693-MSITS2a_R2.fastq
+Analysis complete for 4924-693-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 14789724 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-694-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 14776128 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-694-MSITS2a_R2.fastq
+Started analysis of 4924-694-MSITS2a_R1.fastq
+Approx 5% complete for 4924-694-MSITS2a_R1.fastq
+Approx 10% complete for 4924-694-MSITS2a_R1.fastq
+Approx 15% complete for 4924-694-MSITS2a_R1.fastq
+Approx 20% complete for 4924-694-MSITS2a_R1.fastq
+Approx 25% complete for 4924-694-MSITS2a_R1.fastq
+Approx 30% complete for 4924-694-MSITS2a_R1.fastq
+Approx 35% complete for 4924-694-MSITS2a_R1.fastq
+Approx 40% complete for 4924-694-MSITS2a_R1.fastq
+Approx 45% complete for 4924-694-MSITS2a_R1.fastq
+Approx 50% complete for 4924-694-MSITS2a_R1.fastq
+Approx 55% complete for 4924-694-MSITS2a_R1.fastq
+Approx 60% complete for 4924-694-MSITS2a_R1.fastq
+Approx 65% complete for 4924-694-MSITS2a_R1.fastq
+Started analysis of 4924-694-MSITS2a_R2.fastq
+Approx 70% complete for 4924-694-MSITS2a_R1.fastq
+Approx 75% complete for 4924-694-MSITS2a_R1.fastq
+Approx 5% complete for 4924-694-MSITS2a_R2.fastq
+Approx 80% complete for 4924-694-MSITS2a_R1.fastq
+Approx 10% complete for 4924-694-MSITS2a_R2.fastq
+Approx 85% complete for 4924-694-MSITS2a_R1.fastq
+Approx 15% complete for 4924-694-MSITS2a_R2.fastq
+Approx 90% complete for 4924-694-MSITS2a_R1.fastq
+Approx 20% complete for 4924-694-MSITS2a_R2.fastq
+Approx 95% complete for 4924-694-MSITS2a_R1.fastq
+Approx 25% complete for 4924-694-MSITS2a_R2.fastq
+Analysis complete for 4924-694-MSITS2a_R1.fastq
+Approx 30% complete for 4924-694-MSITS2a_R2.fastq
+Approx 35% complete for 4924-694-MSITS2a_R2.fastq
+Approx 40% complete for 4924-694-MSITS2a_R2.fastq
+Approx 45% complete for 4924-694-MSITS2a_R2.fastq
+Approx 50% complete for 4924-694-MSITS2a_R2.fastq
+Approx 55% complete for 4924-694-MSITS2a_R2.fastq
+Approx 60% complete for 4924-694-MSITS2a_R2.fastq
+Approx 65% complete for 4924-694-MSITS2a_R2.fastq
+Approx 70% complete for 4924-694-MSITS2a_R2.fastq
+Approx 75% complete for 4924-694-MSITS2a_R2.fastq
+Approx 80% complete for 4924-694-MSITS2a_R2.fastq
+Approx 85% complete for 4924-694-MSITS2a_R2.fastq
+Approx 90% complete for 4924-694-MSITS2a_R2.fastq
+Approx 95% complete for 4924-694-MSITS2a_R2.fastq
+Analysis complete for 4924-694-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 25565770 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-695-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 25440478 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-695-MSITS2a_R2.fastq
+Started analysis of 4924-695-MSITS2a_R1.fastq
+Approx 5% complete for 4924-695-MSITS2a_R1.fastq
+Approx 10% complete for 4924-695-MSITS2a_R1.fastq
+Approx 15% complete for 4924-695-MSITS2a_R1.fastq
+Approx 20% complete for 4924-695-MSITS2a_R1.fastq
+Approx 25% complete for 4924-695-MSITS2a_R1.fastq
+Approx 30% complete for 4924-695-MSITS2a_R1.fastq
+Approx 35% complete for 4924-695-MSITS2a_R1.fastq
+Approx 40% complete for 4924-695-MSITS2a_R1.fastq
+Approx 45% complete for 4924-695-MSITS2a_R1.fastq
+Approx 50% complete for 4924-695-MSITS2a_R1.fastq
+Started analysis of 4924-695-MSITS2a_R2.fastq
+Approx 55% complete for 4924-695-MSITS2a_R1.fastq
+Approx 5% complete for 4924-695-MSITS2a_R2.fastq
+Approx 60% complete for 4924-695-MSITS2a_R1.fastq
+Approx 10% complete for 4924-695-MSITS2a_R2.fastq
+Approx 65% complete for 4924-695-MSITS2a_R1.fastq
+Approx 15% complete for 4924-695-MSITS2a_R2.fastq
+Approx 70% complete for 4924-695-MSITS2a_R1.fastq
+Approx 20% complete for 4924-695-MSITS2a_R2.fastq
+Approx 75% complete for 4924-695-MSITS2a_R1.fastq
+Approx 80% complete for 4924-695-MSITS2a_R1.fastq
+Approx 25% complete for 4924-695-MSITS2a_R2.fastq
+Approx 85% complete for 4924-695-MSITS2a_R1.fastq
+Approx 30% complete for 4924-695-MSITS2a_R2.fastq
+Approx 90% complete for 4924-695-MSITS2a_R1.fastq
+Approx 35% complete for 4924-695-MSITS2a_R2.fastq
+Approx 95% complete for 4924-695-MSITS2a_R1.fastq
+Approx 40% complete for 4924-695-MSITS2a_R2.fastq
+Analysis complete for 4924-695-MSITS2a_R1.fastq
+Approx 45% complete for 4924-695-MSITS2a_R2.fastq
+Approx 50% complete for 4924-695-MSITS2a_R2.fastq
+Approx 55% complete for 4924-695-MSITS2a_R2.fastq
+Approx 60% complete for 4924-695-MSITS2a_R2.fastq
+Approx 65% complete for 4924-695-MSITS2a_R2.fastq
+Approx 70% complete for 4924-695-MSITS2a_R2.fastq
+Approx 75% complete for 4924-695-MSITS2a_R2.fastq
+Approx 80% complete for 4924-695-MSITS2a_R2.fastq
+Approx 85% complete for 4924-695-MSITS2a_R2.fastq
+Approx 90% complete for 4924-695-MSITS2a_R2.fastq
+Approx 95% complete for 4924-695-MSITS2a_R2.fastq
+Analysis complete for 4924-695-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 23642743 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-697-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 23512073 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-697-MSITS2a_R2.fastq
+Started analysis of 4924-697-MSITS2a_R1.fastq
+Approx 5% complete for 4924-697-MSITS2a_R1.fastq
+Approx 10% complete for 4924-697-MSITS2a_R1.fastq
+Approx 15% complete for 4924-697-MSITS2a_R1.fastq
+Approx 20% complete for 4924-697-MSITS2a_R1.fastq
+Approx 25% complete for 4924-697-MSITS2a_R1.fastq
+Approx 30% complete for 4924-697-MSITS2a_R1.fastq
+Approx 35% complete for 4924-697-MSITS2a_R1.fastq
+Approx 40% complete for 4924-697-MSITS2a_R1.fastq
+Approx 45% complete for 4924-697-MSITS2a_R1.fastq
+Approx 50% complete for 4924-697-MSITS2a_R1.fastq
+Approx 55% complete for 4924-697-MSITS2a_R1.fastq
+Started analysis of 4924-697-MSITS2a_R2.fastq
+Approx 60% complete for 4924-697-MSITS2a_R1.fastq
+Approx 5% complete for 4924-697-MSITS2a_R2.fastq
+Approx 65% complete for 4924-697-MSITS2a_R1.fastq
+Approx 10% complete for 4924-697-MSITS2a_R2.fastq
+Approx 70% complete for 4924-697-MSITS2a_R1.fastq
+Approx 15% complete for 4924-697-MSITS2a_R2.fastq
+Approx 75% complete for 4924-697-MSITS2a_R1.fastq
+Approx 20% complete for 4924-697-MSITS2a_R2.fastq
+Approx 80% complete for 4924-697-MSITS2a_R1.fastq
+Approx 25% complete for 4924-697-MSITS2a_R2.fastq
+Approx 30% complete for 4924-697-MSITS2a_R2.fastq
+Approx 85% complete for 4924-697-MSITS2a_R1.fastq
+Approx 35% complete for 4924-697-MSITS2a_R2.fastq
+Approx 90% complete for 4924-697-MSITS2a_R1.fastq
+Approx 40% complete for 4924-697-MSITS2a_R2.fastq
+Approx 95% complete for 4924-697-MSITS2a_R1.fastq
+Approx 45% complete for 4924-697-MSITS2a_R2.fastq
+Analysis complete for 4924-697-MSITS2a_R1.fastq
+Approx 50% complete for 4924-697-MSITS2a_R2.fastq
+Approx 55% complete for 4924-697-MSITS2a_R2.fastq
+Approx 60% complete for 4924-697-MSITS2a_R2.fastq
+Approx 65% complete for 4924-697-MSITS2a_R2.fastq
+Approx 70% complete for 4924-697-MSITS2a_R2.fastq
+Approx 75% complete for 4924-697-MSITS2a_R2.fastq
+Approx 80% complete for 4924-697-MSITS2a_R2.fastq
+Approx 85% complete for 4924-697-MSITS2a_R2.fastq
+Approx 90% complete for 4924-697-MSITS2a_R2.fastq
+Approx 95% complete for 4924-697-MSITS2a_R2.fastq
+Analysis complete for 4924-697-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 15199469 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-698-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 15128985 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-698-MSITS2a_R2.fastq
+Started analysis of 4924-698-MSITS2a_R1.fastq
+Approx 5% complete for 4924-698-MSITS2a_R1.fastq
+Approx 10% complete for 4924-698-MSITS2a_R1.fastq
+Approx 15% complete for 4924-698-MSITS2a_R1.fastq
+Approx 20% complete for 4924-698-MSITS2a_R1.fastq
+Approx 25% complete for 4924-698-MSITS2a_R1.fastq
+Approx 30% complete for 4924-698-MSITS2a_R1.fastq
+Approx 35% complete for 4924-698-MSITS2a_R1.fastq
+Approx 40% complete for 4924-698-MSITS2a_R1.fastq
+Approx 45% complete for 4924-698-MSITS2a_R1.fastq
+Approx 50% complete for 4924-698-MSITS2a_R1.fastq
+Approx 55% complete for 4924-698-MSITS2a_R1.fastq
+Approx 60% complete for 4924-698-MSITS2a_R1.fastq
+Approx 65% complete for 4924-698-MSITS2a_R1.fastq
+Approx 70% complete for 4924-698-MSITS2a_R1.fastq
+Started analysis of 4924-698-MSITS2a_R2.fastq
+Approx 75% complete for 4924-698-MSITS2a_R1.fastq
+Approx 5% complete for 4924-698-MSITS2a_R2.fastq
+Approx 80% complete for 4924-698-MSITS2a_R1.fastq
+Approx 10% complete for 4924-698-MSITS2a_R2.fastq
+Approx 85% complete for 4924-698-MSITS2a_R1.fastq
+Approx 15% complete for 4924-698-MSITS2a_R2.fastq
+Approx 90% complete for 4924-698-MSITS2a_R1.fastq
+Approx 20% complete for 4924-698-MSITS2a_R2.fastq
+Approx 95% complete for 4924-698-MSITS2a_R1.fastq
+Approx 25% complete for 4924-698-MSITS2a_R2.fastq
+Analysis complete for 4924-698-MSITS2a_R1.fastq
+Approx 30% complete for 4924-698-MSITS2a_R2.fastq
+Approx 35% complete for 4924-698-MSITS2a_R2.fastq
+Approx 40% complete for 4924-698-MSITS2a_R2.fastq
+Approx 45% complete for 4924-698-MSITS2a_R2.fastq
+Approx 50% complete for 4924-698-MSITS2a_R2.fastq
+Approx 55% complete for 4924-698-MSITS2a_R2.fastq
+Approx 60% complete for 4924-698-MSITS2a_R2.fastq
+Approx 65% complete for 4924-698-MSITS2a_R2.fastq
+Approx 70% complete for 4924-698-MSITS2a_R2.fastq
+Approx 75% complete for 4924-698-MSITS2a_R2.fastq
+Approx 80% complete for 4924-698-MSITS2a_R2.fastq
+Approx 85% complete for 4924-698-MSITS2a_R2.fastq
+Approx 90% complete for 4924-698-MSITS2a_R2.fastq
+Approx 95% complete for 4924-698-MSITS2a_R2.fastq
+Analysis complete for 4924-698-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 13785661 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-699-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 13785447 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-699-MSITS2a_R2.fastq
+Started analysis of 4924-699-MSITS2a_R1.fastq
+Approx 5% complete for 4924-699-MSITS2a_R1.fastq
+Approx 10% complete for 4924-699-MSITS2a_R1.fastq
+Approx 15% complete for 4924-699-MSITS2a_R1.fastq
+Approx 20% complete for 4924-699-MSITS2a_R1.fastq
+Approx 25% complete for 4924-699-MSITS2a_R1.fastq
+Approx 30% complete for 4924-699-MSITS2a_R1.fastq
+Approx 35% complete for 4924-699-MSITS2a_R1.fastq
+Approx 40% complete for 4924-699-MSITS2a_R1.fastq
+Approx 45% complete for 4924-699-MSITS2a_R1.fastq
+Approx 50% complete for 4924-699-MSITS2a_R1.fastq
+Approx 55% complete for 4924-699-MSITS2a_R1.fastq
+Approx 60% complete for 4924-699-MSITS2a_R1.fastq
+Approx 65% complete for 4924-699-MSITS2a_R1.fastq
+Approx 70% complete for 4924-699-MSITS2a_R1.fastq
+Approx 75% complete for 4924-699-MSITS2a_R1.fastq
+Started analysis of 4924-699-MSITS2a_R2.fastq
+Approx 80% complete for 4924-699-MSITS2a_R1.fastq
+Approx 5% complete for 4924-699-MSITS2a_R2.fastq
+Approx 85% complete for 4924-699-MSITS2a_R1.fastq
+Approx 10% complete for 4924-699-MSITS2a_R2.fastq
+Approx 90% complete for 4924-699-MSITS2a_R1.fastq
+Approx 15% complete for 4924-699-MSITS2a_R2.fastq
+Approx 20% complete for 4924-699-MSITS2a_R2.fastq
+Approx 95% complete for 4924-699-MSITS2a_R1.fastq
+Analysis complete for 4924-699-MSITS2a_R1.fastq
+Approx 25% complete for 4924-699-MSITS2a_R2.fastq
+Approx 30% complete for 4924-699-MSITS2a_R2.fastq
+Approx 35% complete for 4924-699-MSITS2a_R2.fastq
+Approx 40% complete for 4924-699-MSITS2a_R2.fastq
+Approx 45% complete for 4924-699-MSITS2a_R2.fastq
+Approx 50% complete for 4924-699-MSITS2a_R2.fastq
+Approx 55% complete for 4924-699-MSITS2a_R2.fastq
+Approx 60% complete for 4924-699-MSITS2a_R2.fastq
+Approx 65% complete for 4924-699-MSITS2a_R2.fastq
+Approx 70% complete for 4924-699-MSITS2a_R2.fastq
+Approx 75% complete for 4924-699-MSITS2a_R2.fastq
+Approx 80% complete for 4924-699-MSITS2a_R2.fastq
+Approx 85% complete for 4924-699-MSITS2a_R2.fastq
+Approx 90% complete for 4924-699-MSITS2a_R2.fastq
+Approx 95% complete for 4924-699-MSITS2a_R2.fastq
+Analysis complete for 4924-699-MSITS2a_R2.fastq
+-rw-rw-r-- 1 mark mark 13209451 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-700-MSITS2a_R1.fastq
+-rw-rw-r-- 1 mark mark 13206961 Feb 23  2017 /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-700-MSITS2a_R2.fastq
+Started analysis of 4924-700-MSITS2a_R1.fastq
+Approx 5% complete for 4924-700-MSITS2a_R1.fastq
+Approx 10% complete for 4924-700-MSITS2a_R1.fastq
+Approx 15% complete for 4924-700-MSITS2a_R1.fastq
+Approx 20% complete for 4924-700-MSITS2a_R1.fastq
+Approx 25% complete for 4924-700-MSITS2a_R1.fastq
+Approx 30% complete for 4924-700-MSITS2a_R1.fastq
+Approx 35% complete for 4924-700-MSITS2a_R1.fastq
+Approx 40% complete for 4924-700-MSITS2a_R1.fastq
+Approx 45% complete for 4924-700-MSITS2a_R1.fastq
+Approx 50% complete for 4924-700-MSITS2a_R1.fastq
+Approx 55% complete for 4924-700-MSITS2a_R1.fastq
+Approx 60% complete for 4924-700-MSITS2a_R1.fastq
+Approx 65% complete for 4924-700-MSITS2a_R1.fastq
+Approx 70% complete for 4924-700-MSITS2a_R1.fastq
+Approx 75% complete for 4924-700-MSITS2a_R1.fastq
+Started analysis of 4924-700-MSITS2a_R2.fastq
+Approx 80% complete for 4924-700-MSITS2a_R1.fastq
+Approx 5% complete for 4924-700-MSITS2a_R2.fastq
+Approx 85% complete for 4924-700-MSITS2a_R1.fastq
+Approx 10% complete for 4924-700-MSITS2a_R2.fastq
+Approx 90% complete for 4924-700-MSITS2a_R1.fastq
+Approx 15% complete for 4924-700-MSITS2a_R2.fastq
+Approx 95% complete for 4924-700-MSITS2a_R1.fastq
+Approx 20% complete for 4924-700-MSITS2a_R2.fastq
+Analysis complete for 4924-700-MSITS2a_R1.fastq
+Approx 25% complete for 4924-700-MSITS2a_R2.fastq
+Approx 30% complete for 4924-700-MSITS2a_R2.fastq
+Approx 35% complete for 4924-700-MSITS2a_R2.fastq
+Approx 40% complete for 4924-700-MSITS2a_R2.fastq
+Approx 45% complete for 4924-700-MSITS2a_R2.fastq
+Approx 50% complete for 4924-700-MSITS2a_R2.fastq
+Approx 55% complete for 4924-700-MSITS2a_R2.fastq
+Approx 60% complete for 4924-700-MSITS2a_R2.fastq
+Approx 65% complete for 4924-700-MSITS2a_R2.fastq
+Approx 70% complete for 4924-700-MSITS2a_R2.fastq
+Approx 75% complete for 4924-700-MSITS2a_R2.fastq
+Approx 80% complete for 4924-700-MSITS2a_R2.fastq
+Approx 85% complete for 4924-700-MSITS2a_R2.fastq
+Approx 90% complete for 4924-700-MSITS2a_R2.fastq
+Approx 95% complete for 4924-700-MSITS2a_R2.fastq
+Analysis complete for 4924-700-MSITS2a_R2.fastq
+[WARNING]         multiqc : MultiQC Version v1.2 now available!
+[INFO   ]         multiqc : This is MultiQC v1.1
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '/home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data'
+Searching 168 files..
+[INFO   ]          fastqc : Found 56 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : Aer_Comp/Aer_Comp_Fungi/raw_data/multiqc_report.html
+[INFO   ]         multiqc : Data        : Aer_Comp/Aer_Comp_Fungi/raw_data/multiqc_data
+[INFO   ]         multiqc : MultiQC complete
+Wed Sep 13 04:03:02 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-657-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-657-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-657-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-657-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//657.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//657.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//657.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//657.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//657.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 33396 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      33396
+[FLASH]     Combined pairs:   31180
+[FLASH]     Uncombined pairs: 2216
+[FLASH]     Percent combined: 93.36%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.102 seconds elapsed
+Wed Sep 13 04:03:02 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-658-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-658-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-658-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-658-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//658.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//658.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//658.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//658.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//658.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 23367 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      23367
+[FLASH]     Combined pairs:   21790
+[FLASH]     Uncombined pairs: 1577
+[FLASH]     Percent combined: 93.25%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.091 seconds elapsed
+Wed Sep 13 04:03:02 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-659-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-659-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-659-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-659-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//659.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//659.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//659.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//659.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//659.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 30647 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      30647
+[FLASH]     Combined pairs:   27255
+[FLASH]     Uncombined pairs: 3392
+[FLASH]     Percent combined: 88.93%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.106 seconds elapsed
+Wed Sep 13 04:03:02 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-660-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-660-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-660-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-660-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//660.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//660.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//660.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//660.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//660.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 29659 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      29659
+[FLASH]     Combined pairs:   27764
+[FLASH]     Uncombined pairs: 1895
+[FLASH]     Percent combined: 93.61%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.099 seconds elapsed
+Wed Sep 13 04:03:02 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-662-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-662-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-662-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-662-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//662.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//662.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//662.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//662.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//662.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 37858 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      37858
+[FLASH]     Combined pairs:   28271
+[FLASH]     Uncombined pairs: 9587
+[FLASH]     Percent combined: 74.68%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.122 seconds elapsed
+Wed Sep 13 04:03:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-663-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-663-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-663-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-663-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//663.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//663.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//663.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//663.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//663.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 30920 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      30920
+[FLASH]     Combined pairs:   23134
+[FLASH]     Uncombined pairs: 7786
+[FLASH]     Percent combined: 74.82%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.095 seconds elapsed
+Wed Sep 13 04:03:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-664-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-664-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-664-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-664-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//664.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//664.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//664.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//664.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//664.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 20123 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      20123
+[FLASH]     Combined pairs:   13428
+[FLASH]     Uncombined pairs: 6695
+[FLASH]     Percent combined: 66.73%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.072 seconds elapsed
+Wed Sep 13 04:03:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-665-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-665-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-665-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-665-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//665.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//665.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//665.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//665.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//665.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 31806 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      31806
+[FLASH]     Combined pairs:   22607
+[FLASH]     Uncombined pairs: 9199
+[FLASH]     Percent combined: 71.08%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.106 seconds elapsed
+Wed Sep 13 04:03:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-667-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-667-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-667-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-667-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//667.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//667.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//667.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//667.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//667.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 35989 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      35989
+[FLASH]     Combined pairs:   26596
+[FLASH]     Uncombined pairs: 9393
+[FLASH]     Percent combined: 73.90%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.114 seconds elapsed
+Wed Sep 13 04:03:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-668-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-668-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-668-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-668-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//668.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//668.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//668.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//668.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//668.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 26427 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      26427
+[FLASH]     Combined pairs:   18509
+[FLASH]     Uncombined pairs: 7918
+[FLASH]     Percent combined: 70.04%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.092 seconds elapsed
+Wed Sep 13 04:03:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-669-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-669-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-669-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-669-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//669.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//669.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//669.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//669.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//669.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 31085 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      31085
+[FLASH]     Combined pairs:   22097
+[FLASH]     Uncombined pairs: 8988
+[FLASH]     Percent combined: 71.09%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.101 seconds elapsed
+Wed Sep 13 04:03:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-670-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-670-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-670-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-670-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//670.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//670.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//670.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//670.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//670.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 28463 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      28463
+[FLASH]     Combined pairs:   20999
+[FLASH]     Uncombined pairs: 7464
+[FLASH]     Percent combined: 73.78%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.093 seconds elapsed
+Wed Sep 13 04:03:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-672-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-672-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-672-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-672-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//672.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//672.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//672.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//672.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//672.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 27473 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      27473
+[FLASH]     Combined pairs:   21041
+[FLASH]     Uncombined pairs: 6432
+[FLASH]     Percent combined: 76.59%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.089 seconds elapsed
+Wed Sep 13 04:03:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-673-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-673-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-673-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-673-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//673.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//673.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//673.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//673.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//673.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 17292 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      17292
+[FLASH]     Combined pairs:   13032
+[FLASH]     Uncombined pairs: 4260
+[FLASH]     Percent combined: 75.36%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.064 seconds elapsed
+Wed Sep 13 04:03:03 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-674-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-674-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-674-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-674-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//674.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//674.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//674.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//674.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//674.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 18887 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      18887
+[FLASH]     Combined pairs:   12935
+[FLASH]     Uncombined pairs: 5952
+[FLASH]     Percent combined: 68.49%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.067 seconds elapsed
+Wed Sep 13 04:03:04 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-675-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-675-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-675-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-675-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//675.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//675.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//675.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//675.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//675.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 24414 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      24414
+[FLASH]     Combined pairs:   16845
+[FLASH]     Uncombined pairs: 7569
+[FLASH]     Percent combined: 69.00%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.081 seconds elapsed
+Wed Sep 13 04:03:04 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-677-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-677-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-677-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-677-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//677.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//677.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//677.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//677.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//677.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 33101 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      33101
+[FLASH]     Combined pairs:   23368
+[FLASH]     Uncombined pairs: 9733
+[FLASH]     Percent combined: 70.60%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.111 seconds elapsed
+Wed Sep 13 04:03:04 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-678-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-678-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-678-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-678-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//678.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//678.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//678.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//678.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//678.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 26038 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      26038
+[FLASH]     Combined pairs:   18556
+[FLASH]     Uncombined pairs: 7482
+[FLASH]     Percent combined: 71.27%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.082 seconds elapsed
+Wed Sep 13 04:03:04 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-679-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-679-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-679-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-679-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//679.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//679.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//679.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//679.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//679.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 31893 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      31893
+[FLASH]     Combined pairs:   22679
+[FLASH]     Uncombined pairs: 9214
+[FLASH]     Percent combined: 71.11%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.102 seconds elapsed
+Wed Sep 13 04:03:04 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-680-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-680-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-680-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-680-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//680.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//680.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//680.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//680.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//680.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 53097 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      53097
+[FLASH]     Combined pairs:   38099
+[FLASH]     Uncombined pairs: 14998
+[FLASH]     Percent combined: 71.75%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.154 seconds elapsed
+Wed Sep 13 04:03:04 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-692-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-692-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-692-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-692-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//692.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//692.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//692.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//692.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//692.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 49406 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      49406
+[FLASH]     Combined pairs:   47257
+[FLASH]     Uncombined pairs: 2149
+[FLASH]     Percent combined: 95.65%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.150 seconds elapsed
+Wed Sep 13 04:03:04 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-693-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-693-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-693-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-693-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//693.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//693.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//693.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//693.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//693.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 43518 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      43518
+[FLASH]     Combined pairs:   41468
+[FLASH]     Uncombined pairs: 2050
+[FLASH]     Percent combined: 95.29%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.143 seconds elapsed
+Wed Sep 13 04:03:04 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-694-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-694-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-694-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-694-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//694.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//694.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//694.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//694.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//694.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 27144 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      27144
+[FLASH]     Combined pairs:   22938
+[FLASH]     Uncombined pairs: 4206
+[FLASH]     Percent combined: 84.50%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.102 seconds elapsed
+Wed Sep 13 04:03:04 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-695-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-695-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-695-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-695-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//695.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//695.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//695.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//695.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//695.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 45800 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      45800
+[FLASH]     Combined pairs:   43542
+[FLASH]     Uncombined pairs: 2258
+[FLASH]     Percent combined: 95.07%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.143 seconds elapsed
+Wed Sep 13 04:03:05 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-697-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-697-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-697-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-697-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//697.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//697.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//697.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//697.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//697.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 42227 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      42227
+[FLASH]     Combined pairs:   40521
+[FLASH]     Uncombined pairs: 1706
+[FLASH]     Percent combined: 95.96%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.134 seconds elapsed
+Wed Sep 13 04:03:05 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-698-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-698-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-698-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-698-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//698.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//698.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//698.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//698.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//698.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 27291 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      27291
+[FLASH]     Combined pairs:   25643
+[FLASH]     Uncombined pairs: 1648
+[FLASH]     Percent combined: 93.96%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.087 seconds elapsed
+Wed Sep 13 04:03:05 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-699-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-699-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-699-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-699-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//699.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//699.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//699.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//699.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//699.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 24682 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      24682
+[FLASH]     Combined pairs:   23791
+[FLASH]     Uncombined pairs: 891
+[FLASH]     Percent combined: 96.39%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.084 seconds elapsed
+Wed Sep 13 04:03:05 EDT 2017 flashing /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-700-MSITS2a_R1.fastq and /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-700-MSITS2a_R2.fastq
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-700-MSITS2a_R1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/4924-700-MSITS2a_R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//700.extendedFrags.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//700.notCombined_1.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//700.notCombined_2.fastq
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//700.hist
+[FLASH]     /home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags//700.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           50
+[FLASH]     Max overlap:           250
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 23590 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      23590
+[FLASH]     Combined pairs:   22883
+[FLASH]     Uncombined pairs: 707
+[FLASH]     Percent combined: 97.00%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.075 seconds elapsed
+Started analysis of 657.extendedFrags.fastq
+Approx 5% complete for 657.extendedFrags.fastq
+Approx 10% complete for 657.extendedFrags.fastq
+Approx 15% complete for 657.extendedFrags.fastq
+Approx 20% complete for 657.extendedFrags.fastq
+Approx 25% complete for 657.extendedFrags.fastq
+Approx 30% complete for 657.extendedFrags.fastq
+Approx 35% complete for 657.extendedFrags.fastq
+Approx 40% complete for 657.extendedFrags.fastq
+Approx 45% complete for 657.extendedFrags.fastq
+Approx 50% complete for 657.extendedFrags.fastq
+Approx 55% complete for 657.extendedFrags.fastq
+Approx 60% complete for 657.extendedFrags.fastq
+Started analysis of 658.extendedFrags.fastq
+Approx 65% complete for 657.extendedFrags.fastq
+Approx 5% complete for 658.extendedFrags.fastq
+Approx 70% complete for 657.extendedFrags.fastq
+Approx 10% complete for 658.extendedFrags.fastq
+Approx 15% complete for 658.extendedFrags.fastq
+Approx 75% complete for 657.extendedFrags.fastq
+Approx 20% complete for 658.extendedFrags.fastq
+Approx 80% complete for 657.extendedFrags.fastq
+Approx 25% complete for 658.extendedFrags.fastq
+Approx 85% complete for 657.extendedFrags.fastq
+Approx 30% complete for 658.extendedFrags.fastq
+Approx 35% complete for 658.extendedFrags.fastq
+Approx 90% complete for 657.extendedFrags.fastq
+Approx 40% complete for 658.extendedFrags.fastq
+Approx 95% complete for 657.extendedFrags.fastq
+Approx 45% complete for 658.extendedFrags.fastq
+Analysis complete for 657.extendedFrags.fastq
+Approx 50% complete for 658.extendedFrags.fastq
+Approx 55% complete for 658.extendedFrags.fastq
+Approx 60% complete for 658.extendedFrags.fastq
+Approx 65% complete for 658.extendedFrags.fastq
+Approx 70% complete for 658.extendedFrags.fastq
+Started analysis of 659.extendedFrags.fastq
+Approx 5% complete for 659.extendedFrags.fastq
+Approx 75% complete for 658.extendedFrags.fastq
+Approx 10% complete for 659.extendedFrags.fastq
+Approx 15% complete for 659.extendedFrags.fastq
+Approx 80% complete for 658.extendedFrags.fastq
+Approx 20% complete for 659.extendedFrags.fastq
+Approx 25% complete for 659.extendedFrags.fastq
+Approx 85% complete for 658.extendedFrags.fastq
+Approx 30% complete for 659.extendedFrags.fastq
+Approx 90% complete for 658.extendedFrags.fastq
+Approx 35% complete for 659.extendedFrags.fastq
+Approx 40% complete for 659.extendedFrags.fastq
+Approx 95% complete for 658.extendedFrags.fastq
+Approx 45% complete for 659.extendedFrags.fastq
+Approx 50% complete for 659.extendedFrags.fastq
+Analysis complete for 658.extendedFrags.fastq
+Approx 55% complete for 659.extendedFrags.fastq
+Approx 60% complete for 659.extendedFrags.fastq
+Approx 65% complete for 659.extendedFrags.fastq
+Approx 70% complete for 659.extendedFrags.fastq
+Approx 75% complete for 659.extendedFrags.fastq
+Approx 80% complete for 659.extendedFrags.fastq
+Started analysis of 660.extendedFrags.fastq
+Approx 85% complete for 659.extendedFrags.fastq
+Approx 5% complete for 660.extendedFrags.fastq
+Approx 90% complete for 659.extendedFrags.fastq
+Approx 10% complete for 660.extendedFrags.fastq
+Approx 95% complete for 659.extendedFrags.fastq
+Approx 15% complete for 660.extendedFrags.fastq
+Analysis complete for 659.extendedFrags.fastq
+Approx 20% complete for 660.extendedFrags.fastq
+Approx 25% complete for 660.extendedFrags.fastq
+Approx 30% complete for 660.extendedFrags.fastq
+Approx 35% complete for 660.extendedFrags.fastq
+Approx 40% complete for 660.extendedFrags.fastq
+Approx 45% complete for 660.extendedFrags.fastq
+Approx 50% complete for 660.extendedFrags.fastq
+Approx 55% complete for 660.extendedFrags.fastq
+Approx 60% complete for 660.extendedFrags.fastq
+Approx 65% complete for 660.extendedFrags.fastq
+Approx 70% complete for 660.extendedFrags.fastq
+Approx 75% complete for 660.extendedFrags.fastq
+Started analysis of 662.extendedFrags.fastq
+Approx 5% complete for 662.extendedFrags.fastq
+Approx 80% complete for 660.extendedFrags.fastq
+Approx 10% complete for 662.extendedFrags.fastq
+Approx 85% complete for 660.extendedFrags.fastq
+Approx 90% complete for 660.extendedFrags.fastq
+Approx 15% complete for 662.extendedFrags.fastq
+Approx 20% complete for 662.extendedFrags.fastq
+Approx 95% complete for 660.extendedFrags.fastq
+Analysis complete for 660.extendedFrags.fastq
+Approx 25% complete for 662.extendedFrags.fastq
+Approx 30% complete for 662.extendedFrags.fastq
+Approx 35% complete for 662.extendedFrags.fastq
+Approx 40% complete for 662.extendedFrags.fastq
+Approx 45% complete for 662.extendedFrags.fastq
+Approx 50% complete for 662.extendedFrags.fastq
+Approx 55% complete for 662.extendedFrags.fastq
+Approx 60% complete for 662.extendedFrags.fastq
+Approx 65% complete for 662.extendedFrags.fastq
+Approx 70% complete for 662.extendedFrags.fastq
+Approx 75% complete for 662.extendedFrags.fastq
+Approx 80% complete for 662.extendedFrags.fastq
+Started analysis of 663.extendedFrags.fastq
+Approx 85% complete for 662.extendedFrags.fastq
+Approx 5% complete for 663.extendedFrags.fastq
+Approx 90% complete for 662.extendedFrags.fastq
+Approx 10% complete for 663.extendedFrags.fastq
+Approx 95% complete for 662.extendedFrags.fastq
+Approx 15% complete for 663.extendedFrags.fastq
+Analysis complete for 662.extendedFrags.fastq
+Approx 20% complete for 663.extendedFrags.fastq
+Approx 25% complete for 663.extendedFrags.fastq
+Approx 30% complete for 663.extendedFrags.fastq
+Approx 35% complete for 663.extendedFrags.fastq
+Approx 40% complete for 663.extendedFrags.fastq
+Approx 45% complete for 663.extendedFrags.fastq
+Approx 50% complete for 663.extendedFrags.fastq
+Approx 55% complete for 663.extendedFrags.fastq
+Approx 60% complete for 663.extendedFrags.fastq
+Approx 65% complete for 663.extendedFrags.fastq
+Approx 70% complete for 663.extendedFrags.fastq
+Approx 75% complete for 663.extendedFrags.fastq
+Approx 80% complete for 663.extendedFrags.fastq
+Approx 85% complete for 663.extendedFrags.fastq
+Started analysis of 664.extendedFrags.fastq
+Approx 5% complete for 664.extendedFrags.fastq
+Approx 90% complete for 663.extendedFrags.fastq
+Approx 95% complete for 663.extendedFrags.fastq
+Approx 10% complete for 664.extendedFrags.fastq
+Approx 20% complete for 664.extendedFrags.fastq
+Analysis complete for 663.extendedFrags.fastq
+Approx 25% complete for 664.extendedFrags.fastq
+Approx 35% complete for 664.extendedFrags.fastq
+Approx 40% complete for 664.extendedFrags.fastq
+Approx 50% complete for 664.extendedFrags.fastq
+Approx 55% complete for 664.extendedFrags.fastq
+Approx 65% complete for 664.extendedFrags.fastq
+Approx 70% complete for 664.extendedFrags.fastq
+Approx 80% complete for 664.extendedFrags.fastq
+Approx 85% complete for 664.extendedFrags.fastq
+Approx 95% complete for 664.extendedFrags.fastq
+Analysis complete for 664.extendedFrags.fastq
+Started analysis of 665.extendedFrags.fastq
+Approx 5% complete for 665.extendedFrags.fastq
+Approx 10% complete for 665.extendedFrags.fastq
+Approx 15% complete for 665.extendedFrags.fastq
+Approx 20% complete for 665.extendedFrags.fastq
+Approx 25% complete for 665.extendedFrags.fastq
+Approx 30% complete for 665.extendedFrags.fastq
+Approx 35% complete for 665.extendedFrags.fastq
+Approx 40% complete for 665.extendedFrags.fastq
+Approx 45% complete for 665.extendedFrags.fastq
+Approx 50% complete for 665.extendedFrags.fastq
+Approx 55% complete for 665.extendedFrags.fastq
+Approx 60% complete for 665.extendedFrags.fastq
+Approx 65% complete for 665.extendedFrags.fastq
+Approx 70% complete for 665.extendedFrags.fastq
+Approx 75% complete for 665.extendedFrags.fastq
+Approx 80% complete for 665.extendedFrags.fastq
+Approx 85% complete for 665.extendedFrags.fastq
+Approx 90% complete for 665.extendedFrags.fastq
+Approx 95% complete for 665.extendedFrags.fastq
+Analysis complete for 665.extendedFrags.fastq
+Started analysis of 667.extendedFrags.fastq
+Approx 5% complete for 667.extendedFrags.fastq
+Approx 10% complete for 667.extendedFrags.fastq
+Approx 15% complete for 667.extendedFrags.fastq
+Approx 20% complete for 667.extendedFrags.fastq
+Approx 25% complete for 667.extendedFrags.fastq
+Approx 30% complete for 667.extendedFrags.fastq
+Approx 35% complete for 667.extendedFrags.fastq
+Approx 40% complete for 667.extendedFrags.fastq
+Approx 45% complete for 667.extendedFrags.fastq
+Approx 50% complete for 667.extendedFrags.fastq
+Approx 55% complete for 667.extendedFrags.fastq
+Approx 60% complete for 667.extendedFrags.fastq
+Approx 65% complete for 667.extendedFrags.fastq
+Approx 70% complete for 667.extendedFrags.fastq
+Approx 75% complete for 667.extendedFrags.fastq
+Approx 80% complete for 667.extendedFrags.fastq
+Approx 85% complete for 667.extendedFrags.fastq
+Approx 90% complete for 667.extendedFrags.fastq
+Started analysis of 668.extendedFrags.fastq
+Approx 5% complete for 668.extendedFrags.fastq
+Approx 95% complete for 667.extendedFrags.fastq
+Approx 10% complete for 668.extendedFrags.fastq
+Analysis complete for 667.extendedFrags.fastq
+Approx 15% complete for 668.extendedFrags.fastq
+Approx 20% complete for 668.extendedFrags.fastq
+Approx 25% complete for 668.extendedFrags.fastq
+Approx 30% complete for 668.extendedFrags.fastq
+Approx 35% complete for 668.extendedFrags.fastq
+Approx 40% complete for 668.extendedFrags.fastq
+Approx 45% complete for 668.extendedFrags.fastq
+Approx 50% complete for 668.extendedFrags.fastq
+Approx 55% complete for 668.extendedFrags.fastq
+Approx 60% complete for 668.extendedFrags.fastq
+Approx 70% complete for 668.extendedFrags.fastq
+Approx 75% complete for 668.extendedFrags.fastq
+Approx 80% complete for 668.extendedFrags.fastq
+Approx 85% complete for 668.extendedFrags.fastq
+Approx 90% complete for 668.extendedFrags.fastq
+Approx 95% complete for 668.extendedFrags.fastq
+Analysis complete for 668.extendedFrags.fastq
+Started analysis of 669.extendedFrags.fastq
+Approx 5% complete for 669.extendedFrags.fastq
+Approx 10% complete for 669.extendedFrags.fastq
+Approx 15% complete for 669.extendedFrags.fastq
+Approx 20% complete for 669.extendedFrags.fastq
+Approx 25% complete for 669.extendedFrags.fastq
+Approx 30% complete for 669.extendedFrags.fastq
+Approx 35% complete for 669.extendedFrags.fastq
+Approx 40% complete for 669.extendedFrags.fastq
+Approx 45% complete for 669.extendedFrags.fastq
+Approx 50% complete for 669.extendedFrags.fastq
+Approx 55% complete for 669.extendedFrags.fastq
+Approx 60% complete for 669.extendedFrags.fastq
+Approx 65% complete for 669.extendedFrags.fastq
+Approx 70% complete for 669.extendedFrags.fastq
+Approx 75% complete for 669.extendedFrags.fastq
+Approx 80% complete for 669.extendedFrags.fastq
+Approx 85% complete for 669.extendedFrags.fastq
+Approx 90% complete for 669.extendedFrags.fastq
+Approx 95% complete for 669.extendedFrags.fastq
+Started analysis of 670.extendedFrags.fastq
+Analysis complete for 669.extendedFrags.fastq
+Approx 5% complete for 670.extendedFrags.fastq
+Approx 10% complete for 670.extendedFrags.fastq
+Approx 15% complete for 670.extendedFrags.fastq
+Approx 20% complete for 670.extendedFrags.fastq
+Approx 25% complete for 670.extendedFrags.fastq
+Approx 30% complete for 670.extendedFrags.fastq
+Approx 35% complete for 670.extendedFrags.fastq
+Approx 40% complete for 670.extendedFrags.fastq
+Approx 45% complete for 670.extendedFrags.fastq
+Approx 50% complete for 670.extendedFrags.fastq
+Approx 55% complete for 670.extendedFrags.fastq
+Approx 60% complete for 670.extendedFrags.fastq
+Approx 65% complete for 670.extendedFrags.fastq
+Approx 70% complete for 670.extendedFrags.fastq
+Approx 75% complete for 670.extendedFrags.fastq
+Approx 80% complete for 670.extendedFrags.fastq
+Approx 85% complete for 670.extendedFrags.fastq
+Approx 90% complete for 670.extendedFrags.fastq
+Approx 95% complete for 670.extendedFrags.fastq
+Analysis complete for 670.extendedFrags.fastq
+Started analysis of 672.extendedFrags.fastq
+Approx 5% complete for 672.extendedFrags.fastq
+Approx 10% complete for 672.extendedFrags.fastq
+Approx 15% complete for 672.extendedFrags.fastq
+Approx 20% complete for 672.extendedFrags.fastq
+Approx 25% complete for 672.extendedFrags.fastq
+Approx 30% complete for 672.extendedFrags.fastq
+Approx 35% complete for 672.extendedFrags.fastq
+Approx 40% complete for 672.extendedFrags.fastq
+Approx 45% complete for 672.extendedFrags.fastq
+Approx 50% complete for 672.extendedFrags.fastq
+Approx 55% complete for 672.extendedFrags.fastq
+Approx 60% complete for 672.extendedFrags.fastq
+Approx 65% complete for 672.extendedFrags.fastq
+Approx 70% complete for 672.extendedFrags.fastq
+Approx 75% complete for 672.extendedFrags.fastq
+Approx 80% complete for 672.extendedFrags.fastq
+Started analysis of 673.extendedFrags.fastq
+Approx 85% complete for 672.extendedFrags.fastq
+Approx 5% complete for 673.extendedFrags.fastq
+Approx 90% complete for 672.extendedFrags.fastq
+Approx 15% complete for 673.extendedFrags.fastq
+Approx 95% complete for 672.extendedFrags.fastq
+Approx 20% complete for 673.extendedFrags.fastq
+Analysis complete for 672.extendedFrags.fastq
+Approx 30% complete for 673.extendedFrags.fastq
+Approx 35% complete for 673.extendedFrags.fastq
+Approx 45% complete for 673.extendedFrags.fastq
+Approx 50% complete for 673.extendedFrags.fastq
+Approx 60% complete for 673.extendedFrags.fastq
+Approx 65% complete for 673.extendedFrags.fastq
+Approx 75% complete for 673.extendedFrags.fastq
+Approx 80% complete for 673.extendedFrags.fastq
+Approx 90% complete for 673.extendedFrags.fastq
+Approx 95% complete for 673.extendedFrags.fastq
+Analysis complete for 673.extendedFrags.fastq
+Started analysis of 674.extendedFrags.fastq
+Approx 5% complete for 674.extendedFrags.fastq
+Approx 15% complete for 674.extendedFrags.fastq
+Approx 20% complete for 674.extendedFrags.fastq
+Approx 30% complete for 674.extendedFrags.fastq
+Approx 35% complete for 674.extendedFrags.fastq
+Approx 45% complete for 674.extendedFrags.fastq
+Approx 50% complete for 674.extendedFrags.fastq
+Approx 60% complete for 674.extendedFrags.fastq
+Approx 65% complete for 674.extendedFrags.fastq
+Approx 75% complete for 674.extendedFrags.fastq
+Approx 85% complete for 674.extendedFrags.fastq
+Approx 90% complete for 674.extendedFrags.fastq
+Analysis complete for 674.extendedFrags.fastq
+Started analysis of 675.extendedFrags.fastq
+Approx 5% complete for 675.extendedFrags.fastq
+Approx 10% complete for 675.extendedFrags.fastq
+Approx 15% complete for 675.extendedFrags.fastq
+Approx 20% complete for 675.extendedFrags.fastq
+Approx 25% complete for 675.extendedFrags.fastq
+Approx 35% complete for 675.extendedFrags.fastq
+Approx 40% complete for 675.extendedFrags.fastq
+Approx 45% complete for 675.extendedFrags.fastq
+Approx 50% complete for 675.extendedFrags.fastq
+Approx 55% complete for 675.extendedFrags.fastq
+Approx 65% complete for 675.extendedFrags.fastq
+Approx 70% complete for 675.extendedFrags.fastq
+Approx 75% complete for 675.extendedFrags.fastq
+Approx 80% complete for 675.extendedFrags.fastq
+Approx 85% complete for 675.extendedFrags.fastq
+Approx 95% complete for 675.extendedFrags.fastq
+Analysis complete for 675.extendedFrags.fastq
+Started analysis of 677.extendedFrags.fastq
+Approx 5% complete for 677.extendedFrags.fastq
+Approx 10% complete for 677.extendedFrags.fastq
+Approx 15% complete for 677.extendedFrags.fastq
+Approx 20% complete for 677.extendedFrags.fastq
+Approx 25% complete for 677.extendedFrags.fastq
+Approx 30% complete for 677.extendedFrags.fastq
+Approx 35% complete for 677.extendedFrags.fastq
+Approx 40% complete for 677.extendedFrags.fastq
+Approx 45% complete for 677.extendedFrags.fastq
+Approx 50% complete for 677.extendedFrags.fastq
+Approx 55% complete for 677.extendedFrags.fastq
+Approx 60% complete for 677.extendedFrags.fastq
+Approx 65% complete for 677.extendedFrags.fastq
+Approx 70% complete for 677.extendedFrags.fastq
+Approx 75% complete for 677.extendedFrags.fastq
+Approx 80% complete for 677.extendedFrags.fastq
+Approx 85% complete for 677.extendedFrags.fastq
+Approx 90% complete for 677.extendedFrags.fastq
+Approx 95% complete for 677.extendedFrags.fastq
+Analysis complete for 677.extendedFrags.fastq
+Started analysis of 678.extendedFrags.fastq
+Approx 5% complete for 678.extendedFrags.fastq
+Approx 10% complete for 678.extendedFrags.fastq
+Approx 15% complete for 678.extendedFrags.fastq
+Approx 20% complete for 678.extendedFrags.fastq
+Approx 25% complete for 678.extendedFrags.fastq
+Approx 30% complete for 678.extendedFrags.fastq
+Approx 35% complete for 678.extendedFrags.fastq
+Approx 40% complete for 678.extendedFrags.fastq
+Approx 45% complete for 678.extendedFrags.fastq
+Approx 50% complete for 678.extendedFrags.fastq
+Approx 55% complete for 678.extendedFrags.fastq
+Approx 60% complete for 678.extendedFrags.fastq
+Approx 70% complete for 678.extendedFrags.fastq
+Approx 75% complete for 678.extendedFrags.fastq
+Approx 80% complete for 678.extendedFrags.fastq
+Approx 85% complete for 678.extendedFrags.fastq
+Approx 90% complete for 678.extendedFrags.fastq
+Approx 95% complete for 678.extendedFrags.fastq
+Analysis complete for 678.extendedFrags.fastq
+Started analysis of 679.extendedFrags.fastq
+Approx 5% complete for 679.extendedFrags.fastq
+Approx 10% complete for 679.extendedFrags.fastq
+Approx 15% complete for 679.extendedFrags.fastq
+Approx 20% complete for 679.extendedFrags.fastq
+Approx 25% complete for 679.extendedFrags.fastq
+Approx 30% complete for 679.extendedFrags.fastq
+Approx 35% complete for 679.extendedFrags.fastq
+Approx 40% complete for 679.extendedFrags.fastq
+Approx 45% complete for 679.extendedFrags.fastq
+Approx 50% complete for 679.extendedFrags.fastq
+Approx 55% complete for 679.extendedFrags.fastq
+Approx 60% complete for 679.extendedFrags.fastq
+Approx 65% complete for 679.extendedFrags.fastq
+Approx 70% complete for 679.extendedFrags.fastq
+Approx 75% complete for 679.extendedFrags.fastq
+Approx 80% complete for 679.extendedFrags.fastq
+Approx 85% complete for 679.extendedFrags.fastq
+Approx 90% complete for 679.extendedFrags.fastq
+Approx 95% complete for 679.extendedFrags.fastq
+Analysis complete for 679.extendedFrags.fastq
+Started analysis of 680.extendedFrags.fastq
+Approx 5% complete for 680.extendedFrags.fastq
+Approx 10% complete for 680.extendedFrags.fastq
+Approx 15% complete for 680.extendedFrags.fastq
+Approx 20% complete for 680.extendedFrags.fastq
+Approx 25% complete for 680.extendedFrags.fastq
+Approx 30% complete for 680.extendedFrags.fastq
+Approx 35% complete for 680.extendedFrags.fastq
+Approx 40% complete for 680.extendedFrags.fastq
+Approx 45% complete for 680.extendedFrags.fastq
+Approx 50% complete for 680.extendedFrags.fastq
+Approx 55% complete for 680.extendedFrags.fastq
+Approx 60% complete for 680.extendedFrags.fastq
+Approx 65% complete for 680.extendedFrags.fastq
+Approx 70% complete for 680.extendedFrags.fastq
+Approx 75% complete for 680.extendedFrags.fastq
+Started analysis of 692.extendedFrags.fastq
+Approx 80% complete for 680.extendedFrags.fastq
+Approx 5% complete for 692.extendedFrags.fastq
+Approx 85% complete for 680.extendedFrags.fastq
+Approx 10% complete for 692.extendedFrags.fastq
+Approx 90% complete for 680.extendedFrags.fastq
+Approx 15% complete for 692.extendedFrags.fastq
+Approx 95% complete for 680.extendedFrags.fastq
+Analysis complete for 680.extendedFrags.fastq
+Approx 20% complete for 692.extendedFrags.fastq
+Approx 25% complete for 692.extendedFrags.fastq
+Approx 30% complete for 692.extendedFrags.fastq
+Approx 35% complete for 692.extendedFrags.fastq
+Approx 40% complete for 692.extendedFrags.fastq
+Approx 45% complete for 692.extendedFrags.fastq
+Approx 50% complete for 692.extendedFrags.fastq
+Approx 55% complete for 692.extendedFrags.fastq
+Approx 60% complete for 692.extendedFrags.fastq
+Started analysis of 693.extendedFrags.fastq
+Approx 65% complete for 692.extendedFrags.fastq
+Approx 5% complete for 693.extendedFrags.fastq
+Approx 70% complete for 692.extendedFrags.fastq
+Approx 10% complete for 693.extendedFrags.fastq
+Approx 75% complete for 692.extendedFrags.fastq
+Approx 15% complete for 693.extendedFrags.fastq
+Approx 80% complete for 692.extendedFrags.fastq
+Approx 20% complete for 693.extendedFrags.fastq
+Approx 25% complete for 693.extendedFrags.fastq
+Approx 85% complete for 692.extendedFrags.fastq
+Approx 90% complete for 692.extendedFrags.fastq
+Approx 30% complete for 693.extendedFrags.fastq
+Approx 95% complete for 692.extendedFrags.fastq
+Approx 35% complete for 693.extendedFrags.fastq
+Approx 40% complete for 693.extendedFrags.fastq
+Analysis complete for 692.extendedFrags.fastq
+Approx 45% complete for 693.extendedFrags.fastq
+Approx 50% complete for 693.extendedFrags.fastq
+Approx 55% complete for 693.extendedFrags.fastq
+Approx 60% complete for 693.extendedFrags.fastq
+Approx 65% complete for 693.extendedFrags.fastq
+Started analysis of 694.extendedFrags.fastq
+Approx 70% complete for 693.extendedFrags.fastq
+Approx 5% complete for 694.extendedFrags.fastq
+Approx 75% complete for 693.extendedFrags.fastq
+Approx 10% complete for 694.extendedFrags.fastq
+Approx 15% complete for 694.extendedFrags.fastq
+Approx 80% complete for 693.extendedFrags.fastq
+Approx 20% complete for 694.extendedFrags.fastq
+Approx 25% complete for 694.extendedFrags.fastq
+Approx 85% complete for 693.extendedFrags.fastq
+Approx 30% complete for 694.extendedFrags.fastq
+Approx 90% complete for 693.extendedFrags.fastq
+Approx 35% complete for 694.extendedFrags.fastq
+Approx 95% complete for 693.extendedFrags.fastq
+Approx 40% complete for 694.extendedFrags.fastq
+Approx 45% complete for 694.extendedFrags.fastq
+Analysis complete for 693.extendedFrags.fastq
+Approx 50% complete for 694.extendedFrags.fastq
+Approx 55% complete for 694.extendedFrags.fastq
+Approx 60% complete for 694.extendedFrags.fastq
+Approx 65% complete for 694.extendedFrags.fastq
+Approx 70% complete for 694.extendedFrags.fastq
+Approx 75% complete for 694.extendedFrags.fastq
+Approx 80% complete for 694.extendedFrags.fastq
+Approx 85% complete for 694.extendedFrags.fastq
+Approx 90% complete for 694.extendedFrags.fastq
+Approx 95% complete for 694.extendedFrags.fastq
+Started analysis of 695.extendedFrags.fastq
+Analysis complete for 694.extendedFrags.fastq
+Approx 5% complete for 695.extendedFrags.fastq
+Approx 10% complete for 695.extendedFrags.fastq
+Approx 15% complete for 695.extendedFrags.fastq
+Approx 20% complete for 695.extendedFrags.fastq
+Approx 25% complete for 695.extendedFrags.fastq
+Approx 30% complete for 695.extendedFrags.fastq
+Approx 35% complete for 695.extendedFrags.fastq
+Approx 40% complete for 695.extendedFrags.fastq
+Approx 45% complete for 695.extendedFrags.fastq
+Approx 50% complete for 695.extendedFrags.fastq
+Approx 55% complete for 695.extendedFrags.fastq
+Approx 60% complete for 695.extendedFrags.fastq
+Started analysis of 697.extendedFrags.fastq
+Approx 65% complete for 695.extendedFrags.fastq
+Approx 5% complete for 697.extendedFrags.fastq
+Approx 70% complete for 695.extendedFrags.fastq
+Approx 10% complete for 697.extendedFrags.fastq
+Approx 75% complete for 695.extendedFrags.fastq
+Approx 15% complete for 697.extendedFrags.fastq
+Approx 80% complete for 695.extendedFrags.fastq
+Approx 20% complete for 697.extendedFrags.fastq
+Approx 85% complete for 695.extendedFrags.fastq
+Approx 25% complete for 697.extendedFrags.fastq
+Approx 90% complete for 695.extendedFrags.fastq
+Approx 30% complete for 697.extendedFrags.fastq
+Approx 95% complete for 695.extendedFrags.fastq
+Approx 35% complete for 697.extendedFrags.fastq
+Analysis complete for 695.extendedFrags.fastq
+Approx 40% complete for 697.extendedFrags.fastq
+Approx 45% complete for 697.extendedFrags.fastq
+Approx 50% complete for 697.extendedFrags.fastq
+Approx 55% complete for 697.extendedFrags.fastq
+Approx 60% complete for 697.extendedFrags.fastq
+Approx 65% complete for 697.extendedFrags.fastq
+Started analysis of 698.extendedFrags.fastq
+Approx 5% complete for 698.extendedFrags.fastq
+Approx 70% complete for 697.extendedFrags.fastq
+Approx 10% complete for 698.extendedFrags.fastq
+Approx 75% complete for 697.extendedFrags.fastq
+Approx 15% complete for 698.extendedFrags.fastq
+Approx 80% complete for 697.extendedFrags.fastq
+Approx 20% complete for 698.extendedFrags.fastq
+Approx 25% complete for 698.extendedFrags.fastq
+Approx 85% complete for 697.extendedFrags.fastq
+Approx 30% complete for 698.extendedFrags.fastq
+Approx 90% complete for 697.extendedFrags.fastq
+Approx 35% complete for 698.extendedFrags.fastq
+Approx 40% complete for 698.extendedFrags.fastq
+Approx 95% complete for 697.extendedFrags.fastq
+Approx 45% complete for 698.extendedFrags.fastq
+Analysis complete for 697.extendedFrags.fastq
+Approx 50% complete for 698.extendedFrags.fastq
+Approx 55% complete for 698.extendedFrags.fastq
+Approx 60% complete for 698.extendedFrags.fastq
+Approx 65% complete for 698.extendedFrags.fastq
+Approx 70% complete for 698.extendedFrags.fastq
+Approx 75% complete for 698.extendedFrags.fastq
+Approx 80% complete for 698.extendedFrags.fastq
+Approx 85% complete for 698.extendedFrags.fastq
+Approx 90% complete for 698.extendedFrags.fastq
+Approx 95% complete for 698.extendedFrags.fastq
+Started analysis of 699.extendedFrags.fastq
+Analysis complete for 698.extendedFrags.fastq
+Approx 5% complete for 699.extendedFrags.fastq
+Approx 10% complete for 699.extendedFrags.fastq
+Approx 15% complete for 699.extendedFrags.fastq
+Approx 20% complete for 699.extendedFrags.fastq
+Approx 25% complete for 699.extendedFrags.fastq
+Approx 30% complete for 699.extendedFrags.fastq
+Approx 35% complete for 699.extendedFrags.fastq
+Approx 40% complete for 699.extendedFrags.fastq
+Approx 45% complete for 699.extendedFrags.fastq
+Approx 50% complete for 699.extendedFrags.fastq
+Approx 55% complete for 699.extendedFrags.fastq
+Approx 60% complete for 699.extendedFrags.fastq
+Approx 65% complete for 699.extendedFrags.fastq
+Approx 70% complete for 699.extendedFrags.fastq
+Approx 75% complete for 699.extendedFrags.fastq
+Approx 80% complete for 699.extendedFrags.fastq
+Started analysis of 700.extendedFrags.fastq
+Approx 85% complete for 699.extendedFrags.fastq
+Approx 5% complete for 700.extendedFrags.fastq
+Approx 90% complete for 699.extendedFrags.fastq
+Approx 10% complete for 700.extendedFrags.fastq
+Approx 95% complete for 699.extendedFrags.fastq
+Approx 15% complete for 700.extendedFrags.fastq
+Analysis complete for 699.extendedFrags.fastq
+Approx 20% complete for 700.extendedFrags.fastq
+Approx 25% complete for 700.extendedFrags.fastq
+Approx 30% complete for 700.extendedFrags.fastq
+Approx 35% complete for 700.extendedFrags.fastq
+Approx 40% complete for 700.extendedFrags.fastq
+Approx 45% complete for 700.extendedFrags.fastq
+Approx 50% complete for 700.extendedFrags.fastq
+Approx 55% complete for 700.extendedFrags.fastq
+Approx 60% complete for 700.extendedFrags.fastq
+Approx 65% complete for 700.extendedFrags.fastq
+Approx 70% complete for 700.extendedFrags.fastq
+Approx 75% complete for 700.extendedFrags.fastq
+Approx 80% complete for 700.extendedFrags.fastq
+Approx 85% complete for 700.extendedFrags.fastq
+Approx 90% complete for 700.extendedFrags.fastq
+Approx 95% complete for 700.extendedFrags.fastq
+Analysis complete for 700.extendedFrags.fastq
+[WARNING]         multiqc : MultiQC Version v1.2 now available!
+[INFO   ]         multiqc : This is MultiQC v1.1
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '/home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags/'
+Searching 196 files..
+[INFO   ]          fastqc : Found 28 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags/multiqc_report.html
+[INFO   ]         multiqc : Data        : Aer_Comp/Aer_Comp_Fungi/raw_data/extendedFrags/multiqc_data
+[INFO   ]         multiqc : MultiQC complete
+splitting 657
+splitting 658
+splitting 659
+splitting 660
+splitting 662
+splitting 663
+splitting 664
+splitting 665
+splitting 667
+splitting 668
+splitting 669
+splitting 670
+splitting 672
+splitting 673
+splitting 674
+splitting 675
+splitting 677
+splitting 678
+splitting 679
+splitting 680
+splitting 692
+splitting 693
+splitting 694
+splitting 695
+splitting 697
+splitting 698
+splitting 699
+splitting 700
+Wed Sep 13 04:05:24 EDT 2017 start OTU picking
+Wed Sep 13 04:07:40 EDT 2017 OTU picking complete
+Usage: biom summarize-table [OPTIONS]
+
+Error: Invalid value for "-i" / "--input-fp": Path "/home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/pick/otu_table_mc2_w_tax_no_pynast_failures.biom" does not exist.
+Error in filter_taxa_from_otu_table.py: option -i: file does not exist: '/home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/pick/otu_table_mc2_w_tax_no_pynast_failures.biom'
+
+If you need help with QIIME, see:
+http://help.qiime.org
+Usage: biom summarize-table [OPTIONS]
+
+Error: Invalid value for "-i" / "--input-fp": Path "/home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/pick/picked_no_chloro.biom" does not exist.
+Error in filter_otus_from_otu_table.py: option -i: file does not exist: '/home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/pick/picked_no_chloro.biom'
+
+If you need help with QIIME, see:
+http://help.qiime.org
+Error in core_diversity_analyses.py: option -i: file does not exist: '/home/mark/gitstage/uderica/nordqiime/Aer_Comp/Aer_Comp_Fungi/raw_data/pick/otu_table_3plus.biom'
+
+If you need help with QIIME, see:
+http://help.qiime.org

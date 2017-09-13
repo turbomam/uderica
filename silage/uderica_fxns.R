@@ -259,9 +259,9 @@ constrast.helper <- function(the.phylo, the.fact, the.ref) {
   names(group.dist.agg) <- c("Group.1", "Group.2", "distance")
   
   to.report <-
-    group.dist.agg[group.dist.agg$Group.1 == the.ref ,]
+    group.dist.agg[group.dist.agg$Group.1 == the.ref , ]
   to.report <-
-    to.report[order(to.report$distance, decreasing = TRUE), ]
+    to.report[order(to.report$distance, decreasing = TRUE),]
   print(to.report)
   
   # add titel:  study and domain
@@ -285,6 +285,16 @@ uderica.diffy <-
            the.high.rank,
            the.low.rank,
            the.y.axis) {
+    the.phylo = phylo
+    the.factor = my.fact
+    the.contrast.num = my.ref
+    the.contrast.denom =  my.other
+    the.alpha = 0.05
+    the.high.rank = "Phylum"
+    the.low.rank = "Class"
+    the.y.axis = "log2FoldChange"
+    
+    
     print(the.phylo)
     
     ###   ###   ###
@@ -369,11 +379,11 @@ uderica.diffy <-
     
     
     # get table with adjsuted pvalues below a user-speciifed cutoff
-    sigtab <- res[which(res$padj < the.alpha), ]
+    sigtab <- res[which(res$padj < the.alpha),]
     class(sigtab)
     
     sigtab <-
-      cbind(as(sigtab, "data.frame"), as(tax_table(the.phylo)[rownames(sigtab),], "matrix"))
+      cbind(as(sigtab, "data.frame"), as(tax_table(the.phylo)[rownames(sigtab), ], "matrix"))
     
     to.report <- sigtab[, c(
       "log2FoldChange",
@@ -521,7 +531,7 @@ uderica.ordinate <-
       p <- p + geom_polygon()
     }
     
-    p <- p + facet_wrap( ~ method, scales = "free")
+    p <- p + facet_wrap(~ method, scales = "free")
     p <- p + scale_fill_brewer(type = "qual", palette = "Set1")
     p <- p + scale_colour_brewer(type = "qual", palette = "Set1")
     print(p)

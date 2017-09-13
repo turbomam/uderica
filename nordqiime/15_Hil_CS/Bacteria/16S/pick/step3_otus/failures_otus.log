@@ -1,0 +1,175 @@
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick/step2_otus/step2_rep_set.fna
+Num OTUs:98
+Num new OTUs:0
+Num failures:11778
+Result path: /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_/POTU_C46v_.0_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick/step2_otus/step2_rep_set.fna
+Num OTUs:96
+Num new OTUs:0
+Num failures:12399
+Result path: /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_/POTU_C46v_.1_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick/step2_otus/step2_rep_set.fna
+Num OTUs:88
+Num new OTUs:0
+Num failures:10228
+Result path: /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_/POTU_C46v_.2_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick/step2_otus/step2_rep_set.fna
+Num OTUs:85
+Num new OTUs:0
+Num failures:8672
+Result path: /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_/POTU_C46v_.3_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick/step2_otus/step2_rep_set.fna
+Num OTUs:102
+Num new OTUs:0
+Num failures:15431
+Result path: /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_/POTU_C46v_.4_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick/step2_otus/step2_rep_set.fna
+Num OTUs:97
+Num new OTUs:0
+Num failures:10118
+Result path: /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_/POTU_C46v_.5_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:True
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick/step2_otus/step2_rep_set.fna
+Num OTUs:93
+Num new OTUs:0
+Num failures:10685
+Result path: /home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Bacteria/16S/pick//step3_otus/POTU_C46v_/POTU_C46v_.6_otus.txt
