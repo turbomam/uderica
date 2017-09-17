@@ -154,17 +154,54 @@ pre flash 29.5k
 post flash 29.1k
 post split & pick 27260.0 (93.8%)
 
-http://qiime.org/tutorials/rtax.html
-https://www.biostars.org/p/54081/
-http://seqanswers.com/forums/showthread.php?t=6888
-https://www.biostars.org/p/52623/
+problem:
+/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Fungi/ITS/split/178/split_library_log.txt
+/home/mark/gitstage/uderica/nordqiime/15_Hil_CS/Fungi/ITS/extendedFrags/178.extendedFrags.fastq
+
+
 
 http://bioinformatics.cvr.ac.uk/blog/short-command-lines-for-manipulation-fastq-and-fasta-sequence-files/
 
+/home/mark/Downloads/ncbi-blast-2.6.0+/bin/makeblastdb -in ~/Downloads/yeast.nt -parse_seqids -dbtype nucl
+
+find a control that is internally consistent and a treated sample that is consistent by\uyt distanc\t from the cntrol
+
+https://github.com/weizhongli/cdhit
+
+# fastq to fasta... I have been happy with https://www.biostars.org/p/85929/
+http://seqanswers.com/forums/showthread.php?t=6888
 https://www.biostars.org/p/85929/
 sed -n '1~4s/^@/>/p;2~4p' 191.notCombined_1.fastq > 191.notCombined_1.fasta
 
-/home/mark/Downloads/ncbi-blast-2.6.0+/bin/makeblastdb -in ~/Downloads/yeast.nt -parse_seqids -dbtype nucl
+https://github.com/marbl/Krona/wiki/Importing-from-supported-tools
+https://www.biostars.org/p/52623/
+
+ftp://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/
+https://www.ncbi.nlm.nih.gov/books/NBK279675/
+
+# discussion about mega for identifying origi of contaminants
+https://www.biostars.org/p/54081/
+
+# qiime script that takes R1 and R2 reads (wouldn't require FLASH)
+http://qiime.org/tutorials/rtax.html
 
 
-find a control that is internally consistent and a treated sample that is consistent by\uyt distanc\t from the cntrol
+http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
+# DESeq2 multie factors
+https://support.bioconductor.org/p/66263/
+
+
+http://biocore.github.io/pynast/
+
+# Aquatic environmental DNA detects seasonal fish abundance and habitat preference in an urban estuary
+# Mark Y. Stoeckle , Lyubov Soboleva, Zachary Charlop-Powers
+http://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0175186
+
+# contamination discussion (PCR improvements)
+https://www.researchgate.net/post/Pyrosequencing_of_a_bacterial_community_from_plant_samples
+
+http://qiime.org/scripts/filter_taxa_from_otu_table.html
+https://rdrr.io/bioc/phyloseq/man/prune_taxa-methods.html
+
+https://www.researchgate.net/post/How_long_is_the_ITS_internal_transcribed_spacer_PCR_fragment_of_Tulasnella_fungi
+
