@@ -205,3 +205,14 @@ https://rdrr.io/bioc/phyloseq/man/prune_taxa-methods.html
 
 https://www.researchgate.net/post/How_long_is_the_ITS_internal_transcribed_spacer_PCR_fragment_of_Tulasnella_fungi
 
+
+looking for contaminants
+
+cdhit... how to get counts/cluster?
+
+having trouble compiling/using:
+cdhit otu
+cdhit dup
+
+usearch?
+
