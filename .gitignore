@@ -37,3 +37,6 @@ vignettes/*.pdf
 *.fasta
 *.zip
 *.gz
+
+uderica/silage/downloads/Miniconda3-latest-Linux-x86_64.sh
+
